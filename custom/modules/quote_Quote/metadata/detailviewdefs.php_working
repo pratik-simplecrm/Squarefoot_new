@@ -1,0 +1,330 @@
+<?php
+$module_name = 'quote_Quote';
+$_object_name = 'quote_quote';
+$viewdefs [$module_name] = 
+array (
+  'DetailView' => 
+  array (
+    'templateMeta' => 
+    array (
+      'form' => 
+      array (
+        'buttons' => 
+        array (
+          0 => 'EDIT',
+          1 => 'DUPLICATE',
+          2 => 'DELETE',
+          3 => 'FIND_DUPLICATES',
+          4 => 
+          array (
+            'customCode' => '<input title="Print as PDF" accesskey="M" class="button" onclick="this.form.return_module.value=\'quote_Quote\';this.form.return_action.value=\'DetailView\';this.form.return_id.value=\'{$fields.id.value}\'; this.form.action.value=\'printPdf\'; this.form.module.value=\'quote_Quote\';" name="button" value="Print as PDF" type="submit">',
+          ),
+        ),
+      ),
+      'maxColumns' => '2',
+      'widths' => 
+      array (
+        0 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+        1 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+      ),
+      'includes' => 
+      array (
+        0 => 
+        array (
+          'file' => 'custom/modules/quote_Quote/line_items/detailLineItem.js',
+        ),
+      ),
+      'useTabs' => false,
+      'tabDefs' => 
+      array (
+        'DEFAULT' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL14' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL12' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL11' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL13' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL10' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+      'syncDetailEditViews' => true,
+    ),
+    'panels' => 
+    array (
+      'default' => 
+      array (
+        0 => 
+        array (
+          0 => 'name',
+          1 => 
+          array (
+            'name' => 'quote_quote_opportunities_name',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 'quote_quote_number',
+          1 => 
+          array (
+            'name' => 'quotation_status',
+            'studio' => 'visible',
+            'label' => 'LBL_QUOTATION_STATUS',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'purchase_order_number_c',
+            'label' => 'LBL_PURCHASE_ORDER_NUMBER',
+          ),
+          1 => 
+          array (
+            'name' => 'valid_until_c',
+            'label' => 'LBL_VALID_UNTIL',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'payment_terms_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PAYMENT_TERMS',
+          ),
+          1 => 
+          array (
+            'name' => 'original_p_o_date_c',
+            'label' => 'LBL_ORIGINAL_P_O_DATE',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'team_list_c',
+            'studio' => 'visible',
+            'label' => 'LBL_TEAM_LIST',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 'assigned_user_name',
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'accounts_quote_quote_1_name',
+          ),
+        ),
+      ),
+      'lbl_editview_panel14' => 
+      array (
+        0 => 
+        array (
+		  0 => 
+          array (
+            'name' => 'quote_quote_accounts_name',
+          ),
+          1 => 
+          array (
+            'name' => 'accounts_quote_quote_1_name',
+          ),
+        ),
+      ),
+      'lbl_editview_panel12' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'billing_address_c',
+            'label' => 'LBL_BILLING_ADDRESS',
+            'customCode' => '{$fields.billing_address_c.value}<br/>
+							  {$fields.billing_address_city_c.value}<br/>
+							  {$fields.billing_address_state_c.value}
+							  {$fields.billing_address_postalcode_c.value}<br/> 
+			                  {$fields.billing_address_country_c.value}<br/> ',
+          ),
+          1 => 
+          array (
+            'name' => 'shipping_address_c',
+            'label' => 'LBL_SHIPPING_ADDRESS',
+            'customCode' => '{$fields.shipping_address_c.value}<br/>
+							  {$fields.shipping_address_city_c.value}<br/>
+							  {$fields.shipping_address_state_c.value}
+							  {$fields.shipping_address_postalcode_c.value}<br/> 
+			                  {$fields.shipping_address_country_c.value}<br/> ',
+          ),
+        ),
+      ),
+      'lbl_editview_panel11' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+          'label' => 'Products Line',          
+          'customCode' => '<table id=\'QuotesLineTable\' width="100%" border=0 class=\'detail view\'>
+								<tr style="height:25px">
+									<th style="width:8%;height:5px;">
+										Quantity
+									</th>
+									<th style="width:60%">
+										Product
+									</th>
+									<th style="width:10%">
+										Amount
+									</th>
+									<th style="width:12%">
+										Tax
+									</th>
+									<th style="width:10%">
+										Discount
+									</th>									
+								</tr>
+							</table><br/><br/>
+							<table  border="0" cellspacing="0" cellpadding="0" >
+								<tr style="height:25px">
+									<td scope="row"  valign="top" style="text-align:left;font-weight:bold;font-size:10pt">GRAND TOTAL</td>
+								</tr>
+								<tr style="height:25px">
+									<td scope="row" NOWRAP style="text-align:left;font-size:9pt;padding:5px">Subtotal:</td>
+									<td scope="row" NOWRAP><div style="text-align:right;font-size:9pt" id="subtotal">{$sub}</div></td>
+								</tr>
+								<tr style="height:25px">
+									<td scope="row" NOWRAP style="text-align:left;font-size:9pt;padding:5px">Discounted Total:</td>
+									<td scope="row" NOWRAP><div style="text-align:right;font-size:9pt" id="total_dis">{$tot_dis}</div></td>
+								</tr>
+								<tr style="height:25px">
+									<td scope="row" NOWRAP style="text-align:left;font-size:9pt;padding:5px">New Subtotal:</td>
+									<td scope="row" NOWRAP><div style="text-align:right;font-size:9pt" id="discounted_total" >{$new_sub}</div></td>
+								</tr>
+								<tr style="height:25px">
+									<td scope="row" NOWRAP style="text-align:left;font-size:9pt;padding:5px">Total Tax:</td>
+									<td scope="row" NOWRAP><div style="text-align:right;font-size:9pt" id="total_tax" >{$tax}</div></td>
+								</tr>								
+								<tr style="height:25px">
+									<td scope="row" NOWRAP style="text-align:left;font-size:9pt;padding:5px">Total:</td>
+									<td scope="row" NOWRAP> <div style="text-align:right;font-size:9pt" id="grand_total">{$total}</div></td>
+								</tr>
+							</table>',
+          ),
+        ),
+      ),
+      'lbl_editview_panel13' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'sub_total',
+            'label' => 'LBL_SUB_TOTAL',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'discount',
+            'label' => 'LBL_DISCOUNT',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'discounted_total',
+            'label' => 'LBL_DISCOUNTED_TOTAL',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'total_tax',
+            'label' => 'LBL_TOTAL_TAX',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'grand_total',
+            'label' => 'LBL_GRAND_TOTAL',
+          ),
+        ),
+      ),
+      'lbl_editview_panel10' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'terms_conditions',
+            'studio' => 'visible',
+            'label' => 'LBL_TERMS_CONDITIONS',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'decleration_c',
+            'studio' => 'visible',
+            'label' => 'LBL_DECLERATION',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'certify_c',
+            'studio' => 'visible',
+            'label' => 'LBL_CERTIFY',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'company_vat_details_c',
+            'studio' => 'visible',
+            'label' => 'LBL_COMPANY_VAT_DETAILS',
+          ),
+        ),
+      ),
+    ),
+  ),
+);
+?>

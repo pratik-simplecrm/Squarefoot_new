@@ -1,0 +1,65 @@
+<?php
+
+if(!defined('sugarEntry'))define('sugarEntry', true);
+require_once('include/entryPoint.php');
+
+error_reporting(0);
+ini_set('display_errors',0);
+
+if($_REQUEST['Billing_customer_id'])  {
+	global $db;
+	$customer_id =$_GET['Billing_customer_id'];
+	
+	 $query1="	SELECT name ,billing_address_street , billing_address_city,billing_address_state,billing_address_postalcode,billing_address_country
+	  From accounts WHERE id='".$customer_id."' and deleted=0 ";
+	$des=$db->query($query1);
+	$row=$db->fetchByAssoc($des);
+	$billing_address_street = $row['billing_address_street'];
+	$billing_address_postalcode = $row['billing_address_postalcode'];
+	$billing_address_country = $row['billing_address_country'];
+	$billing_address_state = $row['billing_address_state'];
+	$billing_address_city = $row['billing_address_city'];
+	
+	$cust_id = $customer_id;
+	$name = $row['name'];
+	
+	$data = array();
+	$data['cust_id']       = $cust_id;
+	$data['name']          = $name;
+	
+	$data['billing_address_street']       = $billing_address_street;
+	$data['billing_address_postalcode']       = $billing_address_postalcode;
+	$data['billing_address_country']       = $billing_address_country;
+	$data['billing_address_state']       = $billing_address_state;
+	$data['billing_address_city']       = $billing_address_city;
+	
+	echo json_encode($data);
+}
+
+if($_REQUEST['shipping_customer_id'])  {
+	global $db;
+	$customer_id =$_GET['shipping_customer_id'];
+	
+	 $query1="	SELECT name ,shipping_address_street , shipping_address_city,shipping_address_state,shipping_address_postalcode,shipping_address_country
+	  From accounts WHERE id='".$customer_id."' and deleted=0 ";
+	$des=$db->query($query1);
+	$row=$db->fetchByAssoc($des);
+	$shipping_address_street = $row['shipping_address_street'];
+	$shipping_address_city = $row['shipping_address_city'];
+	$shipping_address_state = $row['shipping_address_state'];
+	$shipping_address_postalcode = $row['shipping_address_postalcode'];
+	$shipping_address_country = $row['shipping_address_country'];
+	
+	
+	$data1 = array();
+	
+	$data1['shipping_address_street']       = $shipping_address_street;
+	$data1['shipping_address_city']       = $shipping_address_city;
+	$data1['shipping_address_state']       = $shipping_address_state;
+	$data1['shipping_address_postalcode']       = $shipping_address_postalcode;
+	$data1['shipping_address_country']       = $shipping_address_country;
+	
+	echo json_encode($data1);
+}
+
+?>

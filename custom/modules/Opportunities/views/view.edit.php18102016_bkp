@@ -1,0 +1,272 @@
+<?php
+if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
+
+/*********************************************************************************
+ * The contents of this file are subject to the SugarCRM Master Subscription
+ * Agreement ("License") which can be viewed at
+ * http://www.sugarcrm.com/crm/en/msa/master_subscription_agreement_11_April_2011.pdf
+ * By installing or using this file, You have unconditionally agreed to the
+ * terms and conditions of the License, and You may not use this file except in
+ * compliance with the License.  Under the terms of the license, You shall not,
+ * among other things: 1) sublicense, resell, rent, lease, redistribute, assign
+ * or otherwise transfer Your rights to the Software, and 2) use the Software
+ * for timesharing or service bureau purposes such as hosting the Software for
+ * commercial gain and/or for the benefit of a third party.  Use of the Software
+ * may be subject to applicable fees and any use of the Software without first
+ * paying applicable fees is strictly prohibited.  You do not have the right to
+ * remove SugarCRM copyrights from the source code or user interface.
+ *
+ * All copies of the Covered Code must include on each user interface screen:
+ *  (i) the "Powered by SugarCRM" logo and
+ *  (ii) the SugarCRM copyright notice
+ * in the same form as they appear in the distribution.  See full license for
+ * requirements.
+ *
+ * Your Warranty, Limitations of liability and Indemnity are expressly stated
+ * in the License.  Please refer to the License for the specific language
+ * governing these rights and limitations under the License.  Portions created
+ * by SugarCRM are Copyright (C) 2004-2011 SugarCRM, Inc.; All Rights Reserved.
+ ********************************************************************************/
+
+/*********************************************************************************
+
+ * Description: This file is used to override the default Meta-data DetailView behavior
+ * to provide customization specific to the Campaigns module.
+ * Portions created by SugarCRM are Copyright (C) SugarCRM, Inc.
+ * All Rights Reserved.
+ * Contributor(s): ______________________________________..
+ ********************************************************************************/
+
+class OpportunitiesViewEdit extends ViewEdit {
+
+ 	function OpportunitiesViewEdit(){
+ 		parent::ViewEdit();
+ 		$this->useForSubpanel = true;
+ 	}
+ 	
+ 	function display() {
+		global $app_list_strings;
+		global $current_user;		
+		$salesstage=$this->bean->sales_stage;
+		$json = getJSONobj();
+		$prob_array = $json->encode($app_list_strings['sales_probability_dom']);
+		$prePopProb = '';
+ 		if(empty($this->bean->id) && empty($_REQUEST['probability'])) {
+		   $prePopProb = 'document.getElementsByName(\'sales_stage\')[0].onchange();';
+		}
+
+
+$probability_script=<<<EOQ
+	<script>
+	prob_array = $prob_array;
+	document.getElementsByName('sales_stage')[0].onchange = function() {
+			if(typeof(document.getElementsByName('sales_stage')[0].value) != "undefined" && prob_array[document.getElementsByName('sales_stage')[0].value]
+			&& typeof(document.getElementsByName('probability')[0]) != "undefined"
+			) {
+				document.getElementsByName('probability')[0].value = prob_array[document.getElementsByName('sales_stage')[0].value];
+				SUGAR.util.callOnChangeListers(document.getElementsByName('probability')[0]);
+
+			} 
+		};
+	$prePopProb
+	</script>
+EOQ;
+         global $sugar_config;
+	       global $db;
+           global $current_user;
+           global $timedate;
+          
+          $timeDate = new TimeDate();
+            
+                       
+	 	$id=$this->bean->id;
+        $timeDate = new TimeDate();
+        $select_query = "SELECT  actual_date_closed_c from opportunities_cstm where id_c = '$id'";
+		$select_result = $db->query($select_query);
+		$row = $db->fetchByAssoc($select_result);
+		$current_date = $row['actual_date_closed_c'];
+		
+                     
+      $localDate = $timeDate->to_display_date_time($current_date, true, true, $current_user);
+        
+       
+                        
+      $dateclosed = explode(' ', $localDate); 
+      
+      
+      $currentdat=$dateclosed[0];
+     
+
+		
+
+
+               
+   
+     $datetime_var = $timedate->asUser($timedate->getNow(), $current_user);
+     $datetime = explode(' ',$datetime_var);
+
+     
+
+    $currentdate = $datetime[0];
+   
+
+	
+	echo "<script>
+ 		
+ 		$(document).ready(function() {
+ 		//~ alert('Hi');
+			$('#actual_date_closed_c_label').hide();
+            $('#actual_date_closed_c').parent().parent().hide();
+			$('#actual_date_closed_c').hide();
+			$('#actual_date_closed_c_trigger').hide();
+			//$('#actual_date_closed_c_label').parent().hide();
+			var sales_stage = $('#sales_stage').val();
+
+			var current_date ='$current_date';
+			    
+			 if(sales_stage == 'Closed Won' && current_date == '')
+		 {
+              
+              $('#actual_date_closed_c').val('$currentdate');
+	        
+		  }
+		  else if(sales_stage == 'Closed Won' && current_date != '')
+			 
+		 {	
+			   
+			 
+		   $('#actual_date_closed_c').val('$currentdat');
+	        
+		  }
+		   else
+		 {
+		     
+			$('#actual_date_closed_c').val('');
+			
+		}
+		 $('#sales_stage').change(function(){
+		     
+                      
+			var sales_stage = $('#sales_stage').val();
+
+			var current_date ='$current_date';
+              
+              
+			 if(sales_stage == 'Closed Won' && current_date == '')
+		 {
+              
+              $('#actual_date_closed_c').val('$currentdate');
+              
+	        
+		  }
+		  else if(sales_stage == 'Closed Won' && current_date != '')
+			 
+		 {	
+			   
+			 
+		   $('#actual_date_closed_c').val('$currentdat');
+	        
+		  }
+		   else
+		 {
+		     
+			$('#actual_date_closed_c').val('');
+			
+		}
+		});
+    });	
+</script>";
+		//Code to make Sales stage as read only and hide the save button for normal user
+		global $current_user,$user_name;
+		$user_id=$current_user->id;
+		if(!empty($this->where) || is_admin($current_user)) 
+		{
+			 //dont do anything.
+		}
+		else{
+			 $sales_stage=$this->bean->sales_stage;
+			 if($sales_stage =='Closed Won' || $sales_stage =='Closed Lost')
+			 {
+				$js=<<<EOQ
+					<script>
+						document.getElementById('sales_stage').disabled =true;
+						document.getElementById("SAVE_HEADER").disabled=true;
+						document.getElementById("SAVE_FOOTER").disabled=true;
+					</script>
+EOQ;
+			 } 
+		}
+//end
+		
+		$sales_stage=$this->bean->sales_stage;
+		global $db,$current_user,$sugar_config;
+		require_once('include/TimeDate.php');
+		
+		
+		$dateFormat = $current_user->getPreference('datef');	
+		$today_date = date('Y-m-d');		
+		$newDate = date($dateFormat, strtotime($today_date));
+		
+		$js1 =<<<EOD
+			<script>			
+				var newDate ='$newDate';
+				$(document).ready(function(){
+					$( "#sales_stage" ).change(function() {							
+						var stage = $("#sales_stage").val();						
+						if(stage =='Closed Won' || stage =='Closed Lost')
+						{
+							$("#closure_date_c").val(newDate);
+						}
+						else{
+							$("#closure_date_c").val('');
+						}
+					});
+
+				});
+			</script>
+EOD;
+
+//To autopopulate Teams in QuickCreate On Subpanels 
+	//START - 29-09-2014  
+	//~ $parent_module = $_REQUEST['return_module'];
+	//~ $current_user->user_name; 
+	//~ $user = $current_user->id; 
+	
+	//~ $query = "SELECT default_team FROM users 
+				//~ WHERE id ='$user' 
+				//~ AND deleted =0";
+	//~ $res   = $db->query($query);
+	//~ $row   = $db->fetchByAssoc($res);
+	//~ $default_team = $row['default_team'];
+	
+	//~ $get_team = " SELECT id,name FROM team where id ='$default_team' AND deleted =0 ";
+	//~ $team_res = $db->query($get_team);
+	//~ $team_row = $db->fetchByAssoc($team_res);
+				
+	//~ $id = $team_row['id']; 
+	//~ $name = $team_row['name']; 
+	//~ $team_id   = trim($id);
+	//~ $team_name = trim($name);
+
+	//~ $team =<<<EOD
+				//~ <script>
+					//~ var team_name = '$team_name';
+					//~ var team_id = '$team_id';
+					
+					//~ $('#form_SubpanelQuickCreate_Opportunities_tabs #team_name').val(team_name);
+					//~ $('#form_SubpanelQuickCreate_Opportunities_tabs #team_id').val(team_id);
+					
+					
+				//~ </script>
+				
+//~ EOD;
+		//END 29-09-2014 
+
+		$this->ss->assign('PROBABILITY_SCRIPT', $probability_script);  	      
+ 		parent::display();
+ 		echo $js; 
+ 		echo $js1; 
+ 		echo $team; 
+ 	}
+}
+?>

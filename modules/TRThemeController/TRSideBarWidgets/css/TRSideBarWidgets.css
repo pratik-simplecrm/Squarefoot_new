@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+/*
+ * TRSideBarWidgetCombo Styles
+ */
+#combo_buttons{
+    display: block;
+    position: relative;
+    z-index: 100;
+    text-align: center;
+}
+
+#combo_buttons .arrow_left, #combo_buttons .arrow_right{
+    cursor:pointer;
+}
+.combo_item_active{
+    display: block;
+}
+.combo_item{
+    display: none;
+}

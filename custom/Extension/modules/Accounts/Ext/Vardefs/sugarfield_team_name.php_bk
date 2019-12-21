@@ -1,0 +1,7 @@
+<?php
+ // created: 2014-07-03 07:59:12
+$dictionary['Account']['fields']['team_name']['required']=true;
+$dictionary['Account']['fields']['team_name']['merge_filter']='disabled';
+$dictionary['Account']['fields']['team_name']['reportable']=true;
+
+ ?>

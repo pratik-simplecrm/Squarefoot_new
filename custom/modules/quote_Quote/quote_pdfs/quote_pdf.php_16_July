@@ -1,0 +1,403 @@
+<?php
+ini_set("display_errors", 'Off');
+
+if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
+
+if(file_exists('include/tcpdf/config/lang/eng.php')) {
+	include_once('include/tcpdf/config/lang/eng.php'); 
+} else {
+	die('TCPDF lang not found');
+}
+if(file_exists('include/tcpdf/config/tcpdf_config.php')) {
+	include_once('include/tcpdf/config/tcpdf_config.php');
+} else {
+	die('TCPDF config not found');
+}
+if(file_exists('include/tcpdf/tcpdf.php')) {
+	include_once('include/tcpdf/tcpdf.php');
+} else {
+	die('TCPDF not found');
+}
+
+//pdf for quotes
+class QuotePdf extends TCPDF {
+	
+	private $file_name;
+	private $email_id;
+	
+	function printPdf($quote_id, $action=null) {
+	  
+		global $app_list_strings;
+		$db = DBManagerFactory::getInstance();
+		
+		//get the quote id
+		//$quote_id = $_REQUEST['record'];
+		
+		//fetch the quote details
+		$qObj = $this->getMyBean('quote_Quote',$quote_id);
+
+		$this->file_name     = $qObj->name;		
+		$subtotal		     = number_format($qObj->sub_total,2);
+		$discountAmt	     = number_format($qObj->discount,2);
+		$total_discount	     = number_format($qObj->discounted_total,2);
+		$total_tax		     = number_format($qObj->total_tax,2);
+		$grand_total	     = number_format($qObj->grand_total,2);
+		$terms_conditions    = $qObj->terms_conditions;
+		$decleration         = $qObj->decleration_c;
+		$certify             = $qObj->certify_c;
+		//$company_vat_details = $qObj->company_vat_details_c;
+		$assigned_user_id    = $qObj->assigned_user_id;
+		$valid_until         = date('d-m-Y',strtotime($qObj->valid_until_c));
+		$quote_quote_number  = $qObj->quote_quote_number;
+		$branch				 = $qObj->branch_c;
+		$current_date = date('d-m-Y');
+		
+		$UserObj = $this->getMyBean('Users',$assigned_user_id,'User');
+		$sale_person = $UserObj->first_name.' '.$UserObj->last_name;
+		$sale_person_email = $UserObj->email1;
+		$sale_person_mobile = $UserObj->phone_mobile;
+		
+		$query = $db->query( "SELECT * FROM pdf_quote_pdf as pdf
+										JOIN pdf_quote_pdf_cstm AS pdf_c ON
+										(pdf.id=pdf_c.id_c) 
+										WHERE pdf.branch='$branch'
+										AND pdf.deleted=0 LIMIT 0,1" );
+		$query_result=$db->fetchByAssoc($query);
+		$company_vat_details_v  = "VAT No:".$query_result['vat_no']."\n";
+		$company_vat_details_cs = "CST No:".$query_result['cst_no']."\n";
+		$company_vat_details_s  = "Service Tax No:".$query_result['stn']."\n";
+		$company_vat_details_w  = "W.e.f.:".$query_result['w']."\n";
+		$company_vat_details_b  = "Branch:".$query_result['branch']."\n";
+		$company_vat_details_st = "State:".$query_result['state']."\n";
+		$company_vat_details_a  = "Address:".$query_result['address_1_c'];		
+		
+		//fetch related lead, account and opportunity details
+		$rel_lead_id		 = ($qObj->quote_quote_leadsleads_ida != '') ? $qObj->quote_quote_leadsleads_ida : '';
+		$rel_lead_name		 = ($qObj->quote_quote_leads_name != '') ? $qObj->quote_quote_leads_name : '';
+		$rel_account_id		 = ($qObj->quote_quote_accountsaccounts_ida != '') ? $qObj->quote_quote_accountsaccounts_ida : '';
+		$rel_opp_id			 = ($qObj->quote_quote_opportunitiesopportunities_ida != '') ? $qObj->quote_quote_opportunitiesopportunities_ida : '';
+
+		$bean1 = BeanFactory::getBean('quote_QuoteProducts');
+		$qp_list = $bean1->get_list("","quote_quoteproducts.quote_id = '".$quote_id."'");
+		
+		$products = array();
+		$i=0;
+		foreach($qp_list['list'] as $prodList) {
+			$products[$i]['name']		 = $prodList->name;
+			$products[$i]['price']		 = $prodList->price;
+			$products[$i]['quantity']	 = $prodList->quantity;
+			$products[$i]['amount']		 = ($prodList->price)*($prodList->quantity);
+			$products[$i]['discount']	 = $prodList->discount;
+			$products[$i]['dis_check']	 = $prodList->dis_check;
+			$products[$i]['dis_total']	 = $prodList->discounted_price;
+			$products[$i]['tax']		 = $prodList->tax;
+			$i++;
+		}	
+
+		//use getBean() method to retrieve related account bean
+		//getBean() method expects three parameters; For reference look last function
+		$rel_acc_obj = ($rel_account_id != '') ? $this->getMyBean('Accounts',$rel_account_id,'Account') : NULL;
+
+		if(isset($rel_acc_obj)) {
+			$this->email_id = (!empty($rel_acc_obj->email1) && !$rel_acc_obj->email_opt_out) ? $rel_acc_obj->email1 : NULL;
+			$acc_lead_details = "&nbsp;".$rel_acc_obj->name
+								."<br />&nbsp;".$rel_lead_name
+								."<br />&nbsp;".$rel_acc_obj->billing_address_street
+								."<br />&nbsp;".$rel_acc_obj->billing_address_city
+								."<br />&nbsp;".$rel_acc_obj->billing_address_state
+								."<br />&nbsp;".$rel_acc_obj->billing_address_postalcode
+								."<br />&nbsp;".$rel_acc_obj->billing_address_country;
+		} 
+		
+			$rel_acc_obj = ($rel_account_id != '') ? $this->getMyBean('Accounts',$rel_account_id,'Account') : NULL;
+			if(isset($rel_acc_obj)) {
+				$this->email_id = (!empty($rel_acc_obj->email1) && !$rel_acc_obj->email_opt_out) ? $rel_acc_obj->email1 : NULL;
+				$acc_lead_details1 = "&nbsp;".$rel_acc_obj->name
+									."<br />&nbsp;".$rel_acc_obj->first_name."&nbsp;".$rel_acc_obj->last_name
+									."<br />&nbsp;".$qObj->shipping_address_c
+									."<br />&nbsp;".$qObj->shipping_address_city_c
+									."<br />&nbsp;".$qObj->shipping_address_state_c
+									."<br />&nbsp;".$qObj->shipping_address_postalcode_c
+									."<br />&nbsp;".$qObj->shipping_address_country_c;
+									//."<br />&nbsp;".$rel_acc_obj->shipping_address_street
+									//."<br />&nbsp;".$rel_acc_obj->shipping_address_city
+									//."<br />&nbsp;".$rel_acc_obj->shipping_address_state
+									//."<br />&nbsp;".$rel_acc_obj->shipping_address_postalcode
+									//."<br />&nbsp;".$rel_acc_obj->shipping_address_country;
+									//."<br />&nbsp;".$rel_acc_obj->first_name."&nbsp;".$rel_acc_obj->last_name
+			}	
+		
+/*
+		foreach($products as $product) {
+			
+			$discount = ($product[dis_check]) ? $product[discount].' %' : 'Rs '.$product[discount];
+			$dis_total = ($product[dis_check]) ? ($product[amount] - ($product[amount]*$product[discount])/100) : ($product[price]-$product[discount])*$product[quantity];
+			$table_body.= '<tr>
+							<td width="60%">'.$product[quantity].'</td>
+							<td width="200%">'.$product[name].'</td>							
+							<td width="70%">'.$product[amount].'</td>
+							<td width="70%">'.$discount.'</td>
+							<td width="110%">'.$dis_total.'</td>
+							</tr>';
+		}
+		*/
+		
+		
+		$productCount = 0;
+		$installationCount = 0;
+		$otherCount = 0;
+		
+		$get_group_type="SELECT group_type_c FROM quote_quoteproducts,quote_quoteproducts_cstm WHERE id=id_c AND quote_id='$quote_id' AND deleted =0 ORDER BY group_type_c";
+		$get_group_type_res = $db->query($get_group_type);	
+		while($get_group_type_row=$db->fetchByAssoc($get_group_type_res))
+		{
+			if($get_group_type_row['group_type_c'] == 'Product' && $productCount == 0){
+					
+					$get_acc_details="SELECT * FROM quote_quoteproducts,quote_quoteproducts_cstm WHERE id=id_c AND quote_id='$quote_id' AND deleted =0 AND group_type_c = 'Product' ";
+					$get_acc_details_res=$db->query($get_acc_details);		
+						
+						 $Pricing_list_row .='<tr><td><b> Group Name : Product</b></td></tr>';
+						 $Pricing_list_row .='<tr>';
+						 $Pricing_list_row .='<td bgcolor="#4B4B4B" style="color:#fff" width="50%"><b> Quantity</b></td>';
+						 $Pricing_list_row .='<td bgcolor="#4B4B4B" style="color:#fff" width="150%"><b> Product</b></td>';
+						 $Pricing_list_row .='<td bgcolor="#4B4B4B" style="color:#fff" width="50%"><b> UOM</b></td>';
+						 $Pricing_list_row .='<td bgcolor="#4B4B4B" style="color:#fff" width="60%"><b> Amount</b></td>';
+						 //$Pricing_list_row .='<td bgcolor="#4B4B4B" style="color:#fff" width="50%"><b> Tax Class</b></td>';
+						 $Pricing_list_row .='<td bgcolor="#4B4B4B" style="color:#fff" width="50%"><b> Discount</b></td>';
+						 $Pricing_list_row .='<td bgcolor="#4B4B4B" style="color:#fff" width="70%"><b> Tax Amount</b></td>';
+						 $Pricing_list_row .='<td bgcolor="#4B4B4B" style="color:#fff" width="70%"><b> Total</b></td>';
+						 $Pricing_list_row .='</tr>';
+						
+						while($get_acc__row=$db->fetchByAssoc($get_acc_details_res))
+						{ 	 	 	 
+							 
+							 $prod_id = $get_acc__row['product_id'];
+							 $getProd = "SELECT name FROM quote_products WHERE id = '$prod_id' AND deleted =0";
+							 $getProd_res = $db->query($getProd);
+							 $getProd_row = $db->fetchByAssoc($getProd_res);
+							 
+							 $Pricing_list_row .='<tr>';				
+							 $Pricing_list_row .='<td width="50%">'.$get_acc__row['quantity'].'</td>';
+							 $Pricing_list_row .='<td width="150%">'.$get_acc__row['name']."<br/>".$get_acc__row['product_specification_c']."</td>";
+							 $Pricing_list_row .='<td width="50%">'.$get_acc__row['uom_c'].'</td>';
+							 $Pricing_list_row .='<td width="60%">'.number_format($get_acc__row['price_c'],2).'</td>';
+							 //$Pricing_list_row .='<td width="50%">'.$get_acc__row['tax'].'</td>';
+							 //$Pricing_list_row .='<td width="50%">'.number_format($get_acc__row['discount'],2).'</td>';
+							 
+							 //$dis_total = ($get_acc__row['price'] - $get_acc__row['discounted_price']);
+							
+							 $discountPrice = $get_acc__row['discount_c'];
+							 if($get_acc__row['discount_c'] < 50){
+								 $discountPrice = $get_acc__row['price_c'] * ($get_acc__row['discount_c'] / 100);
+							 }
+							 $Pricing_list_row .='<td width="50%">'.number_format($discountPrice,2).'&nbsp;&nbsp;</td>';
+							 $dis_total = ($get_acc__row['price_c'] - $discountPrice);
+							 $dis_tax_total = $dis_total *($get_acc__row['service_tax_val_c']/100);
+							 $total = $dis_total+$dis_tax_total;
+							
+							 $Pricing_list_row.='<td width="70%">'.number_format($dis_tax_total,2).'&nbsp;&nbsp;</td>';
+							 $Pricing_list_row.='<td width="70%">'.number_format($total,2).'&nbsp;&nbsp;</td>';
+							 $Pricing_list_row.='</tr>';			
+						}		
+						$productCount++;		 
+				}
+				else if($get_group_type_row['group_type_c'] == 'Installation' && $installationCount == 0){
+					
+						$get_acc_details1="SELECT * FROM quote_quoteproducts,quote_quoteproducts_cstm WHERE id=id_c AND quote_id='$quote_id' AND deleted =0 AND group_type_c = 'Installation' ";
+					    $get_acc_details_res1=$db->query($get_acc_details1);		
+						
+						 $Pricing_list_row1 .='<tr><td><b>Group Name : Installation</b></td></tr>';
+						 $Pricing_list_row1 .='<tr>';
+						 $Pricing_list_row1 .='<td bgcolor="#4B4B4B" style="color:#fff" width="50%"><b> Quantity</b></td>';
+						 $Pricing_list_row1 .='<td bgcolor="#4B4B4B" style="color:#fff" width="150%"><b> Product</b></td>';
+						 $Pricing_list_row1 .='<td bgcolor="#4B4B4B" style="color:#fff" width="50%"><b> UOM</b></td>';
+						 $Pricing_list_row1 .='<td bgcolor="#4B4B4B" style="color:#fff" width="60%"><b> Amount</b></td>';
+						 //$Pricing_list_row1 .='<td bgcolor="#4B4B4B" style="color:#fff" width="50%"><b> Tax Class</b></td>';
+						 $Pricing_list_row1 .='<td bgcolor="#4B4B4B" style="color:#fff" width="50%"><b> Discount</b></td>';
+						 $Pricing_list_row1 .='<td bgcolor="#4B4B4B" style="color:#fff" width="70%"><b> Tax Amount</b></td>';
+						 $Pricing_list_row1 .='<td bgcolor="#4B4B4B" style="color:#fff" width="70%"><b> Total</b></td>';
+						 $Pricing_list_row1 .='</tr>';
+						
+						while($get_acc__row1=$db->fetchByAssoc($get_acc_details_res1))
+						{ 	 	 	 
+							 
+							 $prod_id = $get_acc__row1['product_id'];
+							 $getProd = "SELECT name FROM quote_products WHERE id = '$prod_id' AND deleted =0";
+							 $getProd_res = $db->query($getProd);
+							 $getProd_row = $db->fetchByAssoc($getProd_res);
+							 
+							 $Pricing_list_row1 .='<tr>';				
+							 $Pricing_list_row1 .='<td width="50%">'.$get_acc__row1['quantity'].'</td>';
+							 $Pricing_list_row1 .='<td width="150%">'.$get_acc__row1['name']."<br/>".$get_acc__row1['product_specification_c']."</td>";
+							 $Pricing_list_row1 .='<td width="50%">'.$get_acc__row1['uom_c'].'</td>';
+							 $Pricing_list_row1 .='<td width="60%">'.number_format($get_acc__row1['price_c'],2).'</td>';
+							 //$Pricing_list_row1 .='<td width="50%">'.$get_acc__row1['tax'].'</td>';
+							 
+							 $discountPrice = $get_acc__row1['discount_c'];
+							 if($get_acc__row1['discount_c'] < 50){
+								 $discountPrice = $get_acc__row1['price_c'] * ($get_acc__row1['discount_c'] / 100);
+							 }
+							 $Pricing_list_row1 .='<td width="50%">'.number_format($discountPrice,2).'&nbsp;&nbsp;</td>';
+							 
+							 $dis_total = ($get_acc__row1['price_c'] - $discountPrice);
+							 $dis_tax_total = $dis_total *($get_acc__row1['service_tax_val_c']/100);
+							 $total = $dis_total+$dis_tax_total;
+							 
+							 $Pricing_list_row1 .='<td width="70%">'.number_format($dis_tax_total,2).'&nbsp;&nbsp;</td>';
+							 $Pricing_list_row1 .='<td width="70%">'.number_format($total,2).'&nbsp;&nbsp;</td>';
+							 $Pricing_list_row1 .='</tr>';			
+						}		
+						$installationCount++;		 
+				  }
+		}
+				
+				
+				
+				
+				
+		// create new PDF document
+		$pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);
+
+		// set document information
+		$pdf->SetCreator(PDF_CREATOR);
+		$pdf->SetAuthor('Hatim Alam');
+		$pdf->SetTitle('Quote PDF');
+		$pdf->SetSubject('Quote');
+		$pdf->SetKeywords('TCPDF, PDF, quote, custom quote');
+		$pdf->SetFont('helvetica', '', 8, '', true);
+		$pdf->SetHeaderData(PDF_HEADER_LOGO, 15,'','');
+
+		// set header and footer fonts
+		$pdf->setHeaderFont(Array(PDF_FONT_NAME_MAIN, '', PDF_FONT_SIZE_MAIN));
+		$pdf->setFooterFont(Array(PDF_FONT_NAME_DATA, '', PDF_FONT_SIZE_DATA));
+
+		// set default monospaced font
+		$pdf->SetDefaultMonospacedFont(PDF_FONT_MONOSPACED);
+
+		//set margins
+		$pdf->SetMargins(PDF_MARGIN_LEFT, PDF_MARGIN_TOP, PDF_MARGIN_RIGHT);
+		$pdf->SetFooterMargin(10);
+		
+		//set auto page breaks
+		$pdf->SetAutoPageBreak(TRUE, PDF_MARGIN_BOTTOM);
+
+		//set image scale factor
+		$pdf->setImageScale(PDF_IMAGE_SCALE_RATIO);
+		
+
+		// Add a page
+		$pdf->AddPage();
+
+		$tbl = <<<EOD
+		
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr><td bgcolor="#4B4B4B" style="color:#fff" width="100%"><b>Bill To</b></td>
+				<td bgcolor="#4B4B4B" style="color:#fff" width="100%"><b>Ship To</b></td>
+				<td bgcolor="#4B4B4B" style="color:#fff" width="100%"><b>Quotes</b></td>
+			</tr>
+		  <tr>
+			<td style="width:100%;"><br />$acc_lead_details<br /></td>
+			<td style="width:100%;"><br />$acc_lead_details1<br /></td>
+			<td style="width:100%;">
+			  <table border="0" cellpadding="0"  cellspacing="0" style="border-collapse:collapse;">
+				<tr><td></td><td></td></tr>
+				<tr><td>Quote Number:</td><td>$quote_quote_number</td></tr>
+				<tr><td>Date:</td><td>$current_date</td></tr>
+				<tr><td>Sales Person:</td><td>$sale_person</td></tr>
+				<tr><td>Valid Until:</td><td>$valid_until</td></tr>
+				<tr><td>Email:</td><td>$sale_person_email</td></tr>
+				<tr><td>Mobile:</td><td>$sale_person_mobile</td></tr>
+			  </table>
+			</td>
+		  </tr>
+		 </table> <br/><hr/>
+		 <table width="100%" cellspacing="2" cellpadding="10">
+			<tr>
+				<td bgcolor="#fff" style="color:#fff" width="40%"><b>Quantity</b></td>
+				<td bgcolor="#fff" style="color:#fff" width="150%"><b>Product</b></td>
+				<td bgcolor="#fff" style="color:#fff" width="70%"><b>Amount</b></td>
+				<td bgcolor="#fff" style="color:#fff" width="70%"><b>Discount</b></td>
+				<td bgcolor="#fff" style="color:#fff" width="70%"><b>Discounted Price</b></td>
+			</tr>
+			$Pricing_list_row
+			$Pricing_list_row1
+			$Pricing_list_row2
+		</table>
+		<br/><hr/><br/>
+		<div><B>Grand Total</B></div><br/>
+		<table width="30%" align="left" cellspacing="3" cellpadding="10">
+			<tr>
+				<td>Subtotal:</td>
+				<td>$subtotal</td>
+			</tr>
+			<tr>
+				<td>Discount:</td>
+				<td>$discountAmt</td>
+			</tr>
+			<tr>
+				<td>Discounted Total:</td>
+				<td>$total_discount</td>
+			</tr>
+			
+			<tr>
+				<td>Total Tax:</td>
+				<td>$total_tax</td>
+			</tr>
+			<tr>
+				<td>Grand Total:</td>
+				<td>$grand_total</td>
+			</tr>			
+		</table>		
+		
+EOD;
+		$tbl .=<<<EOD
+		<hr/><br/>	
+		<table border="0" cellpadding="2" cellspacing="50" width="100%" align="justify">
+			<tr>			
+			<td style="padding-left:10px">$certify</td>
+			<td style="padding-left:10px">$decleration</td>
+			<td style="padding-left:10px">$company_vat_details_v<br/>$company_vat_details_cs<br/>$company_vat_details_s <br/>$company_vat_details_w <br/>$company_vat_details_b <br/>$company_vat_details_st <br/>$company_vat_details_a</td>
+			</tr>
+			<br/><hr/><br/>
+		</table>
+		
+EOD;
+		$terms_conditions = str_replace("\n", "<br/>&nbsp;",$terms_conditions);
+		$terms .=<<<EOD
+		<div align="center"><B>Terms & Conditions</B></div><br/>
+		<table width="100%" align="justify">
+			<tr><td>$terms_conditions</td></tr>
+			
+		</table>
+		
+EOD;
+		
+		$pdf->writeHTML($tbl, true, false, false, false, '');
+		$pdf->AddPage();
+		$pdf->writeHTML($terms, true, false, false, false, '');
+		
+		ob_clean();
+		$pdf_action = ($action == 'email') ? 'F' : 'D';
+		$pdf->Output($this->file_name.'_.pdf',$pdf_action);
+		
+	}
+	
+	private function getMyBean($module_name, $rec_id=null, $class_name=null) {
+		$class_name = ($class_name != null) ? $class_name : $module_name;
+		require_once('modules/'.$module_name.'/'.$class_name.'.php');
+		$bean_obj = new $class_name();
+		$bean_obj->retrieve($rec_id);
+		return $bean_obj;
+	}
+	
+	public function retFileName() {
+		return $this->file_name;
+	}
+	
+	public function retEmailId() {
+		return $this->email_id;
+	}
+	
+}
+
+?>

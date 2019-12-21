@@ -1,0 +1,6 @@
+<?php
+ // created: 2014-07-03 04:37:55
+$dictionary['Contact']['fields']['team_name']['merge_filter']='disabled';
+$dictionary['Contact']['fields']['team_name']['reportable']=true;
+
+ ?>

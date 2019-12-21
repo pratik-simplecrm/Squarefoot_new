@@ -1,0 +1,52 @@
+<?php
+
+if (!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
+   
+    class auto_fill_team
+    {
+        function auto_fill_team_method($bean, $event, $arguments)
+        {
+            global $moduleList; // Fetch the list of all module in the sugarcrm
+			$moduleList = array_diff($moduleList, array("Home","bhea_Reports","Bhea_Report_Scheduler")); // To remove Home module from the module list
+			$moduleList = array_diff($moduleList, array("rls_Reports"));//
+			$id = $_REQUEST['record'];
+			$type = $_REQUEST['type'];
+			$module = $_REQUEST['module'];
+			
+			if( empty($id) && (in_array($module, $moduleList)) ){
+			
+				global $current_user,$db;
+				$user_id = $current_user->id;
+				$user_name = $current_user->user_name;
+				
+				$query ="SELECT default_team FROM users WHERE id = '$user_id' AND deleted =0";
+				$res = $db->query($query);
+				$row = $db->fetchByAssoc($res);
+				
+				$team_id = $row['default_team'];
+				
+				$get_team = " SELECT id,name FROM team where id ='$team_id' AND deleted =0 ";
+				$team_res = $db->query($get_team);
+				$team_row = $db->fetchByAssoc($team_res);
+				
+				$team_id = $team_row['id']; 
+				$team_name = $team_row['name']; 
+				
+				echo $team =<<<EOD
+				<script>
+					var team_name = '$team_name';
+					var team_id = '$team_id';				
+					$("#team_name").val(team_name);
+					$("#team_id").val(team_id);
+					addToValidate('EditView','team_id','team_id',true,'Assigned Team');
+					if(!(document.getElementById('team_name_label').innerHTML.indexOf("*") > 0)) {
+						document.getElementById('team_name_label').innerHTML += '<font color="red">*<font>';
+					}
+				</script>
+				
+EOD;
+			}
+        }
+    }
+
+?>

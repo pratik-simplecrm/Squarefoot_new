@@ -1,0 +1,7 @@
+<?php
+ // created: 2014-07-03 07:38:43
+$dictionary['Arch_Architects_Contacts']['fields']['team_name']['merge_filter']='disabled';
+$dictionary['Arch_Architects_Contacts']['fields']['team_name']['reportable']=true;
+$dictionary['Arch_Architects_Contacts']['fields']['team_name']['required']=true;
+
+ ?>

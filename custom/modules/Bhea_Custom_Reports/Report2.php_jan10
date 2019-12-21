@@ -1,0 +1,265 @@
+<?php
+
+require_once('CustomReportCSV.php');
+
+		global $sugar_config;$url=$sugar_config['site_url'];
+		global $current_user,$user_name,$user_id;
+		$user=$_REQUEST['id'];
+		$user_id=$current_user->id;
+		$user_name=$current_user->user_name;
+		global $db;
+		global $sugar_config;$url=$sugar_config['site_url'];
+		global $current_user,$user_name,$user_id;
+		$user=$_REQUEST['id'];
+		$user_id=$current_user->id;
+		$user_name=$current_user->user_name;
+		global $db;
+		$options="";
+		$query1 = "SELECT securitygroup_id FROM securitygroups_users WHERE user_id  ='$user_id' AND deleted=0";
+		$result=$db->query($query1);
+		while($getteams1=$db->fetchByAssoc($result))
+		{
+
+		$team_id = $getteams1['securitygroup_id'];
+		$sql="SELECT name FROM securitygroups where id='$team_id'";
+		$result1=$db->query($sql);
+		$row=$db->fetchByAssoc($result1);
+		//  $id=$row["id"];
+		$key=str_replace(" ","_",$row["name"]);
+		$thing[$key]=$key;
+		$values.=$row["name"];
+		$options.="<OPTION VALUE=\"$thing\">".$thing;
+
+		}
+
+?>
+<script type="text/javascript" language="javascript1.1">
+	function showrepo()
+	{
+		//
+	}
+
+
+	function showexcel()
+	{
+		var from= document.getElementById("test").value;
+
+		if(from == 'Generate Excel')
+		{
+		var url=document.getElementById("pathurl").value;
+		var id='<?php echo $user_id; ?>';
+		var name1='<?php echo $values; ?>';
+		//
+		var name = document.getElementById('name').value;
+
+
+		var fld = document.getElementById('name');
+		var values = [];
+		for (var i = 0; i < fld.options.length; i++) {
+  		if (fld.options[i].selected) {
+    			values.push(fld.options[i].value);
+  		}
+		}
+
+		document.frmsales.action='excelReport.php?id='+id+'&name='+values;
+		document.frmsales.submit();
+
+
+
+		}
+	}
+	function showReport()
+	{
+
+		var gt= document.getElementById("generate_report").value;
+
+		if(gt == 'Generate Report')
+		{
+		var url=document.getElementById("pathurl").value;
+		var id='<?php echo $user_id; ?>';
+		var name1='<?php echo $values; ?>';
+		//
+		var name = document.getElementById('name').value;
+
+
+		var fld = document.getElementById('name');
+		var values = [];
+		for (var i = 0; i < fld.options.length; i++) {
+  		if (fld.options[i].selected) {
+    			values.push(fld.options[i].value);
+  		}
+		}
+		document.frmsales.action='index.php?module=Bhea_Custom_Reports&action=Report2&id='+id+'&name='+values;
+		document.frmsales.submit();
+		}
+	}
+	// end. function
+	</script>
+	<h3>Weekly Performance Report</h3>
+	<form name="frmsales" id="frmsales" action="" method="post" target="_parent">
+	<input type="hidden" id="pathurl"  name="pathurl" value="<?php global $sugar_config;$url=$sugar_config['site_url'];{echo $url;}?>"/>
+	<table width="100%" border="0" align="center" class="list view">
+
+		<tr>
+		<td width="25%" align="left" valign="middle" class="">Excepted Close Date From
+		<input type="text" id="from" name="from" value="<?php $from=$_REQUEST['from']; if($from!='1970-01-01'){echo $from;}?>"/>
+		<img border="0" src="themes/default/images/jscalendar.gif" id="fromb" align="absmiddle" />
+		<script type="text/javascript">
+		Calendar.setup({inputField    : "from",
+		button        : "fromb",
+		align         : "right"});
+	</script> </td>
+		<td width="25%" align="left" valign="middle" class="">Excepted Close Date To
+		<input type="text" id="to" name="to" value="<?php $to=$_REQUEST['to']; if($to!='1970-01-01'){ echo $to; } ?>"/>
+		<img border="0" src="themes/default/images/jscalendar.gif" id="tob" align="absmiddle" />
+	<script type="text/javascript">
+		Calendar.setup({inputField    : "to",
+		button        : "tob",
+		align         : "right"});
+	</script>  </td>
+
+		<td  width="20%" align="left" valign="middle" class="">Team Name
+
+	<SELECT NAME="name[]" id="name" multiple="multiple">
+	<?php
+		global $app_list_strings;
+		foreach($thing as $key=>$value)
+		{
+
+			$selected =  in_array($key,$_POST['name']) ? "selected='selected' " : '';
+
+			echo "<option ".$selected."value=".$key.">" . str_replace("_"," ",$key) . "</option>";
+		} ?>
+	</SELECT>
+	</td>
+
+
+
+		</tr>
+		<tr>
+		<td colspan="2" align="left" valign="middle" class=""><input type="submit" onClick="showReport()" name="generate_report" id="generate_report" value="Generate Report" >
+		<input type="submit" name="test" id="test" value="Generate Excel" onClick="showexcel()" /></td>
+		</tr>
+	</table>
+	<table border ='2' width="100%" cellpadding="2" cellspacing="2" class="imagetable">
+		<tr height="20">
+
+		<td style="background:#C0C0C0;">Team Name</td>
+		<td style="background:#C0C0C0;">User Name</td>
+		<td style="background:#C0C0C0;">Target&nbsp;&nbsp;</td>
+		<td style="background:#C0C0C0;">Target to date&nbsp;&nbsp;</td>
+		<td style="background:#C0C0C0;">Prospects Created Count</td>
+		<td style="background:#C0C0C0;">Opp. Created Count</td>
+		<td style="background:#C0C0C0;">Opp. Created Value</td>
+		<td style="background:#C0C0C0;">Opp. Won Count</td>
+		<td style="background:#C0C0C0;">Opp. Won Value</td>
+		<td style="background:#C0C0C0;">Opp. Lost Count</td>
+		<td style="background:#C0C0C0;">Opp. Lost Value</td>
+		<td style="background:#C0C0C0;">Calls Made</td>
+		<td style="background:#C0C0C0;">Meetings Held</td>
+
+
+		<td style="background:#C0C0C0;">Architects Count</td>
+		<td style="background:#C0C0C0;">Architects Calls Made</td>
+		<td style="background:#C0C0C0;">Architects Meetings Held</td>
+
+
+		</tr>
+			<?php
+			$strt_dt=$_REQUEST['from'];
+
+			$end_dt=$_REQUEST['to'];
+			$division=$_REQUEST['name'];
+			$branch=$_REQUEST['name1'];
+			$division_count=count($division);
+			$branch_count=count($branch);
+
+			global $current_user;
+			$dateformat = $current_user->getPreference('datef');
+			$strt_dt=date($dateformat,strtotime($strt_dt));
+			$end_dt=date($dateformat,strtotime($end_dt));
+
+			$user_id=array();
+			$query ="SELECT id FROM  users WHERE deleted=0";
+			$result=$db->query($query, true);
+			while($getuser=$db->fetchByAssoc($result))
+			{
+			$user_id[] = $getuser['id'];
+			}
+			$user_count=count($user_id);
+			$row_count=$user_count * $division_count * $branch_count;
+			$content=array();
+			$content=Name();
+			//~ echo '<pre>';
+			//~ print_r($content);
+			$count=count($content[11]);
+			$module_name='Arch_Architects_Contacts';
+			$status='Held';
+			for($i=0;$i < ($count-1);$i++){ ?>
+		 	<tr height="20">
+
+			<td ><?php echo $content[11][$i];?></td>
+			<td ><a href='index.php?module=Users&return_module=Users&action=DetailView&record=<?php echo $content[10][$i];?>'><?php echo $content[0][$i];?></a></td>
+
+			<td><?php echo $content[16][$i];?>&nbsp;&nbsp;&nbsp;</td>
+
+			<td><?php echo $content[18][$i];?>&nbsp;&nbsp;</td>
+
+			<td ><a href="index.php?module=Leads&start_range_date_entered_advanced=<?php echo $strt_dt;?>&date_entered_advanced_range_choice=between&end_range_date_entered_advanced=<?php echo $end_dt;?>&assigned_user_id_advanced[]=<?php echo $content[10][$i];?>&id_search_form_team_name_advanced_collection_0=<?php echo $content[12][$i];?>&query=true&offset=1&searchFormTab=advanced_search"><?php echo $content[1][$i];?></a></td>
+
+			<td ><a href="index.php?module=Opportunities&start_range_date_entered_advanced=<?php echo $strt_dt;?>&date_entered_advanced_range_choice=between&end_range_date_entered_advanced=<?php echo $end_dt;?>&assigned_user_id_advanced[]=<?php echo $content[10][$i];?>&id_search_form_team_name_advanced_collection_0=<?php echo $content[12][$i];?>&query=true&offset=1&searchFormTab=advanced_search"><?php echo $content[2][$i];?></td>
+
+			<td ><?php echo $content[3][$i];?></td>
+
+			<td ><a href="index.php?module=Opportunities&start_range_date_closed_advanced=<?php echo$strt_dt;?>&date_closed_advanced_range_choice=between&end_range_date_closed_advanced=<?php echo$end_dt;?>&assigned_user_id_advanced[]=<?php echo $content[10][$i];?>&id_search_form_team_name_advanced_collection_0=<?php echo $content[12][$i];?>&sales_stage_advanced[]=Closed Won&query=true&offset=1&searchFormTab=advanced_search"><?php echo $content[4][$i];?></td>
+
+			<td ><?php echo $content[5][$i];?></td>
+
+			<td ><a href="index.php?module=Opportunities&start_range_date_closed_advanced=<?php echo $strt_dt;?>&date_closed_advanced_range_choice=between&end_range_date_closed_advanced=<?php echo $end_dt;?>&assigned_user_id_advanced[]=<?php echo $content[10][$i];?>&id_search_form_team_name_advanced_collection_0=<?php echo $content[12][$i];?>&sales_stage_advanced[]=Closed Lost&query=true&offset=1&searchFormTab=advanced_search"><?php echo $content[6][$i];?></td>
+
+			<td ><?php echo $content[7][$i];?></td>
+
+			<td ><a href="index.php?module=Calls&start_range_date_start_advanced=<?php echo $strt_dt;?>&date_start_advanced_range_choice=between&end_range_date_start_advanced=<?php echo $end_dt;?>&assigned_user_id_advanced[]=<?php echo $content[10][$i];?>&id_search_form_team_name_advanced_collection_0=<?php echo $content[12][$i];?>&status_advanced[]=<?php echo $status ?>&query=true&offset=1&searchFormTab=advanced_search"><?php echo $content[8][$i];?></td>
+
+			<td ><a href="index.php?module=Meetings&start_range_date_start_advanced=<?php echo $strt_dt;?>&date_start_advanced_range_choice=between&end_range_date_start_advanced=<?php echo $end_dt;?>&assigned_user_id_advanced[]=<?php echo $content[10][$i];?>&id_search_form_team_name_advanced_collection_0=<?php echo $content[12][$i];?>&status_advanced[]=<?php echo $status ?>&query=true&offset=1&searchFormTab=advanced_search"><?php echo $content[9][$i];?></td>
+
+			<td ><a href="index.php?module=Arch_Architects_Contacts&start_range_date_entered_advanced=<?php echo $strt_dt;?>&date_entered_advanced_range_choice=between&end_range_date_entered_advanced=<?php echo $end_dt;?>&assigned_user_id_advanced[]=<?php echo $content[10][$i];?>&id_search_form_team_name_advanced_collection_0=<?php echo $content[12][$i];?>&query=true&offset=1&searchFormTab=advanced_search"><?php echo $content[13][$i];?></a></td>
+
+			<td ><a href="index.php?module=Calls&start_range_date_entered_advanced=<?php echo $strt_dt;?>&date_entered_advanced_range_choice=between&end_range_date_entered_advanced=<?php echo $end_dt;?>&assigned_user_id_advanced[]=<?php echo $content[10][$i];?>&id_search_form_team_name_advanced_collection_0=<?php echo $content[12][$i];?>&parent_type_advanced=<?php echo $module_name?>&status_advanced[]=<?php echo $status ?>&query=true&offset=1&searchFormTab=advanced_search"><?php echo $content[15][$i];?></td>
+			<td ><a href="index.php?module=Meetings&start_range_date_entered_advanced=<?php echo $strt_dt;?>&date_entered_advanced_range_choice=between&end_range_date_entered_advanced=<?php echo $end_dt;?>&assigned_user_id_advanced[]=<?php echo $content[10][$i];?>&id_search_form_team_name_advanced_collection_0=<?php echo $content[12][$i];?>&parent_type_advanced=<?php echo $module_name?>&status_advanced[]=<?php echo $status ?>&query=true&offset=1&searchFormTab=advanced_search"><?php echo $content[14][$i];?></td>
+
+
+
+			</tr>
+			<?php } ?>
+
+		 	<tr height="20">
+			<td ><?php echo $content[11][$count-1];?></td>
+			<td ><?php echo $content[0][$count-1];?></td>
+			<td ><?php echo $content[17];?></td>
+			<td ><?php echo $content[19];?></td>
+			<td ><?php echo $content[1][$count-1];?></td>
+			<td ><?php echo $content[2][$count-1];?></td>
+			<td ><?php echo $content[3][$count-1];?></td>
+			<td ><?php echo $content[4][$count-1];?></td>
+			<td ><?php echo $content[5][$count-1];?></td>
+			<td ><?php echo $content[6][$count-1];?></td>
+			<td ><?php echo $content[7][$count-1];?></td>
+			<td ><?php echo $content[8][$count-1];?></td>
+			<td ><?php echo $content[9][$count-1];?></td>
+
+			<td ><?php echo $content[13][$count-1];?></td>
+
+			<td ><?php echo $content[15][$count-1];?></td>
+			<td ><?php echo $content[14][$count-1];?></td>
+
+
+			<td ></td>
+			<td > </td>
+
+			</tr>
+
+
+
+	</table>
+	</form>

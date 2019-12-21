@@ -1,0 +1,187 @@
+<?php
+$module_name = 'quote_Quote';
+$_object_name = 'quote_quote';
+$viewdefs [$module_name] = 
+array (
+  'EditView' => 
+  array (
+    'templateMeta' => 
+    array (
+      'maxColumns' => '2',
+      'widths' => 
+      array (
+        0 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+        1 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+      ),
+      'includes' => 
+      array (
+        0 => 
+        array (
+          'file' => 'custom/modules/quote_Quote/line_items/lineItem.php',
+        ),
+      ),
+      'useTabs' => false,
+      'tabDefs' => 
+      array (
+        'DEFAULT' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL11' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL10' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+    ),
+    'panels' => 
+    array (
+      'default' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'quote_quote_number',
+            'type' => 'readonly',
+          ),
+          1 => 'assigned_user_name',
+        ),
+        1 => 
+        array (
+          0 => 'priority',
+          1 => 
+          array (
+            'name' => 'quotation_date',
+            'label' => 'LBL_QUOTATION_DATE',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 'resolution',
+          1 => 'status',
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'name',
+            'displayParams' => 
+            array (
+              'size' => 60,
+            ),
+          ),
+        ),
+        4 => 
+        array (
+          0 => 'description',
+        ),
+        5 => 
+        array (
+          0 => 'work_log',
+          1 => 
+          array (
+            'name' => 'quote_quote_accounts_name',
+          ),
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'quote_quote_leads_name',
+          ),
+          1 => 
+          array (
+            'name' => 'quote_quote_opportunities_name',
+          ),
+        ),
+      ),
+      'lbl_editview_panel11' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'quote_line_item_layout_c',
+            'label' => 'LBL_QUOTE_LINE_ITEM_LAYOUT',
+          ),
+          1 => '',
+        ),
+      ),
+'lbl_editview_panel10' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'customCode' => '<table id=\'QuotesLineTable\' width="100%" border=0 class=\'detail view\'>
+								<tr style="height:25px">
+									<th style="width:10%">
+										Quantity
+									</th>
+									<th style="width:40%">
+										Product
+									</th>
+									<th style="width:10%">
+										Amount
+									</th>
+									<th style="width:10%">
+										Tax
+									</th>									
+									<th style="width:10%">
+										Discount
+									</th>
+									<th style="width:10%">
+										Percentage
+									</th>
+									<th style="width:10%">
+										<input type="button" onclick="addRow()" value="Add" />
+									</th>
+								</tr>
+							</table><br/><br/>
+							<table  border="0" cellspacing="0" cellpadding="0" style="float:right">
+								<tr>
+									<td style="font-weight:bold" scope="row"  valign="top" style="text-align: left;">GRAND TOTAL</td>
+								</tr>
+								<tr>
+									<td style="font-weight:bold" scope="row" NOWRAP style="text-align: left;">Subtotal:</td>
+									<td scope="row" NOWRAP><input type="text" size="10" name="sub_total" id="sub_total" value="{$sub}" /></td>
+								</tr>
+								<tr>
+									<td style="font-weight:bold" scope="row" NOWRAP style="text-align: left;">Discounted Total:</td>
+									<td scope="row" NOWRAP><input type="text" size="10" name="discounted_total" id="discounted_total" value="{$tot_dis}" /></td>
+								</tr>
+								<tr>
+									<td style="font-weight:bold" scope="row" NOWRAP style="text-align: left;">New Subtotal:</td>
+									<td scope="row" NOWRAP><input type="text" size="10" name="new_subtotal" id="new_subtotal" value="{$new_sub}" /></td>
+								</tr>
+								<tr>
+									<td style="font-weight:bold" scope="row" NOWRAP style="text-align: left;">Total Tax:</td>
+									<td scope="row" NOWRAP><input type="text" size="10" name="total_tax" id="total_tax" value="{$tax}" /></td>
+								</tr>								
+								<tr>
+									<td style="font-weight:bold" scope="row" NOWRAP style="text-align: left;">Total:</td>
+									<td scope="row" NOWRAP><input type="text" size="10" name="grand_total" id="grand_total" value="{$total}" /></td>
+								</tr>
+							</table>',
+          ),
+        ),
+      ),
+    ),
+  ),
+);
+?>

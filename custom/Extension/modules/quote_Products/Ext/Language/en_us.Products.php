@@ -1,0 +1,53 @@
+<?php 
+ // created: 2017-12-15 10:53:56
+$mod_strings['LNK_NEW_RECORD'] = 'Create Products';
+$mod_strings['LNK_LIST'] = 'View Products';
+$mod_strings['LNK_IMPORT_QUOTE_PRODUCTS'] = 'Import Products';
+$mod_strings['LBL_LIST_FORM_TITLE'] = 'Products List';
+$mod_strings['LBL_SEARCH_FORM_TITLE'] = 'Search Products';
+$mod_strings['LBL_HOMEPAGE_TITLE'] = 'My Products';
+$mod_strings['LBL_QUOTE_PRODUCT_CATEGORY_QUOTE_PRODUCTS_FROM_QUOTE_PRODUCT_CATEGORY_TITLE'] = 'Product Category';
+$mod_strings['LBL_TYPE'] = 'Product Type';
+$mod_strings['LBL_UOM'] = 'SQM';
+$mod_strings['LBL_SUPPORT_TERM'] = 'Support Term';
+$mod_strings['LBL_TAX_CLASS'] = 'Tax Class';
+$mod_strings['LBL_AVAILABILITY'] = 'Availability';
+$mod_strings['LBL_QUANTITY_BOX'] = 'Quantity/ Box';
+$mod_strings['LBL_ITEM_CODE'] = 'Item Code';
+$mod_strings['LBL_PRODUCT_PRICE_C'] = 'Not UsingPrice (Rs)';
+$mod_strings['LBL_UNIT_PRICE'] = 'Unit Price INR';
+$mod_strings['PRODUCT_SPECIFICATIONS'] = 'Description';
+$mod_strings['LBL_VENDOR_PART_NUMBER'] = 'Vendor Part Number';
+$mod_strings['LBL_NAME'] = 'Product Name';
+$mod_strings['LBL_PRICING_FACTOR'] = 'Pricing Factor';
+$mod_strings['LBL_SAC_CODE'] = 'SAC CODE';
+$mod_strings['LBL_HSN_CODE_C'] = 'HSN CODE';
+$mod_strings['LBL_GST'] = 'GST%';
+$mod_strings['LBL_BANGALORE_BRANCH'] = 'Bangalore Branch';
+$mod_strings['LBL_BANGALORE_UNIT_PRICE'] = 'Bangalore Unit Price';
+$mod_strings['LBL_CHENNAI_BRANCH'] = 'Chennai Branch';
+$mod_strings['LBL_CHENNAI_UNIT_PRICE'] = 'Chennai Unit Price';
+$mod_strings['LBL_KERALA_BRANCH'] = 'Kerala Branch';
+$mod_strings['LBL_KERALA_UNIT_PRICE'] = 'Kerala Unit Price';
+$mod_strings['LBL_KOLKATA_BRANCH'] = 'Kolkata Branch';
+$mod_strings['LBL_KOLKATA_UNIT_PRICE'] = 'Kolkata Unit Price';
+$mod_strings['LBL_DELHI_BRANCH'] = 'Delhi Branch';
+$mod_strings['LBL_DELHI_UNIT_PRICE'] = 'Delhi Unit Price';
+$mod_strings['LBL_HYDERABAD_BRANCH'] = 'Hyderabad Branch';
+$mod_strings['LBL_HYDERABAD_UNIT_PRICE'] = 'Hyderabad Unit Price';
+$mod_strings['LBL_MUMBAI_BRANCH'] = 'Mumbai Branch';
+$mod_strings['LBL_MUMBAI_UNIT_PRICE'] = 'Mumbai Unit Price';
+$mod_strings['LBL_PUNE_BRANCH'] = 'Pune Branch';
+$mod_strings['LBL_PUNE_UNIT_PRICE'] = 'Pune Unit Price';
+$mod_strings['LBL_GOA_BRANCH'] = 'goa Branch';
+$mod_strings['LBL_GOA_UNIT_PRICE'] = 'Goa Unit Price';
+$mod_strings['LBL_GUJARAT_BRANCH'] = 'Gujarat Branch';
+$mod_strings['LBL_GUJARAT_UNIT_PRICE'] = 'Gujarat Unit Price';
+$mod_strings['LBL_GURGAON_BRANCH'] = 'Gurgaon Branch';
+$mod_strings['LBL_HARYANA_UNIT_PRICE'] = 'Gurgaon Unit Price';
+$mod_strings['LBL_NOIDA_BRANCH'] = 'Noida Branch';
+$mod_strings['LBL_UP_UNIT_PRICE'] = 'Noida Unit Price';
+$mod_strings['LBL_EDITVIEW_PANEL1'] = 'New Panel 1';
+$mod_strings['LBL_EDITVIEW_PANEL2'] = 'Configuring Different Prices';
+
+?>

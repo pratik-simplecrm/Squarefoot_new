@@ -1,0 +1,803 @@
+<?php
+
+if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
+
+require_once('include/MVC/View/views/view.edit.php');
+require_once('modules/Users/User.php');
+
+class quote_QuoteViewEdit extends ViewEdit {
+
+	function quote_QuoteViewEdit() {
+ 		parent::ViewEdit();
+ 	}
+
+	function display() {
+
+		global $db,$current_user,$sugar_config;
+		//echo 'Hi'.$_REQUEST['parent_id'];
+		//echo 'Hi'.$_REQUEST['record'];
+		//$this->bean->quote_quote_accountsaccounts_ida = '41000dbe-e00c-95e6-60fa-51c29709c04a';
+		//$this->bean->quote_quote_accounts_name = '3S Interiors Pvt Ltd';
+
+		$return_module = $_REQUEST['return_module'];
+	    $account_id = $_REQUEST['account_id'];
+	    $account_name = $_REQUEST['account_name'];
+		$check_val = intval($this->bean->copy_address_c);
+
+		//~ $isOld = $this->bean->fetched_row;
+		$UserBranch = $bean->branch_c;
+
+		$query = "SELECT name, tax_value from quote_quotetax,quote_quotetax_cstm where id = id_c AND  branch_c ='$UserBranch' AND deleted=0";
+		$query = $db->query($query);
+
+		$i = 0;
+		while($row = $db->fetchByAssoc($query)) {
+			$tax_array[$i]['name'] = $row['name'];
+			$tax_array[$i]['value'] = $row['tax_value'];
+			$i++;
+		}
+		array_unshift($tax_array, array ('name' => '', 'value' => ''));
+		$json_tax_array = json_encode($tax_array);
+		echo '<div id="dialog" title="Warning !!!"> <p> Please select Branch...</p> </div>';
+		echo $ro = <<<BOC
+		<script>
+		var count = 0;
+		var p_count =0;
+		var j=0;
+		var service_tax = '$json_tax_array';
+		$(document).ready(function() {
+			$('#structure_details_c').attr('readonly', true);
+			if( $("#sub_total").val() =='' ){
+				$("#sub_total,#discounted_total,#new_subtotal,#discount,#total_tax,#grand_total,#shipping_c").val('0.00');
+			}
+			$('#dialog').hide();
+			$("#sub_total,#discounted_total,#new_subtotal,#discount,#total_tax,#grand_total,#shipping_c").prop("readOnly", true).css("background-color", "#DDDDDD");
+			$("#_label").hide();
+			start();
+
+			$('#contact_name_c').change(function(){
+				auto_contact_info();
+			});
+
+			$(window).focus( function(){
+				auto_contact_info();
+			});
+			auto_contact_info();
+
+			$('#branch_c').change(function(){
+				var branch = $('#branch_c').val();
+				$.ajax({
+					url: 'vatDetails.php',
+					async:false,
+					type:'GET',
+					data:{branch:branch},
+					success: function(result) {
+						$("#company_vat_details_c").val(result);
+					}
+				});
+			});
+
+			$('#packing_charges_c').change(function(){
+				var packing_charges = $('#packing_charges_c').val();
+				var freight_charges = $('#freight_charges_c').val();
+				var loading_charges = $('#loading_unloading_charges_c').val();
+				var other_charges = $('#other_charges_c').val();
+
+				var structure_details = parseFloat(Number(packing_charges) + Number(freight_charges) + Number(loading_charges) + Number(other_charges)).toFixed(2);
+				$('#structure_details_c').val(structure_details);
+
+			});
+
+			$('#freight_charges_c').change(function(){
+				var packing_charges = $('#packing_charges_c').val();
+				var freight_charges = $('#freight_charges_c').val();
+				var loading_charges = $('#loading_unloading_charges_c').val();
+				var other_charges = $('#other_charges_c').val();
+
+				var structure_details = parseFloat(Number(packing_charges) + Number(freight_charges) + Number(loading_charges) + Number(other_charges)).toFixed(2);
+				$('#structure_details_c').val(structure_details);
+
+			});
+
+
+			$('#loading_unloading_charges_c').change(function(){
+				var packing_charges = $('#packing_charges_c').val();
+				var freight_charges = $('#freight_charges_c').val();
+				var loading_charges = $('#loading_unloading_charges_c').val();
+				var other_charges = $('#other_charges_c').val();
+
+				var structure_details = parseFloat(Number(packing_charges) + Number(freight_charges) + Number(loading_charges) + Number(other_charges)).toFixed(2);
+				$('#structure_details_c').val(structure_details);
+
+			});
+
+			$('#other_charges_c').change(function(){
+				var packing_charges = $('#packing_charges_c').val();
+				var freight_charges = $('#freight_charges_c').val();
+				var loading_charges = $('#loading_unloading_charges_c').val();
+				var other_charges = $('#other_charges_c').val();
+
+				var structure_details = parseFloat(Number(packing_charges) + Number(freight_charges) + Number(loading_charges) + Number(other_charges)).toFixed(2);
+				$('#structure_details_c').val(structure_details);
+
+			});
+		});
+
+		function auto_contact_info(){
+			$('#contact_name_shipping_c').val( $('#contact_name_c').val() );
+			$('#contact_id1_c').val( $('#contact_id_c').val() );
+			removeFromValidate('EditView', 'contact_id1_c');
+			removeFromValidate('EditView', 'contact_name_shipping_c');
+		}
+
+		function addPackage()
+		{
+			count++;
+			var package_row = addPackagePanel();
+			$('#mainQuoteLineItem').append(package_row);
+			var branch = $('#branch_c').val();
+			// $.ajax({
+			// 	url: 'taxDropdown.php',
+			// 	async:false,
+			// 	type:'GET',
+			// 	data:{branch:branch},
+			// 	success: function(result) {
+			// 		$("#service_tax_"+count).html(result);
+			// 	}
+			// });
+//~
+			//~ //$('[id*="in_"]').change(function(){
+			//~ $('#in_1_1').change(function(){
+				//~ alert('Hi');
+				//~ /*var disc_check = $(this).attr('id');
+				//~ alert(disc_check);
+				//~ var arr = disc_check.split('_');
+				//~ if( $("#"+disc_check).is(":checked") ){
+					//~ alert(arr[1]+'_'+arr[2]);
+					//~ //element10.value = '1';
+				//~ }
+				//~ */
+			//~ });
+//~ $('[id*="service_tax_"]').change(function(){ alert('Change') });
+
+			var shippingVal = $('#shipping_'+count+'_c').val();
+			if( typeof shippingVal != 'undefined' && shippingVal != ''){
+				$("#shipping_amt_"+count).val(shippingVal);
+			}
+
+			$('[id*="service_tax_"]').change(function(){
+				var service_tax = $(this).attr('id');
+				var arr = service_tax.split('_');
+				var taxName = $('#'+service_tax).val();
+				$.ajax({
+					url: 'taxValue.php',
+					async:false,
+					type:'GET',
+					data:{branch:branch,taxName:taxName},
+					success: function(result) {
+						$('#service_tax_val_'+arr[2]).val( result );
+					}
+				});
+
+				var baseTable = $('#'+service_tax).parent().parent().parent().parent().attr('id');
+				var lastchild = $("#"+baseTable+" tbody tr:last-child").attr('id');
+				var arr1 = lastchild.split('_');
+				//alert( arr1[2] );
+				for (var i = 1; i <= arr1[2]; i++) {
+					$('#service_tax_'+arr[2]+'_'+i).val(taxName);
+					$('#service_tax_val_'+arr[2]+'_'+i).val($('#service_tax_val_'+arr[2]).val());
+					calculate(i+'_'+arr[2],arr[2]);
+				}
+
+				//$('#service_tax_val_'+arr[2]).val(  );
+			});
+
+			$('[id*="group_id_"]').change(function(){
+
+				var group_type = $(this).attr('id');
+				var arr = group_type.split('_');
+				var type = $('#group_id_'+arr[2]).val();
+
+
+				if( type =='Product'){
+					$("#hsn_code_"+arr[2]).text('HSN CODE');
+					$("#service_tax_"+arr[2]).val('');
+					//$("#service_tax_"+arr[2]+" option[value='Service Tax']").prop("disabled",true);
+					$("#service_tax_"+arr[2]+" option[value='Service Tax']").hide();
+					$("#service_tax_"+arr[2]+" option[value='VAT']").show();
+					$("#service_tax_"+arr[2]+" option[value='CST Without C Form']").show();
+					$("#service_tax_"+arr[2]+" option[value='CST With C Form']").show();
+				}
+				else if( type =='Installation'){
+					$("#hsn_code_"+arr[2]).text('SAC CODE');
+					$("#service_tax_"+arr[2]).val('');
+					$("#service_tax_"+arr[2]+" option[value='CST Without C Form']").hide();
+					$("#service_tax_"+arr[2]+" option[value='CST With C Form']").hide();
+					$("#service_tax_"+arr[2]+" option[value='VAT']").hide();
+					$("#service_tax_"+arr[2]+" option[value='Service Tax']").show();
+				}
+
+
+			});
+		}
+
+		function addPackagePanel()
+		{
+			//alert("Called");
+			var id_name = 'package_'+count;
+			var id_value = 'hidden_package_'+count;
+
+			var group_count = parseInt($('#group_counts').val()) + parseInt(1);
+
+			var htmlData = "<div class='package_row' id='package_panel_"+count+"' ><br><table id='QuotesLineTable_"+count+"' width='100%' border=0 class='detail view'><tr><td colspan =3 id='GroupName_"+count+"'>&nbsp;&nbsp;<span><b>Group Name</b></span>&nbsp;&nbsp;<select id='group_id_"+count+"'><option value='Product'>Product</option><option value='Installation'>Installation</option></select></td>&nbsp;&nbsp;&nbsp; <td colspan =6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td style='width:10%'><input type='button' id='remove_group_"+count+"' onclick='removeGroup("+count+")' value='Remove Group' /></td><input type='hidden' id='rowcount' name='rowcount' value=''></tr><tr style='height:25px'><th style='width:10%'>Quantity</th><th style='width:30%'>Product</th><th id='hsn_code_"+count+"' style='width:10%'>HSN CODE</th><th style='width:10%'>UOM</th><th style='width:10%'>Unit Price</th><th style='width:10%'>Tax</th><th style='width:10%'>Discount</th><th style='width:10%'>Percentage</th><th style='width:10%'>GST %</th><th style='width:10%'><input type='button' onclick='addRow("+count+")' value='Add' /></th></tr></table><table  border='0' cellspacing='0' cellpadding='0' style='float:right'><tr><td style='font-weight:bold' scope='row' NOWRAP style='text-align: left;'>Subtotal:</td><td scope='row' NOWRAP><input type='text' style='background-color: #DDDDDD;' size='10' class='SubTotal' name='sub_total' id='sub_total_"+count+"' value='0' readonly /></td></tr><tr><td style='font-weight:bold' scope='row' NOWRAP style='text-align: left;'>Discount:</td><td scope='row' NOWRAP><input type='text' style='background-color: #DDDDDD;' size='10' name='discounted_total' class='Discount' id='discounted_total_"+count+"' value='0' readonly /></td></tr><tr><td style='font-weight:bold' scope='row' NOWRAP style='text-align: left;'>Discounted Subtotal:</td><td scope='row' NOWRAP><input type='text' style='background-color: #DDDDDD;' size='10' class='DiscountSubtotal' name='new_subtotal' id='new_subtotal_"+count+"' value='0' readonly /></td></tr><tr><td style='font-weight:bold' scope='row' NOWRAP style='text-align: left;'> Tax Amount:</td><td scope='row' NOWRAP><input type='text' style='background-color: #DDDDDD;' size='10' class='TotalTax'  name='total_tax' id='total_tax_"+count+"' value='0' readonly /></td></tr><tr><td style='font-weight:bold' scope='row' NOWRAP style='text-align: left;'> Other Charges:</td><td scope='row' NOWRAP><input type='text' style='background-color: #DDDDDD;' size='10' class='ShippingAmt'  name='shipping' id='shipping_amt_"+count+"' value='0.00' readonly /></td></tr><tr><td style='font-weight:bold' scope='row' NOWRAP style='text-align: left;'>Total:</td><td scope='row' NOWRAP><input type='text' style='background-color: #DDDDDD;' size='10'  class='GrandTotal' name='grand_total' id='grand_total_"+count+"'  value='0.00' readonly /></td></tr> </table><br/><hr></hr></div>";
+
+			$('#group_counts').val(group_count);
+
+			return htmlData;
+
+		}
+
+		function setTotal(index){
+			//var grand_total = $("#grand_total_"+count).val();
+			var subTotal = $("#new_subtotal_"+index).val();
+			var totalTax = $("#total_tax_"+index).val();
+			var shipping_amt = $("#shipping_amt_"+index).val();
+			$("#grand_total_"+index).val(parseFloat( parseFloat(shipping_amt) + parseFloat(subTotal) + parseFloat(totalTax)).toFixed(2));
+			$("#shipping_"+index+"_c").val( parseFloat(shipping_amt) );
+			//~ alert( $("#shipping_"+index+"_c").val() );
+			grandTotal();
+		}
+
+		function addGroupPanel(){
+
+			var id_name = 'package_'+count;
+			var id_value = 'hidden_package_'+count;
+
+			var html = "<div><br><button class='add_package' type='button' onclick='addPackagePanel()'>Add Group</button><br><input type='hidden' id='group_counts' value='0'/></div>";
+			return html;
+		}
+
+		function getMainDiv()
+        {
+            var html = "<div id='mainQuoteLineItem'></div>";
+            return  html;
+        }
+
+		function start()
+        {
+            //START Layout
+            var main_div = getMainDiv();
+            $('#quote_line_item_layout_c').parent().parent().html(main_div);
+
+            var package_row = addGroupPanel();
+            $('#mainQuoteLineItem').append(package_row);
+
+			$('.add_package').click(function(){
+
+				var branch = $('#branch_c').val();
+				branch = $.trim(branch);
+				if( typeof branch == 'undefined' || branch =='' ) {
+					$('#dialog').html('<p>Please select Branch !!</p>');
+					$( "#dialog" ).dialog();
+					return '';
+				}
+				addPackage();
+            });
+        }
+
+        function Editstart()
+        {
+            //START Layout
+            var main_div = getMainDiv();
+            $('#quote_line_item_layout_c').parent().parent().html(main_div);
+
+           // var package_row = addPackagePanel();
+            var package_row = addPackage();
+            $('#mainQuoteLineItem').append(package_row);
+
+        }
+
+
+		</script>
+BOC;
+
+		$this->ss->assign("sub", $this->bean->sub_total);
+		$this->ss->assign("tot_dis", $this->bean->discounted_total);
+		$this->ss->assign("new_sub", $this->bean->new_subtotal);
+		$this->ss->assign("tax", $this->bean->total_tax);
+		$this->ss->assign("total", $this->bean->grand_total);
+
+		if(isset($_REQUEST['record'])) {
+			$this->bean->old_pli_c = '';
+			$this->bean->new_pli_c = '';
+			//check if inline products present
+			$inline = $this->bean->is_line;
+			$quote_id = $this->bean->id;
+			if($inline) {
+				$bean1 = BeanFactory::getBean('quote_QuoteProducts');
+				$qp_list = $bean1->get_list("","quote_quoteproducts.quote_id = '".$quote_id."'");
+				//echo "<pre>";
+				//print_r($qp_list);exit;
+
+				global $db;
+				$prods = array();
+				$i = 0;
+				//Commented on 09/10/2014
+				//~ $select_lineItem = "SELECT *
+					//~ FROM quote_quoteproducts,quote_quoteproducts_cstm
+					//~ WHERE id = id_c
+					//~ AND quote_id = '$quote_id' AND deleted =0 order by group_id_c";
+				$select_lineItem = "SELECT *,SUBSTRING(group_id_c,1,1) as GroupID1,SUBSTRING(group_id_c,3,2) as GroupID2
+					FROM quote_quoteproducts,quote_quoteproducts_cstm
+					WHERE id = id_c
+					AND quote_id = '$quote_id' AND deleted =0 order by GroupID1,abs(GroupID2)";
+
+				$res_lineItem = $db->query($select_lineItem);
+				while($rec_lineItem = $db->fetchByAssoc($res_lineItem)){
+
+					$prods[$i]['name']		 = $rec_lineItem['name'];
+					$prods[$i]['uom']		 = $rec_lineItem['uom_c'];
+					$prods[$i]['price']		 = $rec_lineItem['price_c'];
+					$prods[$i]['tax']		 = $rec_lineItem['tax'];
+					$prods[$i]['disc']		 = $rec_lineItem['discount_c'];
+					$prods[$i]['dis_check']	 = $rec_lineItem['dis_check'];
+					$prods[$i]['qty']		 = $rec_lineItem['quantity'];
+					$prods[$i]['prod_id']	 = $rec_lineItem['product_id'];
+					$prods[$i]['recId']		 = $rec_lineItem['id'];
+					$prods[$i]['groupType']	 = $rec_lineItem['group_type_c'];
+					$prods[$i]['serviceTax']	 = $rec_lineItem['service_tax_c'];
+					$prods[$i]['serviceTaxVal']	 = $rec_lineItem['service_tax_val_c'];
+					$prods[$i]['Prod_Spec']	 = $rec_lineItem['product_specification_c'];
+					$prods[$i]['shipping']	 = $rec_lineItem['shipping_c'];
+					$prods[$i]['code']	 = $rec_lineItem['code_c'];
+
+					$prods[$i]['pliID']	 = $rec_lineItem['id'];
+					$i++;
+				}
+				//print_r($prods);exit;
+				/*
+				$i = 0;
+				$prods = array();
+				foreach($qp_list['list'] as $list) {
+					$prods[$i]['name']		 = $list->name;
+					$prods[$i]['uom']		 = $list->uom_c;
+					$prods[$i]['price']		 = $list->price_c;
+					$prods[$i]['tax']		 = $list->tax;
+					$prods[$i]['disc']		 = $list->discount_c;
+					$prods[$i]['dis_check']	 = $list->dis_check;
+					$prods[$i]['qty']		 = $list->quantity;
+					$prods[$i]['prod_id']	 = $list->product_id;
+					$prods[$i]['recId']		 = $list->id;
+					$prods[$i]['groupType']	 = $list->group_type_c;
+					$prods[$i]['serviceTax']	 = $list->service_tax_c;
+					$prods[$i]['serviceTaxVal']	 = $list->service_tax_val_c;
+					$prods[$i]['Prod_Spec']	 = $list->product_specification_c;
+					$i++;
+				}*/
+
+				$j = 1;
+				$productRecord = 0;
+				$installtionRecord = 0;
+
+				foreach($prods as $prod) {
+					if( $prod['groupType'] == 'Product' ){
+						$productRecord = 1;
+					}
+					if( $prod['groupType'] == 'Installation' ){
+						$installtionRecord = 1;
+					}
+				}
+				foreach($prods as $prod) {
+					if( $prod['groupType'] == 'Product' ){
+						//echo $prod['disc'];
+						$productRecord = 1;
+
+						if( intval($prod['disc']) <= 50 )
+							$discCheck = 1;
+						else{
+							//~ $discCheck = 0;
+							if( intval($prod['dis_check']) == 1 ){
+								$discCheck = 1;
+							}
+							else{
+								$discCheck = 0;
+							}
+						}
+/*
+						if( intval($prod['dis_check']) == 1 ){
+							$discCheck = 1;
+						}
+						else{
+							$discCheck = 0;
+						}
+*/
+						$new_spec_val = $prod['Prod_Spec'];
+						$new_spec_val = str_replace("\n", " ", $new_spec_val);
+						$new_spec_val = str_replace("\r", "", $new_spec_val);
+
+						//$qp_inline .= "addRow('".$j."','".$prod['qty']."','".$prod['name']."','".$prod['prod_id']."','".$prod['uom']."','".$prod['price']."','".$prod['tax']."','".$prod['disc']."','".$discCheck."','".$prod['recId']."','".$prod['groupType']."','".$prod['serviceTax']."','".$prod['serviceTaxVal']."','".$new_spec_val."');";
+						$qp_inline .= "addRow('".$productRecord."','".$prod['qty']."','".$prod['name']."','".$prod['prod_id']."','".$prod['code']."','".$prod['uom']."','".$prod['price']."','".$prod['tax']."','".$prod['disc']."','".$discCheck."','".$prod['recId']."','".$prod['groupType']."','".$prod['serviceTax']."','".$prod['serviceTaxVal']."','".$new_spec_val."','".$prod['pliID']."');";
+						//echo $qp_inline;exit;
+						//$j++;
+					}
+					elseif( $prod['groupType'] == 'Installation' ){
+						if( $productRecord ){
+							$installtionRecord = 2;
+						}
+						else{
+							$installtionRecord = 1;
+						}
+
+
+						if( intval($prod['disc']) < 50 )
+							$discCheck = 1;
+						else{
+							//~ $discCheck = 0;
+							if( intval($prod['dis_check']) == 1 ){
+								$discCheck = 1;
+							}
+							else{
+								$discCheck = 0;
+							}
+						}
+/*
+						if( intval($prod['dis_check']) == 1 ){
+							$discCheck = 1;
+						}
+						else{
+							$discCheck = 0;
+						}
+*/
+						$new_spec_val = $prod['Prod_Spec'];
+						$new_spec_val = str_replace("\n", " ", $new_spec_val);
+						$new_spec_val = str_replace("\r", "", $new_spec_val);
+
+						//$qp_inline .= "addRow('2','".$prod['qty']."','".$prod['name']."','".$prod['prod_id']."','".$prod['uom']."','".$prod['price']."','".$prod['tax']."','".$prod['disc']."','".$discCheck."','".$prod['recId']."','".$prod['groupType']."','".$prod['serviceTax']."','".$prod['serviceTaxVal']."','".$new_spec_val."');";
+						$qp_inline .= "addRow('".$installtionRecord."','".$prod['qty']."','".$prod['name']."','".$prod['prod_id']."','".$prod['code']."','".$prod['uom']."','".$prod['price']."','".$prod['tax']."','".$prod['disc']."','".$discCheck."','".$prod['recId']."','".$prod['groupType']."','".$prod['serviceTax']."','".$prod['serviceTaxVal']."','".$new_spec_val."','".$prod['pliID']."');";
+						//$j++;
+					}
+				}
+
+				$js = <<<BOC
+				<script>
+				if($productRecord){
+					Editstart();
+				}
+				if($installtionRecord){
+					Editstart();
+				}
+				$qp_inline
+
+				var i=1;
+				for (i=1 ; i<=2;i++){
+
+					var grp_val = $('#group_id_'+i).val();
+
+					if( grp_val =='Product'){
+
+						$("#service_tax_"+i+" option[value='Service Tax']").hide();
+						$("#service_tax_"+i+" option[value='VAT']").show();
+						$("#service_tax_"+i+" option[value='CST Without C Form']").show();
+						$("#service_tax_"+i+" option[value='CST With C Form']").show();
+					}
+					else if( grp_val =='Installation'){
+
+						$("#service_tax_"+i+" option[value='CST Without C Form']").hide();
+						$("#service_tax_"+i+" option[value='CST With C Form']").hide();
+						$("#service_tax_"+i+" option[value='VAT']").hide();
+						$("#service_tax_"+i+" option[value='Service Tax']").show();
+					}
+					else{
+						$("#service_tax_"+i+" option[value='Service Tax']").hide();
+						$("#service_tax_"+i+" option[value='CST Without C Form']").hide();
+						$("#service_tax_"+i+" option[value='VAT']").hide();
+						$("#service_tax_"+i+" option[value='CST With C Form']").hide();
+					}
+				}
+
+				</script>
+BOC;
+
+			$js3 =<<<EOF
+			<script>
+			$(document).ready(function() {
+
+				$("#btn_quote_quote_accounts_name").attr("onclick", 'open_popup( "Accounts",  600,  400,  " ",  true,  false,  {"call_back_function":"set_acc_return","form_name":"EditView","field_to_name_array":{"id":"quote_quote_accountsaccounts_ida","name":"quote_quote_accounts_name","address_street":"address_street"}},  "single",  true );');
+
+
+
+			});
+
+			function set_acc_return(popup_reply_data) {
+				//fetch the row number and then its specific details
+				var row = popup_reply_data["id"]["id"];
+				alert(row);
+
+			}
+			</script>
+EOF;
+			}
+		}
+
+	$AccChange=<<<EOC
+	<script>
+	$(document).ready(function(){
+	var return_mod = '$return_module';
+	var account_id = '$account_id';
+	var account_name = '$account_name';
+		if(return_mod == 'Opportunities'){
+		   $('#quote_quote_accountsaccounts_ida').val(account_id);
+		   $('#quote_quote_accounts_name').val(account_name);
+		   checkUnitSub(account_id);
+		}
+	});
+
+		function checkUnitSub(customerID){
+				var Billing_customer_id = customerID;
+				if( Billing_customer_id != '' ){
+			    $.ajax({
+					    url:'customAjax.php',
+						async:false,
+						type:'GET',
+						data: {Billing_customer_id:Billing_customer_id},
+						success:function(data) {
+						//	alert(data);
+							jsonobj = jQuery.parseJSON(data);
+							$('#billing_address_c').val(jsonobj.billing_address_street);
+							$('#billing_address_city_c').val(jsonobj.billing_address_city);
+							$('#billing_address_state_c').val(jsonobj.billing_address_state);
+						    $('#billing_address_postalcode_c').val(jsonobj.billing_address_postalcode);
+							$('#billing_address_country_c').val(jsonobj.billing_address_country);
+
+							$('#accounts_quote_quote_1_name').val(jsonobj.name);
+							$('#accounts_quote_quote_1accounts_ida').val(jsonobj.cust_id);
+
+						}
+
+					});
+				}
+			}
+
+		function checkUnit(){
+				//~ var isOld = '$isOld';
+				//alert(isOld);
+
+				var Billing_customer_id = $('#quote_quote_accountsaccounts_ida').val();
+				if( Billing_customer_id != '' ){
+			    $.ajax({
+					    url:'customAjax.php',
+						async:false,
+						type:'GET',
+						data: {Billing_customer_id:Billing_customer_id},
+						success:function(data) {
+						//	alert(data);
+							jsonobj = jQuery.parseJSON(data);
+							$('#billing_address_c').val(jsonobj.billing_address_street);
+							$('#billing_address_city_c').val(jsonobj.billing_address_city);
+							$('#billing_address_state_c').val(jsonobj.billing_address_state);
+						    $('#billing_address_postalcode_c').val(jsonobj.billing_address_postalcode);
+							$('#billing_address_country_c').val(jsonobj.billing_address_country);
+							$('#shipping_address_c').val(jsonobj.shipping_address_street);
+							$('#shipping_address_city_c').val(jsonobj.shipping_address_city);
+							$('#shipping_address_state_c').val(jsonobj.shipping_address_state);
+						    $('#shipping_address_postalcode_c').val(jsonobj.shipping_address_postalcode);
+							$('#shipping_address_country_c').val(jsonobj.shipping_address_country);
+							$('#accounts_quote_quote_1_name').val(jsonobj.name);
+							$('#accounts_quote_quote_1accounts_ida').val(jsonobj.cust_id);
+							//~ if( !isOld ){
+								//~ $('#accounts_quote_quote_1_name').val(jsonobj.name);
+								//~ $('#accounts_quote_quote_1accounts_ida').val(jsonobj.cust_id);
+							//~ }
+
+						}
+
+					});
+				}
+				fetchOpp();
+				copyAddressRight();
+			}
+
+		function checkUnit1(){
+				var shipping_customer_id = $('#accounts_quote_quote_1accounts_ida').val();
+				console.log(shipping_customer_id);
+				console.log($('#shipping_checkbox').is(':checked'));
+				if( $('#shipping_checkbox').is(":checked") ){
+					if(shipping_customer_id != ''){
+					$.ajax({
+							url:'customAjax.php',
+							async:false,
+							type:'GET',
+							data: {shipping_customer_id:shipping_customer_id},
+							success:function(data) {
+							//	alert(data);
+								jsonobj = jQuery.parseJSON(data);
+								$('#shipping_address_c').val(jsonobj.shipping_address_street);
+								$('#shipping_address_city_c').val(jsonobj.shipping_address_city);
+								$('#shipping_address_state_c').val(jsonobj.shipping_address_state);
+								$('#shipping_address_postalcode_c').val(jsonobj.shipping_address_postalcode);
+								$('#shipping_address_country_c').val(jsonobj.shipping_address_country);
+							}
+
+						});
+					}
+				}
+			}
+
+	checkUnit();
+	checkUnit1();
+</script>
+EOC;
+
+// Checked the 	Checked box of the address field
+
+ $check = <<< EOK
+<script>
+$(document).ready(function(){
+	$('#old_pli_c_label').parent().hide();
+	$('#copy_address_c_label').parent().hide();
+	//~ $('#copy_address_c,#copy_address_c_label').hide();
+var check_val = '$check_val';
+
+if(check_val == 1){
+$('#shipping_checkbox').attr('checked', 'checked');
+}else{
+}
+
+
+if($('#shipping_checkbox').is(':checked')){
+	$('#copy_address_c,').val(1);
+	}
+
+	makeShippingReadOnly();
+
+	$('#shipping_checkbox').click(function(){
+		makeShippingReadOnly();
+	});
+});
+
+	function makeShippingReadOnly(){
+		if($('#shipping_checkbox:checkbox').not(':checked')){
+			$('#copy_address_c').val(0);
+			$('#shipping_address_c').attr('readonly', false);
+			$('#shipping_address_city_c').attr('readonly', false);
+			$('#shipping_address_state_c').attr('readonly', false);
+			$('#shipping_address_postalcode_c').attr('readonly', false);
+			$('#shipping_address_country_c').attr('readonly', false);
+		}
+
+		if($('#shipping_checkbox').is(':checked')){
+			$('#copy_address_c').val(1);
+			$('#shipping_address_c').attr('readonly', true);
+			$('#shipping_address_city_c').attr('readonly', true);
+			$('#shipping_address_state_c').attr('readonly', true);
+			$('#shipping_address_postalcode_c').attr('readonly', true);
+			$('#shipping_address_country_c').attr('readonly', true);
+		}
+	}
+
+</script>
+EOK;
+
+			/**
+            * When customer is selected, Opp search should show Opp related to selected customer and
+			* When Opportunity is selected then Customer should show the Opportunity related Customer only
+            *
+            * -Amit Sabal  Date: 25th Aug 2014
+            */
+         echo $fetchOpp = <<<FUI
+            <script>
+
+				//var acc_name = encodeURIComponent(document.getElementById("quote_quote_accounts_name").value);
+				$('#quote_quote_opportunities_name').prop('readonly',true);
+				c_name  = $.trim($('#quote_quote_accounts_name').val());
+				c_id = $.trim($('#quote_quote_accountsaccounts_ida').val());
+				c_id=encodeURIComponent(c_id);
+
+				o_name  = $.trim($('#quote_quote_opportunities_name').val());
+				o_id 	= $.trim($('#quote_quote_opportunitiesopportunities_ida').val());
+				o_id	= encodeURIComponent(o_id);
+
+				function fetchOpp() {
+
+					c_name  = $.trim($('#quote_quote_accounts_name').val());
+					c_id = $.trim($('#quote_quote_accountsaccounts_ida').val());
+					c_id=encodeURIComponent(c_id);
+				}
+
+				var account_name='';
+				function fetchCust() {
+
+					o_name  = $.trim($('#quote_quote_opportunities_name').val());
+					o_id 	= $.trim($('#quote_quote_opportunitiesopportunities_ida').val());
+					o_id	= encodeURIComponent(o_id);
+
+					var url_to_call='getOppName.php';
+
+					$.ajax(
+					{
+
+						type: "GET",
+						async: false,
+						url: url_to_call,
+						data:
+						{
+							Opp_id: o_id,
+
+						},	//parameters
+						success: function(resp)
+						{
+							response=resp;
+
+							response_array = response.split("/");
+							acc_id = response_array[0];
+							acc_name = response_array[1];
+						}
+					});
+						account_name =	acc_name;
+				}
+
+            </script>
+FUI;
+
+		$js4 =<<< EOD
+			<script type='text/javascript' src='cache/include/javascript/sugar_grp_yui_widgets.js'></script>
+			<script>
+			function checkOppAcc()
+			{
+				//alert('hi');
+				c_name  = $.trim($('#quote_quote_accounts_name').val());
+				c_id    = $.trim($('#quote_quote_accountsaccounts_ida').val());
+				c_id	= encodeURIComponent(c_id);
+				//alert(c_id);
+
+				o_name  = $.trim($('#quote_quote_opportunities_name').val());
+				o_id 	= $.trim($('#quote_quote_opportunitiesopportunities_ida').val());
+				o_id	= encodeURIComponent(o_id);
+				//alert(o_id);
+
+				url1 = 'MatchCustomer_Opp.php';
+				$.ajax(
+				{
+					type: "GET",
+					async: false,
+					url: url1,
+					data:
+					{
+						Opp_id: o_id,
+						Cust_id: c_id,
+
+					},	//parameters
+					success: function(resp)
+					{
+						//response=resp;
+						 response = $.trim(resp);
+					}
+				});
+				//alert(response);
+				if(response != 'Success'){
+					YAHOO.SUGAR.MessageBox.show({msg: 'Customer and Opportunity at not related..!! Please check', title: 'Alert'});
+					return false ;
+				}else{
+					//alert("Success");
+					return true;
+				}
+			}
+
+			</script>
+EOD;
+
+		# End -Amit Sabal
+
+		parent::display();
+
+		echo $AccChange;
+		echo $check;
+		$isOld = $this->bean->fetched_row;
+		if( $isOld ){
+			echo $js;
+		}
+		//echo $js3;
+		echo $js4;
+	}
+
+}

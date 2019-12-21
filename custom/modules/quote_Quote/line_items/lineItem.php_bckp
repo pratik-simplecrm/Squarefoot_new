@@ -1,0 +1,294 @@
+<?php
+ini_set('display_errors', 'On');
+
+if(!defined('sugarEntry')) define('sugarEntry');
+
+require_once('include/entryPoint.php');
+
+$db = DBManagerFactory::getInstance();
+$tax_array = array();
+
+$query = "SELECT name, tax_value from quote_quotetax where deleted=0";
+$query = $db->query($query);
+
+$i = 0;
+while($row = $db->fetchByAssoc($query)) {
+	$tax_array[$i]['name'] = $row['name'];
+	$tax_array[$i]['value'] = $row['tax_value'];
+	$i++;
+}
+array_unshift($tax_array, array ('name' => '', 'value' => ''));
+$json_tax_array = json_encode($tax_array);
+
+?>
+
+<script type="text/javascript">
+var tableId = 'QuotesLineTable';
+var totRowCount = 0;
+var inlinefields = Array();
+var table_name='';
+inlinefields[0] = false;
+
+function addRow(count,quantity, prodName, productId, amount, tax, discount, type, recordId){
+	var count = count; 
+	var table_name = tableId+'_'+count;	
+	var table = document.getElementById(tableId+'_'+count);
+	var totRowCount = $('#'+table_name +' tr').length-2;
+	
+	totRowCount++;
+	//table.rows.length=1;
+	var rowCount = table.rows.length;
+	var row = table.insertRow(rowCount);
+	//Adding Quantity
+	row.id="qinrow_"+count+"_"+totRowCount;
+	var cell1 = row.insertCell(0);
+	cell1.style.verticalAlign = "top";
+	var element1 = document.createElement("input");
+	element1.type="text";
+	element1.size="1";
+	element1.value="1";
+	element1.id="quantity_"+count+"_"+totRowCount;
+	element1.name="quantity_"+count+"_"+totRowCount;
+	element1.setAttribute('onblur', 'calculate(\''+table_name+'\',count)');
+	addToValidate('EditView', element1.id, 'text', true,'Quantity' );
+	cell1.appendChild(element1);
+	if(quantity){
+		element1.value=quantity;
+	}
+	//Adding Product
+	var cell2 = row.insertCell(1);
+	cell2.style.verticalAlign = "top";
+	var element2 = document.createElement("input");
+	element2.id="product_"+count+"_"+totRowCount;
+	element2.name="product_"+count+"_"+totRowCount;
+	element2.size="35";
+	element2.readOnly = true;
+	addToValidate('EditView', element2.id, 'text', true,'Product' );
+	cell2.appendChild(element2);
+	if(prodName){
+		element2.value=prodName;
+	}	
+	
+	var elementHidden = document.createElement("input");
+	elementHidden.id = "product_"+count+"_"+totRowCount+"_id";
+	elementHidden.name = "product_"+count+"_"+totRowCount+"_id";
+	elementHidden.type = "hidden";
+	cell2.appendChild(elementHidden);
+	if(productId){
+		elementHidden.value=productId;
+	}
+
+	var elementHidden2 = document.createElement("input");
+	elementHidden2.id = "total_rows";
+	elementHidden2.name = "total_rows";
+	elementHidden2.value = totRowCount;
+	elementHidden2.type = "hidden";
+	cell2.appendChild(elementHidden2);
+	
+	var elementHidden3 = document.createElement("input");
+	elementHidden3.id = "prod_rec_"+count+"_"+totRowCount+"_id";
+	elementHidden3.name = "prod_rec_"+count+"_"+totRowCount+"_id";
+	elementHidden3.type = "hidden";
+	if(recordId) {
+		elementHidden3.value = recordId;
+	}	
+	cell2.appendChild(elementHidden3);
+		
+	var element3 = document.createElement("button");
+	element3.id = "btn_product";
+	//element3.class="button firstChild";
+	element3.type="button";
+	element3.tabindex="131";
+	element3.innerHTML='<img src="themes/20reasons/images/id-ff-select.png?v=i4ZUX_KVIb0_YisNrUIQ3A">';
+	element3.name="btn_product";
+	element3.setAttribute('onclick', 'open_popup( "quote_Products",  600,  400,  "",  true,  false,  {"call_back_function":"set_product_return","form_name":"EditView","field_to_name_array":{"id":"product_'+count+'_'+totRowCount+'_id","name":"product_'+count+'_'+totRowCount+'","product_price_c":"price_'+count+'_'+totRowCount+'"}, "passthru_data":{"row_id":"'+count+'_'+totRowCount+'"}},  "single",  true );');
+	cell2.appendChild(element3);
+	
+	var elementclear =  document.createElement("button");
+	elementclear.id = "btn_clr_product";
+	//elementclear.class = "button lastChild";
+	elementclear.type = "button";
+	elementclear.innerHTML = '<img src="themes/20reasons/images/id-ff-clear.png?v=i4ZUX_KVIb0_YisNrUIQ3A">';
+	elementclear.name = "btn_clr_product";
+	elementclear.setAttribute('onclick', 'clear_product('+rowCount+','+count+')');
+	cell2.appendChild(elementclear);
+		//Adding Remove Button
+	var cell3 = row.insertCell(2);
+	cell3.style.verticalAlign = "top";
+	var element4 = document.createElement("input");
+	element4.type="text";
+	element4.id="price_"+count+"_"+totRowCount;
+	element4.name="price_"+count+"_"+totRowCount;
+	element4.readOnly = true;
+	element4.size="5";
+	cell3.appendChild(element4);
+	if(amount){
+		element4.value=amount;
+	}		
+		
+	var newcell = row.insertCell(3);
+	newcell.style.verticalAlign= "top";
+	var elementdd = document.createElement("select");
+	elementdd.name = "quote_tax_"+count+"_"+totRowCount;
+	elementdd.id="quote_tax_"+count+"_"+totRowCount;
+	elementdd.setAttribute('onchange', 'calculate(\''+table_name+'\',count)');
+	newcell.appendChild(elementdd);	
+	var options = '<?php echo $json_tax_array; ?>';
+	var result = JSON.parse(options);
+	for(var i=0;i<result.length;i++) {
+		var newOpt = document.createElement("option");
+		newOpt.text = result[i].name;
+		newOpt.value = result[i].value;
+		elementdd.options.add(newOpt);
+	}
+	if(tax) {
+		elementdd.value = tax;
+	}	
+		
+	var cell4 = row.insertCell(4);
+	cell4.style.verticalAlign = "top";
+	var element5 = document.createElement("input");
+	element5.type="text";
+	element5.size="5";
+	element5.id="discount_"+count+"_"+totRowCount;
+	element5.name="discount_"+count+"_"+totRowCount;
+	element5.setAttribute('onblur', 'calculate(\''+table_name+'\',count)');
+	cell4.appendChild(element5);
+	if(discount){
+		element5.value=discount;
+	}	
+	
+	var cell5 = row.insertCell(5);
+	//cell5.style.verticalAlign = "top";
+	var element6 = document.createElement("input");
+	element6.type="checkbox";
+	element6.id="in_"+count+"_"+totRowCount;
+	element6.name="in_"+count+"_"+totRowCount;
+	element6.setAttribute('onchange', 'calculate(\''+table_name+'\',count)');
+	cell5.appendChild(element6);
+	if(type==1){
+		element6.setAttribute('checked',true);
+	}				
+		
+	var cell6 = row.insertCell(6);
+	cell6.style.verticalAlign = "top";
+	var element7 = document.createElement("input");
+	element7.type="button";
+	element7.value = "Remove";
+	element7.setAttribute('onclick', "removeRow('"+totRowCount+"','"+count+"')");
+	cell6.appendChild(element7);
+	inlinefields[totRowCount] = true;
+}
+
+function removeRow(rowCount,count){
+	var row = document.getElementById("qinrow_"+count+"_"+rowCount);
+	row.parentNode.removeChild(row);
+	removeFromValidate("EditView", "product_"+count+"_"+rowCount);
+	removeFromValidate("EditView", "quantity_"+count+"_"+rowCount);
+	inlinefields[rowCount] = false;
+	calculate(table_name,count);
+}
+
+function clear_product(rowCount,count) {
+	$("#product_"+count+"_"+rowCount+", #product_"+count+"_"+rowCount+"_id, #price_"+count+"_"+rowCount).val('');
+}
+
+function set_product_return(popup_reply_data) {
+	//fetch the row number and then its specific details
+	var row = popup_reply_data["passthru_data"]["row_id"];
+	var price = Number(popup_reply_data["name_to_value_array"]["price_"+row]);
+	var prod_id = popup_reply_data["name_to_value_array"]["product_"+row+"_id"];
+	var prod_name = popup_reply_data["name_to_value_array"]["product_"+row];
+
+	$("#product_"+row+"_id").val(prod_id);
+	$("#product_"+row).val(prod_name);
+	$("#price_"+row).val(price);
+
+	calculate(row,count);
+}
+
+function calculate(table_name,count) {
+
+	console.log('here');
+	var table_name = table_name;	
+	var table_count = table_name.slice(0,1);	
+	var tableId = 'QuotesLineTable';
+	var table_name = tableId+'_'+table_count;	
+	
+	var totRowCount = $('#'+table_name +' tr').length-2;
+
+	var count = table_count;
+
+	var sub_total = '';
+	var final_dis = '';
+	var new_subtotal = '';
+	var grand_total = '';
+	var total_tax = '';
+	
+	for(i=1;i<=totRowCount;i++) {
+		if(totRowCount) {
+		console.log('in here');
+			var qty = ($("#quantity_"+count+"_"+i).val() != '') ? $("#quantity_"+count+"_"+i).val() : '0';
+		
+			var amt = ($("#price_"+count+"_"+i).val() != '') ? $("#price_"+count+"_"+i).val() : '0';
+			amt = amt*qty;
+
+			var discount = ($("#discount_"+count+"_"+i).val() != '') ? $("#discount_"+count+"_"+i).val() : '0';
+			var dis_check = $("#in_"+count+"_"+i).is(':checked');
+			var tax = $("#quote_tax_"+count+"_"+i).val();
+			var dis1 = (dis_check) ? Number((discount*amt)/100) : Number(discount);
+					
+			//tax calculation
+			//tax = tax.slice(0, -4);
+
+			//subtotal
+			if(sub_total ==''){
+				sub_total =Number(amt);
+			}else{
+				sub_total = Number(sub_total) + Number(amt);
+			}
+
+			//discounted total
+			final_dis = Number(final_dis) + Number(dis1);
+			//new subtotal
+			new_subtotal = Number(new_subtotal) + Number(amt-final_dis);
+			
+			//total tax
+			total_tax = Number(total_tax) + Number((new_subtotal*tax)/100);
+		
+			//grand total
+			grand_total = Number(new_subtotal+total_tax);
+			
+			$("#sub_total_"+count).val(sub_total);
+			$("#discounted_total_"+count).val(final_dis);
+			$("#new_subtotal_"+count).val(new_subtotal);
+			$("#total_tax_"+count).val(total_tax);
+			$("#grand_total_"+count).val(grand_total);	
+			grandTotal(sub_total,final_dis,total_tax,new_subtotal,grand_total);	
+			
+		} else {
+			$("#sub_total_"+count).val(sub_total);
+			$("#discounted_total_"+count).val(final_dis);
+			$("#new_subtotal_"+count).val(new_subtotal);
+			$("#grand_total_"+count).val(grand_total);
+			grandTotal(sub_total,final_dis,total_tax,new_subtotal,grand_total);	
+		}
+	
+	}
+}
+
+function grandTotal(sub_total,final_dis,total_tax,new_subtotal,grand_total){
+
+	var sub_total = sub_total;
+	var final_dis = final_dis;
+	var total_tax = total_tax;
+	var new_subtotal = new_subtotal;
+	var grand_total = grand_total;
+
+	$("#sub_total").val(sub_total);
+	$("#discount").val(final_dis);
+	$("#discounted_total").val(new_subtotal);
+	$("#total_tax").val(total_tax);
+	$("#grand_total").val(grand_total);
+}
+</script>

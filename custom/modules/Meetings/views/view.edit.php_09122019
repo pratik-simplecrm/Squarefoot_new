@@ -1,0 +1,39 @@
+<?php
+/* 
+	Created By: Pratik Tambekar
+	Description: Created for Customization in meeting scheduling
+*/
+if (!defined('sugarEntry') || !sugarEntry)
+    die('Not A Valid Entry Point');
+require_once('include/MVC/View/views/view.edit.php');
+//require_once('modules/Accounts/AccountsListViewSmarty.php');
+error_reporting('Off');
+class MeetingsViewEdit extends ViewEdit
+{
+    /**
+     * @see ViewList::preDisplay()
+     */
+    public function preDisplay(){
+         parent::preDisplay();
+		 //$this->useForSubpanel = false;
+
+          }
+  	function display()
+ 	{
+		 global $db, $current_user, $sugar_config;
+		 require_once('include/TimeDate.php');
+		  echo $customization = <<<CUS
+            <script>
+			$(document).ready(function()
+			{
+				alert('ff');
+				
+			}); 				
+</script>
+CUS;
+		 
+	parent::display();
+ 	}
+
+}
+?>

@@ -1,0 +1,60 @@
+<?php
+// For FacilitatorCo fields
+$mod_strings['LBL_FAC_RATING'] =  'Quality Rating';
+$mod_strings['LBL_FACILITATE'] =  'Facilitate?';
+$mod_strings['LBL_CONSULT'] =  'Consult?';
+$mod_strings['LBL_IMPLEMENT'] =  'Implement?';
+$mod_strings['LBL_TRAVEL_REIMB'] =  'Travel Remibursement?';
+$mod_strings['LBL_OWN_FACIL'] =  'Own Facilities?';
+$mod_strings['LBL_REFERENCE1'] =  'Reference 1';
+$mod_strings['LBL_REFERENCE2'] =  'Reference 2';
+$mod_strings['LBL_REFERENCE3'] =  'Reference 3';
+$mod_strings['LBL_FAC_CONTRACT_STATUS'] =  'Facilitator Contract Status';
+$mod_strings['LBL_FACILITATE_FEES'] =  'Facilitate Fees and Terms';
+$mod_strings['LBL_CONSULT_FEES'] =  'Consult Fees and Terms';
+$mod_strings['LBL_IMPLEMENT_FEES'] =  'Implement Fees and Terms';
+$mod_strings['LBL_TRAVEL_FEES'] =  'Travel Fees and Terms';
+$mod_strings['LBL_FAC_RENT_FEES'] =  'Fac. Rental Fees and Terms';
+$mod_strings['LBL_REFERENCE1_COMMENTS'] =  'Reference 1 Comments';
+$mod_strings['LBL_REFERENCE2_COMMENTS'] =  'Reference 2 Comments';
+$mod_strings['LBL_REFERENCE3_COMMENTS'] =  'Reference 3 Comments';
+// For Venue fields
+$mod_strings['LBL_VENUE_TYPE'] =  'Venue Type';
+$mod_strings['LBL_VEN_CONTRACT_STATUS'] =  'Venue Contract Status';
+$mod_strings['LBL_VENUE_COMMENTS'] =  'Comments';
+$mod_strings['LBL_VENUE_RATING'] =  'Venue Quality Rank';
+$mod_strings['LBL_VENUE_RESTRICTIONS'] =  'Venue Restrictions';
+$mod_strings['LBL_NUM_GUEST_ROOMS'] =  '# Guest Rooms';
+$mod_strings['LBL_CORPORATE_RATE_AVAIL'] =  'Corporate Rate Available?';
+$mod_strings['LBL_CORPORATE_RATE_VALUE'] =  'Corporate Rate';
+$mod_strings['LBL_WILL_BOOK_BLOCK'] =  'Will Book Block of Rooms?';
+$mod_strings['LBL_RECEPTION_AREA'] =  'Reception Area';
+$mod_strings['LBL_REGN_AREA'] =  'Registration Area';
+$mod_strings['LBL_MEETING_ROOMS'] =  'Meeting Rooms';
+$mod_strings['LBL_THEATRE'] =  'Theatre';
+$mod_strings['LBL_DINING_ROOM'] =  'Dining Room';
+$mod_strings['LBL_STAGES_ALLOWED'] =  'Stages Allowed?';
+$mod_strings['LBL_EXCLUSIVE_CATERER'] =  'Exclusive Caterer?';
+$mod_strings['LBL_EXCLUSIVE_AV'] =  'Exclusive A/V Company?';
+$mod_strings['LBL_AV_CONTACT'] =  'A/V Contact';
+$mod_strings['LBL_RECEIVING_DOCK'] =  'Receiving Procedures?';
+$mod_strings['LBL_RECEIVING_FEES'] =  'Receiving Fees and Terms';
+$mod_strings['LBL_PARKING_AVAIL'] =  'Parking Available?';
+$mod_strings['LBL_PARKING_FEES'] =  'Parking Fees and Terms';
+$mod_strings['LBL_REQD_DEPOSIT'] =  'Deposit Required?';
+$mod_strings['LBL_DEPOSIT_FEES'] =  'Deposit Fees and Terms';
+$mod_strings['LBL_AV_AVAIL'] =  'A/V Available in-house?';
+$mod_strings['LBL_AV_FEES'] =  'A/V Fees and Terms';
+$mod_strings['LBL_FLIP_CHARTS'] =  'Flip Charts Available?';
+$mod_strings['LBL_FLIP_CHART_FEES'] =  'Flip Chart Fees and Terms';
+$mod_strings['LBL_INTERNET_AVAIL'] =  'Internet Available?';
+$mod_strings['LBL_INTERNET_FEES'] =  'Internet Fees and Terms';
+$mod_strings['LBL_OTHER_FEES'] =  'Other Fees and Terms';
+$mod_strings['LBL_REFUND_FEES'] =  'Refund Fees and Terms';
+// For Caterer fields
+$mod_strings['LBL_CATERER_RATING'] =  'Caterer Rating';
+$mod_strings['LBL_CAT_CONTRACT_STATUS'] =  'Caterer Contract Status';
+$mod_strings['LBL_CATERER_RESTRICTIONS'] =  'Caterer Restrictions';
+$mod_strings['LBL_CATERER_FEES'] =  'Caterer Fees and Terms';
+$mod_strings['LBL_FOOD_SPECIALTY'] =  'Food Specialty';
+?>

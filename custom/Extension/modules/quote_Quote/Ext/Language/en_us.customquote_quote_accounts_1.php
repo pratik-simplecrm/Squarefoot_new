@@ -1,0 +1,6 @@
+<?php
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_ACCOUNTS_QUOTE_QUOTE_1_FROM_ACCOUNTS_TITLE'] = 'Shipping Account Name';
+$mod_strings['LBL_CONTACTS_QUOTE_QUOTE_1_FROM_CONTACTS_TITLE'] = 'Contacts';
+$mod_strings['LBL_CONTACTS_QUOTE_QUOTE_2_FROM_CONTACTS_TITLE'] = 'Contacts';
+$mod_strings['LBL_QUOTE_QUOTE_ACCOUNTS_1_FROM_ACCOUNTS_TITLE'] = 'Shipping Account Name';

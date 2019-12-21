@@ -1,0 +1,70 @@
+<?php
+
+if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
+
+require_once('include/MVC/View/views/view.edit.php');
+require_once('modules/Users/User.php');
+
+class quote_QuoteViewEdit extends ViewEdit {
+
+	function quote_QuoteViewEdit() {
+ 		parent::ViewEdit();
+ 	}
+	
+	function display() {
+
+		echo $ro = <<<BOC
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script>
+		$(document).ready(function() {
+			$("#sub_total,#discounted_total,#new_subtotal,#total_tax,#grand_total").prop("readOnly", true).css("background-color", "#848484");
+			$("#_label").hide();
+		});
+		</script>
+BOC;
+
+		$this->ss->assign("sub", $this->bean->sub_total);
+		$this->ss->assign("tot_dis", $this->bean->discounted_total);
+		$this->ss->assign("new_sub", $this->bean->new_subtotal);
+		$this->ss->assign("tax", $this->bean->total_tax);		
+		$this->ss->assign("total", $this->bean->grand_total);
+		
+		if(isset($_REQUEST['record'])) {
+			
+			//check if inline products present
+			$inline = $this->bean->is_line;
+			$quote_id = $this->bean->id;
+			if($inline) {
+				$bean1 = BeanFactory::getBean('quote_QuoteProducts');
+				$qp_list = $bean1->get_list("","quote_quoteproducts.quote_id = '".$quote_id."'");
+				$i = 0;
+				$prods = array();
+				foreach($qp_list['list'] as $list) {
+					$prods[$i]['name']		 = $list->name;
+					$prods[$i]['price']		 = $list->price;
+					$prods[$i]['tax']		 = $list->tax;
+					$prods[$i]['disc']		 = $list->discount;
+					$prods[$i]['dis_check']	 = $list->dis_check;
+					$prods[$i]['qty']		 = $list->quantity;
+					$prods[$i]['prod_id']	 = $list->product_id;
+					$prods[$i]['recId']		 = $list->id;
+					$i++;
+				}
+
+				foreach($prods as $prod) {
+					$qp_inline .= "addRow('".$prod['qty']."','".$prod['name']."','".$prod['prod_id']."','".$prod['price']."','".$prod['tax']."','".$prod['disc']."','".$prod['dis_check']."','".$prod['recId']."');";
+				}
+
+				$js = <<<BOC
+				<script>
+					$qp_inline
+				</script>
+BOC;
+			}
+		}
+		
+		parent::display();
+		echo $js;
+	}
+
+}

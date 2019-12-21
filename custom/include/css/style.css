@@ -1,0 +1,38 @@
+
+	#gap{
+		padding:10px;}
+#login-block {
+padding-top: 50px;
+padding-bottom: 25px;
+}
+body
+{
+	min-height:200px;
+	margin-top:190px;
+}
+
+.form-control
+{
+	
+	padding-bottom:10px;
+}
+
+.brand
+{
+	max-height:25px;
+}
+
+@media (max-width:768px) {
+ .fix
+ {
+	margin-right:8%;
+	}
+}
+@media (max-width:768px) {
+ .input-group
+ {
+	margin-bottom: 5px;
+	}
+}
+}
+

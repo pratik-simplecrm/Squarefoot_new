@@ -1,0 +1,219 @@
+<?php
+ini_set("display_errors", 'On');
+
+if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
+
+if(file_exists('include/tcpdf/config/lang/eng.php')) {
+	include_once('include/tcpdf/config/lang/eng.php'); 
+} else {
+	die('TCPDF lang not found');
+}
+if(file_exists('include/tcpdf/config/tcpdf_config.php')) {
+	include_once('include/tcpdf/config/tcpdf_config.php');
+} else {
+	die('TCPDF config not found');
+}
+if(file_exists('include/tcpdf/tcpdf.php')) {
+	include_once('include/tcpdf/tcpdf.php');
+} else {
+	die('TCPDF not found');
+}
+
+//pdf for quotes
+class QuotePdf extends TCPDF {
+	
+	private $file_name;
+	private $email_id;
+	
+	function printPdf($quote_id, $action=null) {
+	  
+		global $app_list_strings;
+		$db = DBManagerFactory::getInstance();
+		
+		//get the quote id
+		//$quote_id = $_REQUEST['record'];
+		
+		//fetch the quote details
+		$qObj = $this->getMyBean('quote_Quote',$quote_id);
+
+		$this->file_name = $qObj->name;
+		$total_discount	 = $qObj->discounted_total;
+		$subtotal		 = $qObj->sub_total;
+		$new_subtotal	 = $qObj->new_subtotal;
+		$total_tax		 = $qObj->total_tax;
+		$grand_total	 = $qObj->grand_total;
+		
+		//fetch related lead, account and opportunity details
+		$rel_lead_id		 = ($qObj->quote_quote_leadsleads_ida != '') ? $qObj->quote_quote_leadsleads_ida : '';
+		$rel_lead_name		 = ($qObj->quote_quote_leads_name != '') ? $qObj->quote_quote_leads_name : '';
+		$rel_account_id		 = ($qObj->quote_quote_accountsaccounts_ida != '') ? $qObj->quote_quote_accountsaccounts_ida : '';
+		$rel_opp_id			 = ($qObj->quote_quote_opportunitiesopportunities_ida != '') ? $qObj->quote_quote_opportunitiesopportunities_ida : '';
+
+		$bean1 = BeanFactory::getBean('quote_QuoteProducts');
+		$qp_list = $bean1->get_list("","quote_quoteproducts.quote_id = '".$quote_id."'");
+		
+		$products = array();
+		$i=0;
+		foreach($qp_list['list'] as $prodList) {
+			$products[$i]['name']		 = $prodList->name;
+			$products[$i]['price']		 = $prodList->price;
+			$products[$i]['quantity']	 = $prodList->quantity;
+			$products[$i]['amount']		 = ($prodList->price)*($prodList->quantity);
+			$products[$i]['discount']	 = $prodList->discount;
+			$products[$i]['dis_check']	 = $prodList->dis_check;
+			$products[$i]['dis_total']	 = $prodList->discounted_price;
+			$products[$i]['tax']		 = $prodList->tax;
+			$i++;
+		}	
+
+		//use getBean() method to retrieve related account bean
+		//getBean() method expects three parameters; For reference look last function
+		$rel_acc_obj = ($rel_account_id != '') ? $this->getMyBean('Accounts',$rel_account_id,'Account') : NULL;
+
+		if(isset($rel_acc_obj)) {
+			$this->email_id = (!empty($rel_acc_obj->email1) && !$rel_acc_obj->email_opt_out) ? $rel_acc_obj->email1 : NULL;
+			$acc_lead_details = "&nbsp;".$rel_acc_obj->name
+								."<br />&nbsp;".$rel_lead_name
+								."<br />&nbsp;".$rel_acc_obj->billing_address_street
+								."<br />&nbsp;".$rel_acc_obj->billing_address_city
+								."<br />&nbsp;".$rel_acc_obj->billing_address_state
+								."<br />&nbsp;".$rel_acc_obj->billing_address_postalcode
+								."<br />&nbsp;".$rel_acc_obj->billing_address_country;
+		} else {
+			$rel_lead_obj = ($rel_lead_id != '') ? $this->getMyBean('Leads',$rel_lead_id,'Lead') : NULL;
+			if(isset($rel_lead_obj)) {
+				$this->email_id = (!empty($rel_lead_obj->email1) && !$rel_lead_obj->email_opt_out) ? $rel_lead_obj->email1 : NULL;
+				$acc_lead_details = "&nbsp;".$rel_lead_obj->account_name
+									."<br />&nbsp;".$rel_lead_obj->first_name."&nbsp;".$rel_lead_obj->last_name
+									."<br />&nbsp;".$rel_lead_obj->primary_address_street
+									."<br />&nbsp;".$rel_lead_obj->primary_address_city
+									."<br />&nbsp;".$rel_lead_obj->primary_address_state
+									."<br />&nbsp;".$rel_lead_obj->primary_address_postalcode
+									."<br />&nbsp;".$rel_lead_obj->primary_address_country;
+			}	
+		}
+
+		foreach($products as $product) {
+			
+			$discount = ($product[dis_check]) ? $product[discount].' %' : 'Rs '.$product[discount];
+			$dis_total = ($product[dis_check]) ? ($product[amount] - ($product[amount]*$product[discount])/100) : ($product[price]-$product[discount])*$product[quantity];
+			$table_body.= '<tr>
+							<td width="60%">'.$product[quantity].'</td>
+							<td width="200%">'.$product[name].'</td>
+							<td width="70%">'.$product[price].'</td>
+							<td width="70%">'.$product[amount].'</td>
+							<td width="70%">'.$discount.'</td>
+							<td width="110%">'.$dis_total.'</td>
+							</tr>';
+		}
+		// create new PDF document
+		$pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);
+
+		// set document information
+		$pdf->SetCreator(PDF_CREATOR);
+		$pdf->SetAuthor('Hatim Alam');
+		$pdf->SetTitle('Quote PDF');
+		$pdf->SetSubject('Quote');
+		$pdf->SetKeywords('TCPDF, PDF, quote, custom quote');
+		//$pdf->SetFont('helvetica', '', 10, '', true);
+		$pdf->SetHeaderData(PDF_HEADER_LOGO, 60,'','');
+
+		// set header and footer fonts
+		$pdf->setHeaderFont(Array(PDF_FONT_NAME_MAIN, '', PDF_FONT_SIZE_MAIN));
+		$pdf->setFooterFont(Array(PDF_FONT_NAME_DATA, '', PDF_FONT_SIZE_DATA));
+
+		// set default monospaced font
+		$pdf->SetDefaultMonospacedFont(PDF_FONT_MONOSPACED);
+
+		//set margins
+		$pdf->SetMargins(PDF_MARGIN_LEFT, PDF_MARGIN_TOP, PDF_MARGIN_RIGHT);
+		$pdf->SetFooterMargin(10);
+
+		//set auto page breaks
+		$pdf->SetAutoPageBreak(TRUE, PDF_MARGIN_BOTTOM);
+
+		//set image scale factor
+		$pdf->setImageScale(PDF_IMAGE_SCALE_RATIO);
+		
+		// Add a page
+		$pdf->AddPage();
+
+		$tbl = <<<EOD
+		<div align="center"><B>Bhea Knowledge Technologies (P) Ltd | 53/42A 1st Floor,Sarvabhouma Nagar,Behind HSBC<br/>Bannerghatta Road,Bangalore-560076</B><center><br /></div>
+		<table width="100%" border="1" cellspacing="0" cellpadding="0">
+		  <tr>
+			<td style="width:140%;"><br />$acc_lead_details<br /></td>
+			<td align="center" style="width:60%;">
+			  <table border="0" cellpadding="0"  cellspacing="0" style="border-collapse:collapse;">
+				<tr><td style="border-bottom:1px solid #333;"><br /><font size="15"><b>QUOTATION</b></font><br /></td></tr>
+				<tr><td><hr /></td></tr>
+				<tr><td>Sales Person:</td></tr>
+				<tr><td><hr /></td></tr>
+				<tr><td>Date: </td></tr>
+			  </table>
+			</td>
+		  </tr>
+		 </table> <br/><br/>
+		 <table width="100%" cellspacing="2" cellpadding="10">
+			<tr>
+				<td bgcolor="#4B4B4B" style="color:#fff" width="60%"><b>Quantity</b></td>
+				<td bgcolor="#4B4B4B" style="color:#fff" width="200%"><b>Product</b></td>
+				<td bgcolor="#4B4B4B" style="color:#fff" width="70%"><b>Unit Price</b></td>
+				<td bgcolor="#4B4B4B" style="color:#fff" width="70%"><b>Amount</b></td>
+				<td bgcolor="#4B4B4B" style="color:#fff" width="70%"><b>Discount</b></td>
+				<td bgcolor="#4B4B4B" style="color:#fff" width="110%"><b>Discounted Price</b></td>
+			</tr>
+			$table_body
+		</table>
+		<br/><hr/><br/>
+		<div align="center"><B>Grand Total</B></div><br/><br/>
+		<table width="30%" align="left" cellspacing="3" cellpadding="10">
+			<tr>
+				<td>Subtotal:</td>
+				<td>$subtotal</td>
+			</tr>
+			<tr>
+				<td>Total Discount:</td>
+				<td>$total_discount</td>
+			</tr>
+			<tr>
+				<td>New Subtotal:</td>
+				<td>$new_subtotal</td>
+			</tr>
+			<tr>
+				<td>Total Tax:</td>
+				<td>$total_tax</td>
+			</tr>
+			<tr>
+				<td>Grand Total:</td>
+				<td>$grand_total</td>
+			</tr>
+		</table>
+EOD;
+
+		$pdf->writeHTML($tbl, true, false, false, false, '');
+		ob_clean();
+		$pdf_action = ($action == 'email') ? 'F' : 'D';
+		$pdf->Output($this->file_name.'_.pdf',$pdf_action);
+		
+	}
+	
+	private function getMyBean($module_name, $rec_id=null, $class_name=null) {
+		$class_name = ($class_name != null) ? $class_name : $module_name;
+		require_once('modules/'.$module_name.'/'.$class_name.'.php');
+		$bean_obj = new $class_name();
+		$bean_obj->retrieve($rec_id);
+		return $bean_obj;
+	}
+	
+	public function retFileName() {
+		return $this->file_name;
+	}
+	
+	public function retEmailId() {
+		return $this->email_id;
+	}
+	
+}
+
+?>
