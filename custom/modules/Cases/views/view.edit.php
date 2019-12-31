@@ -977,9 +977,7 @@ class CasesViewEdit extends ViewEdit
 					
 				}
 				});
-				
-				
-				//end
+				//end of the code
 				
 						
 }); 				
