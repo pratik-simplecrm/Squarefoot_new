@@ -446,16 +446,65 @@ class MBPackage {
             }
         }
 
+        $this->addCustomEntryPointsinBuild($modules, $installdefs); //Add post_execute files for add custom entry points Moified by Swapnil M 16-04-2019
+
         foreach ($modules as $value) {
             $custom_module = $this->getCustomModules($value);
+//           echo "<pre>";
+//                print_r($custom_module);
+//           echo "</pre>";
+//           exit;
             foreach ($custom_module as $va) {
+                switch ($va) {
+                    case 'language':
+                    case 'Ext';
+                        // Old way
                 if ($va === 'language') {
                     $this->getLanguageManifestForModule($value, $installdefs);
                     $this->getCustomFieldsManifestForModule($value, $installdefs);
+                        } else {
+                            // Build a full path to the Ext directory for the 
+                            // package module
+                            $fullpath = "$path/Extension/modules/$value/Ext/";
+                            $paths = array(
+                                'Vardefs' => 'getCustomFieldsManifestForModule',
+                                'Language' => 'getLanguageManifestForModule',
+                            );
+
+                            // Check to make sure that the directories in question
+                            // exist and are not empty (like when something might
+                            // have been disabled/deleted)
+                            foreach ($paths as $pathKey => $pathMethod) {
+                                $full = $fullpath . $pathKey;
+                                if ($this->isDirectoryExportable($full)) {
+                                    $this->$pathMethod($value, $installdefs);
+                                }
+                            }
+                        }
+                        break;
+
+                    case 'metadata':
+                        $this->getCustomMetadataManifestForModule($value, $installdefs);
+                        break;
+                    /* Gets the custom views and logic hooks files from inside the custom modules
+                     *  directory for a module Modified by Swapnil M 15/04/2019 
+                     * Start
+                     */
+                    case 'views':
+                        $this->getCustomViewsandLogicHooks($value, $installdefs);
+                        break;
+                    /* Gets the custom views and logic hooks files from inside the custom modules
+                     *  directory for a module Modified by Swapnil M 15/04/2019 
+                     * End
+                     */
+                }
+                /* if ($va === 'language') {
+                  $this->getLanguageManifestForModule($value, $installdefs);
+                  $this->getCustomFieldsManifestForModule($value, $installdefs);
                 }//fi
                 if ($va === 'metadata') {
                     $this->getCustomMetadataManifestForModule($value, $installdefs);
-                }//fi
+                  }//fi */
             }//foreach
             $relationshipsMetaFiles = $this->getCustomRelationshipsMetaFilesByModuleName($value, true, true, $modules);
             if ($relationshipsMetaFiles) {
@@ -469,6 +518,171 @@ class MBPackage {
         }
 
         return "\n" . '$installdefs = ' . var_export_helper($installdefs) . ';';
+    }
+
+    /**
+     * Gets the custom views and logic hooks files from inside the custom modules directory for a module Modified by Swapnil M 15/04/2019
+     * 
+     * @param string $module The module to scrape
+     * @param array $installdefs The current install defs to append
+     */
+    public function getCustomViewsandLogicHooks($module, &$installdefs) {
+        //For Custom views module wise
+        $files = "custom/modules/$module/views";
+        $installdefs['copy'][] = array(
+            'from' => str_replace('custom/modules', '<basepath>/SugarModules/modules', $files),
+            'to' => $files,
+        );
+
+        // For logic looks modules wise
+        $logic_hooks = "custom/modules/$module/logic_hooks.php";
+        if (file_exists($logic_hooks)) {
+            include $logic_hooks;
+            foreach ($hook_array as $k => $v) {
+                $this->assignLogicHooks($k, $v, $module, $installdefs);
+            }
+        }
+    }
+
+    /**
+     * Creation of logic hooks array in manifest file for custom modules if any logic_hook.php file is present in root directory
+     * of any custom modules Modified by Swapnil M 15-April-2019
+     * 
+     * @param type $n - Type of logic hook
+     * @param type $d - Array of logic hook written in custom logic hook
+     * @param type $module - Module Name
+     * @param type $installdefs - for manifest definition
+     */
+    public function assignLogicHooks($n, $d, $module, &$installdefs) {
+
+        foreach ($d as $i => $j) {
+            if (strpos($j[2], "custom/modules/$module") !== false && file_exists($j[2])) {
+                $installdefs['copy'][] = array(
+                    'from' => str_replace('custom/modules', '<basepath>/SugarModules/modules', $j[2]),
+                    'to' => $j[2],
+                );
+                $arr = array(
+                    'module' => $module,
+                    'hook' => $n,
+                    'order' => $j[0],
+                    'description' => $j[1],
+                    'file' => $j[2],
+                    'class' => $j[3],
+                    'function' => $j[4],
+                );
+                $installdefs['logic_hooks'][] = $arr;
+            }
+        }
+    }
+
+    /**
+      Adding custom entry points files in export build
+     * 
+     * @param type $modules - Selected modules    
+     */
+    public function addCustomEntryPointsinBuild($modules, &$installdefs) {
+
+        $script_path = $this->getBuildDir();
+
+        $post_scripts = sugar_mkdir($script_path . "/scripts", null, true);
+        $post_ex_file = $script_path . "/scripts" . "/simpleCRM_post_install_for_custom_entrypoints.php";
+        if (file_exists($post_ex_file)) {
+            rmdir_recursive($post_ex_file);
+        }
+        $entry_points = array();
+        foreach ($modules as $module) {
+            $entry_points[$module] = $this->getAllCustomEntryPoints($module);
+        }
+
+        $test .= '<?php ' . PHP_EOL;
+        $test .= '$entrypoints =' . var_export($entry_points, true) . ';' . PHP_EOL;
+        $test .= '$final .= \'<?php \'.PHP_EOL;
+                            foreach ($entrypoints as $k => $v) {
+                                foreach ($v as $i => $j) {
+                                    if(!checkAllCustomEntryPoints($k,$j["file"])){            
+                                        $final .= \' $entry_point_registry["\' . $i . \'"] = \';
+                                        $final .= var_export($j,true);
+                                        $final .= \';\'.PHP_EOL;
+                                    }
+                                }
+
+                            }
+                            if (strlen($final) > 10) {    
+                            $base_path = explode(\'cache\',__DIR__);    
+                            if(!file_exists($base_path[0].\'custom/Extension/application/Ext/EntryPointRegistry\')){
+                                mkdir($base_path[0].\'custom/Extension/application/Ext/EntryPointRegistry\',0777,true);       
+                            }
+                            file_put_contents($base_path[0]."custom/Extension/application/Ext/EntryPointRegistry/entry_point_".date("YmdHis").".php", $final);
+                        }
+
+
+                            function checkAllCustomEntryPoints($module,$file) {
+                                //For custom entry points
+
+                                $entry_points = "custom/include/MVC/Controller/entry_point_registry.php";
+                                if (file_exists($entry_points)) {
+                                    include $entry_points;
+                                    foreach ($entry_point_registry as $k => $v) {
+                                        if ($v["file"] == $file) {
+                                            return true;
+                                        }else{
+                                            continue;
+                                        }
+                                    }
+                                }
+                                $all_customentry = glob("custom/Extension/application/Ext/EntryPointRegistry/*.php");
+                                foreach ($all_customentry as $i => $j) {
+                                    include $j;
+                                    foreach ($entry_point_registry as $ii => $jj) {
+                                        if($jj["file"] == $file) {
+                                           return true;
+                                        }else{
+                                            return false;
+                                        }
+                                    }
+                                }
+
+                            }
+
+                            ';
+
+
+        sugar_file_put_contents($post_ex_file, $test);
+
+        $installdefs['post_execute'] = array('<basepath>/scripts/simpleCRM_post_install_for_custom_entrypoints.php');
+    }
+
+    /**
+      Get all the custom entry points modules wise
+     * Modified by Swapnil M 
+     * 16-04-2019
+     * 
+     * @param type $module - module name
+     */
+    public function getAllCustomEntryPoints($module) {
+
+        //For custom entry points
+        $ep = array();
+        $entry_points = "custom/include/MVC/Controller/entry_point_registry.php";
+        if (file_exists($entry_points)) {
+            include $entry_points;
+            foreach ($entry_point_registry as $k => $v) {
+                if (strpos($v['file'], "custom/modules/$module") !== false) {
+                    $ep[$k] = $v;
+                }
+            }
+        }
+        $all_customentry = glob("custom/Extension/application/Ext/EntryPointRegistry/*.php");
+        foreach ($all_customentry as $i => $j) {
+            include $j;
+            foreach ($entry_point_registry as $ii => $jj) {
+                if (strpos($jj['file'], "custom/modules/$module") !== false) {
+                    $ep[$ii] = $jj;
+                }
+            }
+        }
+
+        return $ep;
     }
 
     /**
@@ -781,7 +995,7 @@ class MBPackage {
             }
             /*
                End
-             **/
+             * */
             $scanlisting = scandir($path);
             $dirlisting = array();
             foreach ($scanlisting as $value) {
@@ -1176,6 +1390,22 @@ class MBPackage {
      */
     public function deleteBuild() {
         return rmdir_recursive($this->getBuildDir());
+    }
+
+    /**
+     * Checks a directory to make sure there is something in it for export
+     * 
+     * @param string $path Directory path to check for files
+     * @return boolean 
+     */
+    public function isDirectoryExportable($path) {
+        if (file_exists($path)) {
+            $list = glob("$path/*");
+            // False/array() means nothing to export
+            return !empty($list);
+}
+
+        return false;
     }
 
 }

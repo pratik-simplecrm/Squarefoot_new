@@ -1,12 +1,12 @@
 <?php
-// created: 2019-12-05 09:16:40
+// created: 2019-12-24 14:41:53
 $subpanel_layout['list_fields'] = array (
   'case_number' => 
   array (
     'vname' => 'LBL_LIST_NUMBER',
     'width' => '4%',
     'default' => true,
-	'sortable' => false
+    'sortable' => true,
   ),
   'name' => 
   array (

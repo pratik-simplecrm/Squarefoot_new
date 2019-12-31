@@ -1,20 +1,6 @@
 <?php
-// created: 2019-12-15 13:26:12
+// created: 2019-12-26 15:12:46
 $subpanel_layout['list_fields'] = array (
-  'object_image' => 
-  array (
-    'vname' => 'LBL_OBJECT_IMAGE',
-    'widget_class' => 'SubPanelIcon',
-    'width' => '2%',
-    'image2' => 'attachment',
-    'image2_url_field' => 
-    array (
-      'id_field' => 'id',
-      'filename_field' => 'filename',
-    ),
-    'attachment_image_only' => true,
-    'default' => true,
-  ),
   'document_name' => 
   array (
     'name' => 'document_name',
@@ -36,6 +22,13 @@ $subpanel_layout['list_fields'] = array (
     ),
     'default' => true,
   ),
+  'status_id' => 
+  array (
+    'name' => 'status_id',
+    'vname' => 'LBL_LIST_STATUS',
+    'width' => '10%',
+    'default' => true,
+  ),
   'documenttype_c' => 
   array (
     'type' => 'dynamicenum',
@@ -43,13 +36,6 @@ $subpanel_layout['list_fields'] = array (
     'studio' => 'visible',
     'vname' => 'LBL_DOCUMENTTYPE',
     'width' => '10%',
-  ),
-  'status_id' => 
-  array (
-    'name' => 'status_id',
-    'vname' => 'LBL_LIST_STATUS',
-    'width' => '10%',
-    'default' => true,
   ),
   'active_date' => 
   array (

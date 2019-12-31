@@ -161,11 +161,7 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_SERVICETYPE',
           ),
-          1 => 
-          array (
-            'name' => 'installationcompleteddate_c',
-            'label' => 'LBL_INSTALLATIONCOMPLETEDDATE',
-          ),
+          1 => '',
         ),
         9 => 
         array (

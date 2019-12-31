@@ -224,7 +224,15 @@ array (
         ),
         3 => 
         array (
-          0 => 'assigned_user_name',
+          0 => 
+		  array (
+            'name' => 'assigned_user_name',
+            'label' => 'LBL_ASSIGNED_TO_NAME',
+            'displayParams' => 
+            array (
+              'initial_filter' => '&title_advanced=service co-ordinator&branch_c_advanced[]="+document.getElementById("region_c").value+"',
+            ),
+          ),
           1 => 
           array (
             'name' => 'salescoordinator_c',

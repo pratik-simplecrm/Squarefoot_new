@@ -63,7 +63,42 @@ class CasesViewDetail extends ViewDetail {
 		$this->dv->process();
 		global $mod_strings, $sugar_config;
 		global $db;
-	
+	     //echo "<pre>";
+		// print_r($this->bean);
+		// exit;
+		//show installtion completed date on cases details view for case type service date:23/12/2019 -pratik-start
+		$case_type = $this->bean->casetype_c;
+		$opportunity_id = $this->bean->opportunities_cases_1opportunities_ida;
+		if($case_type=='SRV' && !empty($opportunity_id))
+		{
+		
+			$get_installtion_completed_date = "SELECT `acyualcloseddate_c` FROM `opportunities` as A inner join `opportunities_cstm` as B on A.id = B.id_c where deleted=0 and id_c = '$opportunity_id'";
+			$INS_date = $db->query($get_installtion_completed_date);
+			$row13 = $db->fetchByAssoc($INS_date);
+			$closed_date = $row13['acyualcloseddate_c'];
+			$completed_date = (!empty($closed_date)?$closed_date:"not_completed");
+			if($completed_date!='not_completed')
+			{
+				$date_closedd = date("Y-m-d H:i:s",strtotime('+5 hours +30 minutes', strtotime($completed_date)));
+			    $date = explode(" ",$date_closedd);
+				$timestamp = strtotime($date[0]);
+				//$endtime_in_24_hour_format  = date("H:i", strtotime($date[1]));
+			    $newDateTime = date('h:i A', strtotime($date_closedd));
+				$new_date = date("d-m-Y", $timestamp)." ".$newDateTime;
+				//$html = '<div class="col-sm-6 install_completed_12" >Installation Completed Date:</div><span class="install_completed_13">'.$new_date.'</span>';
+				$html = '<div class="col-sm-12">';
+				$html .= '<div class="col-sm-6" width="50%" scope="col" style="text-align:left;word-wrap: break-word; 		padding-top:10px;padding-left:5px;padding-bottom:5px;">';
+				$html .= '<span class="install_completed_12" style="font-weight:600">Installation Completed Date:</span>';
+				$html .='<div class="" type="text" field="resolution" colspan="3" style="font-size:14px;word-wrap: break-word;">';
+				$html .= '<span class="sugar_field" id="resolution"></span>';
+				$html .= '</div></div>';
+				$html .= '<div class="col-sm-6" width="50%" scope="col" style="text-align:left;word-wrap: break-word; padding-top:10px;padding-left:5px;padding-bottom:5px;">';
+				$html .= '<span style="font-weight:600">&nbsp;'.$new_date.'</span>';
+				$html .= '<div class="" type="" field="" style="font-size:14px;word-wrap: break-word;"></div></div></div>';
+				//echo $html;
+			}
+		}
+		//end
         $record_id = $this->bean->id;
         $baseUrl   = $sugar_config['site_url'] . '/index.php';
         //~ echo $html = trim(from_html($this->bean->description));
@@ -86,10 +121,33 @@ class CasesViewDetail extends ViewDetail {
 				    $(this).css('visibility','hidden');
 				    $(this).html().replace("Closed without Deviation", "Closed");
 				});
+				var case_type = '$case_type';
+				if(case_type=='SRV')
+				{
+					//alert('fff');
+					$("#LBL_CASE_INFORMATION > div:nth-child(3)").after('$html');
+					
+					
+				}
 			});
 		</script>
 dependency;
 
+echo $csss=<<<MYSTYLE
+<style>
+.install_completed_12{
+    font-size: 12px;
+    font-weight: 600;
+    color: red;
+}
+.install_completed_13{
+	
+	font-size: 12px;
+    font-weight: 600;
+    color: black;
+}
+</style>
+MYSTYLE;
 
 		/******************END - Dependency on Category************************/
 	parent::display();

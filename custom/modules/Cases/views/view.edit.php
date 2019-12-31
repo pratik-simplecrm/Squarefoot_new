@@ -1,7 +1,7 @@
 <?php
 /* 
 	Created By: Pratik Tambekar
-	Description: Created for date validation and customizations of cases module
+	Description: Created for date validation and for customizations of cases module
 */
 if (!defined('sugarEntry') || !sugarEntry)
     die('Not A Valid Entry Point');
@@ -19,11 +19,11 @@ class CasesViewEdit extends ViewEdit
           }
   	function display()
  	{
-		 global $db, $current_user, $sugar_config;
+		 global $db, $current_user, $sugar_config;	  
 		 $empty=$oppurtunity_related_id=$oppurtunity_related_name='';
-		 //echo "<pre>";
-		// print_r($this->bean);
-		
+		// echo "<pre>";
+	     //print_r($this->bean);
+		 $opp_cases_id = (!empty($this->bean->opportunities_cases_1opportunities_ida)?$this->bean->opportunities_cases_1opportunities_ida:'');
 		  if(empty($this->bean->id)){
 			 $empty = '1';
 			 if(isset($_REQUEST['relate_id']))
@@ -91,90 +91,128 @@ class CasesViewEdit extends ViewEdit
 		 
 		 
 		 //fetch account handle person name based on branch wise start(assignment is done based on round robin and least assigned
-		 if($branch_name!='' && $this->bean->scrm_accountperson_id_c=='')
+		 if($opp_cases_id!='')
 		 {
+			//$sqp = "SELECT `opportunities_cases_1cases_idb` FROM `opportunities_cases_1_c` WHERE `opportunities_cases_1opportunities_ida`='$opp_cases_id' and `deleted`=0 order by `date_modified` limit 1";
 			 
-			 $get_account_person_name = "SELECT `id`,`first_name`,`last_name` FROM `scrm_accountperson` WHERE `deleted` = 0 and `branch` = '$branch_name' order by `date_entered` desc";
-			 //exit;
-			 $acc_name = $db->query($get_account_person_name);
-			 while($acc_username = $db->fetchByAssoc($acc_name))
-			 {
-				 $acc_user_id = (!empty($acc_username['id'])?$acc_username['id']:'');
-				 if($acc_user_id!='')
-				{
-					//fetch Active service co-ordinator cases assigned count
-					 $get_case_Assigned_count_of_acoountperson = "SELECT count(*) as assigned_count FROM `cases` as A inner join `cases_cstm` as B on A.id=B.id_c  WHERE B.`scrm_accountperson_id_c`='$acc_user_id' and A.deleted=0";
-					$result1 = $db->query($get_case_Assigned_count_of_acoountperson);
-					$row1 = $db->fetchByAssoc($result1);
-					$assigned_count = (!empty($row1['assigned_count'])?$row1['assigned_count']:0);
-					$assigned_keys[] = $acc_user_id;   // all service co-ordinator ids
-					$assigned_values[] = $assigned_count; // all service co-ordinator case assigned count 
-										
-				} 
-			 }
-			 //print_r($assigned_keys);
-			 //print_r($assigned_values);
-			 if(!empty($assigned_keys) && !empty($assigned_values))
-			 {
-						       // combine key and value array
-								$final_arr = array_combine($assigned_keys, $assigned_values);
-								
-								//get all values of array
-								$arrval = array_values($final_arr);
-								
-								// check all values of array are same or not (if all are same then return 1 else blank
-								$allValuesAreTheSame = (count(array_unique($arrval)) === 1);
-								if($allValuesAreTheSame==1)
-								{
-									//if count of all service co-ordinator are same then take any one randomly
-									$final_random_assigned_user_id = array_rand($final_arr);
-								}else{
-								
-										//find minimum assigned user(service co-ordinator ) count
-										$final_assigned_user_id = array_keys($final_arr, min($final_arr)); 
-										
-								}
-							if(isset($final_random_assigned_user_id) && !empty($final_random_assigned_user_id))
-							{
-								$account_person_id = $final_random_assigned_user_id ;
-							}else{
-									if(!empty($final_assigned_user_id))
-									{
-										$account_person_id = $final_assigned_user_id[0];
-									}
-							}
-							
-							//****************LOG Creation*********************
-								$APILogFile = 'assigned_account_person.txt';
-								$handle = fopen($APILogFile, 'a');
-								$timestamp = date('Y-m-d H:i:s', strtotime('+5 hours +30 minutes', strtotime('now')));
-								//date('Y-m-d H:i:s');
-								$logArray = array('final_assigned_user_id'=>$final_assigned_user_id,'branch_name'=>$branch_name,'allValuesAreTheSame'=>$allValuesAreTheSame,'account_person_id'=>$account_person_id);
-								$logArray1 = print_r($final_arr, true);
-								$logArray2 = print_r($logArray, true);
-								$logMessage = "\nassigned_account_person Result at $timestamp :-\n$logArray1";
-								$logMessage1 = "\nassigned_account_person Result at $timestamp :-\n$logArray2";
-								fwrite($handle, $logMessage);		
-								fwrite($handle, $logMessage1);										
-								fclose($handle);
-								//****************ENd OF Code*****************
-							
-						$get_accounteam_name = "SELECT `first_name`,`last_name` FROM `scrm_accountperson` WHERE `id`='$account_person_id' and deleted=0";
-						$accountusernm = $db->query($get_accounteam_name);
-						$username_ofaccteam = $db->fetchByAssoc($accountusernm);
-						 if($username_ofaccteam['first_name']!='' && $username_ofaccteam['last_name']!='')
-						 {
-							 $accountant_name = trim($username_ofaccteam['first_name']." ".$username_ofaccteam['last_name']);
-							 
-						 }else if($username_ofaccteam['last_name']!=''){
-							 $accountant_name = trim($username_ofaccteam['last_name']);
-						 }else{
-							  $accountant_name = trim($username_ofaccteam['first_name']);
-						 }	
-						//echo $accountant_name;
-				} 
-		 }
+			$get_first_case_account_person_name = $db->query("SELECT `opportunities_cases_1cases_idb` FROM `opportunities_cases_1_c` WHERE `opportunities_cases_1opportunities_ida`='$opp_cases_id' and `deleted`=0 order by `date_modified` limit 1");
+		   // $case_id = $db->query($get_first_case_account_person_name);
+			if($get_first_case_account_person_name->num_rows >= 1) 
+            {
+				
+				$row15 = $db->fetchByAssoc($get_first_case_account_person_name);
+				$previous_case_id = trim($row15['opportunities_cases_1cases_idb']);
 			
+				if($previous_case_id!='')
+				{
+					$get_acc_person_ids= "SELECT `scrm_accountperson_id_c` FROM `cases_cstm` WHERE `id_c`='$previous_case_id'";
+					$accper_id = $db->query($get_acc_person_ids);
+					$row16 = $db->fetchByAssoc($accper_id);
+					$account_person_id = trim($row16['scrm_accountperson_id_c']);
+					
+					$get_accounteam_name = "SELECT `first_name`,`last_name` FROM `scrm_accountperson` WHERE `id`='$account_person_id' and deleted=0";
+					$accountusernm = $db->query($get_accounteam_name);
+					$username_ofaccteam = $db->fetchByAssoc($accountusernm);
+					if($username_ofaccteam['first_name']!='' && $username_ofaccteam['last_name']!='')
+					{
+						$accountant_name = trim($username_ofaccteam['first_name']." ".$username_ofaccteam['last_name']);
+									 
+					}else if($username_ofaccteam['last_name']!=''){
+							$accountant_name = trim($username_ofaccteam['last_name']);
+					}else{
+							$accountant_name = trim($username_ofaccteam['first_name']);
+						}	
+				}
+				//echo $accountant_name." ".$account_person_id;
+			
+			}
+			if($account_person_id=='' && $accountant_name=='')
+			{
+				 if($branch_name!='' && $this->bean->scrm_accountperson_id_c=='')
+				 {
+					 
+					 $get_account_person_name = "SELECT `id`,`first_name`,`last_name` FROM `scrm_accountperson` WHERE `deleted` = 0 and `branch` = '$branch_name' order by `date_entered` desc";
+					 //exit;
+					 $acc_name = $db->query($get_account_person_name);
+					 while($acc_username = $db->fetchByAssoc($acc_name))
+					 {
+						 $acc_user_id = (!empty($acc_username['id'])?$acc_username['id']:'');
+						 if($acc_user_id!='')
+						{
+							//fetch Active service co-ordinator cases assigned count
+							 $get_case_Assigned_count_of_acoountperson = "SELECT count(*) as assigned_count FROM `cases` as A inner join `cases_cstm` as B on A.id=B.id_c  WHERE B.`scrm_accountperson_id_c`='$acc_user_id' and A.deleted=0";
+							$result1 = $db->query($get_case_Assigned_count_of_acoountperson);
+							$row1 = $db->fetchByAssoc($result1);
+							$assigned_count = (!empty($row1['assigned_count'])?$row1['assigned_count']:0);
+							$assigned_keys[] = $acc_user_id;   // all service co-ordinator ids
+							$assigned_values[] = $assigned_count; // all service co-ordinator case assigned count 
+												
+						} 
+					 }
+					 //print_r($assigned_keys);
+					 //print_r($assigned_values);
+						 if(!empty($assigned_keys) && !empty($assigned_values))
+						 {
+										   // combine key and value array
+											$final_arr = array_combine($assigned_keys, $assigned_values);
+											
+											//get all values of array
+											$arrval = array_values($final_arr);
+											
+											// check all values of array are same or not (if all are same then return 1 else blank
+											$allValuesAreTheSame = (count(array_unique($arrval)) === 1);
+											if($allValuesAreTheSame==1)
+											{
+												//if count of all service co-ordinator are same then take any one randomly
+												$final_random_assigned_user_id = array_rand($final_arr);
+											}else{
+											
+													//find minimum assigned user(service co-ordinator ) count
+													$final_assigned_user_id = array_keys($final_arr, min($final_arr)); 
+													
+											}
+										if(isset($final_random_assigned_user_id) && !empty($final_random_assigned_user_id))
+										{
+											$account_person_id = $final_random_assigned_user_id ;
+										}else{
+												if(!empty($final_assigned_user_id))
+												{
+													$account_person_id = $final_assigned_user_id[0];
+												}
+										}
+										
+										//****************LOG Creation*********************
+											$APILogFile = 'assigned_account_person.txt';
+											$handle = fopen($APILogFile, 'a');
+											$timestamp = date('Y-m-d H:i:s', strtotime('+5 hours +30 minutes', strtotime('now')));
+											//date('Y-m-d H:i:s');
+											$logArray = array('final_assigned_user_id'=>$final_assigned_user_id,'branch_name'=>$branch_name,'allValuesAreTheSame'=>$allValuesAreTheSame,'account_person_id'=>$account_person_id);
+											$logArray1 = print_r($final_arr, true);
+											$logArray2 = print_r($logArray, true);
+											$logMessage = "\nassigned_account_person Result at $timestamp :-\n$logArray1";
+											$logMessage1 = "\nassigned_account_person Result at $timestamp :-\n$logArray2";
+											fwrite($handle, $logMessage);		
+											fwrite($handle, $logMessage1);										
+											fclose($handle);
+											//****************ENd OF Code*****************
+										
+									$get_accounteam_name = "SELECT `first_name`,`last_name` FROM `scrm_accountperson` WHERE `id`='$account_person_id' and deleted=0";
+									$accountusernm = $db->query($get_accounteam_name);
+									$username_ofaccteam = $db->fetchByAssoc($accountusernm);
+									 if($username_ofaccteam['first_name']!='' && $username_ofaccteam['last_name']!='')
+									 {
+										 $accountant_name = trim($username_ofaccteam['first_name']." ".$username_ofaccteam['last_name']);
+										 
+									 }else if($username_ofaccteam['last_name']!=''){
+										 $accountant_name = trim($username_ofaccteam['last_name']);
+									 }else{
+										  $accountant_name = trim($username_ofaccteam['first_name']);
+									 }	
+									//echo $accountant_name;
+							} 
+					 }
+				}
+		 }
 		 //fetch account handle person name based on branch wise End
 		
 		 //auto Sales co-ordinator assigned based on branch of login user Start
@@ -458,7 +496,7 @@ class CasesViewEdit extends ViewEdit
 				{
 					$('#cnr_c_label').css('visibility','visible');
 					jQuery("#cnr_c").show();
-					$('#cnr_c').prop('checked', true);
+					$('#cnr_c').prop('checked', false);
 					
 					//on click excess material return show material return description
 					$('#materialreturndescription_c_label').css('visibility','visible');
@@ -479,7 +517,7 @@ class CasesViewEdit extends ViewEdit
 				if(this.checked) {
 					$('#cnr_c_label').css('visibility','visible');
 					jQuery("#cnr_c").show();
-					$('#cnr_c').prop('checked', true);
+					$('#cnr_c').prop('checked', false);
 					
 					//on click excess material return show material return description
 					$('#materialreturndescription_c_label').css('visibility','visible');
@@ -581,8 +619,8 @@ class CasesViewEdit extends ViewEdit
 						addToValidate('EditView','contractor_c','varchar',true,'Vendor:');    
                         $('#contractor_c_label').html('Vendor:<font color="red">*</font>');
 						
-						addToValidate('EditView','installers_c','varchar',true,'Installers:');    
-                        $('#installers_c_label').html('Installers:<font color="red">*</font>');
+						addToValidate('EditView','installers_c','varchar',true,'Product Type:');    
+                        $('#installers_c_label').html('Product Type:<font color="red">*</font>');
 						
 					}else{
 						
@@ -651,8 +689,8 @@ class CasesViewEdit extends ViewEdit
 						addToValidate('EditView','contractor_c','varchar',true,'Vendor:');    
                         $('#contractor_c_label').html('Vendor:<font color="red">*</font>');
 						
-						addToValidate('EditView','installers_c','varchar',true,'Installers:');    
-                        $('#installers_c_label').html('Installers:<font color="red">*</font>');
+						addToValidate('EditView','installers_c','varchar',true,'Product Type:');    
+                        $('#installers_c_label').html('Product Type:<font color="red">*</font>');
 						
 					}else{
 						
@@ -915,6 +953,33 @@ class CasesViewEdit extends ViewEdit
 						$('#warehouse_person_c_label font').remove();
 					}
 				});
+				
+				//on click on credit note checkbox case status should be selected as closed Auto: start
+				$('#cnr_c').change(function() {
+				if(this.checked) 
+				{
+					var doc_uploaded = $( "#doc_uploaded_c option:selected" ).text();
+					if(doc_uploaded == 'No')
+					{
+						alert('please upload documnents to closed this case');
+					}else{
+								$('#state').val('Closed');
+								//$('#state').trigger("change");
+								var el = document.getElementById("state");
+								addLoadEvent(function(){loadDynamicEnum("state","status")});
+								if (SUGAR.ajaxUI && SUGAR.ajaxUI.hist_loaded) {loadDynamicEnum("state","status")}
+						}
+				}else{
+						$('#state').val('Open');
+						var el = document.getElementById("state");
+						addLoadEvent(function(){loadDynamicEnum("state","status")});
+						if (SUGAR.ajaxUI && SUGAR.ajaxUI.hist_loaded) {loadDynamicEnum("state","status")}
+					
+				}
+				});
+				
+				
+				//end
 				
 						
 }); 				

@@ -23,18 +23,20 @@ class updateServiceCordinator
 			//echo "<pre>";
 			//print_r($bean);
 			//exit;
-			if(empty($bean->assigned_user_id) && empty($bean->region_c))
+			if(empty($bean->region_c))
 			{	
-			   
-			     $assigned_keys = array();
-				 $assigned_values = array();
-				 $final_assigned_user_id = array();
-				 $final_random_assigned_user_id='';
 				 $login_username = $current_user->user_name;
 				 $get_loginuserbranch = "SELECT `branch_c` FROM `users_cstm` as A inner join `users` as B on A.id_c = B.id WHERE user_name = '$login_username'";
 				 $branchname = $db->query($get_loginuserbranch);
 				 $row11 = $db->fetchByAssoc($branchname);
-				 $branch_name = trim($row11['branch_c']);
+				 $branch_name = (!empty($row11['branch_c'])?trim($row11['branch_c']):'login_user_dont_have_branch');
+				 $bean->region_c = $branch_name;
+				 $bean->save();
+			     /* $assigned_keys = array();
+				 $assigned_values = array();
+				 $final_assigned_user_id = array();
+				 $final_random_assigned_user_id='';
+				 
 				 
 				 //maintain log to check branch of login user geeting or not start
 					 $APILogFile = 'assigned_service_coordinator.txt';
@@ -135,8 +137,29 @@ class updateServiceCordinator
 								}
 							
 					
+				} */
 			}
-		}
-		
-		
+			if($bean->meetingtype_c=='SRV')
+			{
+				$supervisor_id = $bean->user_id1_c;
+				$service_co_id = $bean->assigned_user_id;
+				$oppurtunity_id = $bean->opportunity_id_c;
+				if($supervisor_id!='' && $service_co_id!='' && $oppurtunity_id!='')
+				{
+					$update_sup_and_service_person = $db->query("SELECT C.* FROM `opportunities_cases_1_c` as A inner join `cases` as B on A.`opportunities_cases_1cases_idb`=B.id inner join `cases_cstm` as C on B.id=C.id_c WHERE C.casetype_c='SRV' and `opportunities_cases_1opportunities_ida`='$oppurtunity_id' and A.deleted=0 and B.deleted=0");
+					if($update_sup_and_service_person->num_rows >= 1) 
+					{
+						$row = $db->fetchByAssoc($update_sup_and_service_person);
+						$case_id = trim($row['id_c']);
+						$update_fields = $db->query("UPDATE `cases` INNER JOIN `cases_cstm` ON `cases_cstm`.`id_c` = `cases`.`id`
+											SET `cases_cstm`.`user_id_c`='$supervisor_id', `cases`.`assigned_user_id` = '$service_co_id'
+											WHERE `cases_cstm`.`id_c` = '$case_id'");
+					}
+				}
+				
+				
+				
+			}
+			
+		}	
 }	
