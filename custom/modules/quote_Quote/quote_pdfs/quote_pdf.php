@@ -33,9 +33,11 @@ class QuotePdf extends TCPDF {
         global $app_list_strings;
         $db = DBManagerFactory::getInstance();
 
+
         //get the quote id
         //$quote_id = $_REQUEST['record'];
         //fetch the quote details
+        $qObj = $this->getMyBean('quote_Quote', $quote_id);
 		
 		//code written by pratik on 07082019 start (kerala 1% cess)
 		$get_barnch_unuser = "SELECT `branch_c`,`unregistered_user_c`,`cess_amount_c`,`dutyfree_c` FROM `quote_quote_cstm` WHERE `id_c`='$quote_id'";
@@ -45,22 +47,32 @@ class QuotePdf extends TCPDF {
 		$unregistered_user = trim($get_barnch_unuser_row['unregistered_user_c']);
 		$cess_amt_kerala = trim(number_format($get_barnch_unuser_row['cess_amount_c'],2));
 		
-		/* code added for Duty free quote header added on 25-11-2019*/
+
+        /* get currency code starts added on 30 jan 2020 by pratik */
+        $get_currency_id = "SELECT `currency_id` FROM `quote_quote` WHERE `id`='$quote_id'";
+        $get_currency_id_res = $db->query($get_currency_id);
+        $get_currency_id_row = $db->fetchByAssoc($get_currency_id_res);
+        $currency_id = $get_currency_id_row['currency_id'];
+
+        $get_currency = "SELECT `symbol` FROM `currencies` WHERE `id`='$currency_id'";
+        $get_currency_res = $db->query($get_currency);
+        $get_currency_row = $db->fetchByAssoc($get_currency_res);
+        $currency_name = $get_currency_row['symbol']." ";
+        if($currency_id=='-99')
+        {
+           $currency_name = 'Rs. ';
+        }
+        //echo "currency_name:".$currency_name;
+        //exit;
+        /* get currency code end */
+
+		/* code added for Duty free quote header added on 25-11-2019 CR-DUTY/INR FREE */
 		$dutyfree_c = trim($get_barnch_unuser_row['dutyfree_c']);
-		$quote_header ='';
-		if($dutyfree_c =='INRDutyFree' && isset($dutyfree_c))
-		{
-			$quote_header = 'INR-Duty Free Quote';
-		}
-		else if($dutyfree_c =='EURODutyFree' && isset($dutyfree_c))
-		{
-			$quote_header = 'Euro-Duty Free Quote';
-		}else{
-			$quote_header = 'Quote';
-		}
-		//code written by pratik on 07082019 end (kerala 1% cess)
+		$quote_header = '';
+      
 		
-        $qObj = $this->getMyBean('quote_Quote', $quote_id);
+		
+   
 
         $this->file_name = $qObj->name;
         $subtotal = number_format($qObj->sub_total, 2);
@@ -88,6 +100,30 @@ class QuotePdf extends TCPDF {
         $current_date = date('d-m-Y');
 
         $pdf_type = $qObj->pdf_type_c;
+
+        if(isset($dutyfree_c) && $dutyfree_c!='')
+        {
+           if($dutyfree_c =='INRDutyFree')
+            {
+                $quote_header = 'INR-Duty Free Quote';
+               
+            }
+            if($dutyfree_c =='EURODutyFree')
+            {
+                $quote_header = 'Euro-Duty Free Quote';
+                
+            } 
+        }else{
+                if ($pdf_type == 'Quote' || $pdf_type == '') 
+                {
+                    $quote_header = 'Quote';
+                }
+                else{
+                    $quote_header = 'Proforma Invoice';
+                   
+                 }
+        }
+        //code written by pratik on 07082019 end (kerala 1% cess)
         if ($pdf_type == 'Quote' || $pdf_type == '') {
             $pdf_type = 'Quote';
         } else {
@@ -262,7 +298,7 @@ class QuotePdf extends TCPDF {
 
                         $Pricing_list_row .= '<td width="30%">' . $get_acc__row['service_tax_c'] . '</td>';
                         $Pricing_list_row .= '<td width="40%">' . number_format($dis_tax_total, 2) . '</td>';
-                        $Pricing_list_row .= '<td width="60%">Rs.' . number_format(($get_acc__row['quantity'])*$get_acc__row['price_c'], 2) . '&nbsp;&nbsp;</td>';
+                        $Pricing_list_row .= '<td width="60%">'.$currency_name.'' . number_format(($get_acc__row['quantity'])*$get_acc__row['price_c'], 2) . '&nbsp;&nbsp;</td>';
                         $Pricing_list_row .= '</tr>';
 
                         $subTotal += ($get_acc__row['quantity'] * $get_acc__row['price_c']);
@@ -301,11 +337,11 @@ class QuotePdf extends TCPDF {
                         $Pricing_list_row2 .= '<td width="40%">' . $get_acc__row['code_c'] . '</td>';
                         $Pricing_list_row2 .= '<td width="40%">' . (float)$get_acc__row['quantity'] . '</td>';
                         $Pricing_list_row2 .= '<td width="50%">' . $get_acc__row['uom_c'] . '</td>';
-                        $Pricing_list_row2 .= '<td width="50%">Rs.' . number_format($get_acc__row['price_c'], 2) . '</td>';
+                        $Pricing_list_row2 .= '<td width="50%">'.$currency_name.'' . number_format($get_acc__row['price_c'], 2) . '</td>';
                         //$Pricing_list_row2 .= '<td width="40%">' . $get_acc__row['other_charges_c'] . '</td>';
                         $Pricing_list_row2 .= '<td width="30%">' . $get_acc__row['service_tax_c'] . '</td>';
                         $Pricing_list_row2 .= '<td width="40%">' . number_format($get_acc__row['quantity'] * $dis_tax_total, 2) . '</td>';
-                        $Pricing_list_row2 .= '<td width="60%">Rs.' . number_format(($get_acc__row['quantity'] * $total) + $get_acc__row['shipping_c'], 2) . '&nbsp;&nbsp;</td>';
+                        $Pricing_list_row2 .= '<td width="60%">'.$currency_name.'' . number_format(($get_acc__row['quantity'] * $total) + $get_acc__row['shipping_c'], 2) . '&nbsp;&nbsp;</td>';
                         $Pricing_list_row2 .= '</tr>';
 
 
@@ -367,29 +403,29 @@ class QuotePdf extends TCPDF {
 			<hr /><tr>
 				<td><b>Details of Other Charges</b></td>
 				<td colspan="3" align="right">Subtotal:</td>
-				<td align="right">Rs.' . number_format($subTotal, 2) . '</td>
+				<td align="right">'.$currency_name.'' . number_format($subTotal, 2) . '</td>
 			</tr>
 			<tr>
 				<td align="left">Packing Charges: </td>
-				<td align="left">Rs.' . number_format($packing_charges, 2) . '</td>
+				<td align="left">'.$currency_name.'' . number_format($packing_charges, 2) . '</td>
 				<td colspan="2" align="right">Other Charges:</td>
-				<td align="right">Rs.' . number_format($structure_details, 2) . '</td>
+				<td align="right">'.$currency_name.'' . number_format($structure_details, 2) . '</td>
 			</tr>
 			<tr>
 				<td align="left">Freight Charges :</td>
-				<td align="left">Rs.' . number_format($freight_charges, 2) . '</td>
+				<td align="left">'.$currency_name.'' . number_format($freight_charges, 2) . '</td>
 				<td colspan="2" align="right">GST:</td>
-				<td align="right">Rs.' . number_format($TaxPrice, 2) . '</td>
+				<td align="right">'.$currency_name.'' . number_format($TaxPrice, 2) . '</td>
 			</tr>	
 			<tr>
 				<td align="left">Loading & unloading Charges: </td>
-				<td align="left">Rs.' . number_format($loading_charges, 2) . '</td>';
+				<td align="left">'.$currency_name.'' . number_format($loading_charges, 2) . '</td>';
 				
 				//code written by pratik on 19082019 start (kerala 1% cess)
 				if(strtolower($branch_nm)==strtolower('Kerala') && $unregistered_user=='1')
 				{
 					$Pricing_list_row .= '<td colspan="2" align="right"> kerala Cess 1% :</td>';
-					$Pricing_list_row .= '<td align="right">Rs.' . number_format($_finale_cess_1, 2) . '</td>';
+					$Pricing_list_row .= '<td align="right">'.$currency_name.'' . number_format($_finale_cess_1, 2) . '</td>';
 					
 				}else{
 					$Pricing_list_row .= '<td colspan="2" align="right">&nbsp;</td>';
@@ -401,16 +437,16 @@ class QuotePdf extends TCPDF {
 			$Pricing_list_row .= '</tr>
 			<tr>
 				<td align="left"> Other Charges: </td>
-				<td align="left">Rs.' . number_format($other_charges, 2) . ' </td>
+				<td align="left">'.$currency_name.'' . number_format($other_charges, 2) . ' </td>
 				<td colspan="2" align="right">Total:</td>';
 				
 				//code written by pratik on 19082019 start (kerala 1% cess)
 				if(strtolower($branch_nm)==strtolower('Kerala') && $unregistered_user=='1')
 				{
-					$Pricing_list_row .= '<td align="right">Rs.' . number_format($Total + $_finale_cess_1, 2) . '</td>';
+					$Pricing_list_row .= '<td align="right">'.$currency_name.'' . number_format($Total + $_finale_cess_1, 2) . '</td>';
 					
 				}else{ 
-				$Pricing_list_row .= '<td align="right">Rs.' . number_format($Total, 2) . '</td>';
+				$Pricing_list_row .= '<td align="right">'.$currency_name.'' . number_format($Total, 2) . '</td>';
 				}
 				//code written by pratik on 19082019 end (kerala 1% cess)
 				
@@ -421,32 +457,32 @@ class QuotePdf extends TCPDF {
 			<hr /><tr>
 				<td><b>Details of Other Charges</b></td>
 				<td colspan="3" align="right">Subtotal:</td>
-				<td align="right">Rs.' . number_format($subTotal, 2) . '</td>
+				<td align="right">'.$currency_name.'' . number_format($subTotal, 2) . '</td>
 			</tr>
 			<tr>
 				<td align="left">Packing Charges: </td>
-				<td align="left">Rs.' . number_format($packing_charges, 2) . '</td>
+				<td align="left">'.$currency_name.'' . number_format($packing_charges, 2) . '</td>
 				<td colspan="2" align="right">Discount:</td>
-				<td align="right">Rs.' . number_format($discount, 2) . '</td>
+				<td align="right">'.$currency_name.'' . number_format($discount, 2) . '</td>
 			</tr>
 
 			<tr>
 				<td align="left">Freight Charges :</td>
-				<td align="left">Rs.' . number_format($freight_charges, 2) . '</td>
+				<td align="left">'.$currency_name.'' . number_format($freight_charges, 2) . '</td>
 				<td colspan="2" align="right">Discounted Total:</td>
-				<td align="right">Rs.' . number_format($discountedPrice, 2) . '</td>
+				<td align="right">'.$currency_name.'' . number_format($discountedPrice, 2) . '</td>
 			</tr>
 			<tr>
 				<td align="left">Loading & unloading Charges: </td>
-				<td align="left">Rs.' . number_format($loading_charges, 2) . '</td>
+				<td align="left">'.$currency_name.'' . number_format($loading_charges, 2) . '</td>
 				<td colspan="2" align="right">Other Charges:</td>
-				<td align="right">Rs.' . number_format($structure_details, 2) . '</td>
+				<td align="right">'.$currency_name.'' . number_format($structure_details, 2) . '</td>
 			</tr>
 			<tr>
 				<td align="left"> Other Charges: </td>
-				<td align="left">Rs.' . number_format($other_charges, 2) . ' </td>
+				<td align="left">'.$currency_name.'' . number_format($other_charges, 2) . ' </td>
 				<td colspan="2" align="right">GST:</td>
-				<td align="right">Rs.' . number_format($TaxPrice, 2) . '</td>';
+				<td align="right">'.$currency_name.'' . number_format($TaxPrice, 2) . '</td>';
 				
 			$Pricing_list_row .= '</tr>';
 			
@@ -457,7 +493,7 @@ class QuotePdf extends TCPDF {
 					$Pricing_list_row .= '<tr><td align="left">&nbsp;</td>';
 					$Pricing_list_row .= '<td align="left">&nbsp;</td>';
 					$Pricing_list_row .= '<td colspan="2" align="right"> kerala Cess 1% :</td>';
-					$Pricing_list_row .= '<td align="right">Rs.' . number_format($_finale_cess_1, 2) . '</td></tr>';
+					$Pricing_list_row .= '<td align="right">'.$currency_name.'' . number_format($_finale_cess_1, 2) . '</td></tr>';
 					
 				}
 			
@@ -467,10 +503,10 @@ class QuotePdf extends TCPDF {
 				<td colspan="2" align="right">Total:</td>';
 				if(strtolower($branch_nm)==strtolower('Kerala') && $unregistered_user=='1')
 				{
-					$Pricing_list_row .= '<td align="right">Rs.' . number_format($Total + $_finale_cess_1, 2) . '</td>';
+					$Pricing_list_row .= '<td align="right">'.$currency_name.'' . number_format($Total + $_finale_cess_1, 2) . '</td>';
 					
 				}else{ 
-					$Pricing_list_row .= '<td align="right">Rs.' . number_format($Total, 2) . '</td>';
+					$Pricing_list_row .= '<td align="right">'.$currency_name.'' . number_format($Total, 2) . '</td>';
 				}
 			//code written by pratik on 19082019 end (kerala 1% cess)
 			
@@ -535,7 +571,7 @@ class QuotePdf extends TCPDF {
 
                     $Pricing_list_row1 .= '<td width="30%">' . $get_acc__row1['service_tax_c'] . '</td>';
                     $Pricing_list_row1 .= '<td width="40%">' . number_format($get_acc__row1['quantity'] * $dis_tax_total, 2) . '</td>';
-                    $Pricing_list_row1 .= '<td width="60%">Rs.' . number_format($get_acc__row1['quantity'] * $get_acc__row1['price_c'], 2) . '&nbsp;&nbsp;</td>';
+                    $Pricing_list_row1 .= '<td width="60%">'.$currency_name.'' . number_format($get_acc__row1['quantity'] * $get_acc__row1['price_c'], 2) . '&nbsp;&nbsp;</td>';
                     $Pricing_list_row1 .= '</tr><br/>';
 
 
@@ -575,11 +611,11 @@ class QuotePdf extends TCPDF {
 			<hr />
 			<tr>
 				<td colspan="4" align="right">Subtotal:</td>
-				<td align="right">Rs.' . number_format($subTotal, 2) . '</td>	
+				<td align="right">'.$currency_name.'' . number_format($subTotal, 2) . '</td>	
 			</tr>
 			<tr>
 				<td colspan="4" align="right">GST:</td>
-				<td align="right">Rs.' . number_format($TaxPrice, 2) . '</td>
+				<td align="right">'.$currency_name.'' . number_format($TaxPrice, 2) . '</td>
 			</tr>';
 			
 			//code written by pratik on 19082019 start (kerala 1% cess)
@@ -587,16 +623,16 @@ class QuotePdf extends TCPDF {
 				{
 					$Pricing_list_row1 .= '<tr>';
 					$Pricing_list_row1 .= '<td colspan="4" align="right">kerala Cess 1% :</td>';
-					$Pricing_list_row1 .= '<td align="right">Rs.' . number_format($_finale_cess_2, 2) . '</td>';
+					$Pricing_list_row1 .= '<td align="right">'.$currency_name.'' . number_format($_finale_cess_2, 2) . '</td>';
 					$Pricing_list_row1 .= '</tr>';
 					
 				}
 				$Pricing_list_row1 .= '<tr><td colspan="4" align="right">Total:</td>';
 				if(strtolower($branch_nm)==strtolower('Kerala') && $unregistered_user=='1')
 				{
-					$Pricing_list_row1 .='<td align="right">Rs.' . number_format($Total + $_finale_cess_2, 2) . '</td>';
+					$Pricing_list_row1 .='<td align="right">'.$currency_name.'' . number_format($Total + $_finale_cess_2, 2) . '</td>';
 				}else{
-					$Pricing_list_row1 .='<td align="right">Rs.' . number_format($Total, 2) . '</td>';
+					$Pricing_list_row1 .='<td align="right">'.$currency_name.'' . number_format($Total, 2) . '</td>';
 				}
 			//code written by pratik on 19082019 end (kerala 1% cess)
 			
@@ -605,24 +641,24 @@ class QuotePdf extends TCPDF {
                     $Pricing_list_row1 .= '
 			<hr /><tr>
 				<td colspan="4" align="right">Subtotal:</td>
-				<td align="right">Rs.' . number_format($subTotal, 2) . '</td>
+				<td align="right">'.$currency_name.'' . number_format($subTotal, 2) . '</td>
 			</tr>
 			<tr>
 				<td colspan="4" align="right">Discount:</td>
-				<td align="right">Rs.' . number_format($discount, 2) . '</td>
+				<td align="right">'.$currency_name.'' . number_format($discount, 2) . '</td>
 			</tr>
 			<tr>
 				<td colspan="4" align="right">Discounted Total:</td>
-				<td align="right">Rs.' . number_format($discountedPrice, 2) . '</td>
+				<td align="right">'.$currency_name.'' . number_format($discountedPrice, 2) . '</td>
 				<td colspan="4" align="right">GST:</td>
-				<td align="right">Rs.' . number_format($TaxPrice, 2) . '</td>
+				<td align="right">'.$currency_name.'' . number_format($TaxPrice, 2) . '</td>
 			</tr>';
 			//code written by pratik on 19082019 start (kerala 1% cess)
 			if(strtolower($branch_nm)==strtolower('Kerala') && $unregistered_user=='1')
 				{
 					$Pricing_list_row1 .= '<tr>
 					<td colspan="4" align="right">kerala Cess 1% :</td>';
-					$Pricing_list_row1 .= '<td align="right">Rs.' . number_format($_finale_cess_2, 2) . '</td></tr>';
+					$Pricing_list_row1 .= '<td align="right">'.$currency_name.'' . number_format($_finale_cess_2, 2) . '</td></tr>';
 					
 				}
 				
@@ -630,9 +666,9 @@ class QuotePdf extends TCPDF {
 				<td colspan="4" align="right">Total:</td>';
 				if(strtolower($branch_nm)==strtolower('Kerala') && $unregistered_user=='1')
 				{
-					$Pricing_list_row1 .='<td align="right">Rs.' . number_format($Total + $_finale_cess_2, 2) . '</td>';
+					$Pricing_list_row1 .='<td align="right">'.$currency_name.'' . number_format($Total + $_finale_cess_2, 2) . '</td>';
 				}else{
-					$Pricing_list_row1 .='<td align="right">Rs.' . number_format($Total, 2) . '</td>';
+					$Pricing_list_row1 .='<td align="right">'.$currency_name.'' . number_format($Total, 2) . '</td>';
 				}
 				//code written by pratik on 19082019 end (kerala 1% cess)
 				
@@ -675,7 +711,7 @@ class QuotePdf extends TCPDF {
 		{
 			 $cess_amount_kerala .= '<tr>';
 			 $cess_amount_kerala .= '<td colspan="4" align="right">kerala Cess 1% :</td>';
-			 $cess_amount_kerala .= '<td align="right">Rs.' . $cess_amt_kerala. '</td>';
+			 $cess_amount_kerala .= '<td align="right">'.$currency_name.'' . $cess_amt_kerala. '</td>';
 			 $cess_amount_kerala .= '</tr>';
 		}else{
 			    $cess_amount_kerala ='';
@@ -730,20 +766,20 @@ class QuotePdf extends TCPDF {
 			</tr>
 			<tr>
 				<td colspan="4" align="right">Subtotal:</td>
-				<td  align="right">Rs.$subtotal</td>
+				<td  align="right">$currency_name $subtotal</td>
 			</tr>
             <tr>
 				<td colspan="4" align="right">Other Charges:</td>
-				<td align="right">Rs.$shipping_amt</td>
+				<td align="right">$currency_name $shipping_amt</td>
 			</tr>
 			<tr>
 				<td colspan="4" align="right">Total GST:</td>
-				<td align="right">Rs.$totaltax</td>
+				<td align="right">$currency_name $totaltax</td>
 			</tr>
 			$cess_amount_kerala
 			<tr>
 				<td colspan="4" align="right">Grand Total:</td>
-				<td align="right">Rs.$grand_total</td>
+				<td align="right">$currency_name $grand_total</td>
 			</tr>
 		</table>
 
@@ -792,28 +828,28 @@ EOD;
 			</tr>
 			<tr>
 				<td colspan="4" align="right">Subtotal:</td>
-				<td  align="right">Rs.$subtotal</td>
+				<td  align="right">$currency_name $subtotal</td>
 			</tr>
 			<tr>
 				<td colspan="4" align="right">Discount:</td>
-				<td align="right">Rs.$discountAmt</td>
+				<td align="right">$currency_name $discountAmt</td>
 			</tr>
 			<tr>
 				<td colspan="4" align="right">Discounted Total:</td>
-				<td align="right">Rs.$total_discount</td>
+				<td align="right">$currency_name $total_discount</td>
 			</tr>
              <tr>
 				<td colspan="4" align="right">Other Charges:</td>
-				<td align="right">Rs.$shipping_amt</td>
+				<td align="right">$currency_name $shipping_amt</td>
 			</tr>
 			<tr>
 				<td colspan="4" align="right">Total GST:</td>
-				<td align="right">Rs.$totaltax</td>
+				<td align="right">$currency_name $totaltax</td>
 			</tr>
 			$cess_amount_kerala
 			<tr>
 				<td colspan="4" align="right">Grand Total:</td>
-				<td align="right">Rs.$grand_total</td>
+				<td align="right">$currency_name $grand_total</td>
 			</tr>
 		</table>
 

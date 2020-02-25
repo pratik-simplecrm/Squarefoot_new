@@ -21,12 +21,14 @@ class DiscountApproval
 			self::$already_ran = true;
             
             
-            global $db, $current_user; 
-            
-            if($bean->approved_c == 1 || $_REQUEST['unit_price_changed'] == 1) {
-                return;
-            }
-            
+            global $db, $current_user,$app_list_strings,$sugar_config; 
+            $approval_status = $bean->approval_status_c;
+             if($bean->approved_c == 1) {
+                 return;
+             }
+            $dutyfree_arr = array_filter(array_keys($app_list_strings['dutyfree_list']));
+            $dutyfree = $bean->dutyfree_c; // EURODutyFree or INRDutyFree
+            $loginuser_id = $current_user->id;
             $billing_account_id = $_REQUEST['quote_quote_accountsaccounts_ida'];
             $query_account_details = "SELECT name from accounts where id ='$billing_account_id' and deleted=0";
             $result_account_details = $db->query($query_account_details);
@@ -44,7 +46,6 @@ class DiscountApproval
             $user_roles = $acl_role_obj->getUserRoles($current_user->id);
 			//print_r($user_roles);exit;
             $current_user_role = $user_roles[0];
-           
             if($bean->discount == 0.00) {
 				$total_unit_price = $this->getTotalUnitPrice($bean->id, $bean->branch_c);
 				if($total_unit_price > 0) {
@@ -185,6 +186,7 @@ Email;
                         $mail->Body = $body;
                         $mail->prepForOutbound();
                         $mail->AddAddress($reports_to_email);
+                        $mail->AddCC('malathir@squarefoot.co.in');
                         if (!$mail->Send()){
                             $GLOBALS['log']->fatal('Email Send : Error Info:'.$mail->ErrorInfo);
                         }
@@ -251,13 +253,17 @@ Email;
         }
             else
             {
+
                     $query_reports_to = "SELECT ea.email_address  as email FROM email_addr_bean_rel eabr JOIN email_addresses ea ON eabr.email_address_id = ea.id WHERE eabr.bean_id = '$reports_to_supervisor' and eabr.deleted='0' and eabr.bean_module='Users'";
                         $query_reports_to_result = $db->query($query_reports_to);
                         $select_from_result = $db->fetchByAssoc($query_reports_to_result);
                 
                         $reports_to_email = $select_from_result['email'];
+
+                        
                         $update_quote = "UPDATE quote_quote_cstm SET approval_status_c='Pending_Approval' where id_c='$quote_id'";
                         $result_quote = $db->query($update_quote);
+                            
                         
                         $subject = 'New Quote For Approval';
                         $mail->Subject = $subject;
@@ -287,7 +293,8 @@ Email;
     }
     
     
-    public function getTotalUnitPrice($quote_id, $branch) {
+    public function getTotalUnitPrice($quote_id, $branch) 
+    {
 		global $db;
 		$Total_unit_price = 0;
 		$query2 = "SELECT qp . * , qpc . *, qq.quantity
@@ -407,6 +414,36 @@ Email;
 	}
 	$Total_unit_price = round($Total_unit_price, 2);
 	return $Total_unit_price;
-	}        
+	}
+
+    function give_discount_approval_malathi_and_nalini($bean,$event,$arguments)
+    {
+           
+            global $db, $current_user,$app_list_strings,$sugar_config; 
+            
+            $approval_status = $bean->approval_status_c; 
+            
+             if($approval_status == 'Approved') {
+                 return;
+             }
+
+             $dutyfree_arr = array_filter(array_keys($app_list_strings['dutyfree_list']));
+             $dutyfree = $bean->dutyfree_c; // EURODutyFree or INRDutyFree
+             $loginuser_id = $current_user->id;
+             $quote_id = $bean->id;
+
+              //added by pratik on 07022020 to give access of approval quote on discounted applied quoatation(Malathi/Nalini user) start:
+                if(!in_array($dutyfree,$dutyfree_arr))
+                {
+                    $approval_user_ids = array('b118285b-fc33-1bdf-c816-560bacbad068',
+                                '627e6b23-9166-e4db-0359-5e3bf9442be3');
+                    if(in_array($loginuser_id,$approval_user_ids))
+                    {
+                        $update_quote = "UPDATE quote_quote_cstm  SET approval_status_c='Approved', approved_c = 1 where id_c='$quote_id'";
+                         $result_quote = $db->query($update_quote);        
+                    }
+                }
+                //end
+    }        
 }
 ?>

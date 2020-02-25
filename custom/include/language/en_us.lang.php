@@ -194,12 +194,6 @@ $GLOBALS['app_list_strings']['approval_status_dom']=array (
   'Not Approved' => 'Not Approved',
   'Approved' => 'Approved',
 );
-$GLOBALS['app_list_strings']['approval_levels_list']=array (
-  '' => '',
-  'Level1' => 'Level1',
-  'Level2' => 'Level2',
-  'Level3' => 'Level3',
-);
 $app_list_strings['moduleList']['quote_Quote']='Quote';
 $app_list_strings['moduleListSingular']['quote_Quote']='Quote';
 $app_list_strings['moduleList']['AOS_Quotes']='Quotes Standard';
@@ -223,15 +217,6 @@ $GLOBALS['app_list_strings']['archi_type_list']=array (
   'Dealers' => 'Dealers',
   'Healthcare' => 'Healthcare',
   'Hospitality' => 'Hospitality',
-);
-$GLOBALS['app_list_strings']['role1_list']=array (
-  '' => '',
-  'CRM Executive' => 'CRM Executive ',
-  'Sales Director' => 'Sales Director',
-  'Sales Representative' => 'Sales Representative',
-  'Regional Manager' => 'Regional Manager',
-  'General Manager' => 'General Manager',
-  'Admin' => 'Admin',
 );
 $GLOBALS['app_list_strings']['flooring_type_c_list']=array (
   'Carpets' => 'Carpets',
@@ -399,4 +384,38 @@ $GLOBALS['app_list_strings']['branch_list']=array (
   'UP' => 'NOIDA',
   'jaipur' => 'Jaipur',
   'indore' => 'Indore',
+);
+$GLOBALS['app_list_strings']['parent_type_display']=array (
+  'Accounts' => 'Account',
+  'Contacts' => 'Contact',
+  'Tasks' => 'Task',
+  'Opportunities' => 'Opportunity',
+  'Bugs' => 'Bug',
+  'Cases' => 'Case',
+  'Leads' => 'Showroom Walk in',
+  'Project' => 'Project',
+  'ProjectTask' => 'Project Task',
+  'Prospects' => 'Target',
+  'quote_Quote' => 'Quote',
+  'Arch_Architects_Contacts' => 'Architects',
+  'Arch_Architectural_Firm' => 'Architectural Firms',
+  'EvMgr_Evs' => 'Events',
+  'scrm_accountperson' => 'Account Person',
+);
+$GLOBALS['app_list_strings']['approval_levels_list']=array (
+  '' => '',
+  'Level1' => 'Level1',
+  'Level2' => 'Level2',
+  'Level3' => 'Level3',
+  'Level4' => 'Level4',
+);
+$GLOBALS['app_list_strings']['role1_list']=array (
+  '' => '',
+  'CRM Executive' => 'CRM Executive ',
+  'Sales Director' => 'Sales Director',
+  'Sales Representative' => 'Sales Representative',
+  'Regional Manager' => 'Regional Manager',
+  'General Manager' => 'General Manager',
+  'Admin' => 'Admin',
+  'Sales_coordinator_for_malathi_user' => 'Sales co-ordinator for malathi user',
 );

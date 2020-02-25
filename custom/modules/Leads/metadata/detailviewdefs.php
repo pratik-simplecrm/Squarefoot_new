@@ -199,7 +199,6 @@ array (
             'name' => 'sector_c',
             'label' => 'LBL_SECTOR',
           ),
-          1 => '',
         ),
         9 => 
         array (
@@ -228,6 +227,17 @@ array (
         array (
           0 => 'email1',
           1 => 'description',
+        ),
+        11 => 
+        array (
+          0 => 
+          array (
+            'name' => 'utm_url_c',
+          ),
+          1 => 
+          array (
+            'name' => 'utm_campaign_c',
+          ),
         ),
       ),
       'LBL_PANEL_ADVANCED' => 

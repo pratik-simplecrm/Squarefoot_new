@@ -630,7 +630,7 @@ if($is_admin =='1')
             url: 'customAjax.php',
             type: 'GET',
             asyn: false,
-            data: {product_id: prod_id,branch:branch,currency:res[0]},
+            data: {product_id: prod_id,branch:branch},
             success: function (result) {
 				//alert(result);
                 var resObj = jQuery.parseJSON(result);

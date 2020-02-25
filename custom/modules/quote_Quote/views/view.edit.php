@@ -1689,7 +1689,7 @@ echo $SQMBOX = <<<SQMB
 			</script>
 SQMB;
 
- // add terms and condition code written by pratik start
+ // add terms and condition code written by pratik start (CR DUty Free)
 echo $add_terms_cond = <<<ATC
             <script>
 			$(document).ready(function()
@@ -1912,11 +1912,11 @@ Authorized Signatory`
 				multilineString =  
                 ` 1. Validity of offer – This price is valid for 60 days from date of offer.
 				  
-2. Customs duty for vinyl @ 16.5% is extra and GST @ 18% extra. All duty free documents would need to be provided. Incase customs authority does not provide duty free then duty is applicable and we are not responsible for the same. Any delay in custom clearing due to document delay would result in demurrage, detention which would be to clients account
+2. Customs duty for vinyl @ 16.5% is extra and GST @ 18% extra in case of clearing by us. All duty free documents would need to be provided. In case customs authority does not provide duty free then duty is applicable and we are not responsible for the same. Any delay in custom clearing due to document delay would result in demurrage, detention which would be to clients account.
 
-3. Customs duty for carpet @ 20% is extra and GST @ 12% extra. All duty free documents would need to be provided. Incase customs authority does not provide duty free then duty is applicable and we are not responsible for the same. Any delay in custom clearing due to document delay would result in demurrage, detention which would be to clients account
+3. Customs duty for carpet @ 21% is extra and GST @ 12% extra. All duty free documents would need to be provided. Incase customs authority does not provide duty free then duty is applicable and we are not responsible for the same. Any delay in custom clearing due to document delay would result in demurrage, detention which would be to clients account.
 
-4. Material will be imported by client directly under L/C at sight or advance payment vide TT remittance in full or billed by us in INR duty free as discussed against 100% advance payment.
+4. Material will be imported by client directly under L/C at sight or advance payment vide TT remittance in full or billed by us in INR duty free against 100% advance payment.
 
 5. Installation charges
 a.	For Vinyl –Rs 20/- per sqft including labour charges, adhesive wherever applicable.
@@ -1945,6 +1945,8 @@ b.	For Carpet – Rs 15/- and one sheet of basic polyethene covering of carpet o
 	
 addstring1 = ` 
 
+17. Sub floor and wall should be stiff, dry, flat and zero level.
+
 For Classic Flooring & Interiors Pvt. Ltd.
 
 Authorized Signatory`
@@ -1955,6 +1957,7 @@ Authorized Signatory`
 			</script>
 ATC;
 // written by pratik on 09082019 End
+
 
 // written by pratik on 05082019 start (Kerala 1% cess code)
 echo $Cess = <<<CES

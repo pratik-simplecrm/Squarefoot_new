@@ -13,7 +13,7 @@ class SendNotification
 			global $db, $current_user,$sugar_config; 
 			//$meeting_types_arr = array("MS","PREINS","INS");
 			$flooring_type=$final_address=$parent_opp_id='';
-			 //echo "<pre>";
+			// echo "<pre>";
 			//print_r($bean);
 			//exit; 
 			
@@ -26,6 +26,7 @@ class SendNotification
 					$meeting_type = $bean->meetingtype_c;
 					$meeting_subject = $bean->name;
 					$supervisor_name = $bean->supervisor_c;
+					$description = $bean->description;
 					if(isset($bean->opportunity_id_c))
 					{
 						$parent_opp_id = $bean->opportunity_id_c;
@@ -33,10 +34,15 @@ class SendNotification
 					
 					if($parent_opp_id!='')
 					{
-						$get_flooring_type = "SELECT `flooring_type_c` FROM `opportunities` as A inner join `opportunities_cstm` as B on A.id=B.id_c WHERE A.deleted=0 and id='$parent_opp_id'";
+						$get_flooring_type = "SELECT `flooring_type_c`,`assigned_user_id` FROM `opportunities` as A inner join `opportunities_cstm` as B on A.id=B.id_c WHERE A.deleted=0 and id='$parent_opp_id'";
 						$res = $db->query($get_flooring_type);
 						$row = $db->fetchByAssoc($res);
 						$flooring_type = trim($row['flooring_type_c']);
+						$assigned_user_id = trim($row['assigned_user_id']);  // for fetching sales person name
+						$getSales_person_name = "SELECT Concat(Ifnull(`first_name`,' ') ,' ', Ifnull(`last_name`,' ')) as username FROM users where `id`='$assigned_user_id' and deleted=0";
+						$response1 = $db->query($getSales_person_name);
+						$row22 = $db->fetchByAssoc($response1);
+						$final_sales_perName = $row22['username'];
 						
 					}
 					if($account_id!='')
@@ -57,9 +63,9 @@ class SendNotification
 					//****************LOG Creation*********************
 								$APILogFile = 'send_email_notification_to_supervisor.txt';
 								$handle = fopen($APILogFile, 'a');
-								$timestamp = date('Y-m-d H:i:s', strtotime('+5 hours +30 minutes', strtotime('now')));
+								$timestamp = date('Y-m-d H:i:s');//, strtotime('+5 hours +30 minutes', strtotime('now')));
 								//date('Y-m-d H:i:s');
-								$logArray = array('meeting_start_date'=>$m_s_date,'meeting_end_date'=>$e_s_date,'supervisor_id'=>$supervisor_co_id,'account_id'=>$account_id,'meeting_subject'=>$meeting_subject,'meeting_type'=>$meeting_type,'supervisor_name'=>$supervisor_name,'final_address'=>$final_address,'oppurtunity_id'=>$parent_opp_id,'cust_name'=>$cust_name,'customer Phone Number'=>$phone_office);
+								$logArray = array('meeting_start_date'=>$m_s_date,'meeting_end_date'=>$e_s_date,'supervisor_id'=>$supervisor_co_id,'account_id'=>$account_id,'meeting_subject'=>$meeting_subject,'meeting_type'=>$meeting_type,'supervisor_name'=>$supervisor_name,'final_address'=>$final_address,'oppurtunity_id'=>$parent_opp_id,'cust_name'=>$cust_name,'customer Phone Number'=>$phone_office,'description'=>$description);
 								$logArray2 = print_r($logArray, true);
 								$logMessage1 = "\nsend_email_notification_to_supervisor Result at $timestamp :-\n$logArray2";		
 								fwrite($handle, $logMessage1);										
@@ -101,9 +107,11 @@ class SendNotification
 								<p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22.4px; color: #444444; padding: 0px; margin: 0px;">Start date - '.$m_s_date.'</p>
 								<p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22.4px; color: #444444; padding: 0px; margin: 0px;">End date - '.$e_s_date.'</p>
 								<p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22.4px; color: #444444; padding: 0px; margin: 0px;"><strong style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22.4px; color: #444444; padding: 0px; margin: 0px;">Customer Name</strong> -&nbsp;'.$cust_name.',&nbsp;&nbsp;</p>
+								<p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22.4px; color: #444444; padding: 0px; margin: 0px;"><strong style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22.4px; color: #444444; padding: 0px; margin: 0px;">Sales Person Name</strong> -&nbsp;'.$final_sales_perName.',&nbsp;&nbsp;</p>
 								<p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22.4px; color: #444444; padding: 0px; margin: 0px;"><strong style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22.4px; color: #444444; padding: 0px; margin: 0px;">Customer Contact Number</strong> -&nbsp;'.$phone_office.',&nbsp;&nbsp;</p>
 								<p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22.4px; color: #444444; padding: 0px; margin: 0px;"><strong style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22.4px; color: #444444; padding: 0px; margin: 0px;">Site visit address</strong> -&nbsp;'.$final_address.',&nbsp;&nbsp;</p>
 								<p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22.4px; color: #444444; padding: 0px; margin: 0px;"><strong style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22.4px; color: #444444; padding: 0px; margin: 0px;">Flooring Type</strong> -&nbsp;'.$flooring_type.'</p>
+								<p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22.4px; color: #444444; padding: 0px; margin: 0px;"><strong style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22.4px; color: #444444; padding: 0px; margin: 0px;">Description</strong> -&nbsp;'.$description.'</p>
 								<p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22.4px; color: #444444; padding: 0px; margin: 0px;">&nbsp;</p>
 								<p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22.4px; color: #444444; padding: 0px; margin: 0px;">&nbsp;</p>
 								<div class="mozaik-clear" style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 22.4px; color: #444444; padding: 0px; margin: 0px; height: 0px;">&nbsp;</div>';

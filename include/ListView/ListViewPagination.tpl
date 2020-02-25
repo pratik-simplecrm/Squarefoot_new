@@ -222,3 +222,18 @@ else if($_REQUEST['module']!='Employees' && $_REQUEST['module']!='Contacts' && $
 			</table>
 		</td>
 	</tr>
+
+<script type="text/javascript">
+    {literal}
+   $(document).ready(function () {
+        setTimeout(function () {
+        console.log($("ul.ddopen li:nth-child(4)"));
+          $("ul.ddopen li:nth-child(4)").hide();
+          $("ul.ddopen li:nth-child(5)").hide();
+          }, 3500);
+            
+          
+         });
+     {/literal}
+
+</script>

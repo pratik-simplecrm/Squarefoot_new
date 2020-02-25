@@ -35,7 +35,46 @@
 ********************************************************************************/
 
 *}
-
+{php}
+/*code written by pratik tambekar on 06022020 for restricting export and delete functionality for malathi and nalini admin user*/
+global $current_user;
+$loginuser_id = $current_user->id;
+//echo $current_user->user_name;
+$hide_user_ids = array('b118285b-fc33-1bdf-c816-560bacbad068','627e6b23-9166-e4db-0359-5e3bf9442be3');
+if(in_array($loginuser_id,$hide_user_ids) )
+{
+{/php}
+<style type="text/css">
+{literal}
+.selectActions .sugar_action_button .subnav #delete_listview_top {   
+       display:none;
+}
+.selectActions .sugar_action_button .subnav #delete_listview_bottom {   
+       display:none;
+}
+#detail_header_action_menu .sugar_action_button .subnav #delete_button_old {   
+       display:none;
+}
+{/literal} 
+</style> 
+<script type="text/javascript">
+{literal}
+$(document).ready(function () {
+setTimeout(function () {
+$(".selectActions .sugar_action_button .subnav li a[id='export_listview_top ']").hide();
+$(".selectActions .sugar_action_button .subnav li a[id='export_listview_top']").hide();
+$(".selectActions .sugar_action_button .subnav li a[id='export_listview_bottom ']").hide();
+$(".selectActions .sugar_action_button .subnav li a[id='export_listview_bottom']").hide();
+$("#detail_header_action_menu .sugar_action_button .subnav li a[id='delete_button']").parent().hide();
+$(".list .oddListRowS1 .dropdown .dropdown-menu li:nth-child(2)").hide();
+$(".list .inlineButtons .clickMenu .subnav li:nth-child(1)").hide();
+}, 3000);
+});
+{/literal}
+</script>
+{php}
+}
+{/php}
 <script type="text/javascript">
     {literal}
 //Changes for on onclick of escape close the popup -Roshan Sarode
@@ -54,7 +93,7 @@
 //Changes for set footer on bottom -Roshan Sarode
         $(document).ready(function () {
 
-
+            
             changeFooterView(0);
             if (checkIEVersion() == 11) {
                 $('img').each(function () {
@@ -182,10 +221,12 @@
         $(document).on("click", function () {
             $("#quickcreatetopul").hide();
         });
+        
+        
+
     {/literal}
 
 </script>
-
 
 
 

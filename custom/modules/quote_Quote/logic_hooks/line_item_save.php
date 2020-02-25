@@ -35,7 +35,7 @@ class LineItemSave {
 							$query = "UPDATE quote_quoteproducts SET deleted =1  WHERE quote_id='".$quote_id."' and id='".$replacedID."'";
 							$db->query($query);
 
-							$file=fopen("/var/www/html/squarefootcrm/updateResponse.txt", 'a');
+							$file=fopen("/var/www/html/squarefoot/prodbackup/updateResponse.txt", 'a');
 							$msg ="Product ID:".$pliID."\n";
 							fwrite($file,$msg);
 						}
@@ -100,17 +100,23 @@ class LineItemSave {
 					 $shipping_amt     = $_REQUEST[$shipping_amt];
 					 $lineItemIDValue     = $_REQUEST[$lineItemID];
 
-
-
-
-
-
 					 $record  = $bean->id;
 
 					 $user = $current_user->id;
 					 // $quotsObj->save(true);
 
-					 if($product_id ){
+//print_r($discount); exit;
+
+					/* Added by Rajni for blank decimal values dated 31 jan 2020*/
+					if(empty($price)) $price = 0;
+					if(empty($discount)) $discount = 0;
+					if(empty($discounted_price)) $discounted_price = 0;
+					if(empty($service_tax)) $service_tax = 0;
+					if(empty($service_tax_val)) $service_tax_val = 0;
+					if(empty($shipping_amt)) $shipping_amt = 0;
+					if(empty($charges)) $charges = 0;
+
+					if($product_id ){
 						 if( $lineItemIDValue == '' || $dupicatelineItemIDValue != ''){
 							$new_id = create_guid();
 							$insertbookplan="INSERT INTO quote_quoteproducts (
@@ -123,30 +129,35 @@ class LineItemSave {
 											$GLOBALS['log']->fatal($insertbookplan,"Quotes products");
 							$db->query($insertbookplan);
 
+							
+
 							$insertbookplan2="INSERT INTO `quote_quoteproducts_cstm`(`id_c`, `group_id_c`, `group_type_c`, `uom_c`, `price_c`, `discount_c`, `discounted_price_c`, `service_tax_c`, `service_tax_val_c`, `product_specification_c`, `shipping_c`, `code_c`,`other_charges_c` 
 										)
 										VALUES (
 											'$new_id','$group_line_id','$group_id','$uom','$price','$discount','$discounted_price',
-											'$service_tax','','$product_spec','$shipping_amt','$code','$charges'
+											'$service_tax','0','$product_spec','$shipping_amt','$code','$charges'
 										)";
 										$GLOBALS['log']->fatal($insertbookplan2,"Quotes products cstm");
 							$db->query($insertbookplan2);
 						//exit;
-						$GLOBALS['log']->fatal('Product Name='.$product_name.'Disc Check='.$dis_check.'Service Tax='.$service_tax);
+						$GLOBALS['log']->fatal('Product Name='.$product_name.'Disc Check='.$dis_check.'Service Tax='.$service_tax);						
 					}
-
 					else{
 							$insertbookplan3="UPDATE quote_quoteproducts SET name = '$product_name',date_modified= now(),modified_user_id = '$user',created_by = '$user',description = '',deleted = 0,assigned_user_id = '$user', dis_check = '$dis_check', quantity = '$quantity', quote_id = '$record', product_id = '$product_id', tax = '$quote_tax' WHERE quote_id='".$record."' and id='".$lineItemIDValue."'";
 							$db->query($insertbookplan3);
 					
 							$insertbookplan4="UPDATE quote_quoteproducts_cstm SET group_id_c = '$group_line_id', group_type_c = '$group_id', uom_c = '$uom', discount_c = '$discount', price_c = '$price', discounted_price_c = '$discounted_price', service_tax_c = '$service_tax', service_tax_val_c = '$service_tax_val', product_specification_c = '$product_spec', shipping_c = '$shipping_amt',code_c='$code',other_charges_c='$charges' WHERE id_c = '".$lineItemIDValue."'";
 							$db->query($insertbookplan4);
+					/*echo "<pre>insertbookplan: "; print_r($insertbookplan3); 
+					echo "<pre>insertbookplan2: "; print_r($insertbookplan4); 
+					exit;*/
 					
 							$GLOBALS['log']->fatal('Product Name='.$product_name.'Disc Check='.$dis_check.'Service Tax='.$service_tax);
 					}
+
 				}
 			 }
-			 //exit;
+		//exit;
 		 }
 	}
 

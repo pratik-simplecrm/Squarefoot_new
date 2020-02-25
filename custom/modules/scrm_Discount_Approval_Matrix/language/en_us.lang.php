@@ -1,5 +1,5 @@
 <?php
-// created: 2016-09-10 13:16:48
+// created: 2020-02-03 14:37:19
 $mod_strings = array (
   'LBL_TEAMS' => 'Teams',
   'LBL_ROLE3' => 'Role3',
@@ -12,4 +12,8 @@ $mod_strings = array (
   'LBL_EDITVIEW_PANEL1' => 'Level1',
   'LBL_EDITVIEW_PANEL2' => 'Level2',
   'LBL_EDITVIEW_PANEL3' => 'Level3',
+  'LBL_DISCOUNT4_C' => 'Discount4',
+  'LBL_ROLE4_C' => 'Role4',
+  'LBL_EDITVIEW_PANEL4' => 'New Panel 4',
+  'LBL_DETAILVIEW_PANEL4' => 'New Panel 4',
 );

@@ -19,5 +19,8 @@ $hook_array['process_record'] = Array();
 $hook_array['process_record'][] = Array(1, 'Quotes valid until ', 'custom/modules/quote_Quote/QuoteValidUntil.php','QuoteValidUntil', 'quote_valid_until');
 
 $hook_array['after_save'][] = Array(3, 'Discount Approval', 'custom/modules/quote_Quote/DiscountApproval.php','DiscountApproval', 'discount_approval');
+$hook_array['after_save'][] = Array(5, 'Discount Approval To Malathi and Nalini', 'custom/modules/quote_Quote/DiscountApproval.php','DiscountApproval', 
+	'give_discount_approval_malathi_and_nalini');
+$hook_array['after_save'][] = Array(6, 'Duty Free Quote Approval', 'custom/modules/quote_Quote/dutyFreeApproval.php','DutyFreeApproval', 'dutyfree_approval');
 $hook_array['after_save'][] = Array(4, 'Sending Email for Product Cost', 'custom/modules/quote_Quote/SendEmailforProductCost.php','SendEmailforProductCost', 'send_email_for_product');
 ?>

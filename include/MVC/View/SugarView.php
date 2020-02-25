@@ -1419,6 +1419,10 @@ EOHTML;
                 $paramString .= $this->getBreadCrumbSymbol();
             }
         }
+        
+/*$theTitle .= "<style>.selectActions .sugar_action_button .subnav #delete_listview_top {display:none !important; }
+</style>";
+*/
 
         if (!empty($paramString)) {
          //   $theTitle .= "<h2 class='module-title-text'> $paramString </h2>";

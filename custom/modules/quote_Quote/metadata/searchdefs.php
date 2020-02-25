@@ -89,6 +89,15 @@ array (
         'default' => true,
         'width' => '10%',
       ),
+      'approval_status_c' => 
+      array (
+        'type' => 'enum',
+        'default' => true,
+        'studio' => 'visible',
+        'label' => 'LBL_APPROVAL_STATUS',
+        'width' => '10%',
+        'name' => 'approval_status_c',
+      ),
     ),
   ),
   'templateMeta' => 

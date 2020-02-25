@@ -56,6 +56,27 @@ global $app_strings, $sugar_config, $timedate, $current_user;
 $mod_strings = return_module_language($sugar_config['default_language'], $moduleDir);
 
 if (isset($_POST['campaign_id']) && !empty($_POST['campaign_id'])) {
+    //For UTM URL Lead Source by Ashish Shende
+    $_POST['utm_url_c'] = $_POST['utmurl'];
+    $utmurl = $_POST['utmurl'];
+    
+    $utmurl1 = explode('?', $utmurl);
+    if (count($utmurl1) >= 2){
+        $utmParameters = explode('&', $utmurl1[1]);
+
+        foreach ($utmParameters as $key => $uparamenter) {
+            if (strpos($uparamenter, 'utm_medium')!== false) {
+                $utm_medium = str_replace('utm_medium=', '', $uparamenter);
+            } elseif (strpos($uparamenter, 'utm_campaign')!== false) {
+                $_POST['utm_campaign_c'] = str_replace('utm_campaign=', '', $uparamenter);
+            } else if(strpos($uparamenter, 'utm_source')!== false) {
+                $_POST['lead_source'] = str_replace('utm_source=', '', $uparamenter);
+            } 
+        }
+    }
+    //For UTM URL Lead Source end by Ashish Shende
+
+   
     //adding the client ip address
     $_POST['client_id_address'] = query_client_ip();
     $campaign_id = $_POST['campaign_id'];

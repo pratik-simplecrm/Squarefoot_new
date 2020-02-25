@@ -102,7 +102,7 @@ global $db;
 	$product_id =$_GET['product_id'];
 	$branch = $_GET['branch'];
 	//written by pratik on 03072019 start
-	$currency = trim($_GET['currency']);
+	//$currency = trim($_GET['currency']);
 	// end 
 	 $query2="	SELECT * From
 				quote_products,quote_products_cstm
@@ -284,17 +284,16 @@ global $db;
 	$data['sac_code_c']       = $sac_code;
 	$data['gst_c'] = $gst;
 	//written by pratik on 03072019
-	if($currency == 'INR')
-	{
-		$data['unit_price_c'] = number_format($unit_price, 2, '.', '');
-	}
-    else if($currency == 'Euro')
-	{
-		if($unit_price_euro!='')
-	    $data['unit_price_c'] = number_format($unit_price_euro, 2, '.', '');
-	    else
-		$data['unit_price_c'] = number_format($unit_price *  0.01276, 2, '.', '');
-	}
+	
+	$data['unit_price_c'] = number_format($unit_price, 2, '.', '');
+	
+ //    else if($currency == 'Euro')
+	// {
+	// 	if($unit_price_euro!='')
+	//     $data['unit_price_c'] = number_format($unit_price_euro, 2, '.', '');
+	//     else
+	// 	$data['unit_price_c'] = number_format($unit_price *  0.01276, 2, '.', '');
+	// }
 	//end
 	echo json_encode($data);
 }

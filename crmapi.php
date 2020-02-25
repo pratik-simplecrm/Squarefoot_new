@@ -12,7 +12,8 @@ if (!define('sugarEntry'))
     define('sugarEntry', true);
 require_once('include/entryPoint.php');
 global $db, $sugar_config;
-$url = "https://squarefoot.simplecrmondemand.com/service/v4_1/rest.php";
+//$url = "https://squarefoot.simplecrmondemand.com/service/v4_1/rest.php";
+$url = "http://18.139.239.214/squarefoot/prodbackup/service/v4_1/rest.php";
 $username = $sugar_config['asterisk_soapuser'];
 $password = $sugar_config['asterisk_soappass'];
 
@@ -27,6 +28,9 @@ $apiAction = array(
 );
 
 $authorize_keyword = "Squ@reFoot";
+//print_r($_SERVER['HTTP_AUTHORIZEDAPPLICATION']);
+//print_r($_SERVER['HTTP_REQUESTEDMETHOD']);
+//exit;
 
 if ($_SERVER['HTTP_AUTHORIZEDAPPLICATION'] == $authorize_keyword && in_array($_SERVER['HTTP_REQUESTEDMETHOD'], $apiAction)) {
     
@@ -51,11 +55,13 @@ if ($_SERVER['HTTP_AUTHORIZEDAPPLICATION'] == $authorize_keyword && in_array($_S
         $product_species_c  = $rawData->species;
         $description        = $rawData->message;
         $brochure_c         = $rawData->brochure;
+        $utm_url            = $rawData->utm_url;
+        $utm_campaign       = $rawData->utm_campaign;
 
         $status             = 'New';     
         $assigned_user_name = 'Administrator';
         
-        if($primary_address_country!="India" || empty($$primary_address_country))
+        if($primary_address_country!="India" || empty($primary_address_country))
             {
                 $primary_address_street= "India";
             }
@@ -69,7 +75,7 @@ if ($_SERVER['HTTP_AUTHORIZEDAPPLICATION'] == $authorize_keyword && in_array($_S
 			if($lead_count>0){
 				$msg = array(
 					'Success' => false,
-					'Message' => 'Oops! the lead is alredy present in CRM'
+					'Message' => 'Oops! the lead is already present in CRM'
 				);
 							echo json_encode($msg);
 				exit;
@@ -104,6 +110,8 @@ if ($_SERVER['HTTP_AUTHORIZEDAPPLICATION'] == $authorize_keyword && in_array($_S
                 array('name' => 'assigned_user_name','value' => $assigned_user_name),
                 array('name' => 'assigned_user_id','value' => '1'),
                 array('name' => 'brochure_c','value' => $brochure_c),
+                array('name' => 'utm_url_c','value' => $utm_url),
+                array('name' => 'utm_campaign_c','value' => $utm_campaign),
               
          );
          

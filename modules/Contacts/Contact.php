@@ -344,6 +344,8 @@ class Contact extends Person {
                         $query .= "where ($where) AND ".$where_auto;
                 else
                         $query .= "where ".$where_auto;
+                    //echo $query;
+                   // exit;
 
         $order_by = $this->process_order_by($order_by);
         if (!empty($order_by)) {

@@ -7,19 +7,19 @@ class quoteNumber{
 			$branchCodeFetch = "SELECT name FROM pdf_quote_pdf WHERE branch = '".$bean->branch_c."'";
 			$branchCodeFetchResult = $db->query($branchCodeFetch);
 			$branchCodeFetchRow = $db->fetchByAssoc($branchCodeFetchResult);
-			echo $qut_val = $branchCodeFetchRow['name'];
+			$qut_val = $branchCodeFetchRow['name'];
 			
 			//Generating Custom Quote Number
 			//Syntax - City_Code-Finincial_Year-Concecutive_Number
 			//Generating Finincial year for the Quote Number - Finincial_Year
 			 $qut_year = date('m') < 4?date('Y')-1:date('Y');
-			 echo "  ".$qut_val.$qut_year;
+			 //echo "  ".$qut_val.$qut_year;
 			
 			$query = "select custom_quote_num_c from quote_quote_cstm join quote_quote on (id_c=id and deleted=0) where custom_quote_num_c like '".$qut_val.$qut_year."%' order by date_entered desc limit 0,1";
 			$query = $db->query($query);
 			$query = $db->fetchByAssoc($query);
 			//Replacing prefixes
-			echo "ssssssssss=".$query['custom_quote_num_c'];
+			//echo "ssssssssss=".$query['custom_quote_num_c'];
 			//echo "  replace code:".$qut_val.$qut_year;
 			$query = str_replace($qut_val.$qut_year, "", $query['custom_quote_num_c']);
 			
@@ -38,11 +38,11 @@ class quoteNumber{
 				//~ $query = $db->query($query);
 				
 			//~ }
-             echo "<br>";
+             //echo "<br>";
              $query++;
-			echo $qut_val.$qut_year.$prefix.$query;
+			//echo $qut_val.$qut_year.$prefix.$query;
 			
-			$bean->custom_quote_num_c = $qut_val.$qut_year.$prefix.$query; 	exit;	
+			$bean->custom_quote_num_c = $qut_val.$qut_year.$prefix.$query; 	//exit;	
 		}
 	}
 }

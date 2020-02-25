@@ -43,6 +43,11 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
+        'LBL_EDITVIEW_PANEL4' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
       ),
       'syncDetailEditViews' => false,
     ),
@@ -117,6 +122,24 @@ array (
             'name' => 'role3_c',
             'studio' => 'visible',
             'label' => 'LBL_ROLE3',
+          ),
+        ),
+      ),
+      'lbl_editview_panel4' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'discount4_c',
+            'studio' => 'visible',
+            'label' => 'LBL_DISCOUNT4_C',
+          ),
+          1 => 
+          array (
+            'name' => 'role4_c',
+            'studio' => 'visible',
+            'label' => 'LBL_ROLE4_C',
           ),
         ),
       ),

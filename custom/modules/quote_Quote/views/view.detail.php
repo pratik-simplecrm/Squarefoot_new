@@ -18,22 +18,32 @@ class quote_QuoteViewDetail extends ViewDetail {
         global $current_user;
         $current_user_id = $current_user->id;
         $module = 'quote_Quote';
+        $current_user_role4='';
         require_once("modules/ACLRoles/ACLRole.php");
         $acl_role_obj = new ACLRole();
         $user_roles = $acl_role_obj->getUserRoles($current_user_id);
         $current_user_role = $user_roles[0];
+        if($current_user_role=='Sales coordinator for malathi user')
+        {
+            $current_user_role4 = str_replace(" ","_",$current_user_role);
+        }
+
         if (!empty($current_user_role)) {
-            $query_discount_approval = "SELECT approval_levels_c from scrm_discount_approval_matrix_cstm JOIN scrm_discount_approval_matrix ON id_c=id where role1_c='$current_user_role' OR role2_c='$current_user_role' OR role3_c='$current_user_role' and deleted=0";
+            $query_discount_approval = "SELECT approval_levels_c from scrm_discount_approval_matrix_cstm JOIN scrm_discount_approval_matrix ON id_c=id where role1_c='$current_user_role' OR role2_c='$current_user_role' OR role3_c='$current_user_role' OR role4_c='$current_user_role4' and deleted=0";
             $result = $db->query($query_discount_approval);
             $row = $db->fetchByAssoc($result);
             $approval_level = $row['approval_levels_c'];
             $Approved = explode('^', $approval_level);
+            //print_r($Approved);
+           
             if (!empty($Approved)) {
+
                 $js = <<<EOD
 			<script>
 				$(document).ready(function(){
 					var approval_status = $('#approval_status_c').val();
 					//alert(approval_status);
+                    //var role_name = '$current_user_role';
                     
                     //written by: Anjali Ledade //to hide customer type dropdown
                     $(this).find('#customer_type_c').hide();
@@ -94,6 +104,24 @@ BEA;
         $quote_id = $this->bean->id;
         $bean1 = BeanFactory::getBean('quote_QuoteProducts');
         $qp_list = $bean1->get_list("", "quote_quoteproducts.quote_id = '" . $quote_id . "'");
+
+         
+        /* get currency code starts added on 30 jan 2020 by pratik */
+        $get_currency_id = "SELECT `currency_id` FROM `quote_quote` WHERE `id`='$quote_id'";
+        $get_currency_id_res = $db->query($get_currency_id);
+        $get_currency_id_row = $db->fetchByAssoc($get_currency_id_res);
+        $currency_id = $get_currency_id_row['currency_id'];
+
+        $get_currency = "SELECT `symbol` FROM `currencies` WHERE `id`='$currency_id'";
+        $get_currency_res = $db->query($get_currency);
+        $get_currency_row = $db->fetchByAssoc($get_currency_res);
+        $currency_code = $get_currency_row['symbol']." ";
+        if(empty($currency_name) && $currency_id=='-99')
+        {
+           $currency_code = 'Rs. ';
+        }
+       // echo "currency_name:". $currency_name;
+        /* get currency code end */
 
         $i = 0;
         $prods = array();
@@ -275,12 +303,12 @@ BEA;
                 $productCount++;
                 $Total = $discountedPrice + $TaxPrice + $structure_details;
                 $Pricing_list_row .= "<tr><td colspan =8></td></tr>";
-                $Pricing_list_row .= "<tr><td  colspan = 6></td><td>Sub Total:</td><td> Rs." . number_format($subTotal, 2) . "</td></tr>";
-                $Pricing_list_row .= "<tr><td  colspan = 6></td><td>Discount:</td><td> Rs." . number_format($discount, 2) . "</td></tr>";
-                $Pricing_list_row .= "<tr><td  colspan = 6></td><td>Discounted Total:</td><td> Rs." . number_format($discountedPrice, 2) . "</td></tr>";
-                $Pricing_list_row .= "<tr><td  colspan = 6></td><td>Other Charges:</td><td> Rs." . number_format($structure_details, 2) . "</td></tr>";
+                $Pricing_list_row .= "<tr><td  colspan = 6></td><td>Sub Total:</td><td>".$currency_code." " . number_format($subTotal, 2) . "</td></tr>";
+                $Pricing_list_row .= "<tr><td  colspan = 6></td><td>Discount:</td><td>".$currency_code."" . number_format($discount, 2) . "</td></tr>";
+                $Pricing_list_row .= "<tr><td  colspan = 6></td><td>Discounted Total:</td><td>".$currency_code."" . number_format($discountedPrice, 2) . "</td></tr>";
+                $Pricing_list_row .= "<tr><td  colspan = 6></td><td>Other Charges:</td><td>".$currency_code."" . number_format($structure_details, 2) . "</td></tr>";
 				
-                $Pricing_list_row .= "<tr><td  colspan = 6></td><td>GST:</td><td> Rs." . number_format($TaxPrice, 2) . "</td></tr>";
+                $Pricing_list_row .= "<tr><td  colspan = 6></td><td>GST:</td><td> ".$currency_code."" . number_format($TaxPrice, 2) . "</td></tr>";
 				//code written by pratik on 07082019 start (Kerala 1% cess code)
 				$other_charges_per = 0;
 				if(strtolower($branch_nm)==strtolower('Kerala') && $unregistered_user=='1')
@@ -293,7 +321,7 @@ BEA;
 							$other_charges_per = (1 / 100) * $structure_details;
 						}
 						$_finale_cess_1 = $cess1 + $other_charges_per;
-						$Pricing_list_row .= "<tr><td  colspan = 6></td><td>kerala Cess 1% :</td><td> Rs." . number_format($_finale_cess_1 , 2) . "</td></tr>";
+						$Pricing_list_row .= "<tr><td  colspan = 6></td><td>kerala Cess 1% :</td><td> ".$currency_code."" . number_format($_finale_cess_1 , 2) . "</td></tr>";
 					}
 					else if($subTotal!=0)
 					{
@@ -303,15 +331,15 @@ BEA;
 							$other_charges_per = (1 / 100) * $structure_details;
 						}
 						$_finale_cess_1 = $cess1 + $other_charges_per;
-						$Pricing_list_row .= "<tr><td  colspan = 6></td><td>kerala Cess 1% :</td><td> Rs." . number_format($_finale_cess_1, 2) . "</td></tr>";
+						$Pricing_list_row .= "<tr><td  colspan = 6></td><td>kerala Cess 1% :</td><td> ".$currency_code."" . number_format($_finale_cess_1, 2) . "</td></tr>";
 					}
 				}
 				//code written by pratik on 07082019 end (Kerala 1% cess code)
                 if(strtolower($branch_nm)==strtolower('Kerala') && $unregistered_user=='1')
 				{
-					$Pricing_list_row .= "<tr><td  colspan = 6></td><td>Total:</td><td> Rs." . number_format($Total + $_finale_cess_1, 2) . "</td></tr>";
+					$Pricing_list_row .= "<tr><td  colspan = 6></td><td>Total:</td><td> ".$currency_code."" . number_format($Total + $_finale_cess_1, 2) . "</td></tr>";
 				}else{
-					$Pricing_list_row .= "<tr><td  colspan = 6></td><td>Total:</td><td> Rs." . number_format($Total, 2) . "</td></tr>";
+					$Pricing_list_row .= "<tr><td  colspan = 6></td><td>Total:</td><td> ".$currency_code."" . number_format($Total, 2) . "</td></tr>";
 				}
 				//code written by pratik on 07082019 end (Kerala 1% cess code)
                 $Pricing_list_row .= "<tr><td colspan =8></td></tr>";
@@ -396,23 +424,23 @@ BEA;
                 $Total = $discountedPrice + $TaxPrice + $shipping;
 
                 $Pricing_list_row1 .= "<tr><td colspan =8></td></tr>";
-                $Pricing_list_row1 .= "<tr><td  colspan = 6></td><td>Sub Total:</td><td> Rs." . number_format($subTotal, 2) . "</td></tr>";
-                $Pricing_list_row1 .= "<tr><td  colspan = 6></td><td>Discount:</td><td> Rs." . number_format($discount, 2) . "</td></tr>";
-                $Pricing_list_row1 .= "<tr><td  colspan = 6></td><td>Discounted Total:</td><td> Rs." . number_format($discountedPrice, 2) . "</td></tr>";
+                $Pricing_list_row1 .= "<tr><td  colspan = 6></td><td>Sub Total:</td><td> ".$currency_code."" . number_format($subTotal, 2) . "</td></tr>";
+                $Pricing_list_row1 .= "<tr><td  colspan = 6></td><td>Discount:</td><td> ".$currency_code."" . number_format($discount, 2) . "</td></tr>";
+                $Pricing_list_row1 .= "<tr><td  colspan = 6></td><td>Discounted Total:</td><td> ".$currency_code."" . number_format($discountedPrice, 2) . "</td></tr>";
 				
-                $Pricing_list_row1 .= "<tr><td  colspan = 6></td><td>GST:</td><td> Rs." . number_format($TaxPrice, 2) . "</td></tr>";
+                $Pricing_list_row1 .= "<tr><td  colspan = 6></td><td>GST:</td><td> ".$currency_code."" . number_format($TaxPrice, 2) . "</td></tr>";
 				//code written by pratik on 07082019 start (Kerala 1% cess code)
 				if(strtolower($branch_nm)==strtolower('Kerala') && $unregistered_user=='1')
 				{
 					if($discountedPrice!=0)
 					{
 	                    $cess2 = (1 / 100) * $discountedPrice;
-						$Pricing_list_row1 .= "<tr><td  colspan = 6></td><td>kerala Cess 1% :</td><td> Rs." . number_format($cess2 , 2) . "</td></tr>";
+						$Pricing_list_row1 .= "<tr><td  colspan = 6></td><td>kerala Cess 1% :</td><td> ".$currency_code."" . number_format($cess2 , 2) . "</td></tr>";
 					}
 					else if($subTotal!=0)
 					{
 						$cess2 = (1 / 100) * $subTotal;
-						$Pricing_list_row1 .= "<tr><td  colspan = 6></td><td>kerala Cess 1% :</td><td> Rs." . number_format($cess2, 2) . "</td></tr>";
+						$Pricing_list_row1 .= "<tr><td  colspan = 6></td><td>kerala Cess 1% :</td><td> ".$currency_code."" . number_format($cess2, 2) . "</td></tr>";
 					}
 				}
 				//code written by pratik on 07082019 end (Kerala 1% cess code)
@@ -420,9 +448,9 @@ BEA;
                 //$Pricing_list_row1 .= "<tr><td  colspan = 6></td><td>Shipping:</td><td> Rs." . number_format($shipping, 2) . "</td></tr>";
 				if(strtolower($branch_nm)==strtolower('Kerala') && $unregistered_user=='1')
 				{
-					$Pricing_list_row1 .= "<tr><td  colspan = 6></td><td>Total:</td><td> Rs." . number_format($Total + $cess2, 2) . "</td></tr>";
+					$Pricing_list_row1 .= "<tr><td  colspan = 6></td><td>Total:</td><td> ".$currency_code."" . number_format($Total + $cess2, 2) . "</td></tr>";
 				}else{
-					$Pricing_list_row1 .= "<tr><td  colspan = 6></td><td>Total:</td><td> Rs." . number_format($Total, 2) . "</td></tr>";
+					$Pricing_list_row1 .= "<tr><td  colspan = 6></td><td>Total:</td><td> ".$currency_code."" . number_format($Total, 2) . "</td></tr>";
 				}
 				
                 $Pricing_list_row1 .= "<tr><td colspan =8></td></tr>";
