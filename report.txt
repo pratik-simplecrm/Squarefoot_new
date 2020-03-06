@@ -1,0 +1,12 @@
+SELECT `opportunities`.lead_source AS 'Showroom_Walk_in_Source0', `opportunities`.currency_id AS 'opportunities_currency_id', SUM(`opportunities`.amount_usdollar) AS 'Amount1', `opportunities`.sales_stage AS 'Sales_Stage2' FROM `opportunities`  WHERE ( (`opportunities`.lead_source = 'Cold Call' OR `opportunities`.lead_source = 'Self Generated' OR `opportunities`.lead_source = 'Web Site' OR `opportunities`.lead_source = 'Trade Show' OR `opportunities`.lead_source = 'Email' OR `opportunities`.lead_source = 'Campaign' OR `opportunities`.lead_source = 'Other') AND `opportunities`.sales_stage = 'Closed Won' ) AND  opportunities.deleted = 0  AND ( opportunities.assigned_user_id =''  or  EXISTS (SELECT  1
+                  FROM    securitygroups secg
+                          INNER JOIN securitygroups_users secu
+                            ON secg.id = secu.securitygroup_id
+                               AND secu.deleted = 0
+                               AND secu.user_id = ''
+                          INNER JOIN securitygroups_records secr
+                            ON secg.id = secr.securitygroup_id
+                               AND secr.deleted = 0
+                               AND secr.module = 'Opportunities'
+                       WHERE   secr.record_id = opportunities.id
+                               AND secg.deleted = 0) )  GROUP BY `opportunities`.lead_source, `opportunities`.currency_id, `opportunities`.sales_stage ORDER BY SUM(`opportunities`.amount_usdollar) DESC

@@ -14,8 +14,11 @@ class CreateCase
 			self::$already_ran = true;
 		
 			global $db, $current_user; 
-	
-			
+			// echo "<pre>";
+			// echo "oppddd=".$opp_id = $bean->opportunity_id_c;
+			// print_r($bean);
+			// exit;
+			$meeting_name = $bean->name;
 			$upd_branch_name =$case_subject='';
 			$meeting_id = $bean->id;
 			$case_id = $bean->parent_id;
@@ -40,6 +43,16 @@ class CreateCase
 			$supervisor_co_id = $bean->user_id1_c;
 			$sales_person_id = $bean->user_id_c;
 			$opp_id = $bean->opportunity_id_c;
+			if(empty($opp_id) && $opp_id=='')
+			{
+				$opp_id = $bean->parent_id;
+				$get_opp_cust_name="SELECT A.`name`,A.`id` FROM `accounts` as A inner join `accounts_opportunities` as B on A.id =B.account_id where B.opportunity_id=
+				'$opp_id' and A.deleted=0 and B.deleted=0";
+				 $response2 = $db->query($get_opp_cust_name);
+				 $row22 = $db->fetchByAssoc($response2);
+				 $account_person_name = (!empty($row22['name'])?$row22['name']:'name not available');
+				$account_id = (!empty($row22['id'])?$row22['id']:'');
+			}
 			$service_co_id = $bean->rel_fields_before_value['assigned_user_id'];
 			$branch_name = $bean->region_c;
 			$case_status = "Open_PLN";
@@ -89,8 +102,22 @@ class CreateCase
 					
 					if($case_number!='')
 					{
-						//echo "created";
-						//exit;
+						/* ****LOG Creation******************** */
+							$APILogFile = 'case_creation.txt';
+							$handle = fopen($APILogFile, 'a');
+							$timestamp = date('Y-m-d H:i:s');
+							$logArray = array(
+								'supervisor_co_id'=>$supervisor_co_id,
+								'sales_person_id'=>$sales_person_id,'oppurtunity_id'=>$opp_id,
+								'branch_name'=>$branch_name,'case_status'=>$case_status,
+								'case_start_date'=>$case_start_date,'case_id'=>$uuid,
+								'case_number'=>$case_number,'account_id'=>$account_id,
+								'case_state'=>$case_state,'date_created'=>$date_created,
+								'case_subject'=>$case_subject,'login_username'=>$login_username,'meeting_name'=>$meeting_name);
+							$logArray2 = print_r($logArray, true);
+							$logMessage1 = "\ncase_creation Result at $timestamp :-\n$logArray2";		
+							fwrite($handle, $logMessage1);	
+						// end of code here
 						$sql = "INSERT INTO `cases`(`id`, `name`, `date_entered`, `date_modified`, `created_by`, `assigned_user_id`, `case_number`, `type`, `status`,`account_id`, `state`)
 						VALUES ('$uuid','$case_subject','$date_created','$date_created','$sales_person_id','$service_co_id',
 						'$case_number','Product','$case_status','$account_id','$case_state')";

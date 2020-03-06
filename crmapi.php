@@ -56,7 +56,12 @@ if ($_SERVER['HTTP_AUTHORIZEDAPPLICATION'] == $authorize_keyword && in_array($_S
         $description        = $rawData->message;
         $brochure_c         = $rawData->brochure;
         $utm_url            = $rawData->utm_url;
-        $utm_campaign       = $rawData->utm_campaign;
+        $utm_source         = $rawData->utm_source;
+        $utm_content        = $rawData->utm_content;
+        $utm_medium         = $rawData->utm_medium;
+        $utm_campaign_name  = $rawData->utm_campaign_name;
+        $utm_term           = $rawData->utm_term;
+
 
         $status             = 'New';     
         $assigned_user_name = 'Administrator';
@@ -111,7 +116,11 @@ if ($_SERVER['HTTP_AUTHORIZEDAPPLICATION'] == $authorize_keyword && in_array($_S
                 array('name' => 'assigned_user_id','value' => '1'),
                 array('name' => 'brochure_c','value' => $brochure_c),
                 array('name' => 'utm_url_c','value' => $utm_url),
-                array('name' => 'utm_campaign_c','value' => $utm_campaign),
+                array('name' => 'utm_campaign_c','value' => $utm_source),
+                array('name' => 'utm_content_c','value' => $utm_content),
+                array('name' => 'utm_medium_c','value' => $utm_medium),
+                array('name' => 'utm_name_c','value' => $utm_campaign_name),
+                array('name' => 'utm_term_c','value' => $utm_term)
               
          );
          

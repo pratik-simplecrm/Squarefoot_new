@@ -171,6 +171,54 @@ array (
         'default' => true,
         'name' => 'arch_architectural_firm_leads_1_name',
       ),
+      'utm_url_c' => 
+      array (
+        'type' => 'varchar',
+        'default' => true,
+        'label' => 'LBL_UTM_URL',
+        'width' => '10%',
+        'name' => 'utm_url_c',
+      ),
+      'utm_campaign_c' => 
+      array (
+        'type' => 'varchar',
+        'default' => true,
+        'label' => 'LBL_UTM_CAMPAIGN',
+        'width' => '10%',
+        'name' => 'utm_campaign_c',
+      ),
+      'utm_medium_c' => 
+      array (
+        'type' => 'varchar',
+        'default' => true,
+        'label' => 'LBL_UTM_MEDIUM',
+        'width' => '10%',
+        'name' => 'utm_medium_c',
+      ),
+      'utm_term_c' => 
+      array (
+        'type' => 'varchar',
+        'default' => true,
+        'label' => 'LBL_UTM_TERM',
+        'width' => '10%',
+        'name' => 'utm_term_c',
+      ),
+      'utm_name_c' => 
+      array (
+        'type' => 'varchar',
+        'default' => true,
+        'label' => 'LBL_UTM_NAME',
+        'width' => '10%',
+        'name' => 'utm_name_c',
+      ),
+      'utm_content_c' => 
+      array (
+        'type' => 'varchar',
+        'default' => true,
+        'label' => 'LBL_UTM_CONTENT',
+        'width' => '10%',
+        'name' => 'utm_content_c',
+      ),
     ),
   ),
   'templateMeta' => 

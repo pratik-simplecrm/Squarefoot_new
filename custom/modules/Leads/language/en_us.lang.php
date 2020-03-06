@@ -1,5 +1,5 @@
 <?php
-// created: 2019-12-11 10:35:12
+// created: 2020-03-03 14:28:14
 $mod_strings = array (
   'LBL_ACCOUNT' => 'Account',
   'LNK_NEW_LEAD' => 'Create Showroom Walk ins',
@@ -40,4 +40,9 @@ $mod_strings = array (
   'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Primary Address Country',
   'LBL_BRANCH' => 'Branch',
   'LBL_SECTOR' => 'Sector',
+  'LBL_UTM_CAMPAIGN' => 'Campaign Medium',
+  'LBL_UTM_MEDIUM' => 'UTM Medium',
+  'LBL_UTM_NAME' => 'UTM Name',
+  'LBL_UTM_TERM' => 'UTM Term',
+  'LBL_UTM_CONTENT' => 'UTM Content',
 );

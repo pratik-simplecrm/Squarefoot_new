@@ -1,0 +1,76 @@
+
+case_creation Result at 2020-02-26 16:42:30 :-
+Array
+(
+    [supervisor_co_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [sales_person_id] => 1
+    [oppurtunity_id] => 26e60c1f-6f6e-f440-8204-5e5652b88516
+    [branch_name] => Bangalore
+    [case_status] => Open_PLN
+    [case_start_date] => 2020-02-27 11:12:30
+    [case_id] => 8d90d2bd-aebf-5568-477b-7d3e9c03d9b1
+    [case_number] => 8805
+    [account_id] => 38d4d78c-b526-10b0-8e14-5de5f19d2042
+    [case_state] => Open
+    [date_created] => 2020-02-26 16:42:30
+    [case_subject] => Schedule for Measurement
+    [login_username] => admin
+    [meeting_name] => Schedule visit for Measurement
+)
+
+case_creation Result at 2020-02-26 16:45:15 :-
+Array
+(
+    [supervisor_co_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [sales_person_id] => 1
+    [oppurtunity_id] => 956b323b-9cf5-05a3-e2f2-5e56531bd63b
+    [branch_name] => Bangalore
+    [case_status] => Open_PLN
+    [case_start_date] => 2020-02-27 11:15:15
+    [case_id] => a8a024b8-f67a-382b-d0da-126668193204
+    [case_number] => 8806
+    [account_id] => 38d4d78c-b526-10b0-8e14-5de5f19d2042
+    [case_state] => Open
+    [date_created] => 2020-02-26 16:45:15
+    [case_subject] => Schedule for Measurement
+    [login_username] => admin
+    [meeting_name] => Schedule visit for Measurement
+)
+
+case_creation Result at 2020-02-26 19:21:03 :-
+Array
+(
+    [supervisor_co_id] => 1
+    [sales_person_id] => 
+    [oppurtunity_id] => 26e60c1f-6f6e-f440-8204-5e5652b88516
+    [branch_name] => Bangalore
+    [case_status] => Open_PLN
+    [case_start_date] => 2020-02-27 13:51:03
+    [case_id] => 61a69e31-83fd-8b85-c936-4b313e4169c3
+    [case_number] => 8807
+    [account_id] => 
+    [case_state] => Open
+    [date_created] => 2020-02-26 19:21:03
+    [case_subject] => Schedule for Pre-Installation
+    [login_username] => admin
+    [meeting_name] => preinstallation visit
+)
+
+case_creation Result at 2020-02-26 19:27:55 :-
+Array
+(
+    [supervisor_co_id] => 1
+    [sales_person_id] => 
+    [oppurtunity_id] => 26e60c1f-6f6e-f440-8204-5e5652b88516
+    [branch_name] => Bangalore
+    [case_status] => Open_PLN
+    [case_start_date] => 2020-02-27 13:57:55
+    [case_id] => 79c67977-b6c3-34d1-f4e8-b673b52be351
+    [case_number] => 8808
+    [account_id] => 38d4d78c-b526-10b0-8e14-5de5f19d2042
+    [case_state] => Open
+    [date_created] => 2020-02-26 19:27:55
+    [case_subject] => Schedule for Installation
+    [login_username] => admin
+    [meeting_name] => Installtion
+)

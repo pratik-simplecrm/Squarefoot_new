@@ -184,6 +184,32 @@ array (
             'name' => 'utm_campaign_c',
           ),
         ),
+        12 => 
+        array (
+          0 => 
+          array (
+            'name' => 'utm_medium_c',
+            'label' => 'LBL_UTM_MEDIUM',
+          ),
+          1 => 
+          array (
+            'name' => 'utm_name_c',
+            'label' => 'LBL_UTM_NAME',
+          ),
+        ),
+        13 => 
+        array (
+          0 => 
+          array (
+            'name' => 'utm_term_c',
+            'label' => 'LBL_UTM_TERM',
+          ),
+          1 => 
+          array (
+            'name' => 'utm_content_c',
+            'label' => 'LBL_UTM_CONTENT',
+          ),
+        ),
       ),
       'LBL_PANEL_ADVANCED' => 
       array (

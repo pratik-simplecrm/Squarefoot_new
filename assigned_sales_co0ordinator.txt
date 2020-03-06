@@ -1,0 +1,40 @@
+
+assigned_sales_co0ordinator Result at 2019-12-17 16:01:41 :-
+Array
+(
+    [aa4a06a1-125d-a55a-2ab1-5dd4ca641833] => 48
+)
+
+assigned_sales_co0ordinator Result at 2019-12-17 16:01:41 :-
+Array
+(
+    [final_assigned_user_id1] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame1] => 1
+    [sales_coor_id] => aa4a06a1-125d-a55a-2ab1-5dd4ca641833
+)
+
+assigned_sales_co0ordinator Result at 2019-12-17 16:07:00 :-
+Array
+(
+    [25ebfbb8-cd97-650b-8902-5df86268bf7f] => 0
+    [aa4a06a1-125d-a55a-2ab1-5dd4ca641833] => 48
+    [f3de9612-c908-9494-a8f3-5df861e5b388] => 0
+)
+
+assigned_sales_co0ordinator Result at 2019-12-17 16:07:00 :-
+Array
+(
+    [final_assigned_user_id1] => Array
+        (
+            [0] => 25ebfbb8-cd97-650b-8902-5df86268bf7f
+            [1] => f3de9612-c908-9494-a8f3-5df861e5b388
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame1] => 
+    [sales_coor_id] => 25ebfbb8-cd97-650b-8902-5df86268bf7f
+)

@@ -1,0 +1,4875 @@
+
+send_email_notification_to_supervisor Result at 2019-12-18 21:11:28 :-
+Array
+(
+    [meeting_start_date] => 2019-12-18 18:45:00
+    [meeting_end_date] => 2019-12-18 18:45:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 2079a6e0-2f3b-5889-0ace-5df9eee5e3a2
+)
+
+send_email_notification_to_supervisor Result at 2019-12-18 21:11:28 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-18 21:14:27 :-
+Array
+(
+    [meeting_start_date] => 2019-12-18 18:45:00
+    [meeting_end_date] => 2019-12-18 18:45:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 2079a6e0-2f3b-5889-0ace-5df9eee5e3a2
+)
+
+send_email_notification_to_supervisor Result at 2019-12-18 21:14:27 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-18 21:14:40 :-
+Array
+(
+    [meeting_start_date] => 2019-12-18 18:45:00
+    [meeting_end_date] => 2019-12-18 18:45:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 2079a6e0-2f3b-5889-0ace-5df9eee5e3a2
+)
+
+send_email_notification_to_supervisor Result at 2019-12-18 21:14:40 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-18 22:33:26 :-
+Array
+(
+    [meeting_start_date] => 2019-12-12 07:46:00
+    [meeting_end_date] => 2019-12-12 07:46:00
+    [supervisor_id] => d4460e22-4a6b-1727-c60b-5dc3f4c341f4
+    [account_id] => 38d4d78c-b526-10b0-8e14-5de5f19d2042
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => Chaitanya Bansod
+    [final_address] => It Park, Nagpur, Maharashtra, 440013, India
+    [oppurtunity_id] => 1c3d60fc-dd7f-7bcf-39b6-5df1c54fcbfd
+)
+
+send_email_notification_to_supervisor Result at 2019-12-18 22:33:26 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-18 23:13:36 :-
+Array
+(
+    [meeting_start_date] => 2019-12-18 07:43:00
+    [meeting_end_date] => 2019-12-18 07:43:00
+    [supervisor_id] => d4460e22-4a6b-1727-c60b-5dc3f4c341f4
+    [account_id] => 58ddb734-fa32-d010-af2c-5a794a77ca67
+    [meeting_subject] => Schedule for Pre-Installation
+    [meeting_type] => PREINS
+    [supervisor_name] => Chaitanya Bansod
+    [final_address] => , , , , India
+    [oppurtunity_id] => 
+)
+
+send_email_notification_to_supervisor Result at 2019-12-18 23:13:36 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-18 23:13:48 :-
+Array
+(
+    [meeting_start_date] => 2019-12-18 20:40:00
+    [meeting_end_date] => 2019-12-18 20:40:00
+    [supervisor_id] => d4460e22-4a6b-1727-c60b-5dc3f4c341f4
+    [account_id] => 58ddb734-fa32-d010-af2c-5a794a77ca67
+    [meeting_subject] => Schedule for Pre-Installation
+    [meeting_type] => PREINS
+    [supervisor_name] => Chaitanya Bansod
+    [final_address] => , , , , India
+    [oppurtunity_id] => 
+)
+
+send_email_notification_to_supervisor Result at 2019-12-18 23:13:48 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-18 23:13:57 :-
+Array
+(
+    [meeting_start_date] => 2019-12-18 20:41:00
+    [meeting_end_date] => 2019-12-18 20:41:00
+    [supervisor_id] => d4460e22-4a6b-1727-c60b-5dc3f4c341f4
+    [account_id] => 58ddb734-fa32-d010-af2c-5a794a77ca67
+    [meeting_subject] => Schedule for Pre-Installation
+    [meeting_type] => PREINS
+    [supervisor_name] => Chaitanya Bansod
+    [final_address] => , , , , India
+    [oppurtunity_id] => 
+)
+
+send_email_notification_to_supervisor Result at 2019-12-18 23:13:57 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-18 23:19:00 :-
+Array
+(
+    [meeting_start_date] => 2019-12-18 12:15:00
+    [meeting_end_date] => 2019-12-18 12:15:00
+    [supervisor_id] => d4460e22-4a6b-1727-c60b-5dc3f4c341f4
+    [account_id] => 58ddb734-fa32-d010-af2c-5a794a77ca67
+    [meeting_subject] => Schedule for Pre-Installation
+    [meeting_type] => PREINS
+    [supervisor_name] => Chaitanya Bansod
+    [final_address] => , , , , India
+    [oppurtunity_id] => 
+)
+
+send_email_notification_to_supervisor Result at 2019-12-18 23:19:00 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-18 23:19:09 :-
+Array
+(
+    [meeting_start_date] => 2019-12-18 12:44:00
+    [meeting_end_date] => 2019-12-18 12:44:00
+    [supervisor_id] => d4460e22-4a6b-1727-c60b-5dc3f4c341f4
+    [account_id] => 58ddb734-fa32-d010-af2c-5a794a77ca67
+    [meeting_subject] => Schedule for Pre-Installation
+    [meeting_type] => PREINS
+    [supervisor_name] => Chaitanya Bansod
+    [final_address] => , , , , India
+    [oppurtunity_id] => 
+)
+
+send_email_notification_to_supervisor Result at 2019-12-18 23:19:09 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-18 23:23:13 :-
+Array
+(
+    [meeting_start_date] => 2019-12-18 23:19:00
+    [meeting_end_date] => 2019-12-18 23:19:00
+    [supervisor_id] => d4460e22-4a6b-1727-c60b-5dc3f4c341f4
+    [account_id] => 58ddb734-fa32-d010-af2c-5a794a77ca67
+    [meeting_subject] => Schedule for Pre-Installation
+    [meeting_type] => PREINS
+    [supervisor_name] => Chaitanya Bansod
+    [final_address] => , , , , India
+    [oppurtunity_id] => 
+)
+
+send_email_notification_to_supervisor Result at 2019-12-18 23:23:13 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-18 23:38:17 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 07:45:00
+    [meeting_end_date] => 2019-12-19 15:00:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 
+    [meeting_subject] => Test
+    [meeting_type] => 
+    [supervisor_name] => BUDDAPPA
+    [final_address] => 
+    [oppurtunity_id] => 
+)
+
+send_email_notification_to_supervisor Result at 2019-12-18 23:38:17 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-18 23:52:34 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 07:45:00
+    [meeting_end_date] => 2019-12-19 15:00:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 
+    [meeting_subject] => Test
+    [meeting_type] => 
+    [supervisor_name] => BUDDAPPA
+    [final_address] => 
+    [oppurtunity_id] => 
+)
+
+send_email_notification_to_supervisor Result at 2019-12-18 23:52:34 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-19 00:42:28 :-
+Array
+(
+    [meeting_start_date] => 2019-12-18 17:42:28
+    [meeting_end_date] => 2019-12-18 17:42:28
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 67f8c9cf-00d8-b876-e5fb-5dfa2cd85113
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 00:44:45 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 05:45:00
+    [meeting_end_date] => 2019-12-19 10:45:00
+    [supervisor_id] => 1914ca70-ca26-559a-de9c-5dd4c4e27d07
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => RAVI KUMAR.R.
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 67f8c9cf-00d8-b876-e5fb-5dfa2cd85113
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 00:44:45 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-19 00:53:13 :-
+Array
+(
+    [meeting_start_date] => 2019-12-18 17:53:13
+    [meeting_end_date] => 2019-12-18 17:53:13
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 2d3488af-8bc6-d337-6fa4-5dfa2ff29249
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 00:54:14 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 06:00:00
+    [meeting_end_date] => 2019-12-19 11:00:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 2d3488af-8bc6-d337-6fa4-5dfa2ff29249
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 00:54:14 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-19 14:50:32 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 07:50:32
+    [meeting_end_date] => 2019-12-19 07:50:32
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 7db8b15d-e5a1-b8c5-1ae6-5dfaf3e13d91
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 14:52:18 :-
+Array
+(
+    [meeting_start_date] => 2019-12-20 08:00:00
+    [meeting_end_date] => 2019-12-20 11:00:00
+    [supervisor_id] => 1914ca70-ca26-559a-de9c-5dd4c4e27d07
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => RAVI KUMAR.R.
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 7db8b15d-e5a1-b8c5-1ae6-5dfaf3e13d91
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 14:52:18 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-19 14:53:36 :-
+Array
+(
+    [meeting_start_date] => 2019-12-20 08:00:00
+    [meeting_end_date] => 2019-12-20 11:00:00
+    [supervisor_id] => 1914ca70-ca26-559a-de9c-5dd4c4e27d07
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => RAVI KUMAR.R.
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 7db8b15d-e5a1-b8c5-1ae6-5dfaf3e13d91
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 14:53:36 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-19 14:56:23 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 06:56:23
+    [meeting_end_date] => 2019-12-19 06:56:23
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 7db8b15d-e5a1-b8c5-1ae6-5dfaf3e13d91
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 14:58:55 :-
+Array
+(
+    [meeting_start_date] => 2019-12-20 08:00:00
+    [meeting_end_date] => 2019-12-20 11:00:00
+    [supervisor_id] => b7b1a5b7-1988-30f0-287b-5dcbe3496546
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => Tesing Supervisor
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 7db8b15d-e5a1-b8c5-1ae6-5dfaf3e13d91
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 14:58:55 :-
+ supervisor_email_address:pratik.tambekar91@gmail.com
+send_email_notification_to_supervisor Result at 2019-12-19 15:03:41 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 09:45:00
+    [meeting_end_date] => 2019-12-19 09:45:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 7db8b15d-e5a1-b8c5-1ae6-5dfaf3e13d91
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 15:03:41 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-19 15:04:02 :-
+Array
+(
+    [meeting_start_date] => 2019-12-20 13:30:00
+    [meeting_end_date] => 2019-12-20 16:30:00
+    [supervisor_id] => b7b1a5b7-1988-30f0-287b-5dcbe3496546
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => Tesing Supervisor
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 7db8b15d-e5a1-b8c5-1ae6-5dfaf3e13d91
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 15:04:02 :-
+ supervisor_email_address:pratik.tambekar91@gmail.com
+send_email_notification_to_supervisor Result at 2019-12-19 15:07:20 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 09:45:00
+    [meeting_end_date] => 2019-12-19 09:45:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 7db8b15d-e5a1-b8c5-1ae6-5dfaf3e13d91
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 15:07:20 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-19 15:11:12 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 13:41:12
+    [meeting_end_date] => 2019-12-19 13:41:12
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 8af021a5-7da5-b69c-c89c-5dfaf8120dcc
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 15:58:49 :-
+Array
+(
+    [meeting_start_date] => 2019-12-18 19:50:00
+    [meeting_end_date] => 2019-12-18 19:50:00
+    [supervisor_id] => d4460e22-4a6b-1727-c60b-5dc3f4c341f4
+    [account_id] => 38d4d78c-b526-10b0-8e14-5de5f19d2042
+    [meeting_subject] => Schedule for Pre-Installation
+    [meeting_type] => PREINS
+    [supervisor_name] => Chaitanya Bansod
+    [final_address] => It Park, Nagpur, Maharashtra, 440013, India
+    [oppurtunity_id] => 
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 15:58:49 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-19 16:14:34 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 14:44:34
+    [meeting_end_date] => 2019-12-19 14:44:34
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => b0a495b8-f523-4160-b459-5dfb07b42630
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 16:27:34 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 14:57:34
+    [meeting_end_date] => 2019-12-19 14:57:34
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => cba6a7d5-0e98-f567-a7c2-5dfb0ad781d5
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 16:45:38 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 15:15:38
+    [meeting_end_date] => 2019-12-19 15:15:38
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 7f68a537-ad24-2cdf-4813-5dfb0e9088ea
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 18:25:26 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 16:55:26
+    [meeting_end_date] => 2019-12-19 16:55:26
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 205fffdd-e43a-6510-a387-5dfb2546920e
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 18:31:03 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 17:01:03
+    [meeting_end_date] => 2019-12-19 17:01:03
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => e5da0e14-7fa7-3c56-7daf-5dfb270776de
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 19:45:02 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 18:15:02
+    [meeting_end_date] => 2019-12-19 18:15:02
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 8cea0c34-3d0e-b5db-f320-5dfb387d4d3d
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 19:50:43 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 18:20:43
+    [meeting_end_date] => 2019-12-19 18:20:43
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 23041123-f258-3da4-9e67-5dfb390ed345
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 19:53:41 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 18:23:40
+    [meeting_end_date] => 2019-12-19 18:23:40
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => c5c490de-c564-66f0-565b-5dfb3adc12aa
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 20:02:50 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 18:32:50
+    [meeting_end_date] => 2019-12-19 18:32:50
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 7de92116-e912-ec5c-bc6a-5dfb3c1e0795
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 20:11:26 :-
+Array
+(
+    [meeting_start_date] => 2019-12-20 14:45:00
+    [meeting_end_date] => 2019-12-20 16:45:00
+    [supervisor_id] => 1914ca70-ca26-559a-de9c-5dd4c4e27d07
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => RAVI KUMAR.R.
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 7de92116-e912-ec5c-bc6a-5dfb3c1e0795
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 20:11:26 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-19 20:28:13 :-
+Array
+(
+    [meeting_start_date] => 2019-12-21 14:00:00
+    [meeting_end_date] => 2019-12-21 16:00:00
+    [supervisor_id] => 1914ca70-ca26-559a-de9c-5dd4c4e27d07
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => RAVI KUMAR.R.
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 7de92116-e912-ec5c-bc6a-5dfb3c1e0795
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 20:28:13 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-19 20:35:02 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 19:05:02
+    [meeting_end_date] => 2019-12-19 19:05:02
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 55778361-b9bb-df61-f719-5dfb44d6c3fd
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 20:37:48 :-
+Array
+(
+    [meeting_start_date] => 2019-12-20 15:15:00
+    [meeting_end_date] => 2019-12-20 17:15:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 55778361-b9bb-df61-f719-5dfb44d6c3fd
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 20:37:48 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-19 20:40:19 :-
+Array
+(
+    [meeting_start_date] => 2019-12-21 15:15:00
+    [meeting_end_date] => 2019-12-21 17:15:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 55778361-b9bb-df61-f719-5dfb44d6c3fd
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 20:40:19 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-19 20:45:57 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 19:15:57
+    [meeting_end_date] => 2019-12-19 19:15:57
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 47793e1f-7e65-8985-9184-5dfb46883015
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 20:59:34 :-
+Array
+(
+    [meeting_start_date] => 2019-12-20 16:15:00
+    [meeting_end_date] => 2019-12-20 17:15:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 47793e1f-7e65-8985-9184-5dfb46883015
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 20:59:34 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-19 21:01:18 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 15:30:00
+    [meeting_end_date] => 2019-12-19 15:30:00
+    [supervisor_id] => 1914ca70-ca26-559a-de9c-5dd4c4e27d07
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => RAVI KUMAR.R.
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 47793e1f-7e65-8985-9184-5dfb46883015
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 21:01:18 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-19 21:03:30 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 18:33:30
+    [meeting_end_date] => 2019-12-19 18:33:30
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 47793e1f-7e65-8985-9184-5dfb46883015
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 21:05:33 :-
+Array
+(
+    [meeting_start_date] => 2019-12-20 18:45:00
+    [meeting_end_date] => 2019-12-20 18:45:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 47793e1f-7e65-8985-9184-5dfb46883015
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 21:05:33 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-19 21:20:49 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 16:00:00
+    [meeting_end_date] => 2019-12-19 16:00:00
+    [supervisor_id] => 1914ca70-ca26-559a-de9c-5dd4c4e27d07
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => RAVI KUMAR.R.
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 47793e1f-7e65-8985-9184-5dfb46883015
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 21:20:49 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-19 21:30:32 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 20:00:32
+    [meeting_end_date] => 2019-12-19 20:00:32
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 5256be53-11f7-8535-ed98-5dfb51b7f72c
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 21:37:23 :-
+Array
+(
+    [meeting_start_date] => 2019-12-20 13:00:00
+    [meeting_end_date] => 2019-12-20 16:00:00
+    [supervisor_id] => 1914ca70-ca26-559a-de9c-5dd4c4e27d07
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => RAVI KUMAR.R.
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 5256be53-11f7-8535-ed98-5dfb51b7f72c
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 21:37:23 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-19 21:42:44 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 19:12:44
+    [meeting_end_date] => 2019-12-19 19:12:44
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 5256be53-11f7-8535-ed98-5dfb51b7f72c
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 21:44:16 :-
+Array
+(
+    [meeting_start_date] => 2019-12-21 14:15:00
+    [meeting_end_date] => 2019-12-21 17:15:00
+    [supervisor_id] => 9ef5e927-3515-8fb1-a939-5dd4c4b3f4d6
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => LOGANATHAN.J
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 5256be53-11f7-8535-ed98-5dfb51b7f72c
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 21:44:16 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-19 21:46:59 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 15:30:00
+    [meeting_end_date] => 2019-12-23 18:30:00
+    [supervisor_id] => 9ef5e927-3515-8fb1-a939-5dd4c4b3f4d6
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Pre-Installation
+    [meeting_type] => PREINS
+    [supervisor_name] => LOGANATHAN.J
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 5256be53-11f7-8535-ed98-5dfb51b7f72c
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 21:46:59 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-19 21:50:16 :-
+Array
+(
+    [meeting_start_date] => 2019-12-24 16:30:00
+    [meeting_end_date] => 2019-12-24 18:30:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 5256be53-11f7-8535-ed98-5dfb51b7f72c
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 21:50:16 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-19 21:55:53 :-
+Array
+(
+    [meeting_start_date] => 2019-12-25 14:30:00
+    [meeting_end_date] => 2019-12-25 17:30:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Installation
+    [meeting_type] => INS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 5256be53-11f7-8535-ed98-5dfb51b7f72c
+)
+
+send_email_notification_to_supervisor Result at 2019-12-19 21:55:53 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-20 00:45:19 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 14:57:00
+    [meeting_end_date] => 2019-12-19 14:57:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => cba6a7d5-0e98-f567-a7c2-5dfb0ad781d5
+)
+
+send_email_notification_to_supervisor Result at 2019-12-20 00:50:31 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 19:30:00
+    [meeting_end_date] => 2019-12-19 19:30:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => c6727439-6e9d-d61c-d166-5dde50ecb4bd
+    [meeting_subject] => Schedule visit for Service
+    [meeting_type] => SRV
+    [supervisor_name] => BUDDAPPA
+    [final_address] => Seminary hills, Nagpur, , maharashtra, 440013, India
+    [oppurtunity_id] => 5417c372-122f-2c3e-683f-5df742b1d25c
+)
+
+send_email_notification_to_supervisor Result at 2019-12-20 00:50:31 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-20 00:52:15 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 23:22:15
+    [meeting_end_date] => 2019-12-19 23:22:15
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 75ca181f-d3d1-208e-6570-5dfb808436f5
+)
+
+send_email_notification_to_supervisor Result at 2019-12-20 00:53:48 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 23:30:00
+    [meeting_end_date] => 2019-12-19 23:30:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 75ca181f-d3d1-208e-6570-5dfb808436f5
+)
+
+send_email_notification_to_supervisor Result at 2019-12-20 00:53:48 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-20 00:56:17 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 22:26:17
+    [meeting_end_date] => 2019-12-19 22:26:17
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 75ca181f-d3d1-208e-6570-5dfb808436f5
+)
+
+send_email_notification_to_supervisor Result at 2019-12-20 00:57:12 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 22:30:00
+    [meeting_end_date] => 2019-12-19 22:30:00
+    [supervisor_id] => 1914ca70-ca26-559a-de9c-5dd4c4e27d07
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => RAVI KUMAR.R.
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 75ca181f-d3d1-208e-6570-5dfb808436f5
+)
+
+send_email_notification_to_supervisor Result at 2019-12-20 00:57:12 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-20 00:59:29 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 19:30:00
+    [meeting_end_date] => 2019-12-19 19:30:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 75ca181f-d3d1-208e-6570-5dfb808436f5
+)
+
+send_email_notification_to_supervisor Result at 2019-12-20 00:59:29 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-20 01:02:35 :-
+Array
+(
+    [meeting_start_date] => 2019-12-19 19:45:00
+    [meeting_end_date] => 2019-12-19 19:45:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Service
+    [meeting_type] => SRV
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 75ca181f-d3d1-208e-6570-5dfb808436f5
+)
+
+send_email_notification_to_supervisor Result at 2019-12-20 01:02:35 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-20 15:14:01 :-
+Array
+(
+    [meeting_start_date] => 2019-12-20 13:44:01
+    [meeting_end_date] => 2019-12-20 13:44:01
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => dc795ce8-502d-c204-740a-5dfc4abdeca6
+)
+
+send_email_notification_to_supervisor Result at 2019-12-20 15:14:02 :-
+Array
+(
+    [meeting_start_date] => 2019-12-20 13:44:02
+    [meeting_end_date] => 2019-12-20 13:44:02
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => dc795ce8-502d-c204-740a-5dfc4abdeca6
+)
+
+send_email_notification_to_supervisor Result at 2019-12-20 15:15:03 :-
+Array
+(
+    [meeting_start_date] => 2019-12-20 13:45:00
+    [meeting_end_date] => 2019-12-20 16:45:00
+    [supervisor_id] => 8f5f8486-ae20-1b8f-d869-5dd4c4423658
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => SUDARSHAN.B.C.
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => dc795ce8-502d-c204-740a-5dfc4abdeca6
+)
+
+send_email_notification_to_supervisor Result at 2019-12-20 15:15:03 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-20 15:17:16 :-
+Array
+(
+    [meeting_start_date] => 2019-12-20 13:47:16
+    [meeting_end_date] => 2019-12-20 13:47:16
+    [supervisor_id] => 
+    [account_id] => 92e75aae-a2a9-0c50-61cf-5df898b1d63a
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It Park, Nagpur, maharashtra, 440033, India
+    [oppurtunity_id] => 5c580307-6441-9f57-8bb4-5dfc4b915e33
+)
+
+send_email_notification_to_supervisor Result at 2019-12-20 15:19:30 :-
+Array
+(
+    [meeting_start_date] => 2019-12-20 13:49:30
+    [meeting_end_date] => 2019-12-20 13:49:30
+    [supervisor_id] => 
+    [account_id] => 16044b3a-2650-d8b9-d0d5-5c78d12b4af0
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => Villa # 15, Whitefield Boulevard
+Seegehalli Hoskote main road, Bangalore, karnataka, 560067, India
+    [oppurtunity_id] => ce9891e2-b6fb-3e3a-828d-5dfc4be366c1
+)
+
+send_email_notification_to_supervisor Result at 2019-12-20 15:20:21 :-
+Array
+(
+    [meeting_start_date] => 2019-12-20 14:00:00
+    [meeting_end_date] => 2019-12-20 14:00:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 16044b3a-2650-d8b9-d0d5-5c78d12b4af0
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => Villa # 15, Whitefield Boulevard
+Seegehalli Hoskote main road, Bangalore, karnataka, 560067, India
+    [oppurtunity_id] => ce9891e2-b6fb-3e3a-828d-5dfc4be366c1
+)
+
+send_email_notification_to_supervisor Result at 2019-12-20 15:20:21 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-20 15:27:23 :-
+Array
+(
+    [meeting_start_date] => 2019-12-20 12:57:23
+    [meeting_end_date] => 2019-12-20 12:57:23
+    [supervisor_id] => 
+    [account_id] => 16044b3a-2650-d8b9-d0d5-5c78d12b4af0
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => Villa # 15, Whitefield Boulevard
+Seegehalli Hoskote main road, Bangalore, karnataka, 560067, India
+    [oppurtunity_id] => ce9891e2-b6fb-3e3a-828d-5dfc4be366c1
+)
+
+send_email_notification_to_supervisor Result at 2019-12-20 15:28:23 :-
+Array
+(
+    [meeting_start_date] => 2020-01-22 13:00:00
+    [meeting_end_date] => 2020-01-22 17:00:00
+    [supervisor_id] => 1914ca70-ca26-559a-de9c-5dd4c4e27d07
+    [account_id] => 16044b3a-2650-d8b9-d0d5-5c78d12b4af0
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => RAVI KUMAR.R.
+    [final_address] => Villa # 15, Whitefield Boulevard
+Seegehalli Hoskote main road, Bangalore, karnataka, 560067, India
+    [oppurtunity_id] => ce9891e2-b6fb-3e3a-828d-5dfc4be366c1
+)
+
+send_email_notification_to_supervisor Result at 2019-12-20 15:28:23 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-20 15:40:09 :-
+Array
+(
+    [meeting_start_date] => 2019-12-20 10:15:00
+    [meeting_end_date] => 2019-12-20 10:15:00
+    [supervisor_id] => 1914ca70-ca26-559a-de9c-5dd4c4e27d07
+    [account_id] => 16044b3a-2650-d8b9-d0d5-5c78d12b4af0
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => RAVI KUMAR.R.
+    [final_address] => Villa # 15, Whitefield Boulevard
+Seegehalli Hoskote main road, Bangalore, karnataka, 560067, India
+    [oppurtunity_id] => ce9891e2-b6fb-3e3a-828d-5dfc4be366c1
+)
+
+send_email_notification_to_supervisor Result at 2019-12-20 15:40:09 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-20 15:46:53 :-
+Array
+(
+    [meeting_start_date] => 2019-12-20 14:16:53
+    [meeting_end_date] => 2019-12-20 14:16:53
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 727ff22e-3dfd-b311-dd90-5dfc52e744d0
+)
+
+send_email_notification_to_supervisor Result at 2019-12-20 16:42:13 :-
+Array
+(
+    [meeting_start_date] => 2019-12-21 10:30:00
+    [meeting_end_date] => 2019-12-21 16:30:00
+    [supervisor_id] => 1914ca70-ca26-559a-de9c-5dd4c4e27d07
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => RAVI KUMAR.R.
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 727ff22e-3dfd-b311-dd90-5dfc52e744d0
+)
+
+send_email_notification_to_supervisor Result at 2019-12-20 16:42:13 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-20 16:58:20 :-
+Array
+(
+    [meeting_start_date] => 2019-12-20 14:28:20
+    [meeting_end_date] => 2019-12-20 14:28:20
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 727ff22e-3dfd-b311-dd90-5dfc52e744d0
+)
+
+send_email_notification_to_supervisor Result at 2019-12-20 17:15:46 :-
+Array
+(
+    [meeting_start_date] => 2019-12-21 14:30:00
+    [meeting_end_date] => 2019-12-21 14:30:00
+    [supervisor_id] => 8f5f8486-ae20-1b8f-d869-5dd4c4423658
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => SUDARSHAN.B.C.
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 727ff22e-3dfd-b311-dd90-5dfc52e744d0
+)
+
+send_email_notification_to_supervisor Result at 2019-12-20 17:15:46 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-20 17:21:22 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 11:00:00
+    [meeting_end_date] => 2019-12-23 16:00:00
+    [supervisor_id] => 9d69b30b-5e9c-a963-4647-5dd4c48de671
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => SUJAN.H.N.
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 727ff22e-3dfd-b311-dd90-5dfc52e744d0
+)
+
+send_email_notification_to_supervisor Result at 2019-12-20 17:21:22 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-20 17:29:58 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 13:00:00
+    [meeting_end_date] => 2019-12-23 15:00:00
+    [supervisor_id] => 9d69b30b-5e9c-a963-4647-5dd4c48de671
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Installation
+    [meeting_type] => INS
+    [supervisor_name] => SUJAN.H.N.
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 727ff22e-3dfd-b311-dd90-5dfc52e744d0
+)
+
+send_email_notification_to_supervisor Result at 2019-12-20 17:29:58 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-20 17:35:08 :-
+Array
+(
+    [meeting_start_date] => 2019-12-24 12:15:00
+    [meeting_end_date] => 2019-12-24 15:15:00
+    [supervisor_id] => 9d69b30b-5e9c-a963-4647-5dd4c48de671
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Installation
+    [meeting_type] => INS
+    [supervisor_name] => SUJAN.H.N.
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 727ff22e-3dfd-b311-dd90-5dfc52e744d0
+)
+
+send_email_notification_to_supervisor Result at 2019-12-20 17:35:08 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-20 20:51:57 :-
+Array
+(
+    [meeting_start_date] => 2019-12-20 19:21:57
+    [meeting_end_date] => 2019-12-20 19:21:57
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => b7ba0326-f6d6-f981-6b59-5dfc99cac238
+)
+
+send_email_notification_to_supervisor Result at 2019-12-20 22:14:42 :-
+Array
+(
+    [meeting_start_date] => 2019-12-20 20:44:42
+    [meeting_end_date] => 2019-12-20 20:44:42
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 4a2babd7-6609-54a2-fcf6-5dfcad32c8bc
+)
+
+send_email_notification_to_supervisor Result at 2019-12-21 16:14:56 :-
+Array
+(
+    [meeting_start_date] => 2019-12-21 14:44:56
+    [meeting_end_date] => 2019-12-21 14:44:56
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 1de13580-3724-6fe6-88a1-5dfdaa2b2416
+)
+
+send_email_notification_to_supervisor Result at 2019-12-21 17:21:44 :-
+Array
+(
+    [meeting_start_date] => 2019-12-21 14:45:00
+    [meeting_end_date] => 2019-12-21 16:45:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 1de13580-3724-6fe6-88a1-5dfdaa2b2416
+)
+
+send_email_notification_to_supervisor Result at 2019-12-21 17:26:45 :-
+Array
+(
+    [meeting_start_date] => 2019-12-21 14:45:00
+    [meeting_end_date] => 2019-12-21 14:45:00
+    [supervisor_id] => d4460e22-4a6b-1727-c60b-5dc3f4c341f4
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => Chaitanya Bansod
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 1de13580-3724-6fe6-88a1-5dfdaa2b2416
+)
+
+send_email_notification_to_supervisor Result at 2019-12-21 17:26:45 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-21 18:13:09 :-
+Array
+(
+    [meeting_start_date] => 2019-12-21 14:45:00
+    [meeting_end_date] => 2019-12-21 16:45:00
+    [supervisor_id] => d4460e22-4a6b-1727-c60b-5dc3f4c341f4
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => Chaitanya Bansod
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 1de13580-3724-6fe6-88a1-5dfdaa2b2416
+)
+
+send_email_notification_to_supervisor Result at 2019-12-21 18:13:09 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-23 15:08:08 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 13:38:08
+    [meeting_end_date] => 2019-12-23 13:38:08
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 8a1b03d6-6edf-b599-384a-5e003db3747b
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 15:09:56 :-
+Array
+(
+    [meeting_start_date] => 2019-12-25 13:45:00
+    [meeting_end_date] => 2019-12-25 13:45:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 8a1b03d6-6edf-b599-384a-5e003db3747b
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 15:23:00 :-
+Array
+(
+    [meeting_start_date] => 2019-12-25 13:45:00
+    [meeting_end_date] => 2019-12-25 13:45:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 8a1b03d6-6edf-b599-384a-5e003db3747b
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 15:23:00 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-23 16:00:02 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 14:30:02
+    [meeting_end_date] => 2019-12-23 14:30:02
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 4bd9e783-c0fa-999f-cea6-5e0044b41fb1
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 16:03:10 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 14:33:10
+    [meeting_end_date] => 2019-12-23 14:33:10
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => c2cd0364-118e-d82e-86d8-5e004a39c8f2
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 16:04:20 :-
+Array
+(
+    [meeting_start_date] => 2019-12-25 14:45:00
+    [meeting_end_date] => 2019-12-25 16:45:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => c2cd0364-118e-d82e-86d8-5e004a39c8f2
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 16:06:16 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 14:36:16
+    [meeting_end_date] => 2019-12-23 14:36:16
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => d4252402-c5e3-3555-d8cd-5e004bcf9a40
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 16:06:47 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 14:45:00
+    [meeting_end_date] => 2019-12-23 14:45:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => d4252402-c5e3-3555-d8cd-5e004bcf9a40
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 16:11:27 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 14:45:00
+    [meeting_end_date] => 2019-12-23 14:45:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => d4252402-c5e3-3555-d8cd-5e004bcf9a40
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 16:11:27 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-23 16:28:28 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 14:58:28
+    [meeting_end_date] => 2019-12-23 14:58:28
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 101dd5a2-ac0b-beac-09de-5e00505e10b5
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 16:29:32 :-
+Array
+(
+    [meeting_start_date] => 2019-12-25 15:00:00
+    [meeting_end_date] => 2019-12-25 16:00:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 101dd5a2-ac0b-beac-09de-5e00505e10b5
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 16:29:32 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-23 16:30:56 :-
+Array
+(
+    [meeting_start_date] => 2019-12-25 15:00:00
+    [meeting_end_date] => 2019-12-25 16:00:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 101dd5a2-ac0b-beac-09de-5e00505e10b5
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 16:30:56 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-23 16:32:26 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 15:02:26
+    [meeting_end_date] => 2019-12-23 15:02:26
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 8bffbc8a-a409-05d9-56b6-5e0051866f40
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 16:33:29 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 15:15:00
+    [meeting_end_date] => 2019-12-23 15:15:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 8bffbc8a-a409-05d9-56b6-5e0051866f40
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 16:34:21 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 15:15:00
+    [meeting_end_date] => 2019-12-23 15:15:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 8bffbc8a-a409-05d9-56b6-5e0051866f40
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 16:34:21 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-23 16:37:35 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 15:07:35
+    [meeting_end_date] => 2019-12-23 15:07:35
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 2fc68632-e7b7-9dd3-cc49-5e00527ad687
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 16:38:25 :-
+Array
+(
+    [meeting_start_date] => 2019-12-25 15:15:00
+    [meeting_end_date] => 2019-12-25 16:15:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 2fc68632-e7b7-9dd3-cc49-5e00527ad687
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 16:39:02 :-
+Array
+(
+    [meeting_start_date] => 2019-12-25 15:15:00
+    [meeting_end_date] => 2019-12-25 16:15:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 2fc68632-e7b7-9dd3-cc49-5e00527ad687
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 16:39:02 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-23 16:41:32 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 14:11:32
+    [meeting_end_date] => 2019-12-23 14:11:32
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 2fc68632-e7b7-9dd3-cc49-5e00527ad687
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 16:42:13 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 14:15:00
+    [meeting_end_date] => 2019-12-23 17:15:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 2fc68632-e7b7-9dd3-cc49-5e00527ad687
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 16:43:11 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 14:15:00
+    [meeting_end_date] => 2019-12-23 17:15:00
+    [supervisor_id] => 8a5d0a89-6708-a147-c45b-5dd4c4ff93b9
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => MALLIKARJUN.J
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 2fc68632-e7b7-9dd3-cc49-5e00527ad687
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 16:43:11 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-23 16:54:10 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 15:24:10
+    [meeting_end_date] => 2019-12-23 15:24:10
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 919b3420-51f5-e718-4822-5e00568f4029
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 16:55:25 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 15:30:00
+    [meeting_end_date] => 2019-12-26 15:45:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 919b3420-51f5-e718-4822-5e00568f4029
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 16:55:58 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 15:30:00
+    [meeting_end_date] => 2019-12-26 15:45:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 919b3420-51f5-e718-4822-5e00568f4029
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 16:55:58 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-23 16:59:56 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 14:29:56
+    [meeting_end_date] => 2019-12-23 14:29:56
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 919b3420-51f5-e718-4822-5e00568f4029
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 17:00:29 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 14:30:00
+    [meeting_end_date] => 2019-12-23 14:45:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 919b3420-51f5-e718-4822-5e00568f4029
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 17:02:24 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 14:30:00
+    [meeting_end_date] => 2019-12-23 14:45:00
+    [supervisor_id] => 8f5f8486-ae20-1b8f-d869-5dd4c4423658
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => SUDARSHAN.B.C.
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 919b3420-51f5-e718-4822-5e00568f4029
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 17:02:24 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-23 17:27:12 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 15:57:12
+    [meeting_end_date] => 2019-12-23 15:57:12
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 6f869404-c2fb-fe2f-92e7-5e005ed186bc
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 17:28:41 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 16:00:00
+    [meeting_end_date] => 2019-12-23 16:00:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 6f869404-c2fb-fe2f-92e7-5e005ed186bc
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 17:50:07 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 16:00:00
+    [meeting_end_date] => 2019-12-23 16:00:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 6f869404-c2fb-fe2f-92e7-5e005ed186bc
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 17:50:07 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-23 17:55:27 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 15:25:27
+    [meeting_end_date] => 2019-12-23 15:25:27
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 6f869404-c2fb-fe2f-92e7-5e005ed186bc
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 17:55:53 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 15:30:00
+    [meeting_end_date] => 2019-12-23 15:30:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 6f869404-c2fb-fe2f-92e7-5e005ed186bc
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 17:56:25 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 15:30:00
+    [meeting_end_date] => 2019-12-23 15:30:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 6f869404-c2fb-fe2f-92e7-5e005ed186bc
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 17:56:25 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-23 18:11:08 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 16:41:08
+    [meeting_end_date] => 2019-12-23 16:41:08
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 1bd0bcc6-54e3-7628-eb75-5e00681d381b
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 18:11:58 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 16:45:00
+    [meeting_end_date] => 2019-12-23 16:45:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 1bd0bcc6-54e3-7628-eb75-5e00681d381b
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 18:12:37 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 16:45:00
+    [meeting_end_date] => 2019-12-23 16:45:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 1bd0bcc6-54e3-7628-eb75-5e00681d381b
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 18:12:37 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-23 18:15:24 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 15:45:24
+    [meeting_end_date] => 2019-12-23 15:45:24
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 1bd0bcc6-54e3-7628-eb75-5e00681d381b
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 18:15:48 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 15:45:00
+    [meeting_end_date] => 2019-12-23 15:45:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 1bd0bcc6-54e3-7628-eb75-5e00681d381b
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 18:16:28 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 15:45:00
+    [meeting_end_date] => 2019-12-23 15:45:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 1bd0bcc6-54e3-7628-eb75-5e00681d381b
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 18:16:28 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-23 18:21:23 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 13:00:00
+    [meeting_end_date] => 2019-12-23 13:00:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 1bd0bcc6-54e3-7628-eb75-5e00681d381b
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 18:22:06 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 13:00:00
+    [meeting_end_date] => 2019-12-23 13:00:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 1bd0bcc6-54e3-7628-eb75-5e00681d381b
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 18:22:06 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-23 20:19:09 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 18:49:09
+    [meeting_end_date] => 2019-12-23 18:49:09
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 70d42d4e-87d4-195e-38cd-5e008662d083
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 20:32:22 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 19:02:22
+    [meeting_end_date] => 2019-12-23 19:02:22
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => db13d5a2-f761-e3cc-5864-5e00895f48a0
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 20:35:03 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 19:15:00
+    [meeting_end_date] => 2019-12-23 19:15:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => db13d5a2-f761-e3cc-5864-5e00895f48a0
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 20:36:29 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 19:15:00
+    [meeting_end_date] => 2019-12-23 19:15:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => db13d5a2-f761-e3cc-5864-5e00895f48a0
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 20:36:29 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-23 20:46:13 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 18:16:13
+    [meeting_end_date] => 2019-12-23 18:16:13
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => db13d5a2-f761-e3cc-5864-5e00895f48a0
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 20:46:38 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 18:30:00
+    [meeting_end_date] => 2019-12-23 18:30:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => db13d5a2-f761-e3cc-5864-5e00895f48a0
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 20:47:27 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 18:30:00
+    [meeting_end_date] => 2019-12-23 18:30:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => db13d5a2-f761-e3cc-5864-5e00895f48a0
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 20:47:27 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-23 20:53:03 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 15:30:00
+    [meeting_end_date] => 2019-12-23 15:30:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => db13d5a2-f761-e3cc-5864-5e00895f48a0
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 21:07:04 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 15:30:00
+    [meeting_end_date] => 2019-12-23 15:30:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => db13d5a2-f761-e3cc-5864-5e00895f48a0
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 21:07:04 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-23 21:59:55 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 20:29:54
+    [meeting_end_date] => 2019-12-23 20:29:54
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => adcc8089-6875-a645-a595-5e009ec212b4
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 23:30:24 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 16:00:00
+    [meeting_end_date] => 2019-12-23 16:00:00
+    [supervisor_id] => d4460e22-4a6b-1727-c60b-5dc3f4c341f4
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Service
+    [meeting_type] => SRV
+    [supervisor_name] => Chaitanya Bansod
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => db13d5a2-f761-e3cc-5864-5e00895f48a0
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 23:30:24 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-23 23:31:49 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 16:00:00
+    [meeting_end_date] => 2019-12-23 16:00:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Service
+    [meeting_type] => SRV
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => db13d5a2-f761-e3cc-5864-5e00895f48a0
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 23:31:49 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-23 23:33:16 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 16:00:00
+    [meeting_end_date] => 2019-12-23 16:00:00
+    [supervisor_id] => 8a5d0a89-6708-a147-c45b-5dd4c4ff93b9
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Service
+    [meeting_type] => SRV
+    [supervisor_name] => MALLIKARJUN.J
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => db13d5a2-f761-e3cc-5864-5e00895f48a0
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 23:33:16 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-23 23:33:58 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 16:00:00
+    [meeting_end_date] => 2019-12-23 16:00:00
+    [supervisor_id] => 8a5d0a89-6708-a147-c45b-5dd4c4ff93b9
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Service
+    [meeting_type] => SRV
+    [supervisor_name] => MALLIKARJUN.J
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => db13d5a2-f761-e3cc-5864-5e00895f48a0
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 23:33:58 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-23 23:41:15 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 22:11:15
+    [meeting_end_date] => 2019-12-23 22:11:15
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => dac74960-1dce-fe28-511b-5e00b578020a
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 23:42:10 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 22:15:00
+    [meeting_end_date] => 2019-12-23 22:15:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => dac74960-1dce-fe28-511b-5e00b578020a
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 23:42:47 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 22:15:00
+    [meeting_end_date] => 2019-12-23 22:15:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => dac74960-1dce-fe28-511b-5e00b578020a
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 23:42:47 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-23 23:45:57 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 21:15:56
+    [meeting_end_date] => 2019-12-23 21:15:56
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => dac74960-1dce-fe28-511b-5e00b578020a
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 23:46:24 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 21:15:00
+    [meeting_end_date] => 2019-12-23 21:15:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => dac74960-1dce-fe28-511b-5e00b578020a
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 23:47:02 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 21:15:00
+    [meeting_end_date] => 2019-12-23 21:15:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => dac74960-1dce-fe28-511b-5e00b578020a
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 23:47:02 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-23 23:53:59 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 22:23:59
+    [meeting_end_date] => 2019-12-23 22:23:59
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 1bafdc62-366b-c4ca-72ba-5e00b8ed0d8c
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 23:54:51 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 21:24:51
+    [meeting_end_date] => 2019-12-23 21:24:51
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 1bafdc62-366b-c4ca-72ba-5e00b8ed0d8c
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 23:55:49 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 21:30:00
+    [meeting_end_date] => 2019-12-23 21:30:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 1bafdc62-366b-c4ca-72ba-5e00b8ed0d8c
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 23:56:51 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 21:30:00
+    [meeting_end_date] => 2019-12-23 21:30:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 1bafdc62-366b-c4ca-72ba-5e00b8ed0d8c
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-23 23:56:51 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-24 00:00:48 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 18:30:00
+    [meeting_end_date] => 2019-12-23 18:30:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 1bafdc62-366b-c4ca-72ba-5e00b8ed0d8c
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-24 00:01:21 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 18:30:00
+    [meeting_end_date] => 2019-12-23 18:30:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 1bafdc62-366b-c4ca-72ba-5e00b8ed0d8c
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-24 00:01:21 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-24 00:07:20 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 18:45:00
+    [meeting_end_date] => 2019-12-23 18:45:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Service
+    [meeting_type] => SRV
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 1bafdc62-366b-c4ca-72ba-5e00b8ed0d8c
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-24 00:11:51 :-
+Array
+(
+    [meeting_start_date] => 2019-12-23 18:45:00
+    [meeting_end_date] => 2019-12-23 18:45:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Service
+    [meeting_type] => SRV
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 1bafdc62-366b-c4ca-72ba-5e00b8ed0d8c
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-24 00:11:51 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-24 15:26:32 :-
+Array
+(
+    [meeting_start_date] => 2019-12-24 13:56:32
+    [meeting_end_date] => 2019-12-24 13:56:32
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 7272a61b-dab2-9c2f-2ed5-5e0193ab2083
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-24 22:25:29 :-
+Array
+(
+    [meeting_start_date] => 2019-12-24 14:00:00
+    [meeting_end_date] => 2019-12-24 14:00:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 7272a61b-dab2-9c2f-2ed5-5e0193ab2083
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-24 22:40:10 :-
+Array
+(
+    [meeting_start_date] => 2019-12-24 10:00:00
+    [meeting_end_date] => 2019-12-24 11:00:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Service
+    [meeting_type] => SRV
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 1bafdc62-366b-c4ca-72ba-5e00b8ed0d8c
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-24 22:40:10 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-24 22:41:50 :-
+Array
+(
+    [meeting_start_date] => 2019-12-24 10:00:00
+    [meeting_end_date] => 2019-12-24 11:00:00
+    [supervisor_id] => 8a5d0a89-6708-a147-c45b-5dd4c4ff93b9
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Service
+    [meeting_type] => SRV
+    [supervisor_name] => MALLIKARJUN.J
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 1bafdc62-366b-c4ca-72ba-5e00b8ed0d8c
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-24 22:41:50 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-26 15:48:02 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 14:18:02
+    [meeting_end_date] => 2019-12-26 14:18:02
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 9a2d6820-fcb8-9861-f782-5e043bf64457
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 15:56:29 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 13:26:29
+    [meeting_end_date] => 2019-12-26 13:26:29
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 9a2d6820-fcb8-9861-f782-5e043bf64457
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 15:57:23 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 13:30:00
+    [meeting_end_date] => 2019-12-26 13:30:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 9a2d6820-fcb8-9861-f782-5e043bf64457
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 15:59:11 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 13:30:00
+    [meeting_end_date] => 2019-12-26 13:30:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 9a2d6820-fcb8-9861-f782-5e043bf64457
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 15:59:11 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-26 16:19:45 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 14:49:45
+    [meeting_end_date] => 2019-12-26 14:49:45
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 6f3f358f-a3d4-e65b-b316-5e0442e93d2f
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 16:20:24 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 13:50:24
+    [meeting_end_date] => 2019-12-26 13:50:24
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 6f3f358f-a3d4-e65b-b316-5e0442e93d2f
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 16:20:55 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 14:00:00
+    [meeting_end_date] => 2019-12-26 14:00:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 6f3f358f-a3d4-e65b-b316-5e0442e93d2f
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 16:20:55 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-26 16:28:43 :-
+Array
+(
+    [meeting_start_date] => 2019-12-24 10:00:00
+    [meeting_end_date] => 2019-12-24 11:00:00
+    [supervisor_id] => 8a5d0a89-6708-a147-c45b-5dd4c4ff93b9
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Service
+    [meeting_type] => SRV
+    [supervisor_name] => MALLIKARJUN.J
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 1bafdc62-366b-c4ca-72ba-5e00b8ed0d8c
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 16:28:43 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-26 16:53:13 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 15:23:13
+    [meeting_end_date] => 2019-12-26 15:23:13
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 952e0687-3f59-aaf5-6e47-5e044ae28a1f
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 16:53:31 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 11:15:00
+    [meeting_end_date] => 2019-12-26 11:15:00
+    [supervisor_id] => d4460e22-4a6b-1727-c60b-5dc3f4c341f4
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Service
+    [meeting_type] => SRV
+    [supervisor_name] => Chaitanya Bansod
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 1bafdc62-366b-c4ca-72ba-5e00b8ed0d8c
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 16:53:31 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-26 16:55:29 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 11:15:00
+    [meeting_end_date] => 2019-12-26 11:15:00
+    [supervisor_id] => d4460e22-4a6b-1727-c60b-5dc3f4c341f4
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Service
+    [meeting_type] => SRV
+    [supervisor_name] => Chaitanya Bansod
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 1bafdc62-366b-c4ca-72ba-5e00b8ed0d8c
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 16:55:29 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2019-12-26 17:03:31 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 15:33:31
+    [meeting_end_date] => 2019-12-26 15:33:31
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => af93c55b-80b1-3c7e-22b3-5e044d73fd3e
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 17:04:14 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 15:45:00
+    [meeting_end_date] => 2019-12-26 15:45:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => af93c55b-80b1-3c7e-22b3-5e044d73fd3e
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 17:06:18 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 15:36:18
+    [meeting_end_date] => 2019-12-26 15:36:18
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 43d19990-6422-eba1-dafc-5e044deca2b9
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 17:08:55 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 15:45:00
+    [meeting_end_date] => 2019-12-26 15:45:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 43d19990-6422-eba1-dafc-5e044deca2b9
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 17:10:19 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 15:45:00
+    [meeting_end_date] => 2019-12-26 15:45:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 43d19990-6422-eba1-dafc-5e044deca2b9
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 17:12:09 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 15:42:09
+    [meeting_end_date] => 2019-12-26 15:42:09
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 578983b3-b4f6-8ce8-733c-5e044f41aa81
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 17:16:16 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 15:45:00
+    [meeting_end_date] => 2019-12-26 15:45:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 578983b3-b4f6-8ce8-733c-5e044f41aa81
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 17:17:44 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 15:45:00
+    [meeting_end_date] => 2019-12-26 15:45:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 578983b3-b4f6-8ce8-733c-5e044f41aa81
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 17:18:09 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 15:45:00
+    [meeting_end_date] => 2019-12-26 15:45:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 578983b3-b4f6-8ce8-733c-5e044f41aa81
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 17:19:39 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 15:49:39
+    [meeting_end_date] => 2019-12-26 15:49:39
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 96635c43-70f2-9a09-a0bd-5e0450fe3683
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 17:20:49 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 16:00:00
+    [meeting_end_date] => 2019-12-26 16:00:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 96635c43-70f2-9a09-a0bd-5e0450fe3683
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 17:22:22 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 15:52:22
+    [meeting_end_date] => 2019-12-26 15:52:22
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 36630e3b-863e-752d-06e5-5e0451818f5e
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 17:23:03 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 16:00:00
+    [meeting_end_date] => 2019-12-26 16:00:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 36630e3b-863e-752d-06e5-5e0451818f5e
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 17:27:12 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 15:57:12
+    [meeting_end_date] => 2019-12-26 15:57:12
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 5c3e719e-3834-4dad-18f9-5e0452b08982
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 17:27:57 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 16:00:00
+    [meeting_end_date] => 2019-12-26 16:00:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 5c3e719e-3834-4dad-18f9-5e0452b08982
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 17:28:51 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 16:00:00
+    [meeting_end_date] => 2019-12-26 16:00:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 5c3e719e-3834-4dad-18f9-5e0452b08982
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 17:28:51 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-26 18:28:22 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 13:00:00
+    [meeting_end_date] => 2019-12-26 13:00:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 5c3e719e-3834-4dad-18f9-5e0452b08982
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 18:28:22 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-26 19:47:17 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 14:30:00
+    [meeting_end_date] => 2019-12-26 14:30:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 5c3e719e-3834-4dad-18f9-5e0452b08982
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 19:47:59 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 14:30:00
+    [meeting_end_date] => 2019-12-26 14:30:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 5c3e719e-3834-4dad-18f9-5e0452b08982
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 19:47:59 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-26 19:52:03 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 18:22:03
+    [meeting_end_date] => 2019-12-26 18:22:03
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 107eb529-5c8a-54f4-c48f-5e04741f5c8e
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 19:54:09 :-
+Array
+(
+    [meeting_start_date] => 2019-12-27 18:30:00
+    [meeting_end_date] => 2019-12-27 18:30:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 107eb529-5c8a-54f4-c48f-5e04741f5c8e
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 19:56:16 :-
+Array
+(
+    [meeting_start_date] => 2019-12-27 18:30:00
+    [meeting_end_date] => 2019-12-27 18:30:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 107eb529-5c8a-54f4-c48f-5e04741f5c8e
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 19:56:16 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-26 20:06:42 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 14:30:00
+    [meeting_end_date] => 2019-12-26 14:30:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 107eb529-5c8a-54f4-c48f-5e04741f5c8e
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 20:07:20 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 14:30:00
+    [meeting_end_date] => 2019-12-26 14:30:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 107eb529-5c8a-54f4-c48f-5e04741f5c8e
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 20:07:20 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-26 20:22:32 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 15:00:00
+    [meeting_end_date] => 2019-12-26 15:00:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 107eb529-5c8a-54f4-c48f-5e04741f5c8e
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 20:23:46 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 15:00:00
+    [meeting_end_date] => 2019-12-26 15:00:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 107eb529-5c8a-54f4-c48f-5e04741f5c8e
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 20:23:46 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-26 20:28:20 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 18:58:19
+    [meeting_end_date] => 2019-12-26 18:58:19
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => c453cf85-4ca0-d20c-e29c-5e047d3d45c2
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 20:29:17 :-
+Array
+(
+    [meeting_start_date] => 2019-12-27 19:00:00
+    [meeting_end_date] => 2019-12-27 19:00:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => c453cf85-4ca0-d20c-e29c-5e047d3d45c2
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 20:29:46 :-
+Array
+(
+    [meeting_start_date] => 2019-12-27 19:00:00
+    [meeting_end_date] => 2019-12-27 19:00:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => c453cf85-4ca0-d20c-e29c-5e047d3d45c2
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 20:29:46 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-26 20:31:36 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 15:00:00
+    [meeting_end_date] => 2019-12-26 15:00:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => c453cf85-4ca0-d20c-e29c-5e047d3d45c2
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 20:32:04 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 15:00:00
+    [meeting_end_date] => 2019-12-26 15:00:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => c453cf85-4ca0-d20c-e29c-5e047d3d45c2
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 20:32:04 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-26 20:45:37 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 18:15:37
+    [meeting_end_date] => 2019-12-26 18:15:37
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => c453cf85-4ca0-d20c-e29c-5e047d3d45c2
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 20:46:59 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 18:15:00
+    [meeting_end_date] => 2019-12-26 18:15:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => c453cf85-4ca0-d20c-e29c-5e047d3d45c2
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 20:47:38 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 18:15:00
+    [meeting_end_date] => 2019-12-26 18:15:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => c453cf85-4ca0-d20c-e29c-5e047d3d45c2
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 20:47:38 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-26 20:49:55 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 15:30:00
+    [meeting_end_date] => 2019-12-26 15:30:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Pre-Installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => c453cf85-4ca0-d20c-e29c-5e047d3d45c2
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 20:50:56 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 15:30:00
+    [meeting_end_date] => 2019-12-26 15:30:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Pre-Installation
+    [meeting_type] => PREINS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => c453cf85-4ca0-d20c-e29c-5e047d3d45c2
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 20:50:56 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-26 21:00:59 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 19:30:59
+    [meeting_end_date] => 2019-12-26 19:30:59
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => dfccf518-e150-9438-f01e-5e0484bd906b
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 21:02:05 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 19:30:00
+    [meeting_end_date] => 2019-12-26 19:30:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => dfccf518-e150-9438-f01e-5e0484bd906b
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 21:02:35 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 19:30:00
+    [meeting_end_date] => 2019-12-26 19:30:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => dfccf518-e150-9438-f01e-5e0484bd906b
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 21:02:35 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-26 21:26:56 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 19:56:56
+    [meeting_end_date] => 2019-12-26 19:56:56
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 15eb0bfc-d2a4-7a18-79a5-5e048ab02ce4
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 21:27:46 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 20:00:00
+    [meeting_end_date] => 2019-12-26 20:00:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 15eb0bfc-d2a4-7a18-79a5-5e048ab02ce4
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 21:28:30 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 20:00:00
+    [meeting_end_date] => 2019-12-26 20:00:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 15eb0bfc-d2a4-7a18-79a5-5e048ab02ce4
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 21:28:30 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-26 21:33:15 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 19:03:15
+    [meeting_end_date] => 2019-12-26 19:03:15
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 15eb0bfc-d2a4-7a18-79a5-5e048ab02ce4
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 21:33:42 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 19:15:00
+    [meeting_end_date] => 2019-12-26 19:15:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 15eb0bfc-d2a4-7a18-79a5-5e048ab02ce4
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 21:34:17 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 19:15:00
+    [meeting_end_date] => 2019-12-26 19:15:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 15eb0bfc-d2a4-7a18-79a5-5e048ab02ce4
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 21:34:17 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-26 21:44:51 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 16:15:00
+    [meeting_end_date] => 2019-12-26 16:15:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 15eb0bfc-d2a4-7a18-79a5-5e048ab02ce4
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 21:46:01 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 16:15:00
+    [meeting_end_date] => 2019-12-26 16:15:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 15eb0bfc-d2a4-7a18-79a5-5e048ab02ce4
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 21:46:01 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-26 22:27:58 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 20:57:58
+    [meeting_end_date] => 2019-12-26 20:57:58
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => ea7daf13-677e-c26a-9ed9-5e049946c1fc
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 22:28:50 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 21:00:00
+    [meeting_end_date] => 2019-12-26 21:00:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => ea7daf13-677e-c26a-9ed9-5e049946c1fc
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 22:29:19 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 21:00:00
+    [meeting_end_date] => 2019-12-26 21:00:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => ea7daf13-677e-c26a-9ed9-5e049946c1fc
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 22:29:19 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-26 22:31:26 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 20:01:25
+    [meeting_end_date] => 2019-12-26 20:01:25
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => ea7daf13-677e-c26a-9ed9-5e049946c1fc
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 22:32:25 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 20:15:00
+    [meeting_end_date] => 2019-12-26 20:15:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => ea7daf13-677e-c26a-9ed9-5e049946c1fc
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 22:33:59 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 20:15:00
+    [meeting_end_date] => 2019-12-26 20:15:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => ea7daf13-677e-c26a-9ed9-5e049946c1fc
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 22:33:59 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-26 22:36:27 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 17:15:00
+    [meeting_end_date] => 2019-12-26 17:15:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => ea7daf13-677e-c26a-9ed9-5e049946c1fc
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 22:36:53 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 17:15:00
+    [meeting_end_date] => 2019-12-26 17:15:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => ea7daf13-677e-c26a-9ed9-5e049946c1fc
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 22:36:53 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-26 22:40:04 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 17:15:00
+    [meeting_end_date] => 2019-12-26 17:15:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Installation
+    [meeting_type] => INS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => ea7daf13-677e-c26a-9ed9-5e049946c1fc
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 22:40:42 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 17:15:00
+    [meeting_end_date] => 2019-12-26 17:15:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Installation
+    [meeting_type] => INS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => ea7daf13-677e-c26a-9ed9-5e049946c1fc
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 22:40:42 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-26 23:27:10 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 18:00:00
+    [meeting_end_date] => 2019-12-26 18:00:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Service
+    [meeting_type] => SRV
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => ea7daf13-677e-c26a-9ed9-5e049946c1fc
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 23:28:00 :-
+Array
+(
+    [meeting_start_date] => 2019-12-26 18:00:00
+    [meeting_end_date] => 2019-12-26 18:00:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Service
+    [meeting_type] => SRV
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => ea7daf13-677e-c26a-9ed9-5e049946c1fc
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-26 23:28:00 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-27 15:11:20 :-
+Array
+(
+    [meeting_start_date] => 2019-12-27 13:41:20
+    [meeting_end_date] => 2019-12-27 13:41:20
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 6ebc2f2b-9253-0684-7dda-5e058414cb39
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 15:12:28 :-
+Array
+(
+    [meeting_start_date] => 2019-12-30 13:15:00
+    [meeting_end_date] => 2019-12-30 14:15:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 6ebc2f2b-9253-0684-7dda-5e058414cb39
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 15:14:17 :-
+Array
+(
+    [meeting_start_date] => 2019-12-30 13:15:00
+    [meeting_end_date] => 2019-12-30 14:15:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 6ebc2f2b-9253-0684-7dda-5e058414cb39
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 15:14:17 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-27 15:19:17 :-
+Array
+(
+    [meeting_start_date] => 2019-12-31 10:00:00
+    [meeting_end_date] => 2019-12-31 10:45:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 6ebc2f2b-9253-0684-7dda-5e058414cb39
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 15:23:26 :-
+Array
+(
+    [meeting_start_date] => 2019-12-27 12:53:26
+    [meeting_end_date] => 2019-12-27 12:53:26
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 6ebc2f2b-9253-0684-7dda-5e058414cb39
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 15:24:06 :-
+Array
+(
+    [meeting_start_date] => 2020-01-01 13:00:00
+    [meeting_end_date] => 2020-01-01 13:45:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 6ebc2f2b-9253-0684-7dda-5e058414cb39
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 15:27:51 :-
+Array
+(
+    [meeting_start_date] => 2020-01-01 13:00:00
+    [meeting_end_date] => 2020-01-01 13:45:00
+    [supervisor_id] => 8f5f8486-ae20-1b8f-d869-5dd4c4423658
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => SUDARSHAN.B.C.
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 6ebc2f2b-9253-0684-7dda-5e058414cb39
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 15:27:51 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-27 15:30:30 :-
+Array
+(
+    [meeting_start_date] => 2020-01-02 10:00:00
+    [meeting_end_date] => 2020-01-02 10:00:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Pre-Installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 6ebc2f2b-9253-0684-7dda-5e058414cb39
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 15:31:21 :-
+Array
+(
+    [meeting_start_date] => 2020-01-02 10:00:00
+    [meeting_end_date] => 2020-01-02 10:00:00
+    [supervisor_id] => 8a5d0a89-6708-a147-c45b-5dd4c4ff93b9
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Pre-Installation
+    [meeting_type] => PREINS
+    [supervisor_name] => MALLIKARJUN.J
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 6ebc2f2b-9253-0684-7dda-5e058414cb39
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 15:31:21 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-27 15:35:23 :-
+Array
+(
+    [meeting_start_date] => 2019-12-27 10:15:00
+    [meeting_end_date] => 2019-12-27 10:15:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 6ebc2f2b-9253-0684-7dda-5e058414cb39
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 15:36:21 :-
+Array
+(
+    [meeting_start_date] => 2019-12-27 10:15:00
+    [meeting_end_date] => 2019-12-27 10:15:00
+    [supervisor_id] => 8f5f8486-ae20-1b8f-d869-5dd4c4423658
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => SUDARSHAN.B.C.
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 6ebc2f2b-9253-0684-7dda-5e058414cb39
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 15:36:21 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-27 15:43:23 :-
+Array
+(
+    [meeting_start_date] => 2019-12-27 14:13:23
+    [meeting_end_date] => 2019-12-27 14:13:23
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 77d6968b-08a9-10ea-903a-5e058bdf072b
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 15:44:14 :-
+Array
+(
+    [meeting_start_date] => 2019-12-27 14:15:00
+    [meeting_end_date] => 2019-12-27 14:15:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 77d6968b-08a9-10ea-903a-5e058bdf072b
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 15:44:47 :-
+Array
+(
+    [meeting_start_date] => 2019-12-27 14:15:00
+    [meeting_end_date] => 2019-12-27 14:15:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 77d6968b-08a9-10ea-903a-5e058bdf072b
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 15:44:47 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-27 15:58:37 :-
+Array
+(
+    [meeting_start_date] => 2019-12-27 13:28:37
+    [meeting_end_date] => 2019-12-27 13:28:37
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 77d6968b-08a9-10ea-903a-5e058bdf072b
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 15:59:21 :-
+Array
+(
+    [meeting_start_date] => 2019-12-30 13:30:00
+    [meeting_end_date] => 2019-12-30 14:30:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 77d6968b-08a9-10ea-903a-5e058bdf072b
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 16:00:19 :-
+Array
+(
+    [meeting_start_date] => 2019-12-30 13:30:00
+    [meeting_end_date] => 2019-12-30 14:30:00
+    [supervisor_id] => 8a5d0a89-6708-a147-c45b-5dd4c4ff93b9
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => MALLIKARJUN.J
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 77d6968b-08a9-10ea-903a-5e058bdf072b
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 16:00:19 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-27 16:03:52 :-
+Array
+(
+    [meeting_start_date] => 2019-12-27 10:45:00
+    [meeting_end_date] => 2019-12-27 10:45:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Pre-Installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 77d6968b-08a9-10ea-903a-5e058bdf072b
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 16:04:23 :-
+Array
+(
+    [meeting_start_date] => 2019-12-27 10:45:00
+    [meeting_end_date] => 2019-12-27 10:45:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Pre-Installation
+    [meeting_type] => PREINS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 77d6968b-08a9-10ea-903a-5e058bdf072b
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 16:04:23 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-27 16:15:25 :-
+Array
+(
+    [meeting_start_date] => 2019-12-27 10:45:00
+    [meeting_end_date] => 2019-12-27 10:45:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 77d6968b-08a9-10ea-903a-5e058bdf072b
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 16:16:32 :-
+Array
+(
+    [meeting_start_date] => 2019-12-31 10:45:00
+    [meeting_end_date] => 2019-12-31 10:45:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 77d6968b-08a9-10ea-903a-5e058bdf072b
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 16:16:32 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-27 16:21:21 :-
+Array
+(
+    [meeting_start_date] => 2019-12-27 11:00:00
+    [meeting_end_date] => 2019-12-27 11:00:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Installation
+    [meeting_type] => INS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 77d6968b-08a9-10ea-903a-5e058bdf072b
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 16:22:05 :-
+Array
+(
+    [meeting_start_date] => 2019-12-27 11:00:00
+    [meeting_end_date] => 2019-12-27 11:00:00
+    [supervisor_id] => 8f5f8486-ae20-1b8f-d869-5dd4c4423658
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Installation
+    [meeting_type] => INS
+    [supervisor_name] => SUDARSHAN.B.C.
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 77d6968b-08a9-10ea-903a-5e058bdf072b
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 16:22:05 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-27 16:34:37 :-
+Array
+(
+    [meeting_start_date] => 2019-12-27 11:00:00
+    [meeting_end_date] => 2019-12-27 11:00:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Service
+    [meeting_type] => SRV
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 77d6968b-08a9-10ea-903a-5e058bdf072b
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 16:35:50 :-
+Array
+(
+    [meeting_start_date] => 2020-01-01 11:45:00
+    [meeting_end_date] => 2020-01-01 13:00:00
+    [supervisor_id] => 9ef5e927-3515-8fb1-a939-5dd4c4b3f4d6
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Service
+    [meeting_type] => SRV
+    [supervisor_name] => LOGANATHAN.J
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 77d6968b-08a9-10ea-903a-5e058bdf072b
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 16:35:50 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-27 16:44:29 :-
+Array
+(
+    [meeting_start_date] => 2019-12-27 15:14:29
+    [meeting_end_date] => 2019-12-27 15:14:29
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 207f7e6a-27f6-c077-cc70-5e059add6747
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 16:46:33 :-
+Array
+(
+    [meeting_start_date] => 2019-12-28 15:15:00
+    [meeting_end_date] => 2019-12-28 17:15:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 207f7e6a-27f6-c077-cc70-5e059add6747
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 16:50:46 :-
+Array
+(
+    [meeting_start_date] => 2019-12-28 15:15:00
+    [meeting_end_date] => 2019-12-28 17:15:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 207f7e6a-27f6-c077-cc70-5e059add6747
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 16:50:46 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-27 17:00:08 :-
+Array
+(
+    [meeting_start_date] => 2019-12-27 14:30:07
+    [meeting_end_date] => 2019-12-27 14:30:07
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 207f7e6a-27f6-c077-cc70-5e059add6747
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 17:07:30 :-
+Array
+(
+    [meeting_start_date] => 2019-12-31 14:30:00
+    [meeting_end_date] => 2019-12-31 16:30:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 207f7e6a-27f6-c077-cc70-5e059add6747
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 17:11:19 :-
+Array
+(
+    [meeting_start_date] => 2019-12-31 14:30:00
+    [meeting_end_date] => 2019-12-31 16:30:00
+    [supervisor_id] => 8f5f8486-ae20-1b8f-d869-5dd4c4423658
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => SUDARSHAN.B.C.
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 207f7e6a-27f6-c077-cc70-5e059add6747
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 17:11:19 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-27 17:18:28 :-
+Array
+(
+    [meeting_start_date] => 2019-12-31 12:00:00
+    [meeting_end_date] => 2019-12-31 14:00:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Pre-Installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 207f7e6a-27f6-c077-cc70-5e059add6747
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 17:19:17 :-
+Array
+(
+    [meeting_start_date] => 2019-12-31 12:00:00
+    [meeting_end_date] => 2019-12-31 14:00:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule for Pre-Installation
+    [meeting_type] => PREINS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 207f7e6a-27f6-c077-cc70-5e059add6747
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 17:19:17 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-27 17:23:00 :-
+Array
+(
+    [meeting_start_date] => 2019-12-31 12:00:00
+    [meeting_end_date] => 2019-12-31 14:00:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 207f7e6a-27f6-c077-cc70-5e059add6747
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 17:23:42 :-
+Array
+(
+    [meeting_start_date] => 2019-12-31 12:00:00
+    [meeting_end_date] => 2019-12-31 14:00:00
+    [supervisor_id] => 8a5d0a89-6708-a147-c45b-5dd4c4ff93b9
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => MALLIKARJUN.J
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 207f7e6a-27f6-c077-cc70-5e059add6747
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2019-12-27 17:23:42 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2019-12-28 21:03:51 :-
+Array
+(
+    [meeting_start_date] => 2019-12-28 19:33:51
+    [meeting_end_date] => 2019-12-28 19:33:51
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 3f480e1d-0386-2659-76a3-5e072823d254
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2020-01-02 20:27:57 :-
+Array
+(
+    [meeting_start_date] => 2019-12-28 19:45:00
+    [meeting_end_date] => 2019-12-28 19:45:00
+    [supervisor_id] => 9d69b30b-5e9c-a963-4647-5dd4c48de671
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => SUJAN.H.N.
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 3f480e1d-0386-2659-76a3-5e072823d254
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2020-01-02 20:27:57 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2020-01-02 15:08:20 :-
+Array
+(
+    [meeting_start_date] => 2019-12-28 19:45:00
+    [meeting_end_date] => 2019-12-28 19:45:00
+    [supervisor_id] => 9ef5e927-3515-8fb1-a939-5dd4c4b3f4d6
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => LOGANATHAN.J
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 3f480e1d-0386-2659-76a3-5e072823d254
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2020-01-02 15:08:20 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2020-01-02 15:18:44 :-
+Array
+(
+    [meeting_start_date] => 2019-12-28 19:45:00
+    [meeting_end_date] => 2019-12-28 19:45:00
+    [supervisor_id] => 9d69b30b-5e9c-a963-4647-5dd4c48de671
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => SUJAN.H.N.
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 3f480e1d-0386-2659-76a3-5e072823d254
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2020-01-02 15:18:44 :-
+ supervisor_email_address:pratik@simplecrm.com
+send_email_notification_to_supervisor Result at 2020-01-08 11:51:42 :-
+Array
+(
+    [meeting_start_date] => 2020-01-08 12:00:00
+    [meeting_end_date] => 2020-01-08 12:15:00
+    [supervisor_id] => 
+    [account_id] => 
+    [meeting_subject] => Test
+    [meeting_type] => 
+    [supervisor_name] => 
+    [final_address] => 
+    [oppurtunity_id] => 
+    [cust_name] => 
+    [customer Phone Number] => 
+)
+
+send_email_notification_to_supervisor Result at 2020-01-14 17:13:14 :-
+Array
+(
+    [meeting_start_date] => 2020-01-14 21:13:14
+    [meeting_end_date] => 2020-01-14 21:13:14
+    [supervisor_id] => 
+    [account_id] => 38d4d78c-b526-10b0-8e14-5de5f19d2042
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It Park, Nagpur, Maharashtra, 440013, India
+    [oppurtunity_id] => 2a116117-94cb-9b38-b99d-5e1da9e598fa
+    [cust_name] => Rakesh Pandey
+    [customer Phone Number] => 132456
+)
+
+send_email_notification_to_supervisor Result at 2020-01-14 17:13:59 :-
+Array
+(
+    [meeting_start_date] => 2020-01-14 20:13:59
+    [meeting_end_date] => 2020-01-14 20:13:59
+    [supervisor_id] => 
+    [account_id] => 38d4d78c-b526-10b0-8e14-5de5f19d2042
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It Park, Nagpur, Maharashtra, 440013, India
+    [oppurtunity_id] => 2a116117-94cb-9b38-b99d-5e1da9e598fa
+    [cust_name] => Rakesh Pandey
+    [customer Phone Number] => 132456
+)
+
+send_email_notification_to_supervisor Result at 2020-01-14 17:48:48 :-
+Array
+(
+    [meeting_start_date] => 2020-01-14 20:15:00
+    [meeting_end_date] => 2020-01-14 20:15:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 38d4d78c-b526-10b0-8e14-5de5f19d2042
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It Park, Nagpur, Maharashtra, 440013, India
+    [oppurtunity_id] => 2a116117-94cb-9b38-b99d-5e1da9e598fa
+    [cust_name] => Rakesh Pandey
+    [customer Phone Number] => 132456
+)
+
+send_email_notification_to_supervisor Result at 2020-01-14 17:48:48 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2020-01-14 17:51:58 :-
+Array
+(
+    [meeting_start_date] => 2020-01-14 18:00:00
+    [meeting_end_date] => 2020-01-14 18:00:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 38d4d78c-b526-10b0-8e14-5de5f19d2042
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It Park, Nagpur, Maharashtra, 440013, India
+    [oppurtunity_id] => 2a116117-94cb-9b38-b99d-5e1da9e598fa
+    [cust_name] => Rakesh Pandey
+    [customer Phone Number] => 132456
+)
+
+send_email_notification_to_supervisor Result at 2020-01-14 17:51:58 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2020-01-14 18:02:19 :-
+Array
+(
+    [meeting_start_date] => 2020-01-14 22:02:19
+    [meeting_end_date] => 2020-01-14 22:02:19
+    [supervisor_id] => 
+    [account_id] => 38d4d78c-b526-10b0-8e14-5de5f19d2042
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It Park, Nagpur, Maharashtra, 440013, India
+    [oppurtunity_id] => cf04c810-20c3-cf6e-50fc-5e1db4fc4dff
+    [cust_name] => Rakesh Pandey
+    [customer Phone Number] => 132456
+)
+
+send_email_notification_to_supervisor Result at 2020-01-14 18:03:00 :-
+Array
+(
+    [meeting_start_date] => 2020-01-14 21:03:00
+    [meeting_end_date] => 2020-01-14 21:03:00
+    [supervisor_id] => 
+    [account_id] => 38d4d78c-b526-10b0-8e14-5de5f19d2042
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It Park, Nagpur, Maharashtra, 440013, India
+    [oppurtunity_id] => cf04c810-20c3-cf6e-50fc-5e1db4fc4dff
+    [cust_name] => Rakesh Pandey
+    [customer Phone Number] => 132456
+)
+
+send_email_notification_to_supervisor Result at 2020-01-14 18:04:29 :-
+Array
+(
+    [meeting_start_date] => 2020-01-14 21:15:00
+    [meeting_end_date] => 2020-01-14 21:15:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 38d4d78c-b526-10b0-8e14-5de5f19d2042
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It Park, Nagpur, Maharashtra, 440013, India
+    [oppurtunity_id] => cf04c810-20c3-cf6e-50fc-5e1db4fc4dff
+    [cust_name] => Rakesh Pandey
+    [customer Phone Number] => 132456
+)
+
+send_email_notification_to_supervisor Result at 2020-01-14 18:04:29 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2020-01-14 18:08:30 :-
+Array
+(
+    [meeting_start_date] => 2020-01-14 18:15:00
+    [meeting_end_date] => 2020-01-14 18:15:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 38d4d78c-b526-10b0-8e14-5de5f19d2042
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It Park, Nagpur, Maharashtra, 440013, India
+    [oppurtunity_id] => cf04c810-20c3-cf6e-50fc-5e1db4fc4dff
+    [cust_name] => Rakesh Pandey
+    [customer Phone Number] => 132456
+)
+
+send_email_notification_to_supervisor Result at 2020-01-14 18:08:30 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2020-01-23 14:28:23 :-
+Array
+(
+    [meeting_start_date] => 2020-01-14 21:15:00
+    [meeting_end_date] => 2020-01-14 21:15:00
+    [supervisor_id] => 9d69b30b-5e9c-a963-4647-5dd4c48de671
+    [account_id] => 38d4d78c-b526-10b0-8e14-5de5f19d2042
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => SUJAN.H.N.
+    [final_address] => It Park, Nagpur, Maharashtra, 440013, India
+    [oppurtunity_id] => 2a116117-94cb-9b38-b99d-5e1da9e598fa
+    [cust_name] => Rakesh Pandey
+    [customer Phone Number] => 132456
+)
+
+send_email_notification_to_supervisor Result at 2020-01-23 14:28:23 :-
+ supervisor_email_address:pratik@simplecrm.com
+send_email_notification_to_supervisor Result at 2020-01-23 14:40:17 :-
+Array
+(
+    [meeting_start_date] => 2020-01-23 18:40:17
+    [meeting_end_date] => 2020-01-23 18:40:17
+    [supervisor_id] => 
+    [account_id] => 38d4d78c-b526-10b0-8e14-5de5f19d2042
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It Park, Nagpur, Maharashtra, 440013, India
+    [oppurtunity_id] => 266101ea-2410-0c37-8809-5e2962c7041d
+    [cust_name] => Rakesh Pandey
+    [customer Phone Number] => 132456
+)
+
+send_email_notification_to_supervisor Result at 2020-01-23 14:56:23 :-
+Array
+(
+    [meeting_start_date] => 2020-01-23 18:45:00
+    [meeting_end_date] => 2020-01-23 18:45:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 38d4d78c-b526-10b0-8e14-5de5f19d2042
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It Park, Nagpur, Maharashtra, 440013, India
+    [oppurtunity_id] => 266101ea-2410-0c37-8809-5e2962c7041d
+    [cust_name] => Rakesh Pandey
+    [customer Phone Number] => 132456
+)
+
+send_email_notification_to_supervisor Result at 2020-01-23 14:56:23 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2020-01-23 14:57:10 :-
+Array
+(
+    [meeting_start_date] => 2020-01-23 17:57:10
+    [meeting_end_date] => 2020-01-23 17:57:10
+    [supervisor_id] => 
+    [account_id] => 38d4d78c-b526-10b0-8e14-5de5f19d2042
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It Park, Nagpur, Maharashtra, 440013, India
+    [oppurtunity_id] => 266101ea-2410-0c37-8809-5e2962c7041d
+    [cust_name] => Rakesh Pandey
+    [customer Phone Number] => 132456
+)
+
+send_email_notification_to_supervisor Result at 2020-01-23 14:57:46 :-
+Array
+(
+    [meeting_start_date] => 2020-01-23 18:00:00
+    [meeting_end_date] => 2020-01-23 18:00:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 38d4d78c-b526-10b0-8e14-5de5f19d2042
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It Park, Nagpur, Maharashtra, 440013, India
+    [oppurtunity_id] => 266101ea-2410-0c37-8809-5e2962c7041d
+    [cust_name] => Rakesh Pandey
+    [customer Phone Number] => 132456
+)
+
+send_email_notification_to_supervisor Result at 2020-01-23 14:57:46 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2020-01-23 15:02:45 :-
+Array
+(
+    [meeting_start_date] => 2020-01-23 15:15:00
+    [meeting_end_date] => 2020-01-23 15:15:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 38d4d78c-b526-10b0-8e14-5de5f19d2042
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_type] => INS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It Park, Nagpur, Maharashtra, 440013, India
+    [oppurtunity_id] => 266101ea-2410-0c37-8809-5e2962c7041d
+    [cust_name] => Rakesh Pandey
+    [customer Phone Number] => 132456
+)
+
+send_email_notification_to_supervisor Result at 2020-01-23 15:02:45 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2020-01-23 15:05:00 :-
+Array
+(
+    [meeting_start_date] => 2020-01-23 15:15:00
+    [meeting_end_date] => 2020-01-23 15:15:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 38d4d78c-b526-10b0-8e14-5de5f19d2042
+    [meeting_subject] => Schedule visit for Service
+    [meeting_type] => SRV
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It Park, Nagpur, Maharashtra, 440013, India
+    [oppurtunity_id] => 266101ea-2410-0c37-8809-5e2962c7041d
+    [cust_name] => Rakesh Pandey
+    [customer Phone Number] => 132456
+)
+
+send_email_notification_to_supervisor Result at 2020-01-23 15:05:00 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2020-01-29 12:21:11 :-
+Array
+(
+    [meeting_start_date] => 2020-01-29 15:21:07
+    [meeting_end_date] => 2020-01-29 15:21:07
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 4bd9e783-c0fa-999f-cea6-5e0044b41fb1
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2020-02-07 09:52:35 :-
+Array
+(
+    [meeting_start_date] => 2020-01-29 15:30:00
+    [meeting_end_date] => 2020-01-29 15:30:00
+    [supervisor_id] => 
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => 
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 4bd9e783-c0fa-999f-cea6-5e0044b41fb1
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2020-02-07 09:53:32 :-
+Array
+(
+    [meeting_start_date] => 2020-01-29 15:30:00
+    [meeting_end_date] => 2020-01-29 15:30:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 4bd9e783-c0fa-999f-cea6-5e0044b41fb1
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+)
+
+send_email_notification_to_supervisor Result at 2020-02-07 09:53:32 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2020-02-07 10:01:36 :-
+Array
+(
+    [meeting_start_date] => 2020-01-29 15:30:00
+    [meeting_end_date] => 2020-01-29 15:30:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 4bd9e783-c0fa-999f-cea6-5e0044b41fb1
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+    [description] => I chaitanya, please contact to superviosr ASAP
+)
+
+send_email_notification_to_supervisor Result at 2020-02-07 10:01:36 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2020-02-17 16:58:42 :-
+Array
+(
+    [meeting_start_date] => 2020-01-29 15:30:00
+    [meeting_end_date] => 2020-01-29 15:30:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 367d00ae-5900-dccb-ab82-5df89be732e5
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_type] => PREINS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It park, nagpur, Maharashtra, 440033, India
+    [oppurtunity_id] => 4bd9e783-c0fa-999f-cea6-5e0044b41fb1
+    [cust_name] => Raghu Kumar
+    [customer Phone Number] => 123456
+    [description] => I chaitanya, please contact to superviosr ASAP
+)
+
+send_email_notification_to_supervisor Result at 2020-02-17 16:58:42 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2020-02-26 14:57:14 :-
+Array
+(
+    [meeting_start_date] => 2019-12-10 19:45:00
+    [meeting_end_date] => 2019-12-10 19:45:00
+    [supervisor_id] => d4460e22-4a6b-1727-c60b-5dc3f4c341f4
+    [account_id] => 38d4d78c-b526-10b0-8e14-5de5f19d2042
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => Chaitanya Bansod
+    [final_address] => It Park, Nagpur, Maharashtra, 440013, India
+    [oppurtunity_id] => 370c42ac-f189-2ae7-3153-5def6d061a33
+    [cust_name] => Rakesh Pandey
+    [customer Phone Number] => 132456
+    [description] => 
+)
+
+send_email_notification_to_supervisor Result at 2020-02-26 14:57:14 :-
+ supervisor_email_address:chaitanya@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2020-02-26 15:14:12 :-
+Array
+(
+    [meeting_start_date] => 2020-02-26 15:15:00
+    [meeting_end_date] => 2020-02-26 15:30:00
+    [supervisor_id] => 
+    [account_id] => 
+    [meeting_subject] => testing from pratik
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => 
+    [oppurtunity_id] => 
+    [cust_name] => 
+    [customer Phone Number] => 
+    [description] => 
+)
+
+send_email_notification_to_supervisor Result at 2020-02-26 15:14:42 :-
+Array
+(
+    [meeting_start_date] => 2020-02-26 15:15:00
+    [meeting_end_date] => 2020-02-26 15:30:00
+    [supervisor_id] => 
+    [account_id] => 
+    [meeting_subject] => testing from pratik
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => 
+    [oppurtunity_id] => 
+    [cust_name] => 
+    [customer Phone Number] => 
+    [description] => 
+)
+
+send_email_notification_to_supervisor Result at 2020-02-26 15:16:17 :-
+Array
+(
+    [meeting_start_date] => 2020-02-26 15:15:00
+    [meeting_end_date] => 2020-02-26 15:30:00
+    [supervisor_id] => 
+    [account_id] => 
+    [meeting_subject] => testing from pratik
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => 
+    [oppurtunity_id] => 
+    [cust_name] => 
+    [customer Phone Number] => 
+    [description] => 
+)
+
+send_email_notification_to_supervisor Result at 2020-02-26 16:41:23 :-
+Array
+(
+    [meeting_start_date] => 2020-02-26 20:41:23
+    [meeting_end_date] => 2020-02-26 20:41:23
+    [supervisor_id] => 
+    [account_id] => 38d4d78c-b526-10b0-8e14-5de5f19d2042
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It Park, Nagpur, Maharashtra, 440013, India
+    [oppurtunity_id] => 26e60c1f-6f6e-f440-8204-5e5652b88516
+    [cust_name] => Rakesh Pandey
+    [customer Phone Number] => 132456
+    [description] => 
+)
+
+send_email_notification_to_supervisor Result at 2020-02-26 16:42:27 :-
+Array
+(
+    [meeting_start_date] => 2020-02-26 20:45:00
+    [meeting_end_date] => 2020-02-26 20:45:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 38d4d78c-b526-10b0-8e14-5de5f19d2042
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It Park, Nagpur, Maharashtra, 440013, India
+    [oppurtunity_id] => 26e60c1f-6f6e-f440-8204-5e5652b88516
+    [cust_name] => Rakesh Pandey
+    [customer Phone Number] => 132456
+    [description] => 
+)
+
+send_email_notification_to_supervisor Result at 2020-02-26 16:42:27 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2020-02-26 16:44:15 :-
+Array
+(
+    [meeting_start_date] => 2020-02-26 20:44:15
+    [meeting_end_date] => 2020-02-26 20:44:15
+    [supervisor_id] => 
+    [account_id] => 38d4d78c-b526-10b0-8e14-5de5f19d2042
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => It Park, Nagpur, Maharashtra, 440013, India
+    [oppurtunity_id] => 956b323b-9cf5-05a3-e2f2-5e56531bd63b
+    [cust_name] => Rakesh Pandey
+    [customer Phone Number] => 132456
+    [description] => 
+)
+
+send_email_notification_to_supervisor Result at 2020-02-26 16:45:12 :-
+Array
+(
+    [meeting_start_date] => 2020-02-26 20:45:00
+    [meeting_end_date] => 2020-02-26 20:45:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 38d4d78c-b526-10b0-8e14-5de5f19d2042
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => It Park, Nagpur, Maharashtra, 440013, India
+    [oppurtunity_id] => 956b323b-9cf5-05a3-e2f2-5e56531bd63b
+    [cust_name] => Rakesh Pandey
+    [customer Phone Number] => 132456
+    [description] => 
+)
+
+send_email_notification_to_supervisor Result at 2020-02-26 16:45:12 :-
+ supervisor_email_address:chaitanya@simplecrm.com
+send_email_notification_to_supervisor Result at 2020-02-26 19:18:44 :-
+Array
+(
+    [meeting_start_date] => 2020-02-26 19:30:00
+    [meeting_end_date] => 2020-02-26 19:45:00
+    [supervisor_id] => 1
+    [account_id] => 
+    [meeting_subject] => preinstallation visit
+    [meeting_type] => PREINS
+    [supervisor_name] => Administrator
+    [final_address] => 
+    [oppurtunity_id] => 
+    [cust_name] => 
+    [customer Phone Number] => 
+    [description] => 
+)
+
+send_email_notification_to_supervisor Result at 2020-02-26 19:18:44 :-
+ supervisor_email_address:pratik@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2020-02-26 19:20:26 :-
+Array
+(
+    [meeting_start_date] => 2020-02-26 19:30:00
+    [meeting_end_date] => 2020-02-26 19:45:00
+    [supervisor_id] => 1
+    [account_id] => 
+    [meeting_subject] => preinstallation visit
+    [meeting_type] => PREINS
+    [supervisor_name] => Administrator
+    [final_address] => 
+    [oppurtunity_id] => 
+    [cust_name] => 
+    [customer Phone Number] => 
+    [description] => 
+)
+
+send_email_notification_to_supervisor Result at 2020-02-26 19:20:26 :-
+ supervisor_email_address:pratik@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2020-02-26 19:21:00 :-
+Array
+(
+    [meeting_start_date] => 2020-02-26 19:30:00
+    [meeting_end_date] => 2020-02-26 19:45:00
+    [supervisor_id] => 1
+    [account_id] => 
+    [meeting_subject] => preinstallation visit
+    [meeting_type] => PREINS
+    [supervisor_name] => Administrator
+    [final_address] => 
+    [oppurtunity_id] => 
+    [cust_name] => 
+    [customer Phone Number] => 
+    [description] => 
+)
+
+send_email_notification_to_supervisor Result at 2020-02-26 19:21:00 :-
+ supervisor_email_address:pratik@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2020-02-26 19:22:57 :-
+Array
+(
+    [meeting_start_date] => 2020-02-26 19:30:00
+    [meeting_end_date] => 2020-02-26 19:45:00
+    [supervisor_id] => 1
+    [account_id] => 
+    [meeting_subject] => preinstallation visit
+    [meeting_type] => PREINS
+    [supervisor_name] => Administrator
+    [final_address] => 
+    [oppurtunity_id] => 
+    [cust_name] => 
+    [customer Phone Number] => 
+    [description] => 
+)
+
+send_email_notification_to_supervisor Result at 2020-02-26 19:22:57 :-
+ supervisor_email_address:pratik@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2020-02-26 19:27:52 :-
+Array
+(
+    [meeting_start_date] => 2020-02-26 19:30:00
+    [meeting_end_date] => 2020-02-26 19:45:00
+    [supervisor_id] => 1
+    [account_id] => 
+    [meeting_subject] => Installtion
+    [meeting_type] => INS
+    [supervisor_name] => Administrator
+    [final_address] => 
+    [oppurtunity_id] => 
+    [cust_name] => 
+    [customer Phone Number] => 
+    [description] => 
+)
+
+send_email_notification_to_supervisor Result at 2020-02-26 19:27:52 :-
+ supervisor_email_address:pratik@simplecrm.com.sg

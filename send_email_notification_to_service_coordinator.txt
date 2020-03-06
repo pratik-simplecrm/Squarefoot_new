@@ -1,0 +1,960 @@
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 16:42:13 :-
+Array
+(
+    [prev_service_coid] => 
+    [meeting_id] => 7f5e03c7-23eb-59f7-3465-5e00535cad6a
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_start_date] => 2019-12-23 14:15:00
+    [meeting_end_date] => 2019-12-23 17:15:00
+    [meeting_link] => 
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 16:43:14 :-
+Array
+(
+    [prev_service_coid] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [meeting_id] => 7f5e03c7-23eb-59f7-3465-5e00535cad6a
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_start_date] => 2019-12-23 14:15:00
+    [meeting_end_date] => 2019-12-23 17:15:00
+    [meeting_link] => 
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 16:55:25 :-
+Array
+(
+    [prev_service_coid] => 
+    [meeting_id] => b7ce541a-364d-28fa-46c7-5e0056e0bd73
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_start_date] => 2019-12-26 15:30:00
+    [meeting_end_date] => 2019-12-26 15:45:00
+    [meeting_link] => 
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 16:56:00 :-
+Array
+(
+    [prev_service_coid] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [meeting_id] => b7ce541a-364d-28fa-46c7-5e0056e0bd73
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_start_date] => 2019-12-26 15:30:00
+    [meeting_end_date] => 2019-12-26 15:45:00
+    [meeting_link] => 
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 17:00:29 :-
+Array
+(
+    [prev_service_coid] => 
+    [meeting_id] => 2373ad2f-da29-91e9-27b7-5e0057c06b6d
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_start_date] => 2019-12-23 14:30:00
+    [meeting_end_date] => 2019-12-23 14:45:00
+    [meeting_link] => 
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 17:02:27 :-
+Array
+(
+    [prev_service_coid] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [meeting_id] => 2373ad2f-da29-91e9-27b7-5e0057c06b6d
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_start_date] => 2019-12-23 14:30:00
+    [meeting_end_date] => 2019-12-23 14:45:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=2373ad2f-da29-91e9-27b7-5e0057c06b6d>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 17:28:41 :-
+Array
+(
+    [prev_service_coid] => 
+    [meeting_id] => a73473f2-412f-0cdb-59c9-5e005e7ccf9b
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_start_date] => 2019-12-23 16:00:00
+    [meeting_end_date] => 2019-12-23 16:00:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=a73473f2-412f-0cdb-59c9-5e005e7ccf9b>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 17:50:10 :-
+Array
+(
+    [prev_service_coid] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [meeting_id] => a73473f2-412f-0cdb-59c9-5e005e7ccf9b
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_start_date] => 2019-12-23 16:00:00
+    [meeting_end_date] => 2019-12-23 16:00:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=a73473f2-412f-0cdb-59c9-5e005e7ccf9b>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 17:55:53 :-
+Array
+(
+    [prev_service_coid] => 
+    [meeting_id] => b1ce92f2-8063-3240-90e8-5e0064d136f7
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_start_date] => 2019-12-23 15:30:00
+    [meeting_end_date] => 2019-12-23 15:30:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=b1ce92f2-8063-3240-90e8-5e0064d136f7>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 17:56:28 :-
+Array
+(
+    [prev_service_coid] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [meeting_id] => b1ce92f2-8063-3240-90e8-5e0064d136f7
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_start_date] => 2019-12-23 15:30:00
+    [meeting_end_date] => 2019-12-23 15:30:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=b1ce92f2-8063-3240-90e8-5e0064d136f7>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 18:11:58 :-
+Array
+(
+    [prev_service_coid] => 
+    [meeting_id] => 4afeaa2d-32e4-d13a-21af-5e006889f506
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_start_date] => 2019-12-23 16:45:00
+    [meeting_end_date] => 2019-12-23 16:45:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=4afeaa2d-32e4-d13a-21af-5e006889f506>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 18:12:40 :-
+Array
+(
+    [prev_service_coid] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [meeting_id] => 4afeaa2d-32e4-d13a-21af-5e006889f506
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_start_date] => 2019-12-23 16:45:00
+    [meeting_end_date] => 2019-12-23 16:45:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=4afeaa2d-32e4-d13a-21af-5e006889f506>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 18:15:48 :-
+Array
+(
+    [prev_service_coid] => 
+    [meeting_id] => a130cc09-c766-ad73-bded-5e0069846822
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_start_date] => 2019-12-23 15:45:00
+    [meeting_end_date] => 2019-12-23 15:45:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=a130cc09-c766-ad73-bded-5e0069846822>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 18:16:30 :-
+Array
+(
+    [prev_service_coid] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [meeting_id] => a130cc09-c766-ad73-bded-5e0069846822
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_start_date] => 2019-12-23 15:45:00
+    [meeting_end_date] => 2019-12-23 15:45:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=a130cc09-c766-ad73-bded-5e0069846822>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 18:21:23 :-
+Array
+(
+    [prev_service_coid] => 
+    [meeting_id] => a4457432-ca4f-9495-cdfe-02415fa6c086
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => SATHYA
+    [created_by_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_start_date] => 2019-12-23 13:00:00
+    [meeting_end_date] => 2019-12-23 13:00:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=a4457432-ca4f-9495-cdfe-02415fa6c086>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 18:22:09 :-
+Array
+(
+    [prev_service_coid] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [meeting_id] => a4457432-ca4f-9495-cdfe-02415fa6c086
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => SATHYA
+    [created_by_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_start_date] => 2019-12-23 13:00:00
+    [meeting_end_date] => 2019-12-23 13:00:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=a4457432-ca4f-9495-cdfe-02415fa6c086>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 20:35:03 :-
+Array
+(
+    [prev_service_coid] => 
+    [meeting_id] => 166f1bfe-e49b-843a-d38c-5e0089560138
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_start_date] => 2019-12-23 19:15:00
+    [meeting_end_date] => 2019-12-23 19:15:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=166f1bfe-e49b-843a-d38c-5e0089560138>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 20:36:32 :-
+Array
+(
+    [prev_service_coid] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [meeting_id] => 166f1bfe-e49b-843a-d38c-5e0089560138
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_start_date] => 2019-12-23 19:15:00
+    [meeting_end_date] => 2019-12-23 19:15:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=166f1bfe-e49b-843a-d38c-5e0089560138>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 20:46:38 :-
+Array
+(
+    [prev_service_coid] => 
+    [meeting_id] => 69d14309-2769-2539-079f-5e008c0aef56
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_start_date] => 2019-12-23 18:30:00
+    [meeting_end_date] => 2019-12-23 18:30:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=69d14309-2769-2539-079f-5e008c0aef56>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 20:47:29 :-
+Array
+(
+    [prev_service_coid] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [meeting_id] => 69d14309-2769-2539-079f-5e008c0aef56
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_start_date] => 2019-12-23 18:30:00
+    [meeting_end_date] => 2019-12-23 18:30:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=69d14309-2769-2539-079f-5e008c0aef56>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 20:53:03 :-
+Array
+(
+    [prev_service_coid] => 
+    [meeting_id] => e1e08212-2d46-ca04-74a0-38502e206bb3
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => SATHYA
+    [created_by_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_start_date] => 2019-12-23 15:30:00
+    [meeting_end_date] => 2019-12-23 15:30:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=e1e08212-2d46-ca04-74a0-38502e206bb3>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 21:07:06 :-
+Array
+(
+    [prev_service_coid] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [meeting_id] => e1e08212-2d46-ca04-74a0-38502e206bb3
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => SATHYA
+    [created_by_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_start_date] => 2019-12-23 15:30:00
+    [meeting_end_date] => 2019-12-23 15:30:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=e1e08212-2d46-ca04-74a0-38502e206bb3>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 23:30:28 :-
+Array
+(
+    [prev_service_coid] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [meeting_id] => 54fead0a-9572-9442-fac9-aa872b025b27
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Service
+    [meeting_start_date] => 2019-12-23 16:00:00
+    [meeting_end_date] => 2019-12-23 16:00:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=54fead0a-9572-9442-fac9-aa872b025b27>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 23:31:52 :-
+Array
+(
+    [prev_service_coid] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [meeting_id] => 54fead0a-9572-9442-fac9-aa872b025b27
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Service
+    [meeting_start_date] => 2019-12-23 16:00:00
+    [meeting_end_date] => 2019-12-23 16:00:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=54fead0a-9572-9442-fac9-aa872b025b27>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 23:33:18 :-
+Array
+(
+    [prev_service_coid] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [meeting_id] => 54fead0a-9572-9442-fac9-aa872b025b27
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Service
+    [meeting_start_date] => 2019-12-23 16:00:00
+    [meeting_end_date] => 2019-12-23 16:00:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=54fead0a-9572-9442-fac9-aa872b025b27>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 23:34:01 :-
+Array
+(
+    [prev_service_coid] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [meeting_id] => 54fead0a-9572-9442-fac9-aa872b025b27
+    [service_coordinator_id] => d4460e22-4a6b-1727-c60b-5dc3f4c341f4
+    [assigned_user_name] => Chaitanya Bansod
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Service
+    [meeting_start_date] => 2019-12-23 16:00:00
+    [meeting_end_date] => 2019-12-23 16:00:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=54fead0a-9572-9442-fac9-aa872b025b27>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 23:42:10 :-
+Array
+(
+    [prev_service_coid] => 
+    [meeting_id] => 2a4da555-62f0-428d-2581-5e00b57ab319
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_start_date] => 2019-12-23 22:15:00
+    [meeting_end_date] => 2019-12-23 22:15:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=2a4da555-62f0-428d-2581-5e00b57ab319>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 23:42:50 :-
+Array
+(
+    [prev_service_coid] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [meeting_id] => 2a4da555-62f0-428d-2581-5e00b57ab319
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_start_date] => 2019-12-23 22:15:00
+    [meeting_end_date] => 2019-12-23 22:15:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=2a4da555-62f0-428d-2581-5e00b57ab319>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 23:46:24 :-
+Array
+(
+    [prev_service_coid] => 
+    [meeting_id] => e629bd02-03cd-857f-91e2-5e00b7912c9f
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_start_date] => 2019-12-23 21:15:00
+    [meeting_end_date] => 2019-12-23 21:15:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=e629bd02-03cd-857f-91e2-5e00b7912c9f>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 23:47:05 :-
+Array
+(
+    [prev_service_coid] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [meeting_id] => e629bd02-03cd-857f-91e2-5e00b7912c9f
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_start_date] => 2019-12-23 21:15:00
+    [meeting_end_date] => 2019-12-23 21:15:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=e629bd02-03cd-857f-91e2-5e00b7912c9f>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 23:55:49 :-
+Array
+(
+    [prev_service_coid] => 
+    [meeting_id] => 81d139ba-7814-fd9b-c15d-5e00b917878a
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_start_date] => 2019-12-23 21:30:00
+    [meeting_end_date] => 2019-12-23 21:30:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=81d139ba-7814-fd9b-c15d-5e00b917878a>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-23 23:56:54 :-
+Array
+(
+    [prev_service_coid] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [meeting_id] => 81d139ba-7814-fd9b-c15d-5e00b917878a
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_start_date] => 2019-12-23 21:30:00
+    [meeting_end_date] => 2019-12-23 21:30:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=81d139ba-7814-fd9b-c15d-5e00b917878a>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-24 00:00:48 :-
+Array
+(
+    [prev_service_coid] => 
+    [meeting_id] => a5b75509-22b2-2809-5d72-86235c7b672d
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => SATHYA
+    [created_by_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_start_date] => 2019-12-23 18:30:00
+    [meeting_end_date] => 2019-12-23 18:30:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=a5b75509-22b2-2809-5d72-86235c7b672d>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-24 00:01:24 :-
+Array
+(
+    [prev_service_coid] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [meeting_id] => a5b75509-22b2-2809-5d72-86235c7b672d
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => SATHYA
+    [created_by_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Installation
+    [meeting_start_date] => 2019-12-23 18:30:00
+    [meeting_end_date] => 2019-12-23 18:30:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=a5b75509-22b2-2809-5d72-86235c7b672d>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-24 00:07:20 :-
+Array
+(
+    [prev_service_coid] => 
+    [meeting_id] => da89efcb-3eee-6448-37ee-a72150c8c516
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => SATHYA
+    [created_by_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Service
+    [meeting_start_date] => 2019-12-23 18:45:00
+    [meeting_end_date] => 2019-12-23 18:45:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=da89efcb-3eee-6448-37ee-a72150c8c516>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-24 00:11:54 :-
+Array
+(
+    [prev_service_coid] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [meeting_id] => da89efcb-3eee-6448-37ee-a72150c8c516
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => SATHYA
+    [created_by_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Service
+    [meeting_start_date] => 2019-12-23 18:45:00
+    [meeting_end_date] => 2019-12-23 18:45:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=da89efcb-3eee-6448-37ee-a72150c8c516>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-24 22:25:29 :-
+Array
+(
+    [prev_service_coid] => 
+    [meeting_id] => 9dc4aa9d-bd0d-273d-2c50-5e0193bf3bbb
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_start_date] => 2019-12-24 14:00:00
+    [meeting_end_date] => 2019-12-24 14:00:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=9dc4aa9d-bd0d-273d-2c50-5e0193bf3bbb>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-24 22:40:12 :-
+Array
+(
+    [prev_service_coid] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [meeting_id] => da89efcb-3eee-6448-37ee-a72150c8c516
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => SATHYA
+    [created_by_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Service
+    [meeting_start_date] => 2019-12-24 10:00:00
+    [meeting_end_date] => 2019-12-24 11:00:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=da89efcb-3eee-6448-37ee-a72150c8c516>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-24 22:41:53 :-
+Array
+(
+    [prev_service_coid] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [meeting_id] => da89efcb-3eee-6448-37ee-a72150c8c516
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => SATHYA
+    [created_by_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Service
+    [meeting_start_date] => 2019-12-24 10:00:00
+    [meeting_end_date] => 2019-12-24 11:00:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=da89efcb-3eee-6448-37ee-a72150c8c516>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-26 15:48:02 :-
+Array
+(
+    [prev_service_coid] => 
+    [meeting_id] => df41ca07-2f9f-c921-6904-5e043b227dd2
+    [service_coordinator_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [assigned_user_name] => 
+    [created_by_name] => 
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_start_date] => 2019-12-26 14:18:02
+    [meeting_end_date] => 2019-12-26 14:18:02
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=df41ca07-2f9f-c921-6904-5e043b227dd2>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-26 15:56:29 :-
+Array
+(
+    [prev_service_coid] => 
+    [meeting_id] => 6eb28e3c-03a6-f7ba-2812-5e043d0efc12
+    [service_coordinator_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [assigned_user_name] => 
+    [created_by_name] => 
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_start_date] => 2019-12-26 13:26:29
+    [meeting_end_date] => 2019-12-26 13:26:29
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=6eb28e3c-03a6-f7ba-2812-5e043d0efc12>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-26 15:57:23 :-
+Array
+(
+    [prev_service_coid] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [meeting_id] => 6eb28e3c-03a6-f7ba-2812-5e043d0efc12
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_start_date] => 2019-12-26 13:30:00
+    [meeting_end_date] => 2019-12-26 13:30:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=6eb28e3c-03a6-f7ba-2812-5e043d0efc12>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-26 15:59:13 :-
+Array
+(
+    [prev_service_coid] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [meeting_id] => 6eb28e3c-03a6-f7ba-2812-5e043d0efc12
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_start_date] => 2019-12-26 13:30:00
+    [meeting_end_date] => 2019-12-26 13:30:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=6eb28e3c-03a6-f7ba-2812-5e043d0efc12>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-26 16:19:45 :-
+Array
+(
+    [prev_service_coid] => 
+    [meeting_id] => 96484989-849d-4869-cf82-5e0442874ace
+    [service_coordinator_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [assigned_user_name] => 
+    [created_by_name] => 
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_start_date] => 2019-12-26 14:49:45
+    [meeting_end_date] => 2019-12-26 14:49:45
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=96484989-849d-4869-cf82-5e0442874ace>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-26 16:20:24 :-
+Array
+(
+    [prev_service_coid] => 
+    [meeting_id] => 7ce482cf-f3cf-a87a-8c01-5e0443f162e9
+    [service_coordinator_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [assigned_user_name] => 
+    [created_by_name] => 
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_start_date] => 2019-12-26 13:50:24
+    [meeting_end_date] => 2019-12-26 13:50:24
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=7ce482cf-f3cf-a87a-8c01-5e0443f162e9>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-26 16:20:57 :-
+Array
+(
+    [prev_service_coid] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [meeting_id] => 7ce482cf-f3cf-a87a-8c01-5e0443f162e9
+    [service_coordinator_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [assigned_user_name] => Rekha B.S.
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Pre-installation
+    [meeting_start_date] => 2019-12-26 14:00:00
+    [meeting_end_date] => 2019-12-26 14:00:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=7ce482cf-f3cf-a87a-8c01-5e0443f162e9>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-26 16:28:45 :-
+Array
+(
+    [prev_service_coid] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [meeting_id] => da89efcb-3eee-6448-37ee-a72150c8c516
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => SATHYA
+    [created_by_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Service
+    [meeting_start_date] => 2019-12-24 10:00:00
+    [meeting_end_date] => 2019-12-24 11:00:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=da89efcb-3eee-6448-37ee-a72150c8c516>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-26 16:53:13 :-
+Array
+(
+    [prev_service_coid] => 
+    [meeting_id] => 3a8926fc-bc04-2bad-fd58-5e044a11f9f4
+    [service_coordinator_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [assigned_user_name] => 
+    [created_by_name] => 
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_start_date] => 2019-12-26 15:23:13
+    [meeting_end_date] => 2019-12-26 15:23:13
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=3a8926fc-bc04-2bad-fd58-5e044a11f9f4>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-26 16:53:32 :-
+Array
+(
+    [prev_service_coid] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [meeting_id] => b264272c-be9f-2968-f449-1f7f2e9b6b92
+    [service_coordinator_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [assigned_user_name] => Rekha B.S.
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Service
+    [meeting_start_date] => 2019-12-26 11:15:00
+    [meeting_end_date] => 2019-12-26 11:15:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=b264272c-be9f-2968-f449-1f7f2e9b6b92>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-26 16:55:32 :-
+Array
+(
+    [prev_service_coid] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [meeting_id] => b264272c-be9f-2968-f449-1f7f2e9b6b92
+    [service_coordinator_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [assigned_user_name] => Rekha B.S.
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Service
+    [meeting_start_date] => 2019-12-26 11:15:00
+    [meeting_end_date] => 2019-12-26 11:15:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=b264272c-be9f-2968-f449-1f7f2e9b6b92>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-26 17:03:31 :-
+Array
+(
+    [prev_service_coid] => 
+    [meeting_id] => de65d232-353b-655b-c3a7-5e044d997553
+    [service_coordinator_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [assigned_user_name] => 
+    [created_by_name] => 
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_start_date] => 2019-12-26 15:33:31
+    [meeting_end_date] => 2019-12-26 15:33:31
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=de65d232-353b-655b-c3a7-5e044d997553>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-26 17:04:14 :-
+Array
+(
+    [prev_service_coid] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [meeting_id] => de65d232-353b-655b-c3a7-5e044d997553
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_start_date] => 2019-12-26 15:45:00
+    [meeting_end_date] => 2019-12-26 15:45:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=de65d232-353b-655b-c3a7-5e044d997553>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-26 17:06:18 :-
+Array
+(
+    [prev_service_coid] => 
+    [meeting_id] => 6f4e186c-f47f-8913-872a-5e044d9b7cea
+    [service_coordinator_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [assigned_user_name] => 
+    [created_by_name] => 
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_start_date] => 2019-12-26 15:36:18
+    [meeting_end_date] => 2019-12-26 15:36:18
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=6f4e186c-f47f-8913-872a-5e044d9b7cea>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-26 17:10:19 :-
+Array
+(
+    [prev_service_coid] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [meeting_id] => 6f4e186c-f47f-8913-872a-5e044d9b7cea
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_start_date] => 2019-12-26 15:45:00
+    [meeting_end_date] => 2019-12-26 15:45:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=6f4e186c-f47f-8913-872a-5e044d9b7cea>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-26 17:12:09 :-
+Array
+(
+    [prev_service_coid] => 
+    [meeting_id] => 8256c5ae-8689-ad5f-40e6-5e044fef53b4
+    [service_coordinator_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [assigned_user_name] => 
+    [created_by_name] => 
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_start_date] => 2019-12-26 15:42:09
+    [meeting_end_date] => 2019-12-26 15:42:09
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=8256c5ae-8689-ad5f-40e6-5e044fef53b4>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-26 17:18:09 :-
+Array
+(
+    [prev_service_coid] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [meeting_id] => 8256c5ae-8689-ad5f-40e6-5e044fef53b4
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_start_date] => 2019-12-26 15:45:00
+    [meeting_end_date] => 2019-12-26 15:45:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=8256c5ae-8689-ad5f-40e6-5e044fef53b4>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-26 17:19:39 :-
+Array
+(
+    [prev_service_coid] => 
+    [meeting_id] => babd0963-1a9e-2667-bd15-5e0450b2df32
+    [service_coordinator_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [assigned_user_name] => 
+    [created_by_name] => 
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_start_date] => 2019-12-26 15:49:39
+    [meeting_end_date] => 2019-12-26 15:49:39
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=babd0963-1a9e-2667-bd15-5e0450b2df32>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-26 17:20:49 :-
+Array
+(
+    [prev_service_coid] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [meeting_id] => babd0963-1a9e-2667-bd15-5e0450b2df32
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_start_date] => 2019-12-26 16:00:00
+    [meeting_end_date] => 2019-12-26 16:00:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=babd0963-1a9e-2667-bd15-5e0450b2df32>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-26 17:22:22 :-
+Array
+(
+    [prev_service_coid] => 
+    [meeting_id] => 38772b98-7660-12de-5b0d-5e04512ffe8b
+    [service_coordinator_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [assigned_user_name] => 
+    [created_by_name] => 
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_start_date] => 2019-12-26 15:52:22
+    [meeting_end_date] => 2019-12-26 15:52:22
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=38772b98-7660-12de-5b0d-5e04512ffe8b>review this Meeting.</a>
+)
+
+send_email_notification_to_service_coordinator Result at 2019-12-26 17:23:03 :-
+Array
+(
+    [prev_service_coid] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [meeting_id] => 38772b98-7660-12de-5b0d-5e04512ffe8b
+    [service_coordinator_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+    [assigned_user_name] => SATHYA
+    [created_by_name] => Rekha B.S.
+    [created_by_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [status] => Planned
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_start_date] => 2019-12-26 16:00:00
+    [meeting_end_date] => 2019-12-26 16:00:00
+    [meeting_link] => <a href=http://18.139.239.214/squarefoot/prodbackup/index.php?module=Meetings&action=DetailView&record=38772b98-7660-12de-5b0d-5e04512ffe8b>review this Meeting.</a>
+)

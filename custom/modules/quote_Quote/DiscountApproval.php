@@ -422,15 +422,14 @@ Email;
             global $db, $current_user,$app_list_strings,$sugar_config; 
             
             $approval_status = $bean->approval_status_c; 
-            
-             if($approval_status == 'Approved') {
+             if($bean->approved_c == 1 && $bean->fetched_row['approval_status_c'] == 'Approved') {
                  return;
              }
 
              $dutyfree_arr = array_filter(array_keys($app_list_strings['dutyfree_list']));
              $dutyfree = $bean->dutyfree_c; // EURODutyFree or INRDutyFree
-             $loginuser_id = $current_user->id;
-             $quote_id = $bean->id;
+             $loginuser_id = trim($current_user->id);
+             $quote_id = trim($bean->id);
 
               //added by pratik on 07022020 to give access of approval quote on discounted applied quoatation(Malathi/Nalini user) start:
                 if(!in_array($dutyfree,$dutyfree_arr))

@@ -1,0 +1,5180 @@
+
+assigned_service_coordinator Result at 2019-12-17 16:01:41 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-17 16:01:41 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 0
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 1
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 0
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 0
+)
+
+assigned_account_person Result at 2019-12-17 16:01:41 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [2] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-17 16:07:00 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-17 16:07:00 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 0
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 1
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 0
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 0
+)
+
+assigned_account_person Result at 2019-12-17 16:07:00 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [2] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-17 16:42:09 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-17 16:42:09 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 0
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 1
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 0
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 0
+)
+
+assigned_account_person Result at 2019-12-17 16:42:09 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [2] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-17 16:50:41 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-17 16:50:41 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 0
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 1
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 0
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 0
+)
+
+assigned_account_person Result at 2019-12-17 16:50:41 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [2] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-17 16:50:46 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-17 16:50:46 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 0
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 1
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 0
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 0
+)
+
+assigned_account_person Result at 2019-12-17 16:50:46 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [2] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-17 16:51:35 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-17 16:51:35 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 0
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 1
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 0
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 0
+)
+
+assigned_account_person Result at 2019-12-17 16:51:35 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [2] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-17 16:52:24 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-17 16:52:24 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 0
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 1
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 0
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 0
+)
+
+assigned_account_person Result at 2019-12-17 16:52:24 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [2] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-17 17:06:00 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-17 17:06:00 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 0
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 1
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 0
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 0
+)
+
+assigned_account_person Result at 2019-12-17 17:06:00 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [2] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-17 17:28:37 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-17 17:28:37 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 0
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 1
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 0
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 0
+)
+
+assigned_account_person Result at 2019-12-17 17:28:37 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [2] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-17 17:29:43 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-17 17:31:30 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-17 17:32:39 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-17 17:33:24 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-17 17:34:35 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-17 17:35:55 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-17 17:41:45 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-17 17:45:34 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-17 17:46:54 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-17 17:48:03 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-17 17:55:00 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-17 18:00:55 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-17 18:01:49 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-17 18:05:41 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-17 18:07:04 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-17 20:40:38 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-17 20:40:38 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 1
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 1
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 0
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 0
+)
+
+assigned_account_person Result at 2019-12-17 20:40:38 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [1] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-17 21:17:40 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-17 21:17:40 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 1
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 1
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 1
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 0
+)
+
+assigned_account_person Result at 2019-12-17 21:17:40 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-17 21:18:27 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-17 21:19:06 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-17 21:20:09 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-17 21:22:28 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-17 21:43:29 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-17 21:43:29 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 1
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 1
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 1
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 1
+)
+
+assigned_account_person Result at 2019-12-17 21:43:29 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-17 22:24:45 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-17 22:24:45 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 1
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 1
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 1
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 2
+)
+
+assigned_account_person Result at 2019-12-17 22:24:45 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [2] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-17 22:25:21 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-17 22:25:21 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 1
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 1
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 1
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 2
+)
+
+assigned_account_person Result at 2019-12-17 22:25:21 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [2] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-17 23:56:12 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-17 23:56:12 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 2
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 1
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 1
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 2
+)
+
+assigned_account_person Result at 2019-12-17 23:56:12 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-17 23:59:55 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 00:20:52 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 15:39:34 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-18 15:39:34 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 2
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 2
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 1
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 2
+)
+
+assigned_account_person Result at 2019-12-18 15:39:34 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-18 15:42:27 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 15:48:22 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-18 15:48:22 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 2
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 2
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 2
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 2
+)
+
+assigned_account_person Result at 2019-12-18 15:48:22 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-18 15:48:55 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 15:48:59 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 15:56:24 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 16:00:03 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 16:00:32 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 16:01:21 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 16:01:33 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 16:03:39 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 16:04:25 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 16:05:17 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 16:07:15 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 16:08:41 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 16:13:13 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 16:15:17 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 16:15:53 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 16:17:33 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 16:18:04 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 16:18:27 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 16:24:26 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 16:28:17 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 16:29:29 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 16:31:43 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 16:48:08 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 16:50:11 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 16:50:12 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 17:30:37 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-18 17:30:37 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 2
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 3
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 2
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 2
+)
+
+assigned_account_person Result at 2019-12-18 17:30:37 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [2] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-18 17:34:13 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-18 17:34:13 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 3
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 3
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 2
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 2
+)
+
+assigned_account_person Result at 2019-12-18 17:34:13 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [1] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-18 17:37:10 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 17:56:05 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-18 17:56:05 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 3
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 3
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 3
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 2
+)
+
+assigned_account_person Result at 2019-12-18 17:56:05 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-18 17:56:51 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 18:04:37 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-18 18:04:37 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 3
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 3
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 3
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 3
+)
+
+assigned_account_person Result at 2019-12-18 18:04:37 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-18 18:12:22 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-18 18:12:22 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 3
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 3
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 3
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 4
+)
+
+assigned_account_person Result at 2019-12-18 18:12:22 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [2] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-18 18:12:36 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 18:13:58 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-18 18:13:58 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 4
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 3
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 3
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 4
+)
+
+assigned_account_person Result at 2019-12-18 18:13:58 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-18 18:18:37 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-18 18:18:37 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 4
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 3
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 3
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 4
+)
+
+assigned_account_person Result at 2019-12-18 18:18:37 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-18 18:18:54 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 18:19:25 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 18:26:51 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-18 18:26:51 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 4
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 4
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 3
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 4
+)
+
+assigned_account_person Result at 2019-12-18 18:26:51 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-18 18:33:14 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-18 18:33:14 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 4
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 4
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 4
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 4
+)
+
+assigned_account_person Result at 2019-12-18 18:33:14 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-18 18:34:13 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-18 18:34:13 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 4
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 4
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 4
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 4
+)
+
+assigned_account_person Result at 2019-12-18 18:34:13 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-18 19:40:02 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-18 19:40:02 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 5
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 4
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 4
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 4
+)
+
+assigned_account_person Result at 2019-12-18 19:40:02 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [2] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-18 19:40:40 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-18 19:40:40 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 5
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 4
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 4
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 4
+)
+
+assigned_account_person Result at 2019-12-18 19:40:40 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [2] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-18 20:22:50 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-18 20:22:50 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 5
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 5
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 4
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 4
+)
+
+assigned_account_person Result at 2019-12-18 20:22:50 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [1] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-18 20:25:00 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 20:58:37 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-18 20:58:37 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 5
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 5
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 5
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 4
+)
+
+assigned_account_person Result at 2019-12-18 20:58:37 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-18 21:07:37 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-18 21:07:37 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 5
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 5
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 5
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 5
+)
+
+assigned_account_person Result at 2019-12-18 21:07:37 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-18 21:08:36 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 21:10:24 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 21:17:35 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-18 21:17:35 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 5
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 5
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 5
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 6
+)
+
+assigned_account_person Result at 2019-12-18 21:17:35 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [2] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-18 21:18:17 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-18 21:18:17 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 5
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 5
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 5
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 6
+)
+
+assigned_account_person Result at 2019-12-18 21:18:17 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [2] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-18 21:24:26 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 21:32:47 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 22:33:34 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-18 22:33:34 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 6
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 5
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 5
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 6
+)
+
+assigned_account_person Result at 2019-12-18 22:33:34 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-18 23:09:10 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-18 23:09:10 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 6
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 6
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 5
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 6
+)
+
+assigned_account_person Result at 2019-12-18 23:09:10 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-18 23:10:29 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 23:11:47 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 23:12:58 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 23:14:06 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 23:15:22 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 23:19:17 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 23:23:21 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 23:32:50 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-18 23:47:59 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-18 23:47:59 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 6
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 6
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 6
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 6
+)
+
+assigned_account_person Result at 2019-12-18 23:47:59 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-18 23:56:50 :-
+ Branch Name: Chennai
+assigned_account_person Result at 2019-12-18 23:56:50 :-
+Array
+(
+    [67d71c80-1458-4c18-b529-5df85cda0256] => 0
+    [70c42f3d-33db-1cb1-bbf1-5df85ca8a64a] => 0
+    [7a556841-41ec-48a9-4697-5df85c5e786b] => 0
+)
+
+assigned_account_person Result at 2019-12-18 23:56:50 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Chennai
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 67d71c80-1458-4c18-b529-5df85cda0256
+)
+
+assigned_service_coordinator Result at 2019-12-19 00:06:17 :-
+ Branch Name: Chennai
+assigned_account_person Result at 2019-12-19 00:06:17 :-
+Array
+(
+    [67d71c80-1458-4c18-b529-5df85cda0256] => 0
+    [70c42f3d-33db-1cb1-bbf1-5df85ca8a64a] => 0
+    [7a556841-41ec-48a9-4697-5df85c5e786b] => 0
+)
+
+assigned_account_person Result at 2019-12-19 00:06:17 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Chennai
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 7a556841-41ec-48a9-4697-5df85c5e786b
+)
+
+assigned_service_coordinator Result at 2019-12-19 00:14:43 :-
+ Branch Name: Chennai
+assigned_account_person Result at 2019-12-19 00:14:43 :-
+Array
+(
+    [67d71c80-1458-4c18-b529-5df85cda0256] => 0
+    [70c42f3d-33db-1cb1-bbf1-5df85ca8a64a] => 0
+    [7a556841-41ec-48a9-4697-5df85c5e786b] => 0
+)
+
+assigned_account_person Result at 2019-12-19 00:14:43 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Chennai
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 67d71c80-1458-4c18-b529-5df85cda0256
+)
+
+assigned_service_coordinator Result at 2019-12-19 00:45:19 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-19 00:45:19 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 6
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 6
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 6
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 6
+)
+
+assigned_account_person Result at 2019-12-19 00:45:19 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-19 00:46:25 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-19 14:54:33 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-19 14:54:33 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 6
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 6
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 7
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 6
+)
+
+assigned_account_person Result at 2019-12-19 14:54:33 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [2] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-19 15:02:45 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-19 15:02:45 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 7
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 6
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 7
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 6
+)
+
+assigned_account_person Result at 2019-12-19 15:02:45 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [1] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-19 15:04:55 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-19 15:04:55 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 7
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 7
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 7
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 6
+)
+
+assigned_account_person Result at 2019-12-19 15:04:55 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-19 15:08:34 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-19 20:26:26 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-19 20:26:26 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 7
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 7
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 7
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 7
+)
+
+assigned_account_person Result at 2019-12-19 20:26:26 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-19 20:28:41 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-19 20:31:19 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-19 20:39:04 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-19 20:39:04 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 7
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 8
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 7
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 7
+)
+
+assigned_account_person Result at 2019-12-19 20:39:04 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [2] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-19 21:00:29 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-19 21:00:29 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 8
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 8
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 7
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 7
+)
+
+assigned_account_person Result at 2019-12-19 21:00:29 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [1] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-19 21:02:11 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-19 21:16:03 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-19 21:16:03 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 8
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 8
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 8
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 7
+)
+
+assigned_account_person Result at 2019-12-19 21:16:03 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-19 21:21:48 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-19 21:22:16 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-19 21:22:16 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 8
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 8
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 8
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 8
+)
+
+assigned_account_person Result at 2019-12-19 21:22:16 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-19 21:23:33 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-19 21:40:52 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-19 21:40:52 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 9
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 8
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 8
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 8
+)
+
+assigned_account_person Result at 2019-12-19 21:40:52 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [2] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-19 21:46:00 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-19 21:46:00 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 9
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 9
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 8
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 8
+)
+
+assigned_account_person Result at 2019-12-19 21:46:00 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [1] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-19 21:47:54 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-19 21:50:45 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-19 21:51:09 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-19 21:51:09 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 9
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 9
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 9
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 8
+)
+
+assigned_account_person Result at 2019-12-19 21:51:09 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-19 21:53:53 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-19 21:57:11 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-19 21:58:47 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-19 21:58:47 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 9
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 9
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 9
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 9
+)
+
+assigned_account_person Result at 2019-12-19 21:58:47 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-19 22:03:42 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-19 22:03:42 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 9
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 9
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 9
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 9
+)
+
+assigned_account_person Result at 2019-12-19 22:03:42 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-19 23:41:39 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-19 23:41:52 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-19 23:41:52 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 9
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 9
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 9
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 10
+)
+
+assigned_account_person Result at 2019-12-19 23:41:52 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [2] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-19 23:44:39 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-19 23:44:39 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 9
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 9
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 9
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 10
+)
+
+assigned_account_person Result at 2019-12-19 23:44:39 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [2] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-19 23:45:07 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-19 23:45:07 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 9
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 9
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 9
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 10
+)
+
+assigned_account_person Result at 2019-12-19 23:45:07 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [2] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-19 23:46:33 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-19 23:46:33 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 9
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 9
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 9
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 10
+)
+
+assigned_account_person Result at 2019-12-19 23:46:33 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [2] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-19 23:47:16 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-19 23:47:16 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 9
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 9
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 9
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 10
+)
+
+assigned_account_person Result at 2019-12-19 23:47:16 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [2] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-19 23:49:03 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-19 23:49:03 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 9
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 9
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 9
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 10
+)
+
+assigned_account_person Result at 2019-12-19 23:49:03 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [2] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-19 23:57:35 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-19 23:57:35 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 9
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 9
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 9
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 10
+)
+
+assigned_account_person Result at 2019-12-19 23:57:35 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [2] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-19 23:57:39 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-19 23:57:39 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 9
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 9
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 9
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 10
+)
+
+assigned_account_person Result at 2019-12-19 23:57:39 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [2] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-19 23:58:02 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-19 23:58:02 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 9
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 9
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 9
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 10
+)
+
+assigned_account_person Result at 2019-12-19 23:58:02 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [2] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-19 23:58:34 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-19 23:58:47 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-19 23:58:47 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 9
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 9
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 9
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 10
+)
+
+assigned_account_person Result at 2019-12-19 23:58:47 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [2] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-20 00:09:20 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 00:09:20 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 9
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 9
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 9
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 10
+)
+
+assigned_account_person Result at 2019-12-20 00:09:20 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [2] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-20 00:11:36 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 00:11:36 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 9
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 9
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 9
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 10
+)
+
+assigned_account_person Result at 2019-12-20 00:11:36 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [2] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-20 00:18:04 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 00:18:04 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 9
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 9
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 9
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 10
+)
+
+assigned_account_person Result at 2019-12-20 00:18:04 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [2] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-20 00:18:39 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 00:20:42 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 00:20:50 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 00:20:53 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 00:20:53 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 9
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 9
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 9
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 10
+)
+
+assigned_account_person Result at 2019-12-20 00:20:53 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [2] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-20 00:22:15 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 00:22:15 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 9
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 9
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 9
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 10
+)
+
+assigned_account_person Result at 2019-12-20 00:22:15 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [2] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-20 00:23:47 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 00:23:47 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 9
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 9
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 9
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 10
+)
+
+assigned_account_person Result at 2019-12-20 00:23:47 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [2] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-20 00:34:12 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 00:34:12 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 9
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 9
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 9
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 10
+)
+
+assigned_account_person Result at 2019-12-20 00:34:12 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [2] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-20 00:37:24 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 00:37:24 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 14
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 9
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 9
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 10
+)
+
+assigned_account_person Result at 2019-12-20 00:37:24 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-20 00:41:26 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 00:43:19 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 00:43:19 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 11
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 9
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 10
+)
+
+assigned_account_person Result at 2019-12-20 00:43:19 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-20 00:48:53 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 00:48:53 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 11
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 12
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 10
+)
+
+assigned_account_person Result at 2019-12-20 00:48:53 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-20 00:49:35 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 00:49:35 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 11
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 12
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 10
+)
+
+assigned_account_person Result at 2019-12-20 00:49:35 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-20 00:54:53 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 00:54:53 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 11
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 12
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 11
+)
+
+assigned_account_person Result at 2019-12-20 00:54:53 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [1] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-20 00:58:39 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 00:58:39 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 12
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 12
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 11
+)
+
+assigned_account_person Result at 2019-12-20 00:58:39 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-20 00:59:59 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 00:59:59 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 12
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 12
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 12
+)
+
+assigned_account_person Result at 2019-12-20 00:59:59 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [2] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-20 01:00:57 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 01:00:57 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 12
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 12
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 12
+)
+
+assigned_account_person Result at 2019-12-20 01:00:57 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [2] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-20 01:01:46 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 01:01:46 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 13
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 12
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 12
+)
+
+assigned_account_person Result at 2019-12-20 01:01:46 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [1] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-20 15:18:41 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 15:18:41 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 13
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 13
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 12
+)
+
+assigned_account_person Result at 2019-12-20 15:18:41 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-20 15:19:25 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 15:21:49 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 15:21:49 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 13
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 13
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 13
+)
+
+assigned_account_person Result at 2019-12-20 15:21:49 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [2] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-20 15:25:29 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 15:25:29 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 13
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 13
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 13
+)
+
+assigned_account_person Result at 2019-12-20 15:25:29 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [2] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-20 15:29:55 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 15:29:55 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 14
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 13
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 13
+)
+
+assigned_account_person Result at 2019-12-20 15:29:55 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [1] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-20 15:37:11 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 15:37:11 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 14
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 13
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 13
+)
+
+assigned_account_person Result at 2019-12-20 15:37:11 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [1] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-20 15:38:41 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 15:38:41 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 14
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 13
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 13
+)
+
+assigned_account_person Result at 2019-12-20 15:38:41 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [1] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-20 15:40:36 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 15:40:36 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 14
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 14
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 13
+)
+
+assigned_account_person Result at 2019-12-20 15:40:36 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-20 15:42:36 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 15:43:20 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 15:43:20 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 14
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 14
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 14
+)
+
+assigned_account_person Result at 2019-12-20 15:43:20 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [2] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-20 16:55:26 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 16:55:27 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 15
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 14
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 14
+)
+
+assigned_account_person Result at 2019-12-20 16:55:27 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [1] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-20 17:17:53 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 17:17:53 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 15
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 15
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 14
+)
+
+assigned_account_person Result at 2019-12-20 17:17:53 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-20 17:23:07 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 17:23:07 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 15
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 15
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 15
+)
+
+assigned_account_person Result at 2019-12-20 17:23:07 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [2] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-20 17:26:24 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 17:32:14 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 17:36:39 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 17:38:34 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 17:43:52 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 17:49:12 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 17:49:12 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 16
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 15
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 15
+)
+
+assigned_account_person Result at 2019-12-20 17:49:12 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [1] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-20 18:14:52 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 18:20:38 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 18:29:29 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 18:33:22 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 18:33:26 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 18:37:16 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 20:23:14 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 20:23:14 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 16
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 16
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 15
+)
+
+assigned_account_person Result at 2019-12-20 20:23:14 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-20 20:24:55 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 20:24:55 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 16
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 16
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 15
+)
+
+assigned_account_person Result at 2019-12-20 20:24:55 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-20 20:26:25 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 20:26:25 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 16
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 16
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 16
+)
+
+assigned_account_person Result at 2019-12-20 20:26:25 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [2] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-20 20:28:37 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 20:28:37 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 16
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 16
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 16
+)
+
+assigned_account_person Result at 2019-12-20 20:28:37 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [2] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-20 20:30:26 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 20:30:26 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 16
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 16
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 16
+)
+
+assigned_account_person Result at 2019-12-20 20:30:26 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [2] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-20 20:31:27 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 20:31:44 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 20:31:44 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 16
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 16
+)
+
+assigned_account_person Result at 2019-12-20 20:31:44 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [1] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-20 21:32:15 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 21:34:54 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 21:35:24 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 21:35:24 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 16
+)
+
+assigned_account_person Result at 2019-12-20 21:35:24 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-20 21:35:54 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 21:35:54 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 16
+)
+
+assigned_account_person Result at 2019-12-20 21:35:54 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-20 22:35:45 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 22:38:36 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 22:39:07 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 22:39:44 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 22:41:23 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 22:41:49 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 22:41:49 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 16
+)
+
+assigned_account_person Result at 2019-12-20 22:41:49 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-20 23:13:13 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 23:14:18 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 23:14:52 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 23:15:06 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 23:15:28 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 23:18:23 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 23:18:23 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 16
+)
+
+assigned_account_person Result at 2019-12-20 23:18:23 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-20 23:18:54 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 23:19:10 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 23:20:44 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 23:26:07 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 23:26:07 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 16
+)
+
+assigned_account_person Result at 2019-12-20 23:26:07 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-20 23:29:44 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 23:29:44 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 16
+)
+
+assigned_account_person Result at 2019-12-20 23:29:44 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-20 23:30:32 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 23:30:32 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 16
+)
+
+assigned_account_person Result at 2019-12-20 23:30:32 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-20 23:32:44 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 23:33:29 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 23:36:00 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-20 23:39:25 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 23:39:25 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-20 23:39:25 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-20 23:45:05 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 23:45:05 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-20 23:45:05 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-20 23:56:57 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 23:56:57 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-20 23:56:57 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-20 23:57:24 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 23:57:24 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-20 23:57:24 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-20 23:59:04 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-20 23:59:04 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-20 23:59:04 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-21 00:00:31 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 00:00:31 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 00:00:31 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-21 00:00:49 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 00:00:49 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 00:00:49 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-21 00:03:00 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 00:03:00 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 00:03:00 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-21 00:04:50 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 00:04:50 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 00:04:50 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-21 00:10:43 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 00:10:43 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 00:10:43 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-21 00:14:37 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 00:14:37 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 00:14:37 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-21 00:15:26 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 00:15:26 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 00:15:26 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-21 00:15:44 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 00:15:44 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 00:15:44 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-21 00:22:33 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 00:22:33 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 00:22:33 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-21 00:29:12 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 00:29:12 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 00:29:12 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-21 00:31:01 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 00:31:01 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 00:31:01 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-21 00:31:30 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 00:31:30 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 00:31:30 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-21 00:34:57 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 00:34:57 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 00:34:57 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-21 00:35:14 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 00:35:14 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 00:35:14 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-21 00:35:45 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 00:35:45 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 00:35:45 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-21 00:36:22 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 00:36:22 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 00:36:22 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-21 00:38:28 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 00:38:28 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 00:38:28 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-21 15:52:20 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 15:52:20 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 15:52:20 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-21 15:52:44 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 15:52:44 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 15:52:44 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-21 15:56:05 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 15:56:05 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 15:56:05 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-21 15:56:57 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 15:56:57 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 15:56:57 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-21 15:58:02 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 15:58:02 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 15:58:02 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-21 15:59:33 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 15:59:33 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 15:59:33 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-21 16:00:46 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 16:00:46 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 16:00:46 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-21 16:02:06 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 16:02:06 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 16:02:06 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-21 16:04:43 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 16:04:43 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 16:04:43 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-21 16:05:07 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 16:05:07 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 16:05:07 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-21 16:05:23 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 16:05:23 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 16:05:23 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-21 16:06:19 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 16:06:19 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 16:06:19 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-21 16:08:18 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 16:08:18 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 16:08:18 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-21 16:10:29 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 16:10:29 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 16:10:29 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-21 16:14:25 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 16:14:25 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 16:14:25 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-21 16:22:44 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 16:22:44 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 16:22:44 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-21 16:28:36 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-21 16:28:36 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-21 16:28:36 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-23 16:13:18 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-23 16:13:19 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 17
+)
+
+assigned_account_person Result at 2019-12-23 16:13:19 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-23 16:35:37 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-23 16:35:37 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 17
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 18
+)
+
+assigned_account_person Result at 2019-12-23 16:35:37 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [2] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-23 16:40:40 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-23 16:40:40 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 18
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 17
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 18
+)
+
+assigned_account_person Result at 2019-12-23 16:40:40 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-23 16:44:38 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-23 16:44:38 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 18
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 18
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 17
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 18
+)
+
+assigned_account_person Result at 2019-12-23 16:44:38 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-23 16:58:23 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-23 16:58:23 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 18
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 18
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 18
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 18
+)
+
+assigned_account_person Result at 2019-12-23 16:58:23 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-23 17:10:41 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-23 17:10:41 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 18
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 18
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 18
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 19
+)
+
+assigned_account_person Result at 2019-12-23 17:10:41 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [2] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-23 17:15:13 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 17:45:49 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-23 17:45:49 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 19
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 18
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 18
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 19
+)
+
+assigned_account_person Result at 2019-12-23 17:45:49 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-23 17:52:40 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-23 17:52:40 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 19
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 19
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 18
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 19
+)
+
+assigned_account_person Result at 2019-12-23 17:52:40 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-23 17:58:50 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-23 17:58:50 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 19
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 19
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 19
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 19
+)
+
+assigned_account_person Result at 2019-12-23 17:58:50 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-23 18:06:58 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 18:07:49 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 18:14:05 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-23 18:14:06 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 19
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 19
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 19
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 20
+)
+
+assigned_account_person Result at 2019-12-23 18:14:06 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [2] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-23 18:14:38 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 18:17:04 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-23 18:17:04 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 20
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 19
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 19
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 20
+)
+
+assigned_account_person Result at 2019-12-23 18:17:04 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-23 18:17:37 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 18:17:47 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-23 18:17:47 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 20
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 19
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 19
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 20
+)
+
+assigned_account_person Result at 2019-12-23 18:17:47 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-23 18:22:38 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-23 18:22:38 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 20
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 20
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 19
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 20
+)
+
+assigned_account_person Result at 2019-12-23 18:22:38 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-23 18:23:38 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-23 18:23:38 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 20
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 20
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 19
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 20
+)
+
+assigned_account_person Result at 2019-12-23 18:23:38 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-23 19:56:22 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 20:20:39 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 20:21:15 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-23 20:21:15 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 20
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 20
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 20
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 20
+)
+
+assigned_account_person Result at 2019-12-23 20:21:15 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-23 20:34:20 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 20:39:33 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-23 20:39:33 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 21
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 20
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 20
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 20
+)
+
+assigned_account_person Result at 2019-12-23 20:39:33 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [2] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-23 20:42:11 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 20:42:48 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 20:44:17 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 20:48:30 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-23 20:48:30 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 21
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 21
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 20
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 20
+)
+
+assigned_account_person Result at 2019-12-23 20:48:30 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [1] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-23 21:03:23 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 21:05:30 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 21:06:18 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 21:07:00 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 21:07:24 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 21:08:17 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 21:08:21 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 21:08:29 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 21:08:39 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 21:09:09 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 21:09:13 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 21:09:27 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 21:10:47 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 21:10:58 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 21:11:16 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 21:11:57 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 21:29:21 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 23:31:10 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-23 23:31:10 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 21
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 23
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 21
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 20
+)
+
+assigned_account_person Result at 2019-12-23 23:31:10 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-23 23:44:16 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-23 23:44:16 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 21
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 23
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 21
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 20
+)
+
+assigned_account_person Result at 2019-12-23 23:44:16 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-23 23:48:26 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-23 23:58:13 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-23 23:58:13 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 21
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 23
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 21
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 22
+)
+
+assigned_account_person Result at 2019-12-23 23:58:13 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-24 00:01:53 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-24 00:01:57 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-24 00:02:28 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-24 00:04:19 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-24 00:05:40 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-24 21:06:37 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-24 22:28:28 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-24 22:28:28 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 23
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 23
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 21
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 22
+)
+
+assigned_account_person Result at 2019-12-24 22:28:28 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-24 22:46:23 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 15:46:05 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-26 15:46:05 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 23
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 23
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 21
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 22
+)
+
+assigned_account_person Result at 2019-12-26 15:46:05 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-26 15:59:29 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-26 15:59:29 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 23
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 23
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 22
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 22
+)
+
+assigned_account_person Result at 2019-12-26 15:59:29 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [1] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-26 16:00:20 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-26 16:00:20 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 23
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 23
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 22
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 22
+)
+
+assigned_account_person Result at 2019-12-26 16:00:20 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [1] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-26 16:03:22 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-26 16:03:22 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 23
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 23
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 23
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 22
+)
+
+assigned_account_person Result at 2019-12-26 16:03:22 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-26 16:04:08 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-26 16:04:08 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 23
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 23
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 23
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 22
+)
+
+assigned_account_person Result at 2019-12-26 16:04:08 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-26 16:06:26 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 16:07:16 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 16:10:17 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-26 16:10:17 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 23
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 23
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 23
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 23
+)
+
+assigned_account_person Result at 2019-12-26 16:10:17 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-26 16:17:02 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-26 16:17:02 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 23
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 24
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 23
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 23
+)
+
+assigned_account_person Result at 2019-12-26 16:17:02 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [2] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-26 16:21:47 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-26 16:21:47 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 24
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 24
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 23
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 23
+)
+
+assigned_account_person Result at 2019-12-26 16:21:47 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [1] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-26 16:24:52 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-26 16:24:52 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 24
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 24
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 24
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 23
+)
+
+assigned_account_person Result at 2019-12-26 16:24:52 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-26 16:26:42 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 16:28:24 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-26 16:28:24 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 24
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 24
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 24
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 24
+)
+
+assigned_account_person Result at 2019-12-26 16:28:24 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 1
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-26 16:30:30 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 16:31:33 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 16:37:53 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 16:38:23 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 16:39:03 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 16:39:48 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 16:55:05 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 17:30:50 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-26 17:30:50 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 25
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 24
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 24
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 24
+)
+
+assigned_account_person Result at 2019-12-26 17:30:50 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [2] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-26 17:42:36 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 17:48:39 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 18:23:19 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 18:25:01 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 18:26:14 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 18:27:35 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 19:46:00 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 19:57:39 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-26 19:57:39 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 25
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 25
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 24
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 24
+)
+
+assigned_account_person Result at 2019-12-26 19:57:39 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+            [1] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-26 20:08:19 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 20:11:57 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 20:21:33 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 20:30:23 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-26 20:30:23 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 25
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 25
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 25
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 24
+)
+
+assigned_account_person Result at 2019-12-26 20:30:23 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-26 20:43:26 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 20:48:40 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 20:52:09 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 21:03:37 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-26 21:03:37 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 25
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 25
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 25
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 26
+)
+
+assigned_account_person Result at 2019-12-26 21:03:37 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [2] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-26 21:32:30 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-26 21:32:30 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 26
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 25
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 25
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 26
+)
+
+assigned_account_person Result at 2019-12-26 21:32:30 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-26 21:38:25 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 21:47:28 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 21:48:07 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 21:51:49 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 21:54:03 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 21:59:51 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 22:30:26 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-26 22:30:26 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 26
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 27
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 25
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 26
+)
+
+assigned_account_person Result at 2019-12-26 22:30:26 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2019-12-26 22:35:16 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 22:37:42 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 22:38:35 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 22:41:11 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 22:42:09 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 23:18:33 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 23:29:14 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-26 23:29:14 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 26
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 27
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 28
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 26
+)
+
+assigned_account_person Result at 2019-12-26 23:29:14 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-26 23:40:49 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 23:48:27 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 23:50:41 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-26 23:50:41 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 27
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 27
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 28
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 26
+)
+
+assigned_account_person Result at 2019-12-26 23:50:41 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-26 23:54:49 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 23:56:19 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-26 23:59:52 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-26 23:59:52 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 27
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 27
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 28
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 27
+)
+
+assigned_account_person Result at 2019-12-26 23:59:52 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [2] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-27 00:02:20 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 00:02:31 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 00:12:37 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 00:13:16 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 00:25:53 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 00:27:34 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 00:28:33 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 00:30:01 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 15:17:07 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-27 15:17:07 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 28
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 27
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 28
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 27
+)
+
+assigned_account_person Result at 2019-12-27 15:17:07 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [1] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2019-12-27 15:20:28 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 15:29:23 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 15:33:45 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 15:37:24 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 15:46:23 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-27 15:46:23 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 28
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 30
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 28
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 27
+)
+
+assigned_account_person Result at 2019-12-27 15:46:23 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => c3cd9023-9ab9-86f6-0eb8-5df77e486957
+)
+
+assigned_service_coordinator Result at 2019-12-27 16:02:25 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 16:03:09 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 16:12:40 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 16:17:21 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 16:18:24 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 16:23:08 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 16:28:27 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 16:55:23 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-27 16:55:23 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 28
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 30
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 28
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 30
+)
+
+assigned_account_person Result at 2019-12-27 16:55:23 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-27 16:58:11 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2019-12-27 16:58:11 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 28
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 30
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 28
+    [c3cd9023-9ab9-86f6-0eb8-5df77e486957] => 30
+)
+
+assigned_account_person Result at 2019-12-27 16:58:11 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 7c85059c-1b21-fe32-dc7a-5df7814fcf6a
+)
+
+assigned_service_coordinator Result at 2019-12-27 17:15:08 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 17:20:35 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 17:24:34 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 17:29:03 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 17:33:30 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 17:36:48 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 17:39:53 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 17:53:53 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 17:55:26 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 17:58:10 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-27 18:12:44 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-30 23:34:13 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 00:05:25 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 00:07:32 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 00:09:16 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 00:15:33 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 00:20:13 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 00:21:38 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 00:23:51 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 00:27:45 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 00:29:42 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 00:32:41 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 00:33:48 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 00:35:42 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 00:36:14 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 00:37:44 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 00:39:59 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 00:40:15 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 00:45:35 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 00:47:52 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 00:52:28 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 00:55:28 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 15:14:06 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 15:20:44 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 15:24:22 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 15:27:04 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 15:29:15 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 15:32:54 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 15:33:36 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 15:34:43 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 15:35:44 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 15:37:22 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 15:41:36 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 15:43:08 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 15:44:24 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 15:44:45 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 17:01:15 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2019-12-31 17:14:25 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2020-01-14 23:20:56 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2020-01-14 23:20:56 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 31
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 30
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 28
+)
+
+assigned_account_person Result at 2020-01-14 23:20:56 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2020-01-14 23:37:37 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2020-01-14 23:37:37 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 31
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 30
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 29
+)
+
+assigned_account_person Result at 2020-01-14 23:37:37 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 90da5dee-b857-d495-cb85-5df7814e07b8
+)
+
+assigned_service_coordinator Result at 2020-01-23 20:31:29 :-
+ Branch Name: Bangalore
+assigned_account_person Result at 2020-01-23 20:31:29 :-
+Array
+(
+    [7c85059c-1b21-fe32-dc7a-5df7814fcf6a] => 31
+    [883de4e9-f4d1-9240-da7b-5df781fea12c] => 30
+    [90da5dee-b857-d495-cb85-5df7814e07b8] => 30
+)
+
+assigned_account_person Result at 2020-01-23 20:31:29 :-
+Array
+(
+    [final_assigned_user_id] => Array
+        (
+            [0] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+            [1] => 90da5dee-b857-d495-cb85-5df7814e07b8
+        )
+
+    [branch_name] => Bangalore
+    [allValuesAreTheSame] => 
+    [account_person_id] => 883de4e9-f4d1-9240-da7b-5df781fea12c
+)
+
+assigned_service_coordinator Result at 2020-01-23 20:33:29 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2020-01-23 22:25:32 :-
+ Branch Name: Bangalore
+assigned_service_coordinator Result at 2020-02-13 16:24:37 :-
+ Branch Name: Bangalore
