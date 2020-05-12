@@ -1,5 +1,5 @@
 <?php
-// created: 2019-10-22 09:44:33
+// created: 2020-03-16 15:08:05
 $mod_strings = array (
   'LBL_EDITVIEW_PANEL10' => 'Description Information',
   'LBL_EDITVIEW_PANEL1' => 'Product Lines',
@@ -69,4 +69,5 @@ $mod_strings = array (
   'LBL_UNREGISTERED_USER' => 'Unregistered Customer',
   'LBL_CESS_AMOUNT' => 'kerala Cess 1%',
   'LBL_DUTYFREE' => 'Duty Free',
+  'LBL_IS_DUTY_FREE_QUOTE' => 'Is Duty Free Quote?',
 );

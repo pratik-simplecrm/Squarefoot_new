@@ -248,6 +248,12 @@ array (
             'name' => 'unregistered_user_c',
             'label' => 'LBL_UNREGISTERED_USER',
           ),
+          1 => 
+          array (
+            'name' => 'is_duty_free_quote_c',
+            'studio' => 'visible',
+            'label' => 'LBL_IS_DUTY_FREE_QUOTE',
+          ),
         ),
       ),
       'lbl_editview_panel14' => 

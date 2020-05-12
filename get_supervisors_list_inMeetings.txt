@@ -2687,3 +2687,47 @@ Array
 				 '1'
     [login_user_id] => 1
 )
+
+get_supervisors_list_inMeetings Result at 2020-03-11 22:15:02 :-
+Array
+(
+    [branch_name] => Bangalore
+    [request_id] => 1
+    [query] => SELECT `user_id` FROM `acl_roles_users` as A inner join `users` as B on A.user_id=B.id inner join `users_cstm` as C on B.id=C.id_C  WHERE `role_id`='18a51c35-1f33-8352-66b6-5dcbdd69fa48' and A.`deleted`=0 and C.branch_c='Bangalore' and B.deleted=0 and B.status='Active'
+    [query1] => SELECT `branch_c` FROM `users_cstm` as A inner join `users` as B on A.id_c = B.id WHERE `id_c` = 
+				 '1'
+    [login_user_id] => 1
+)
+
+get_supervisors_list_inMeetings Result at 2020-03-14 16:14:59 :-
+Array
+(
+    [branch_name] => Bangalore
+    [request_id] => 1
+    [query] => SELECT `user_id` FROM `acl_roles_users` as A inner join `users` as B on A.user_id=B.id inner join `users_cstm` as C on B.id=C.id_C  WHERE `role_id`='18a51c35-1f33-8352-66b6-5dcbdd69fa48' and A.`deleted`=0 and C.branch_c='Bangalore' and B.deleted=0 and B.status='Active'
+    [query1] => SELECT `branch_c` FROM `users_cstm` as A inner join `users` as B on A.id_c = B.id WHERE `id_c` = 
+				 '1'
+    [login_user_id] => 1
+)
+
+get_supervisors_list_inMeetings Result at 2020-03-20 20:41:02 :-
+Array
+(
+    [branch_name] => Bangalore
+    [request_id] => 1
+    [query] => SELECT `user_id` FROM `acl_roles_users` as A inner join `users` as B on A.user_id=B.id inner join `users_cstm` as C on B.id=C.id_C  WHERE `role_id`='18a51c35-1f33-8352-66b6-5dcbdd69fa48' and A.`deleted`=0 and C.branch_c='Bangalore' and B.deleted=0 and B.status='Active'
+    [query1] => SELECT `branch_c` FROM `users_cstm` as A inner join `users` as B on A.id_c = B.id WHERE `id_c` = 
+				 '2bf9e01b-b284-ac82-7feb-55a0a77fe8f2'
+    [login_user_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+)
+
+get_supervisors_list_inMeetings Result at 2020-03-20 20:42:35 :-
+Array
+(
+    [branch_name] => Bangalore
+    [request_id] => 1
+    [query] => SELECT `user_id` FROM `acl_roles_users` as A inner join `users` as B on A.user_id=B.id inner join `users_cstm` as C on B.id=C.id_C  WHERE `role_id`='18a51c35-1f33-8352-66b6-5dcbdd69fa48' and A.`deleted`=0 and C.branch_c='Bangalore' and B.deleted=0 and B.status='Active'
+    [query1] => SELECT `branch_c` FROM `users_cstm` as A inner join `users` as B on A.id_c = B.id WHERE `id_c` = 
+				 '68c2157e-3f43-3c3b-ecaa-5dd4cb79b142'
+    [login_user_id] => 68c2157e-3f43-3c3b-ecaa-5dd4cb79b142
+)

@@ -26,6 +26,11 @@ $entry_point_registry['lead_scoring_function'] = array('file' => 'custom/modules
         'auth' => false,
         'entryPoint' => true
     );
+  $entry_point_registry['testEmail'] = array(
+        'file' => 'test_email.php',
+        'auth' => false,
+        'entryPoint' => true
+    );
 
 
 $entry_point_registry['server_teams_users_processing'] = array('file' => 'custom/modules/Administration/dashboard-manager/server_teams_users_processing.php', 'auth' => true);

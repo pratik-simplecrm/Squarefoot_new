@@ -36,6 +36,35 @@
 
 *}
 {php}
+/* code written by pratik to hide create meeting from customer,architectural firm and meetings module */
+if($_REQUEST['module']=='Accounts' || $_REQUEST['module']=='Arch_Architectural_Firm')
+{
+    // hide schedule meeting module from Customers and Architectural firm modules
+{/php}
+    <script type="text/javascript">
+    {literal}
+    $(document).ready(function () {
+        $(".SugarActionMenu .sugar_action_button .subnav #Activities_schedulemeeting_button").hide();
+        $(".SugarActionMenu .sugar_action_button .subnav #activities_schedulemeeting_button").hide();
+    });
+    {/literal}
+    </script>
+{php}   
+}
+if($_REQUEST['module']=='Meetings')
+{
+     // hide create meeting options from meetings list view panel
+    {/php}
+     <script type="text/javascript">
+    {literal}
+    $(document).ready(function () {
+        $('#create_link').hide();
+    });
+    {/literal}
+    </script>
+{php}
+}
+// end of code here
 /*code written by pratik tambekar on 06022020 for restricting export and delete functionality for malathi and nalini admin user*/
 global $current_user;
 $loginuser_id = $current_user->id;

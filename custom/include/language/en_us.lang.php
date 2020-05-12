@@ -419,3 +419,7 @@ $GLOBALS['app_list_strings']['role1_list']=array (
   'Admin' => 'Admin',
   'Sales_coordinator_for_malathi_user' => 'Sales co-ordinator for malathi user',
 );
+$GLOBALS['app_list_strings']['is_duty_free_quote_list']=array (
+  1 => 'Yes',
+  0 => 'No',
+);

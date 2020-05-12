@@ -4873,3 +4873,92 @@ Array
 
 send_email_notification_to_supervisor Result at 2020-02-26 19:27:52 :-
  supervisor_email_address:pratik@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2020-03-14 10:43:52 :-
+Array
+(
+    [meeting_start_date] => 2020-03-14 14:43:52
+    [meeting_end_date] => 2020-03-14 14:43:52
+    [supervisor_id] => 
+    [account_id] => 1228b4bc-a16e-39e6-1bf9-577648e8b0c4
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => 201, 17th Cross Rd, MC Layout, Vijayanagar,, BANGALORE, KARNATAKA, 560040, INDIA
+    [oppurtunity_id] => 809d8e28-93b9-5fd2-0772-5e6c68d95e45
+    [cust_name] => RAGHU
+    [customer Phone Number] => 9886576354
+    [description] => 
+)
+
+send_email_notification_to_supervisor Result at 2020-03-14 10:46:23 :-
+Array
+(
+    [meeting_start_date] => 2020-03-14 14:45:00
+    [meeting_end_date] => 2020-03-14 14:45:00
+    [supervisor_id] => 1
+    [account_id] => 1228b4bc-a16e-39e6-1bf9-577648e8b0c4
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => Administrator
+    [final_address] => 201, 17th Cross Rd, MC Layout, Vijayanagar,, BANGALORE, KARNATAKA, 560040, INDIA
+    [oppurtunity_id] => 809d8e28-93b9-5fd2-0772-5e6c68d95e45
+    [cust_name] => RAGHU
+    [customer Phone Number] => 9886576354
+    [description] => 
+)
+
+send_email_notification_to_supervisor Result at 2020-03-14 10:46:23 :-
+ supervisor_email_address:pratik@simplecrm.com.sg
+send_email_notification_to_supervisor Result at 2020-03-20 15:09:15 :-
+Array
+(
+    [meeting_start_date] => 2020-03-20 19:09:15
+    [meeting_end_date] => 2020-03-20 19:09:15
+    [supervisor_id] => 
+    [account_id] => 1228b4bc-a16e-39e6-1bf9-577648e8b0c4
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => 201, 17th Cross Rd, MC Layout, Vijayanagar,, BANGALORE, KARNATAKA, 560040, INDIA
+    [oppurtunity_id] => cb094a5a-24de-967f-da84-5e748fc0c7f2
+    [cust_name] => RAGHU
+    [customer Phone Number] => 9886576354
+    [description] => 
+)
+
+send_email_notification_to_supervisor Result at 2020-03-20 15:11:42 :-
+Array
+(
+    [meeting_start_date] => 2020-03-20 19:15:00
+    [meeting_end_date] => 2020-03-20 19:15:00
+    [supervisor_id] => 
+    [account_id] => 1228b4bc-a16e-39e6-1bf9-577648e8b0c4
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => 
+    [final_address] => 201, 17th Cross Rd, MC Layout, Vijayanagar,, BANGALORE, KARNATAKA, 560040, INDIA
+    [oppurtunity_id] => cb094a5a-24de-967f-da84-5e748fc0c7f2
+    [cust_name] => RAGHU
+    [customer Phone Number] => 9886576354
+    [description] => 
+)
+
+send_email_notification_to_supervisor Result at 2020-03-20 15:13:27 :-
+Array
+(
+    [meeting_start_date] => 2020-03-20 19:15:00
+    [meeting_end_date] => 2020-03-20 19:15:00
+    [supervisor_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [account_id] => 1228b4bc-a16e-39e6-1bf9-577648e8b0c4
+    [meeting_subject] => Schedule visit for Measurement
+    [meeting_type] => MS
+    [supervisor_name] => BUDDAPPA
+    [final_address] => 201, 17th Cross Rd, MC Layout, Vijayanagar,, BANGALORE, KARNATAKA, 560040, INDIA
+    [oppurtunity_id] => cb094a5a-24de-967f-da84-5e748fc0c7f2
+    [cust_name] => RAGHU
+    [customer Phone Number] => 9886576354
+    [description] => 
+)
+
+send_email_notification_to_supervisor Result at 2020-03-20 15:13:27 :-
+ supervisor_email_address:chaitanya@simplecrm.com

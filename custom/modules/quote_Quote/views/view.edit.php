@@ -1987,6 +1987,58 @@ echo $Cess = <<<CES
 </script>
 CES;
 // written by pratik on 05082019 end (Kerala 1% cess code)
+
+//check quote is duty free quote or not code start - Pratik(16032020)
+echo $Cess = <<<DFQ
+            <script>
+			$(document).ready(function()
+			{
+				$('#is_duty_free_quote_c').prop('disabled', true);
+				var duty_free = $( "#dutyfree_c option:selected" ).val();
+				if(duty_free == 'EURODutyFree')
+				{
+					// select is duty free quote as YES
+					$("#is_duty_free_quote_c").prop("selectedIndex", 0);
+							
+				}
+				else if(duty_free == 'INRDutyFree')
+				{
+					// select is duty free quote as YES
+					$("#is_duty_free_quote_c").prop("selectedIndex", 0);
+							
+
+				}else{
+						// select is duty free quote as No
+							$("#is_duty_free_quote_c").prop("selectedIndex", 1);
+							
+					}
+				$("#dutyfree_c").change(function() 
+				{ 
+						var duty_free = $( "#dutyfree_c option:selected" ).val();
+						//alert(duty_free);
+						if(duty_free == 'EURODutyFree')
+						{
+							// select is duty free quote as YES
+							$("#is_duty_free_quote_c").prop("selectedIndex", 0);
+							
+						}
+						else if(duty_free == 'INRDutyFree')
+						{
+							// select is duty free quote as YES
+							$("#is_duty_free_quote_c").prop("selectedIndex", 0);
+							
+
+						}else{
+							// select is duty free quote as No
+							$("#is_duty_free_quote_c").prop("selectedIndex", 1);
+							
+						}
+
+				 });
+			}); 
+</script>
+DFQ;
+// end of code here
         # End -Amit Sabal
 		
 

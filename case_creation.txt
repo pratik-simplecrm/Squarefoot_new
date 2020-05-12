@@ -74,3 +74,41 @@ Array
     [login_username] => admin
     [meeting_name] => Installtion
 )
+
+case_creation Result at 2020-03-14 10:46:26 :-
+Array
+(
+    [supervisor_co_id] => 1
+    [sales_person_id] => 1
+    [oppurtunity_id] => 809d8e28-93b9-5fd2-0772-5e6c68d95e45
+    [branch_name] => Bangalore
+    [case_status] => Open_PLN
+    [case_start_date] => 2020-03-15 05:16:26
+    [case_id] => 0a9daf50-a86b-b8f5-d8a9-70030a6ab775
+    [case_number] => 8809
+    [account_id] => 1228b4bc-a16e-39e6-1bf9-577648e8b0c4
+    [case_state] => Open
+    [date_created] => 2020-03-14 10:46:26
+    [case_subject] => Schedule for Measurement
+    [login_username] => admin
+    [meeting_name] => Schedule visit for Measurement
+)
+
+case_creation Result at 2020-03-20 15:13:30 :-
+Array
+(
+    [supervisor_co_id] => 579a7062-5831-3c2b-3381-5dd4c43acb8c
+    [sales_person_id] => 2bf9e01b-b284-ac82-7feb-55a0a77fe8f2
+    [oppurtunity_id] => cb094a5a-24de-967f-da84-5e748fc0c7f2
+    [branch_name] => Bangalore
+    [case_status] => Open_PLN
+    [case_start_date] => 2020-03-21 09:43:30
+    [case_id] => 7aca35a5-1300-81e9-8359-4598d34bd684
+    [case_number] => 8810
+    [account_id] => 1228b4bc-a16e-39e6-1bf9-577648e8b0c4
+    [case_state] => Open
+    [date_created] => 2020-03-20 15:13:30
+    [case_subject] => Schedule for Measurement
+    [login_username] => SATHYA
+    [meeting_name] => Schedule visit for Measurement
+)

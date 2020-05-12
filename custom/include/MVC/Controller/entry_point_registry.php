@@ -64,3 +64,9 @@ $entry_point_registry['crmapi'] = array (
    'file' => 'custom/modules/Cases/calculateAgeingDays.php', 
    'auth' => false,
  ); 
+
+//testing email written by pratik on 27032020
+  $entry_point_registry['test_email'] = array (
+   'file' => 'custom/test_email.php', 
+   'auth' => false,
+ ); 

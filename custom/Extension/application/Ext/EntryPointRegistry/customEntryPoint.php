@@ -12,3 +12,4 @@
         'auth' => false,
         'entryPoint' => true
     );
+

@@ -1,0 +1,42 @@
+
+email_send_status Result at 2020-03-27 16:00:13 :-
+Array
+(
+    [mail_send_status] => Email Send : Error Info:
+    [Email_Sent_On] => pratik@simplecrm.com
+)
+
+email_send_status Result at 2020-03-27 16:06:05 :-
+Array
+(
+    [mail_send_status] => Email Send : Error Info:
+    [Email_Sent_On] => pratik@simplecrm.com
+)
+
+email_send_status Result at 2020-03-27 16:06:44 :-
+Array
+(
+    [mail_send_status] => Email Send : Error Info:
+    [Email_Sent_On] => pratik@simplecrm.com
+)
+
+email_send_status Result at 2020-03-27 16:19:23 :-
+Array
+(
+    [mail_send_status] => Email Send : Error Info:
+    [Email_Sent_On] => pratik@simplecrm.com
+)
+
+email_send_status Result at 2020-03-27 16:22:07 :-
+Array
+(
+    [mail_send_status] => Email Send : Error Info:
+    [Email_Sent_On] => azimuddin.azimuddin@sc.com
+)
+
+email_send_status Result at 2020-03-27 16:28:09 :-
+Array
+(
+    [mail_send_status] => Email sent successfully
+    [Email_Sent_On] => azimuddin.azimuddin@sc.com
+)

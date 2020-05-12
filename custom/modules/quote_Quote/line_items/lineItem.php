@@ -205,7 +205,21 @@ if($is_admin =='1')
         if (groupValue == 'Product') {
             groupValue = 'Products';
         }
-        element3.setAttribute('onclick', 'open_popup( "quote_Products",  600,  400,  "&type_c_advanced[]=' + groupValue + ' ",  true,  false,  {"call_back_function":"set_product_return","form_name":"EditView","field_to_name_array":{"id":"product_' + count + '_' + totRowCount + '_id","name":"product_' + count + '_' + totRowCount + '","prod_spec_c":"prod_spec_' + count + '_' + totRowCount + '","uom_c":"uom_' + count + '_' + totRowCount + '","unit_price_c":"price_' + count + '_' + totRowCount + '","tax_class_c":"quote_tax_' + count + '_' + totRowCount + '"}, "passthru_data":{"row_id":"' + count + '_' + totRowCount + '","group_type":"groupValue"}},  "single",  true );');
+        // check product is duty free or not based on that select value yes/no is product popup - pratik on 16032020
+        var duty_free = $( "#dutyfree_c option:selected" ).val();
+        var is_duty_free_quote = 0 ;
+        if(duty_free == 'EURODutyFree')
+        {
+            // select is duty free quote as YES
+            is_duty_free_quote = 1;         
+        }
+        else if(duty_free == 'INRDutyFree')
+        {
+            // select is duty free quote as YES
+            is_duty_free_quote = 1;        
+        }
+        //end of code here
+        element3.setAttribute('onclick', 'open_popup( "quote_Products",  600,  400,  "&type_c_advanced[]=' + groupValue + '&is_dutyfree_c_advanced='+ is_duty_free_quote +'", true,  false,  {"call_back_function":"set_product_return","form_name":"EditView","field_to_name_array":{"id":"product_' + count + '_' + totRowCount + '_id","name":"product_' + count + '_' + totRowCount + '","prod_spec_c":"prod_spec_' + count + '_' + totRowCount + '","uom_c":"uom_' + count + '_' + totRowCount + '","unit_price_c":"price_' + count + '_' + totRowCount + '","tax_class_c":"quote_tax_' + count + '_' + totRowCount + '"}, "passthru_data":{"row_id":"' + count + '_' + totRowCount + '","group_type":"groupValue"}},  "single",  true );');
         cell2.appendChild(element3);
 
         var elementclear = document.createElement("button");
